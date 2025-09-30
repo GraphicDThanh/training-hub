@@ -1,0 +1,17 @@
+- vars:
+    question: Can I reactivate my inactive Flipkart account?
+    context: file://data/documents/faqs.txt
+  assert:
+    - type: icontains
+      value: "reactivate"
+    - type: llm-rubric
+      value: "The response is informative and reassuring."
+    - type: cost
+      threshold: 0.001
+
+- vars:
+    question: Can I reinstate a cancelled order?
+    context: file://data/documents/faqs.txt
+  assert:
+    - type: icontains
+      value: "reinstate"

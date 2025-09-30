@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "My eval"
+
+prompts:
+  - 'Speak in French: {{text}}'
+
+providers:
+  - "openai:gpt-3.5-turbo"
+
+tests:
+  - vars:
+      text: 'Hello world'
+    assert:
+      - type: llm-rubric
+        value: 'Content is French'
+  - vars:
+      text: 'Good morning'
+    assert:
+      - type: llm-rubric
+        value: 'Content is French'
+
+

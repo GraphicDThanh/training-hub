@@ -1,0 +1,63 @@
+- description: 'Translate to French 1'
+  vars:
+    language: 'French'
+    text: 'Hello world'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'
+- description: 'Translate to French 2'
+  vars:
+    language: 'French'
+    text: 'Good morning'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'
+- description: 'Translate to French 3'
+  vars:
+    language: 'French'
+    text: 'How are you?'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'
+- description: 'Translate to Spanish 1'
+  vars:
+    language: 'Spanish'
+    text: 'Hello world'
+  assert:
+    - type: llm-rubric
+      value: 'Content is Spanish'
+- description: 'Translate to Spanish 2'
+  vars:
+    language: 'Spanish'
+    text: 'Good morning'
+  assert:
+    - type: llm-rubric
+      value: 'Content is Spanish'
+- description: 'Translate to Spanish 3'
+  vars:
+    language: 'Spanish'
+    text: 'How are you?'
+  assert:
+    - type: llm-rubric
+      value: 'Content is Spanish'
+- description: 'Translate to German 1'
+  vars:
+    language: 'German'
+    text: 'Hello world'
+  assert:
+    - type: llm-rubric
+      value: 'Content is German'
+- description: 'Translate to German 2'
+  vars:
+    language: 'German'
+    text: 'Good morning'
+  assert:
+    - type: llm-rubric
+      value: 'Content is German'
+- description: 'Translate to German 3'
+  vars:
+    language: 'German'
+    text: 'How are you?'
+  assert:
+    - type: llm-rubric
+      value: 'Content is German'

@@ -1,0 +1,28 @@
+# EVALUATION END-TO-END RAG APPLICATION
+# ------------------------------------------
+# - Prompt: user query
+# - Provider: RAG application
+# ------------------------------------------
+prompts: '{{user_query}}'
+providers:
+- file://rag/retrieve.py
+
+tests:
+- description: test if the chatbot can answer the question correctly with context of base knowledge
+  assert:
+    - threshold: 0.05
+      type: similar
+      value: '{{response}}'
+    - type: contains-all
+      value:
+      - '$500'
+      - 'free shipping'
+  vars:
+    case: 1. Ask about free shipping.
+    expected_response: Free shipping is available on orders over $500.
+    user_query: Do you offer free shipping?
+
+# ------------------------------------------
+# Run: `promptfoo eval -c rag_e2e_promptfooconfig.yaml`
+# Output: ./output/rag_e2e.json
+# ------------------------------------------

@@ -1,0 +1,9 @@
+"Product Categories":
+- Bottomwear
+- Clothing Accessories
+- Winter Wear
+- Topwear
+- Innerwear and Swimwear
+- Kurtas, Ethnic Sets and Bottoms
+- Tracksuits
+- Sleepwear

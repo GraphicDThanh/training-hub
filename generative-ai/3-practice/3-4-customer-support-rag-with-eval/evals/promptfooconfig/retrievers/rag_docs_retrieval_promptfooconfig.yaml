@@ -1,0 +1,70 @@
+# EVALUATION DOCUMENT RETRIEVAL
+# ------------------------------------------
+# - Prompt: user_query
+# - Provider: RAG retrieval
+# ------------------------------------------
+description: "Retrieve documents from vector database"
+prompts: "{{user_query}}"
+
+providers:
+  - id: file://./../rag/retriever_main.py
+
+defaultTest:
+  vars:
+    vectorstore_persist_directory: "db/embeddings/chroma/main_vector_store"
+    vectorstore_collection_name: main_collections
+
+tests:
+  - description: "Test faqs.txt document retrieval"
+    threshold: 0.05
+    vars:
+      query: Do you offer free shipping?
+    assert:
+      - type: contains-all
+        value:
+          - 'free shipping'
+          - '1 million VND'
+          - 'faqs.txt'
+  - description: "Test information.json document retrieval categories"
+    threshold: 0.05
+    vars:
+      query: Give me list categories in the store
+    assert:
+      - type: contains-all
+        value:
+          - 'categories'
+          - 'Shirts'
+          - 'T-Shirts'
+          - 'Sweaters'
+          - 'Coats'
+          - 'Jackets'
+          - 'Pants'
+          - 'Shorts'
+          - 'Dresses'
+          - 'information.json'
+  - description: "Test information.json document retrieval policies"
+    threshold: 0.05
+    vars:
+      query: Give me list policies in the store
+    assert:
+      - type: contains-all
+        value:
+          - 'policies'
+          - 'Payments Policy'
+          - 'Returns Policy'
+          - 'Warranty Policy'
+          - 'Shipping Policy'
+          - 'Privacy Policy'
+          - 'information.json'
+
+
+outputPath: ./output/rag_docs_retrieval_evaluation.json
+
+# ------------------------------------------
+# Run: `promptfoo eval -c rag_docs_retrieval_promptfooconfig.yaml`
+# Output: ./output/rag_docs_retrieval_evaluation.json
+# ------------------------------------------
+
+# Access to main evals config with Promptfoo
+# cd evals
+# npx promptfoo@latest eval -c ./rag_docs_retrieval_promptfooconfig.yaml

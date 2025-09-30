@@ -1,0 +1,72 @@
+# EVALUATION POLICIES DOCUMENT RETRIEVAL
+description: "Retrieve documents from policies vector database"
+prompts: "{{user_query}}"
+
+providers:
+  - id: file://./../../rag/retriever.py
+
+defaultTest:
+  vars:
+    vectorstore_persist_directory: "db/embeddings/evals/policies_vector_store"
+    vectorstore_collection_name: evals_policies_collections
+
+tests:
+  - description: "Test Payments Policy"
+    threshold: 0.05
+    vars:
+      query: Give me the Payments Policy
+    assert:
+      - type: contains-all
+        value:
+          - 'Cash on Delivery'
+          - 'Online Payment'
+          - 'policies.yaml'
+  - description: "Test Return Policy"
+    threshold: 0.05
+    vars:
+      query: Give me the Return Policy
+    assert:
+      - type: contains-all
+        value:
+          - 'RETURN PERIOD'
+          - 'RETURN LOCATIONS'
+          - 'RETURN CONDITIONS'
+          - 'EXCLUDED RETURN CASES'
+          - 'policies.yaml'
+  - description: "Test Warranty Policy"
+    threshold: 0.05
+    vars:
+      query: Give me the Warranty Policy
+    assert:
+      - type: contains-all
+        value:
+          - 'lifetime free warranty privileges'
+          - 'leather products'
+          - 'customize products'
+          - 'policies.yaml'
+  - description: "Test Shipping Policy"
+    threshold: 0.05
+    vars:
+      query: Give me the Shipping Policy
+    assert:
+      - type: contains-all
+        value:
+          - 'Shipping cost payment methods'
+          - 'Receiving goods policy'
+          - 'Shipping method'
+          - 'Estimated delivery time'
+          - 'policies.yaml'
+  - description: "Test Privacy Policy"
+    threshold: 0.05
+    vars:
+      query: Give me the Privacy Policy
+    assert:
+      - type: contains-all
+        value:
+          - 'purpose'
+          - 'Customer Information'
+          - 'Sharing with third-party websites'
+          - 'policies.yaml'
+
+outputPath: ./output/policies_retrieval_evaluation.json
+

@@ -1,0 +1,27 @@
+# EVALUATION PRODUCTS DOCUMENT RETRIEVAL
+description: "Retrieve documents from products vector database"
+prompts: "{{user_query}}"
+
+providers:
+  - id: file://./../../rag/retriever.py
+
+defaultTest:
+  vars:
+    vectorstore_persist_directory: "db/embeddings/evals/products_vector_store"
+    vectorstore_collection_name: evals_products_collections
+
+tests:
+  - description: "Test Products Retrieve"
+    threshold: 0.05
+    vars:
+      query: Give me details product 'Lucille Silk Collared Shirt'
+    assert:
+      - type: contains-all
+        value:
+          - 'Lucille Silk Collared Shirt'
+          - 'Ivory Pattern'
+          - '41'
+          - 'Shirts'
+          - 'products.json'
+
+outputPath: ./output/products_retrieval_evaluation.json

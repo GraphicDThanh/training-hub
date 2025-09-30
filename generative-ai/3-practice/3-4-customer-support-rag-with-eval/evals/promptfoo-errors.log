@@ -1,0 +1,686 @@
+2024-12-09T07:19:03.160Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:19:03.171Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:19:03.302Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:19:03.302Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728742277-c72932298c746.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728742277-c72932298c746.json'
+2024-12-09T07:19:03.311Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:19:03.311Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728742279-12f9b288cb199.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728742279-12f9b288cb199.json'
+2024-12-09T07:20:35.932Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+2024-12-09T07:20:35.933Z [ERROR]: listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T07:20:36.016Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T07:20:36.153Z [ERROR]: Error running Python script: OSError: [Errno 48] Address already in use
+Stack Trace: Error: OSError: [Errno 48] Address already in use
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+      RemotePdb('127.0.0.1', 4444).set_trace()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+      listen_socket.bind((host, port))
+2024-12-09T07:20:36.153Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728835052-1e39b568f7997.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728835052-1e39b568f7997.json'
+2024-12-09T07:20:36.171Z [ERROR]: Error running Python script: OSError: [Errno 48] Address already in use
+Stack Trace: Error: OSError: [Errno 48] Address already in use
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+      RemotePdb('127.0.0.1', 4444).set_trace()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+      listen_socket.bind((host, port))
+2024-12-09T07:20:36.171Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728835050-08785304ce61f.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728835050-08785304ce61f.json'
+2024-12-09T07:21:08.361Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+2024-12-09T07:21:08.362Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T07:21:08.362Z [ERROR]: listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T07:21:08.500Z [ERROR]: Error running Python script: OSError: [Errno 48] Address already in use
+Stack Trace: Error: OSError: [Errno 48] Address already in use
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+      RemotePdb('127.0.0.1', 4444).set_trace()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+      listen_socket.bind((host, port))
+2024-12-09T07:21:08.500Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728867427-e28eaa249c591.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728867427-e28eaa249c591.json'
+2024-12-09T07:21:08.504Z [ERROR]: Error running Python script: OSError: [Errno 48] Address already in use
+Stack Trace: Error: OSError: [Errno 48] Address already in use
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 15, in call_api
+      RemotePdb('127.0.0.1', 4444).set_trace()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+      listen_socket.bind((host, port))
+2024-12-09T07:21:08.504Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728867428-191efaff2fb3.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728867428-191efaff2fb3.json'
+2024-12-09T07:21:54.702Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:21:54.703Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:21:54.840Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:21:54.841Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728913807-85366652a5e55.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728913807-85366652a5e55.json'
+2024-12-09T07:21:54.843Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:21:54.843Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728913810-0c480df2ca6b1.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728913810-0c480df2ca6b1.json'
+2024-12-09T07:22:32.753Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:22:32.754Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:22:32.894Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:22:32.895Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728951714-b8f996b685b33.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728951714-b8f996b685b33.json'
+2024-12-09T07:22:32.897Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:22:32.897Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728951717-0f514df80b809.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733728951717-0f514df80b809.json'
+2024-12-09T07:23:35.720Z [ERROR]: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+2024-12-09T07:23:35.721Z [ERROR]: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+2024-12-09T07:23:36.581Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-12-09T07:23:36.585Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+2024-12-09T07:23:36.725Z [ERROR]: Error running Python script: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+Stack Trace: Error: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:311:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-09T07:23:36.725Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729015655-e5d1c6e5bacde.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729015655-e5d1c6e5bacde.json'
+2024-12-09T07:23:36.728Z [ERROR]: Error running Python script: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+Stack Trace: Error: /Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py:16: SyntaxWarning: list indices must be integers or slices, not str; perhaps you missed a comma?
+  ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 16, in call_api
+    ["vectorstore_persist_directory"]["vectorstore_persist_directory"]
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:311:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-09T07:23:36.728Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729015658-a573bb6ef6fa6.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729015658-a573bb6ef6fa6.json'
+2024-12-09T07:24:14.330Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 22, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:24:14.331Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 22, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:24:14.466Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 22, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:24:14.466Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729053467-43973c1b04e06.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729053467-43973c1b04e06.json'
+2024-12-09T07:24:14.469Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 22, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:24:14.469Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729053470-1e9bc9766908f.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729053470-1e9bc9766908f.json'
+2024-12-09T07:25:05.154Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:25:05.155Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:25:05.306Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:25:05.306Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729104254-e811528bd9847.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729104254-e811528bd9847.json'
+2024-12-09T07:25:05.308Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:25:05.308Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729104252-2100ae5c99ad.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729104252-2100ae5c99ad.json'
+2024-12-09T07:25:30.083Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:25:30.116Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+    persist_directory="../" + vectorstore_persist_directory,
+                      ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "dict") to str
+2024-12-09T07:25:30.233Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:25:30.233Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729129240-e03c900714fbf.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729129240-e03c900714fbf.json'
+2024-12-09T07:25:30.259Z [ERROR]: Error running Python script: TypeError: can only concatenate str (not "dict") to str
+Stack Trace: Error: TypeError: can only concatenate str (not "dict") to str
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:303:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+    --Python Traceback: --
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+      result = call_method(script_path, method_name, *data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+      return method_to_call(*args)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 23, in call_api
+      persist_directory="../" + vectorstore_persist_directory,
+                        ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-12-09T07:25:30.259Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729129242-58a234d762e8f.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733729129242-58a234d762e8f.json'
+2024-12-09T07:26:37.683Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T07:26:37.806Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T07:27:42.786Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T07:27:42.930Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:01:11.988Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:01:11.998Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T08:01:14.599Z [ERROR]: Error running Python script: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+
+Stack Trace: Error: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:311:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-09T08:01:14.600Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733731270101-4960e4963d41e.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733731270101-4960e4963d41e.json'
+2024-12-09T08:01:43.616Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:01:43.628Z [ERROR]: Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+2024-12-09T08:01:43.628Z [ERROR]: listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+2024-12-09T08:01:44.745Z [ERROR]: Error running Python script: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+
+Stack Trace: Error: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Traceback (most recent call last):
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 39, in <module>
+    result = call_method(script_path, method_name, *data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/promptfoo/dist/src/python/wrapper.py", line 28, in call_method
+    return method_to_call(*args)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/rag/retriever.py", line 25, in call_api
+    RemotePdb('127.0.0.1', 4444).set_trace()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/.venv/lib/python3.11/site-packages/remote_pdb.py", line 74, in __init__
+    listen_socket.bind((host, port))
+OSError: [Errno 48] Address already in use
+
+    at PythonShell.parseError (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:311:21)
+    at terminateIfNeeded (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:193:32)
+    at ChildProcess.<anonymous> (/Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/evals/node_modules/python-shell/index.js:185:13)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-12-09T08:01:44.745Z [ERROR]: Error removing /var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733731301960-395513fe4186e.json: Error: ENOENT: no such file or directory, unlink '/var/folders/_b/n6qkl0096z30_7zg11whqqm80000gn/T/promptfoo-python-output-json-1733731301960-395513fe4186e.json'
+2024-12-09T08:01:54.245Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:01:54.255Z [ERROR]: RemotePdb session open at 127.0.0.1:4445, waiting for connection ...
+RemotePdb session open at 127.0.0.1:4445, waiting for connection ...
+2024-12-09T08:02:03.971Z [ERROR]: RemotePdb accepted connection from ('127.0.0.1', 65333).
+RemotePdb accepted connection from ('127.0.0.1', 65333).
+2024-12-09T08:04:52.182Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:11:58.340Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2024-12-09T08:13:07.202Z [ERROR]: Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1

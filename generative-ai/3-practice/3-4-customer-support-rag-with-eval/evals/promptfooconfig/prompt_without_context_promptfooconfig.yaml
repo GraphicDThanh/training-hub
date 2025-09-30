@@ -1,0 +1,186 @@
+prompts: |
+  - role: system
+  content: "{{system_message}}"
+  - role: user
+    content: "{{user_query}}"
+providers:
+- config: {}
+  id: openai:gpt-3.5-turbo
+tests:
+- assert:
+  - threshold: 0.8
+    type: similar
+    value: '{{response}}'
+  description: test if the chatbot can answer the question correctly
+  vars:
+    case: 1. User query is vague and ambiguous.
+    expected_response: If you experience any issues with your order or our services,
+      please reach out to our customer support team for assistance.
+    user_query: What if I have a problem?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 1. User query is vague and ambiguous.
+#     expected_response: Could you please specify which conditions you're referring
+#       to? We have policies on returns, refunds, shipping, and more.
+#     user_query: What are the conditions?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 2. User query is long and complex.
+#     expected_response: Certainly! The 'UltraLight Running Shoes' are available in
+#       size 10 and the limited edition blue color. We offer expedited shipping options
+#       at checkout, which can deliver your order within 2-3 business days. Our return
+#       and exchange policy allows you to return or exchange products within 30 days
+#       of purchase if they don't fit properly. Currently, we have a promotion where
+#       you can get a 10% discount using the code RUN10 at checkout.
+#     user_query: I'm interested in buying the 'UltraLight Running Shoes' in size 10,
+#       but before I finalize my purchase, I need to know if they're available in the
+#       limited edition blue color. Additionally, since I'm leaving for a marathon next
+#       week, is there an option for expedited shipping to ensure they arrive on time?
+#       Also, could you explain your return and exchange policy in case they don't fit
+#       properly? Lastly, are there any current promotions or discounts that I could
+#       apply to this order?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 2. User query is long and complex.
+#     expected_response: Certainly! We accept payment methods including credit cards,
+#       PayPal, and bank transfers. We offer discounts for bulk purchases; please contact
+#       our sales team for details. International shipping typically takes 7-14 business
+#       days. Our return policy allows you to return items within 30 days if they don't
+#       meet your expectations. Let me know if you need more information.
+#     user_query: I'm planning to place a large order for several products from different
+#       categories on your website, but before I proceed, could you inform me about
+#       the various payment methods you accept, any available discounts for bulk purchases,
+#       the estimated shipping times for international deliveries, and what your return
+#       policy is in case some items don't meet my expectations upon arrival?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 2. User query is long and complex.
+#     expected_response: "Thank you for your interest in our products! Here are the\
+#       \ answers to your questions:\r\n\r\n1. **Discounts and Promotions**: We offer\
+#       \ a 10% discount for first-time customers using the code **WELCOME10** at checkout.\
+#       \ For bulk purchases, we provide discounts on orders of 10 or more items. Please\
+#       \ contact our customer service for detailed information.\r\n\r\n2. **International\
+#       \ Shipping to Canada**: Yes, we ship to Canada. The estimated delivery time\
+#       \ is 5-7 business days. Shipping costs are calculated at checkout based on the\
+#       \ total weight and destination of your order.\r\n\r\n3. **Stock Availability\
+#       \ and Backorders**: If an item is out of stock, you can place a backorder, and\
+#       \ we'll notify you of the expected restock date. Alternatively, you can sign\
+#       \ up for email alerts when the item becomes available.\r\n\r\nPlease let us\
+#       \ know if you have any other questions or need further assistance."
+#     user_query: 'Hello, I''m planning to purchase several items from your online store,
+#       including the ''Eco-friendly Bamboo Utensil Set'' and the ''Organic Cotton Kitchen
+#       Towels''. Before I place the order, I have a few questions: Firstly, are there
+#       any available discounts or promotions for bulk purchases or first-time customers?
+#       Secondly, can you confirm if these products are eligible for international shipping
+#       to Canada, and what would be the estimated delivery time and shipping costs?
+#       Lastly, in case some items are out of stock, would backordering be an option,
+#       or should I expect delays? I appreciate your assistance with these queries.'
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 3. (Negative) User query irrelevant to the e-commerce domain.
+#     expected_response: I'm sorry, but I can assist you with questions related to our
+#       e-commerce products and services. Please let me know if you have any such questions.
+#     user_query: What is the "Capital City" of France?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 3. (Negative) User query irrelevant to the e-commerce domain.
+#     expected_response: I'm sorry, but I can assist you with questions related to our
+#       e-commerce services and products. Please let me know if you need any information
+#       about orders, payments, or our product offerings.
+#     user_query: What's the latest news on the Mars rover mission?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 3. (Negative) User query irrelevant to the e-commerce domain.
+#     expected_response: I'm sorry, but I can assist you with questions related to our
+#       products and services. Please let me know if you have any queries about our
+#       e-commerce platform.
+#     user_query: What is the capital of "Australia"?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 4. (Negative) User query is offensive or contains inappropriate content.
+#     expected_response: We're sorry to hear that you're disappointed with our products.
+#       Please let us know how we can assist you to improve your experience.
+#     user_query: Your products are terrible, I can't believe you sell such junk!
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 4. (Negative) User query is offensive or contains inappropriate content.
+#     expected_response: I'm sorry to hear you're experiencing difficulties with our
+#       customer support. How can I assist you today?
+#     user_query: Why is your "customer support" so useless?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 4. (Negative) User query is offensive or contains inappropriate content.
+#     expected_response: I'm sorry to hear that you're dissatisfied with your purchase.
+#       You can initiate a return by visiting our Return Policy page or contacting our
+#       customer support for assistance.
+#     user_query: Your website is trash! How do I return this stupid product?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 5. User query is a mix of multiple questions.
+#     expected_response: Our return policy allows returns within 30 days of purchase
+#       with a receipt. Yes, we offer international shipping to select countries.
+#     user_query: What are your return policies and do you offer international shipping?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 5. User query is a mix of multiple questions.
+#     expected_response: Yes, the 'Wireless Earbuds' are currently in stock. We do offer
+#       expedited shipping options at checkout.
+#     user_query: Is the 'Wireless Earbuds' in stock and do you offer expedited shipping?
+# - assert:
+#   - threshold: 0.8
+#     type: similar
+#     value: '{{response}}'
+#   description: test if the chatbot can answer the question correctly
+#   vars:
+#     case: 5. User query is a mix of multiple questions.
+#     expected_response: The "Canvas Backpack" is priced at $39.99, and yes, it is available
+#       in blue.
+#     user_query: What is the price of "Canvas Backpack" and do you have it in blue?

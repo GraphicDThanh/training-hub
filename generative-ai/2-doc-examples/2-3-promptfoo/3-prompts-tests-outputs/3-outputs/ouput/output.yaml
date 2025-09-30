@@ -1,0 +1,169 @@
+evalId: eval-Nm7-2024-12-03T09:55:33
+results:
+  version: 3
+  timestamp: '2024-12-03T09:55:33.075Z'
+  prompts:
+    - raw: 'Speak in French: {{text}}'
+      label: 'Speak in French: {{text}}'
+      id: 311efe5a300bd7a6c1026f8edda663e93c7d04872fd302e7f09c9b2793d5fd15
+      provider: openai:gpt-3.5-turbo
+      metrics:
+        score: 2
+        testPassCount: 2
+        testFailCount: 0
+        assertPassCount: 2
+        assertFailCount: 0
+        totalLatencyMs: 10
+        tokenUsage:
+          total: 30
+          prompt: 0
+          completion: 0
+          cached: 30
+          numRequests: 2
+        namedScores: {}
+        namedScoresCount: {}
+        cost: 0.000019
+  results:
+    - cost: 0.000011
+      gradingResult:
+        pass: true
+        score: 1
+        reason: All assertions passed
+        namedScores: {}
+        tokensUsed:
+          total: 225
+          prompt: 0
+          completion: 0
+          cached: 225
+        componentResults:
+          - assertion:
+              type: llm-rubric
+              value: Content is French
+            pass: true
+            score: 1
+            reason: >-
+              the content contains 'Bonjour' and 'le monde', which are French
+              words
+            tokensUsed:
+              total: 225
+              prompt: 0
+              completion: 0
+              cached: 225
+        assertion: null
+      id: a85d6a1f-4241-4112-8f84-c0a7723a0835
+      latencyMs: 4
+      namedScores: {}
+      prompt:
+        raw: 'Speak in French: Hello world'
+        label: 'Speak in French: {{text}}'
+      promptId: 311efe5a300bd7a6c1026f8edda663e93c7d04872fd302e7f09c9b2793d5fd15
+      promptIdx: 0
+      provider:
+        id: openai:gpt-3.5-turbo
+        label: ''
+      response:
+        output: Bonjour le monde
+        tokenUsage:
+          cached: 16
+          total: 16
+        cached: true
+        cost: 0.000011
+      score: 1
+      success: true
+      testCase:
+        vars: &ref_0
+          text: Hello world
+        assert:
+          - type: llm-rubric
+            value: Content is French
+        options: {}
+        metadata: {}
+      testIdx: 0
+      vars: *ref_0
+      metadata: {}
+    - cost: 0.000008
+      gradingResult:
+        pass: true
+        score: 1
+        reason: All assertions passed
+        namedScores: {}
+        tokensUsed:
+          total: 218
+          prompt: 0
+          completion: 0
+          cached: 218
+        componentResults:
+          - assertion:
+              type: llm-rubric
+              value: Content is French
+            pass: true
+            score: 1
+            reason: the word 'Bonjour' is French for 'Hello'
+            tokensUsed:
+              total: 218
+              prompt: 0
+              completion: 0
+              cached: 218
+        assertion: null
+      id: f63e0b07-133e-42c1-b67e-88b456f4862d
+      latencyMs: 6
+      namedScores: {}
+      prompt:
+        raw: 'Speak in French: Good morning'
+        label: 'Speak in French: {{text}}'
+      promptId: 311efe5a300bd7a6c1026f8edda663e93c7d04872fd302e7f09c9b2793d5fd15
+      promptIdx: 0
+      provider:
+        id: openai:gpt-3.5-turbo
+        label: ''
+      response:
+        output: Bonjour
+        tokenUsage:
+          cached: 14
+          total: 14
+        cached: true
+        cost: 0.000008
+      score: 1
+      success: true
+      testCase:
+        vars: &ref_1
+          text: Good morning
+        assert:
+          - type: llm-rubric
+            value: Content is French
+        options: {}
+        metadata: {}
+      testIdx: 1
+      vars: *ref_1
+      metadata: {}
+  stats:
+    successes: 2
+    failures: 0
+    tokenUsage:
+      cached: 30
+      completion: 0
+      prompt: 0
+      total: 30
+      numRequests: 2
+config:
+  description: My eval
+  prompts:
+    - 'Speak in French: {{text}}'
+  providers:
+    - openai:gpt-3.5-turbo
+  tests:
+    - vars:
+        text: Hello world
+      assert:
+        - type: llm-rubric
+          value: Content is French
+    - vars:
+        text: Good morning
+      assert:
+        - type: llm-rubric
+          value: Content is French
+  sharing: true
+  outputPath:
+    - ouput/output.yaml
+  extensions: []
+shareableUrl: null

@@ -1,0 +1,19 @@
+{
+  "categories": [
+    "Shirts",
+    "T-Shirts",
+    "Sweaters",
+    "Coats",
+    "Jackets",
+    "Pants",
+    "Shorts",
+    "Dresses"
+  ],
+  "policies": [
+    "Payments Policy",
+    "Returns Policy",
+    "Warranty Policy",
+    "Shipping Policy",
+    "Privacy Policy"
+  ]
+}

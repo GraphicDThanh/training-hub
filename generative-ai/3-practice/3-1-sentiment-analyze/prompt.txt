@@ -1,0 +1,19 @@
+- Data jsonl
+https://huggingface.co/datasets/mteb/tweet_sentiment_extraction/raw/main/train.jsonl
+
+
+- Prompt test 1:
+"""
+Define if the sentiment from given text is neutral, negative, or positive
+Text: holy smokes! star trek was freaking awesomeeeee
+Sentiment:
+"""
+Response: The sentiment of the text is positive.
+
+- Prompt test 2:
+"""
+Define if the sentiment from given text is one of neutral', 'negative', or 'positive'. Only reply one word.
+Text: So many tests todayyy I don`t feel confident about anyy.
+Sentiment:
+"""
+Response: Negative

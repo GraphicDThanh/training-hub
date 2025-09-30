@@ -1,0 +1,22 @@
+prompts: |
+  - role: system
+  content: "{{system_message}}"
+  - role: user
+    content: "{{user_query}}"
+providers:
+- config: {}
+  id: openai:gpt-3.5-turbo
+
+tests:
+- assert:
+  - threshold: 0.8
+    type: similar
+    value: '{{response}}'
+  description: test if the chatbot can answer the question correctly
+  vars:
+    case: 1. User query is vague and ambiguous.
+    context: file://./utils/load_var_context.py
+    expected_response: If you're not satisfied with your purchase, you can return
+      the item within 30 days for a full refund. Please check our return policy for
+      more details.
+    user_query: What if I don't like it?

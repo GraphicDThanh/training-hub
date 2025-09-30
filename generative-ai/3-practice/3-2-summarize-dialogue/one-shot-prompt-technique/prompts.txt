@@ -1,0 +1,44 @@
+## Google/Flan-T5-Base Model (248M parameters)
+Prompt:
+---
+Provide a dialogue, help to summarize then give the topic of the dialogue. For example:
+- Dialogue: """
+#Person1#: Hi, Mr. Smith. I'm Doctor Hawkins. Why are you here today? #Person2#: I found it would be a good idea to get a check-up. #Person1#: Yes, well, you haven't had one for 5 years. You should have one every year. #Person2#: I know. I figure as long as there is nothing wrong, why go see the doctor? #Person1#: Well, the best way to avoid serious illnesses is to find out about them early. So try to come at least once a year for your own good. #Person2#: Ok. #Person1#: Let me see here. Your eyes and ears look fine. Take a deep breath, please. Do you smoke, Mr. Smith? #Person2#: Yes. #Person1#: Smoking is the leading cause of lung cancer and heart disease, you know. You really should quit. #Person2#: I've tried hundreds of times, but I just can't seem to kick the habit. #Person1#: Well, we have classes and some medications that might help. I'll give you more information before you leave. #Person2#: Ok, thanks doctor.
+"""
+- Summary: Mr. Smith's getting a check-up, and Doctor Hawkins advises him to have one every year. Hawkins'll give some information about their classes and medications to help Mr. Smith quit smoking.
+- Topic: get a check-up
+
+- Dialogue: """
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+"""
+---
+
+Response:
+---
+#Person1: Mom got her Master's Degree from Miami University. #Person
+---
+
+
+## Chat GPT 3.5 Turbo Model (175B parameters)
+System:
+---
+Provide a dialogue, help to summarize then give the topic of the dialogue. For example:
+- Dialogue: """
+#Person1#: Hi, Mr. Smith. I'm Doctor Hawkins. Why are you here today? #Person2#: I found it would be a good idea to get a check-up. #Person1#: Yes, well, you haven't had one for 5 years. You should have one every year. #Person2#: I know. I figure as long as there is nothing wrong, why go see the doctor? #Person1#: Well, the best way to avoid serious illnesses is to find out about them early. So try to come at least once a year for your own good. #Person2#: Ok. #Person1#: Let me see here. Your eyes and ears look fine. Take a deep breath, please. Do you smoke, Mr. Smith? #Person2#: Yes. #Person1#: Smoking is the leading cause of lung cancer and heart disease, you know. You really should quit. #Person2#: I've tried hundreds of times, but I just can't seem to kick the habit. #Person1#: Well, we have classes and some medications that might help. I'll give you more information before you leave. #Person2#: Ok, thanks doctor.
+"""
+- Summary: Mr. Smith's getting a check-up, and Doctor Hawkins advises him to have one every year. Hawkins'll give some information about their classes and medications to help Mr. Smith quit smoking.
+- Topic: get a check-up
+---
+
+User:
+---
+- Dialogue: """
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+"""
+---
+
+Response:
+---
+- Summary: Person1 and Person2 are looking at pictures of their mom graduating with a Master's Degree. Person2 asks for a copy of a specific picture and requests a slide as they have a new projector. They also ask for a wallet-sized print.
+- Topic: Sharing and requesting copies of family photos.
+---

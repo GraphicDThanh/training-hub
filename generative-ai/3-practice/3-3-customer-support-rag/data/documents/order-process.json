@@ -1,0 +1,16 @@
+{
+  "steps": [
+    "Browse and select products",
+    "Add products to cart",
+    "Proceed to checkout",
+    "Enter shipping and billing information",
+    "Choose payment method",
+    "Review and confirm order",
+    "Order placed successfully"
+  ],
+  "payment_methods": [
+    "Cash on Delivery",
+    "Gift Card / Wallet",
+    "Visa, MasterCard, Maestro and American Express Credit or Debit cards issued in India and 21 other countries."
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "evalId": "eval-isX-2024-12-03T09:53:12",
+  "results": {
+    "version": 3,
+    "timestamp": "2024-12-03T09:53:12.573Z",
+    "prompts": [
+      {
+        "raw": "{{prompt}}",
+        "label": "{{prompt}}",
+        "id": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "provider": "openai:gpt-3.5-turbo",
+        "metrics": {
+          "score": 3,
+          "testPassCount": 3,
+          "testFailCount": 0,
+          "assertPassCount": 0,
+          "assertFailCount": 0,
+          "totalLatencyMs": 4,
+          "tokenUsage": {
+            "total": 48,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 48,
+            "numRequests": 3
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0.000051
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0.000017,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        },
+        "id": "44d6f0b0-31f5-4638-8626-d08ae74057f8",
+        "latencyMs": 2,
+        "namedScores": {},
+        "prompt": {
+          "raw": "",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-3.5-turbo",
+          "label": ""
+        },
+        "response": {
+          "output": "Hello! How can I assist you today?",
+          "tokenUsage": {
+            "cached": 16,
+            "total": 16
+          },
+          "cached": true,
+          "cost": 0.000017
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Hello world"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "text": "Hello world"
+        },
+        "metadata": {}
+      },
+      {
+        "cost": 0.000017,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        },
+        "id": "b5d82976-ac8a-4ed0-a891-45d661ab6631",
+        "latencyMs": 1,
+        "namedScores": {},
+        "prompt": {
+          "raw": "",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-3.5-turbo",
+          "label": ""
+        },
+        "response": {
+          "output": "Hello! How can I assist you today?",
+          "tokenUsage": {
+            "cached": 16,
+            "total": 16
+          },
+          "cached": true,
+          "cost": 0.000017
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "Good morning"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "vars": {
+          "text": "Good morning"
+        },
+        "metadata": {}
+      },
+      {
+        "cost": 0.000017,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "No assertions",
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "assertion": null
+        },
+        "id": "42958852-80f2-4368-b3a3-7c8fdc11a1d1",
+        "latencyMs": 1,
+        "namedScores": {},
+        "prompt": {
+          "raw": "",
+          "label": "{{prompt}}"
+        },
+        "promptId": "effa18501e44aafd9bc42a2f64ffc9b6350f94025520ca2ed382f9bdc4b6e982",
+        "promptIdx": 0,
+        "provider": {
+          "id": "openai:gpt-3.5-turbo",
+          "label": ""
+        },
+        "response": {
+          "output": "Hello! How can I assist you today?",
+          "tokenUsage": {
+            "cached": 16,
+            "total": 16
+          },
+          "cached": true,
+          "cost": 0.000017
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "text": "How are you?"
+          },
+          "assert": [],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "vars": {
+          "text": "How are you?"
+        },
+        "metadata": {}
+      }
+    ],
+    "stats": {
+      "successes": 3,
+      "failures": 0,
+      "tokenUsage": {
+        "cached": 48,
+        "completion": 0,
+        "prompt": 0,
+        "total": 48,
+        "numRequests": 3
+      }
+    }
+  },
+  "config": {
+    "description": "Practice with prompts",
+    "prompts": [
+      "{{prompt}}"
+    ],
+    "providers": [
+      "openai:gpt-3.5-turbo"
+    ],
+    "tests": [
+      {
+        "vars": {
+          "text": "Hello world"
+        }
+      },
+      {
+        "vars": {
+          "text": "Good morning"
+        }
+      },
+      {
+        "vars": {
+          "text": "How are you?"
+        }
+      }
+    ],
+    "sharing": true,
+    "outputPath": [
+      "output.json"
+    ],
+    "extensions": []
+  },
+  "shareableUrl": null
+}

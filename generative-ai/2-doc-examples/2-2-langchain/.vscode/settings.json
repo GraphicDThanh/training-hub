@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "checkpointer",
+        "dotenv",
+        "FAISS",
+        "Gump",
+        "langchain",
+        "openai",
+        "Pydantic",
+        "tavily",
+        "vectorstore",
+        "vectorstores"
+    ]
+}

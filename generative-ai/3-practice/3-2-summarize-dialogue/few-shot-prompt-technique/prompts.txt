@@ -1,0 +1,76 @@
+## Google/Flan-T5-Base Model (248M parameters)
+Prompt:
+---
+Provide a dialogue, help to summarize then give the topic of the dialogue. The summary from 1-3 sentences, the topic is short from 1-3 words.
+### Example 1: ###
+- Dialogue: """
+#Person1#: Hi, Mr. Smith. I'm Doctor Hawkins. Why are you here today? #Person2#: I found it would be a good idea to get a check-up. #Person1#: Yes, well, you haven't had one for 5 years. You should have one every year. #Person2#: I know. I figure as long as there is nothing wrong, why go see the doctor? #Person1#: Well, the best way to avoid serious illnesses is to find out about them early. So try to come at least once a year for your own good. #Person2#: Ok. #Person1#: Let me see here. Your eyes and ears look fine. Take a deep breath, please. Do you smoke, Mr. Smith? #Person2#: Yes. #Person1#: Smoking is the leading cause of lung cancer and heart disease, you know. You really should quit. #Person2#: I've tried hundreds of times, but I just can't seem to kick the habit. #Person1#: Well, we have classes and some medications that might help. I'll give you more information before you leave. #Person2#: Ok, thanks doctor.
+"""
+- Summary: Mr. Smith's getting a check-up, and Doctor Hawkins advises him to have one every year. Hawkins'll give some information about their classes and medications to help Mr. Smith quit smoking.
+- Topic: get a check-up
+
+### Example 2: ###
+- Dialogue: """
+#Person1#: Philip, I was really glad to hear about your award. Congratulations! #Person2#: Thanks, Denise. Actually, I was really surprised. I mean, there were a lot of qualified people out there. #Person1#: Sure. But the work you did was really exceptional! You definitely deserved it! #Person2#: Thanks a lot. I expect to see your name nominated pretty soon, too. You've been doing some great work!
+"""
+- Summary: Denise congratulates Philip on his winning the award and admires his work. Philip thanks Denise and wishes him nominated soon.
+- Topic: congratulations
+
+### Example 3: ###
+- Dialogue: """
+#Person1#: Excuse me. What time does the next train to London leave? #Person2#: At 10:30. #Person1#: Is it a direct train to London? #Person2#: Yes, it is. #Person1#: OK. Two tickets to London, please. #Person2#: Single or return? #Person1#: Single, please. How much in total? #Person2#: 10 pounds. #Person1#: Here you are. Which platform should I go to wait for the train? #Person2#: It's platform 5. #Person1#: OK. Thank you. #Person2#: You are welcome.
+"""
+- Summary: #Person1# buys two train tickets to London with #Person2#'s assistance.
+- Topic: buy tickets
+
+### Given: ###
+- Dialogue: """
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+"""
+---
+
+Response:
+---
+Summary: #Person1: Mom got her Master's Degree from Miami University. #
+---
+
+
+## Chat GPT 3.5 Turbo Model (175B parameters)
+System:
+---
+Provide a dialogue, help to summarize then give the topic of the dialogue. The summary from 1-3 sentences, the topic is short from 1-3 words.
+### Example 1: ###
+- Dialogue: """
+#Person1#: Hi, Mr. Smith. I'm Doctor Hawkins. Why are you here today? #Person2#: I found it would be a good idea to get a check-up. #Person1#: Yes, well, you haven't had one for 5 years. You should have one every year. #Person2#: I know. I figure as long as there is nothing wrong, why go see the doctor? #Person1#: Well, the best way to avoid serious illnesses is to find out about them early. So try to come at least once a year for your own good. #Person2#: Ok. #Person1#: Let me see here. Your eyes and ears look fine. Take a deep breath, please. Do you smoke, Mr. Smith? #Person2#: Yes. #Person1#: Smoking is the leading cause of lung cancer and heart disease, you know. You really should quit. #Person2#: I've tried hundreds of times, but I just can't seem to kick the habit. #Person1#: Well, we have classes and some medications that might help. I'll give you more information before you leave. #Person2#: Ok, thanks doctor.
+"""
+- Summary: Mr. Smith's getting a check-up, and Doctor Hawkins advises him to have one every year. Hawkins'll give some information about their classes and medications to help Mr. Smith quit smoking.
+- Topic: get a check-up
+
+### Example 2: ###
+- Dialogue: """
+#Person1#: Philip, I was really glad to hear about your award. Congratulations! #Person2#: Thanks, Denise. Actually, I was really surprised. I mean, there were a lot of qualified people out there. #Person1#: Sure. But the work you did was really exceptional! You definitely deserved it! #Person2#: Thanks a lot. I expect to see your name nominated pretty soon, too. You've been doing some great work!
+"""
+- Summary: Denise congratulates Philip on his winning the award and admires his work. Philip thanks Denise and wishes him nominated soon.
+- Topic: congratulations
+
+### Example 3: ###
+- Dialogue: """
+#Person1#: Excuse me. What time does the next train to London leave? #Person2#: At 10:30. #Person1#: Is it a direct train to London? #Person2#: Yes, it is. #Person1#: OK. Two tickets to London, please. #Person2#: Single or return? #Person1#: Single, please. How much in total? #Person2#: 10 pounds. #Person1#: Here you are. Which platform should I go to wait for the train? #Person2#: It's platform 5. #Person1#: OK. Thank you. #Person2#: You are welcome.
+"""
+- Summary: #Person1# buys two train tickets to London with #Person2#'s assistance.
+- Topic: buy tickets
+
+---
+
+User:
+---
+- Dialogue: """
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+"""
+---
+
+Assistance:
+---
+- Summary: #Person1# shows pictures of their mom's graduation, and #Person2# requests a slide and a wallet-size print of the photos.
+- Topic: family photos
+---

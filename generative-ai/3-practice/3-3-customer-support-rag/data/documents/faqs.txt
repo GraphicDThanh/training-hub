@@ -1,0 +1,309 @@
+Help Topic: Login and my account
+
+Q: Can I reactivate my inactive Flipkart account?
+A: Yes. To reactivate your Flipkart account, simply log in with your registered email ID or mobile number/password combination used before deactivation. Your account data will be fully restored, default subscription settings applied.
+
+Q: Do I need to verify my mobile number or email address every time I log in?
+A: As the verification step is a one time process, you won't have to do it again once your account is verified.
+
+Q: What is an OTP or verification code?
+A: An OTP (One Time Password) or verification code is a password/code used to verify your mobile number or email ID when you log into your Flipkart account for the first time.
+
+    OTP verification will be also be done in other cases like creating an account, password recovery, and updating email/mobile details.
+
+Q: Why do I need to verify my mobile number or email address to log into my Flipkart account?
+A: To make sure that your account details are always secure, verification by OTP (One Time Password) is important. This is a one-time process and you can log into your Flipkart account without any hassles once this is done.
+
+Q: Can I use an international number to sign up?
+A: Yes, you can use an international number to sign up. This number can only be used for logging in and subscribing to order-related updates and confirmation details.
+
+Q: How can I use my mobile number to login on the Flipkart mobile app?
+A: To log into the Flipkart mobile app, update your mobile number from your Flipkart account on our website with these simples steps:
+
+    1. Go to My Account › Settings › Update Email/Mobile
+
+    2. Add your mobile number
+
+    3. Enter the OTP received on your registered mobile number
+
+    4. Select 'Save Changes'
+
+Q: I'm getting an error message that says, 'You've exceeded the maximum number of attempts to enter  correct verification code'. How can I log in to my Flipkart account now?
+A: If a wrong code is entered for verification more than a specific number of times, this error message will be seen and for security reasons, your account will be blocked for the next 24 hours. To log in, please try again after 24 hours by entering the correct OTP.
+
+Q: Can I use a corporate email ID to sign up?
+A: Yes, you can use a corporate email ID. However, please ensure that you have updated your current active email address. This will help you to continue using your account in the unlikely event of your account getting deleted or deactivated.
+
+Q: How can I add a new delivery address to my Flipkart account?
+A: To add a new delivery address, follow these simple steps:
+
+    1. Log into your Flipkart account
+    2. Go to My Account › My Addresses
+    3. Add details of your new address
+    4. Choose 'Save Changes
+
+Q: What should I do if I don't get the OTP or verification code while logging in to my Flipkart account?
+A: Network issues sometimes delay OTP-based SMS. You can regenerate the code by clicking 'Resend Code'. In case that doesn't work, you can try switching your phone off and back on.
+
+Q: How can I change the email ID linked with my Flipkart account?
+A: To change the email ID, log in to your Flipkart account and follow these simple steps:
+
+    Steps on the app:
+    1. Go to 'Accounts'
+    2. Scroll down to 'Edit Profile'
+    3. Add the new email ID
+    4. Enter the OTPs received on your old & new email ID
+    5. Tap 'Save'
+
+    Steps on the website:
+    1) Visit 'My profile'
+    2) In the 'Personal information' section, click the 'edit' button next to the email id option
+    3) Add the new email ID
+    4) Enter the OTPs received on your old & new email ID
+    6) Click 'Save'
+
+    Please note that you will not be able to update your email ID without access to your old email ID.
+
+Q: How can I deactivate my Flipkart account?
+A: To deactivate your Flipkart account, follow these simple steps after logging in to your account:
+
+    Steps on the app:
+    1. Visit 'Edit Profile' section on the 'Account' page
+    2. Click on 'Deactivate Account'
+    3. Enter the OTP received and click on 'Confirm Deactivation'
+
+    Steps on the web:
+    1) Hover over your name and click on 'My profile'
+    2) Scroll to the bottom of the page and click 'Deactivate Account'
+
+    Please note that you'll be logged out of your account and will no longer receive any communication from Flipkart.
+    While your Wishlist and profile will become unavailable, your product reviews and ratings will still be visible.
+
+Help Topic: Refunds related
+
+Q: What are the modes of refund available after cancellation?
+A: The different modes of refund available are:
+
+    Payment mode: Cash on Delivery
+
+    1. UPI (Amount less than Rs 1000) - Refund will be processed to the UPI account for which UPI ID has to be shared
+    2. Gift Card (Amount less than Rs 10000) - Refund will be processed to Gift Card account
+    3. Bank account (IMPS/NEFT) - Refund will be processed to bank account for which bank details have to be shared
+
+    Payment mode: Prepaid
+
+    1. Back to source - Refund will be processed to the payment mode(Debit/Credit card, NEFT, UPI) used to pay for the order
+    2. Gift Card (Amount less than Rs 10000) - Refund will be processed to Gift Card account.
+
+Q: I've still not received the refund in my bank account.
+A: If you have received a mail from us confirming your refund request, it means that the refund has been initiated. You can also contact your bank with the refund reference (ARN)/UTR number you would have received for an update on the status of your refund.
+
+Q: Why does it take time for the refund amount to be credited when it was already processed by Flipkart?
+A: Once the refund has been processed, the bank takes some time to reverse your initial transaction and complete the refund. However, the refund amount can be seen in your account within the time frame provided to you. Please contact your bank with the refund reference/UTR number in case you don't see the refund amount in your account after the specified timeframe.
+
+Q: Will I get a complete refund if the item is cancelled or returned if I have paid for the order using the 'Credit Card No Cost EMI' payment option?
+A: Yes, you will get a complete refund to the extent of the EMIs paid (if any) in case the order is cancelled or returned.
+
+However, banks may charge some cancellation/refund or pre-closure charges. Please check with your respective bank for their policy for cancellations, refunds, and pre-closures.
+
+*Orders for certain items cannot be cancelled after 24 hours of order placement, or returned once delivered. Please check the seller's cancellations & returns policy on the product page for details.
+
+Q: Can I get the refund for the item to any other mode if I have paid using the Bajaj Finserv payment option?
+A: No, the refund for an order placed using the Bajaj Finserv payment mode can only be done to the bank account linked to the Bajaj Finserv EMI Network Card.
+
+Q: Can I get the refund for the item through any other mode if I have paid for my order using the 'Pre-approved EMI' payment option?
+A: No, the refund mode cannot be changed for an order that was paid for using SBI's 'Pre-approved EMI' payment option.
+
+Q: Can I get the refund for the item through any other mode if I have paid using the 'Credit Card No Cost EMI' payment option?
+A: No, the refund for an order placed using the 'Credit Card No Cost EMI' payment mode can only be done to the credit card from which the payment was made.
+
+Q: Where will the refunds for my order be credited?
+A: For payments made through cash/POS, you can choose any of the below refund modes in case you return the item:
+
+    1. PhonePe wallet
+
+    2. NEFT or bank transfer (update your bank account details when you choose this option). For payments made from any other source, the mode of refund will be the same as the payment source.
+
+Q: Why have I only received a part of the refund amount?
+A: Refunds are processed item wise and you may see a part of the amount refunded while the remaining refund amount is still being processed.
+
+Q: When will the refund amount for my order(s) be processed?
+A: The refunds for your order(s) are processed at different stages based on the reason for refunding the amount:
+
+    1. Cancellation (before shipment): Immediate
+
+    2. Cancellation (after shipment): Once the courier service provider confirms that the shipment is being returned to the seller
+
+    3. Returns (if a pick-up is scheduled by the seller): Once product is picked up by the courier service provider and it reaches the seller
+
+    4. Returns (if you're asked to ship the item(s) back): Once the item reaches the seller
+
+Q: How can I know the status of my refund?
+A: You can visit 'My Orders' to know the status of your refund.
+
+    For orders cancelled before shipping, refunds are processed immediately. If the order has been shipped. refund will be processed as soon as the courier service provider confirms the return of the item(s).
+
+Q: What are the refund timelines if I cancel or return a product?
+A: The refund timelines will depend on the payment modes as listed below:
+
+    - Debit card - 7-9 Business days
+    - Credit - 7-9 Business days
+    - Netbanking - 3-7 business days
+    - COD - IMPS, 1 Business days
+    - EMI (Standard+No cost+Debit card) - 7- 9 Business days
+    - Flipkart Pay Later - 24 to 48 hours
+    - Gift Card - 24 hours
+    - PhonePe:
+        - PhonePe wallet - 24 hours
+        - PhonePe UPI - 1 business day
+        - PhonePe Credit/Debit card - 7 business days
+    Note: Refunds will be credited to the payment source used at the time of placing an order.
+    The mode of refund in case of payment through 'Cash on Delivery' will be IMPS
+
+Q: How will I get my refund for returning an item I paid for with Cash on Delivery?
+A: In case of cash on delivery, you will have to provide a bank account number for the refund. Alternatively, you can also get the refund in the form of a Gift Card (upto Rs 10,000), or in your bank account by providing the UPI ID (limited to Rs 1000)
+
+Q: When are refunds provided for orders?
+A: You can get a refund for an order if you cancel a prepaid order as per the cancellation policy. Additionally, refunds are issued if you return an item that qualifies for a refund or if a replacement cannot be provided because it is out of stock.
+
+    Refunds are credited to the original source of payment except for cash on delivery orders. (CoD}. For CoD orders, you can choose the refund source.
+
+    You can track your refund status by visiting the Flipkart account's 'Orders' section and selecting the product. You will also get timely updates about refunds via email and SMS.
+
+Q: What items are not eligible for return?
+A: The following items are typically non-returnable across all categories:
+
+    - Used or Damaged Items – Products that show signs of use, wear, or damage are not eligible for return.
+    - Final Sale Items – Clearance, promotional, or "final sale" items are non-returnable.
+    - Hygiene-Sensitive Items – Products like undergarments, swimwear, socks, or opened hosiery cannot be returned for hygiene reasons.
+    - Customized or Personalized Products – Items that are tailored, engraved, or otherwise personalized are not eligible for return.
+    - Missing Original Packaging or Tags – Products missing their original packaging, tags, or accessories cannot be returned.
+
+Q: What is Flipkart's credit card EMI payment option?
+A: With Flipkart’s credit card EMI option, you can choose to pay in easy installments of 3, 6, 9, 12, 18, or 24 months, with credit cards from the following banks:
+
+    - HDFC
+    - Citi
+    - ICICI
+    - Kotak
+    - Axis
+    - Induslnd
+    - SBI
+    - Standard Chartered
+    - HSBC
+
+Q: How does Flipkart prevent card fraud?
+A: Online payments are monitored by our systems for any suspicious activity and some transactions are verified through extensive checks if we find that they are not authorised by the owner of the card. When we're not able to rule fraud out in rare cases, the transaction is kept on hold and we ask the shopper to share relevant proofs. This is done to make sure that the transaction is genuine and authorised.
+
+Q: Can I use any Debit Card to pay for my order?
+A: You can choose to pay for your order on Flipkart with any Visa, MasterCard or Maestro Debit Card.
+
+Q: Can I use the Cash on Delivery payment option for every product I buy on Flipkart?
+A: The availability of Cash on Delivery option depends on factors like the delivery pincode, type of products etc.
+
+    Please enter your pincode on the product page to check if CoD is available at your location. If this option is available for your pincode, you can shop for products up to ₹49,999 using this.
+
+Q: How can I get the 3D Secure password for my Credit/Debit Card?
+A: You can get a 3D Secure password by registering your Credit/Debit Card on your bank's website.
+
+Q: How can I pay with a saved Credit/Debit Card?
+A: Your saved cards can be seen when you choose the credit or debit card option to pay for your order. Enter the CVV number of that card (we do not store it) and click on the 'Pay' button. You'll also have to enter the card's 3D Secure password to complete the transaction.
+
+Q: How does the 3D Secure password add security to my online transactions?
+A: The 3D Secure password is something that only you would know, ensuring no one else can use your card to shop online.
+
+Q: If I have a saved card on Flipkart, will I be able to use a new card for my next payment?
+A: Yes. Even if you've saved your card details on Flipkart, you always have the option to use any other credit/debit card to pay.
+
+Q: What is a 3D Secure password?
+A: A 3D Secure password adds an extra layer of security through identity verification for your online Credit & Debit card transactions (VISA & MasterCard).
+
+Q: What is the amount I can shop for with Cash on Delivery payment option?
+A: You can shop up to Rs. 49,999 using Cash on Delivery (CoD) option.
+
+Q: Why is my card being saved on Flipkart?
+A: It's quicker. You can save the hassle of typing in the complete card information every time you shop on Flipkart by saving your card details. You can make your payment by selecting the saved card of your choice at checkout. While this is obviously faster, it is also very secure.
+
+Q: What all card information does Flipkart store?
+A: We only store your card number, cardholder name and card expiry date. We do not store your card's CVV number or the 3D secure password. Flipkart stores your card information only when you select the option.We only store your card number, cardholder name and card expiry date. We do not store your card's CVV number or the 3D secure password. Flipkart stores your card information only when you select the option.
+
+Q: Can I delete my saved cards?
+A: Yes, you can delete your saved cards at any given time.
+
+Q: How many cards can I save on Flipkart?
+A: As of now, you can save upto 10 cards using the 'Save Card' option.
+
+Q: What cards can I save on Flipkart?
+A: You can save any credit or debit VISA, MasterCard, Maestro or American Express card issued by a bank in India.
+
+Q: How do I save my card(s) on Flipkart?
+A: Your card is saved automatically when you make a successful payment by entering the card details while purchasing on Flipkart. Alternatively, you can also save your card by navigating to 'My Accounts > Payments > My Saved Cards'. To save the card you'll need the card number and the expiry date. You can also add a card label to better identify a saved card.
+
+Q: How do I make a payment using a saved card?
+A: You can view your saved cards by selecting the credit/debit card payment option at checkout. Select a saved card that you wish to use to make the payment. Enter the CVV number of that card (we do not store it) and click the 'Pay' button to initiate your payment. You will also have to enter the card's 3D Secure password to complete the transaction.
+
+Q: How can I delete my saved card?
+A: You can delete your saved card information on Flipkart from the 'My Account' section. Go to 'My Account > Payments > My Saved Cards' and you will be able to see your saved card(s). You can then click on 'Remove this card'.
+
+Q: What are the pre-requisites for using the saved card feature?
+A: You should have a registered account with Flipkart to which you should be logged in. Due to security reasons, this feature is not available during guest checkout.
+
+Q: Can I use a saved card to make an EMI payment?
+A: Yes, if your saved credit card is eligible for your Bank's EMI program then you can use it for making an EMI payment.
+
+Q: I typed an incorrect card number by mistake when adding my card. How do I correct it?
+A: If you typed an incorrect card number, name or card expiry date, you need to first delete the entered details by clicking on "Remove this card" and then add the card again with the correct details.
+
+Q: Can I use my saved cards for making a payment on Flipkart's mobile site/app?
+A: Absolutely! Any cards that you save on Flipkart's website can be used on Flipkart app and mobile site as well. You can also save cards through your mobile and use them on Flipkart's website.
+
+Q: What if I do not want my cards to be imported?
+A: You can manage these cards from the 'Saved Cards' section on PhonePe or Flipkart. If you wish to delete a card from both PhonePe and Flipkart, you need to perform this operation independently in both the applications.
+
+Q: Can I use Credit/Debit Card to pay on Flipkart through the Flipkart app?
+A: Yes, you can use your Debit/Credit Card to shop on our mobile app, website, and mobile site too!
+
+Q: Can I combine the balance on my Gift Cards with Cash on Delivery to pay for an order?
+A: Cash on Delivery payments cannot be combined with other payments modes.
+
+Q: I tried to make the payment for my Cash on Delivery order using 'pay now', but the payment failed, what should I do?
+A: Any amount debited will be credited back to the original source of payment within 8 business days. You can pay with cash/card/UPI for your order at the time of delivery.
+
+Q: How can I convert my Cash on delivery order to a prepaid?
+A: On your app, check if you are getting the 'Pay Now' option for the desired order. If the option is available, tap it and proceed with the payment. Once the payment is successful, an OTP will be sent to you via SMS.
+
+    You can also view this OTP against the order in the 'Orders' section until the product gets delivered. You will need to share this OTP with the delivery executive during delivery and collect the product.
+
+Q: I have updated my payment mode for my order but have not received the OTP.
+A: On your app, go to the 'Orders' page and you will see an OTP next to your order. Please share the same with the delivery executive.
+
+Q: My amount is debited twice for the order, what should I do?
+A: If the order value is debited twice from your account, you can rest assured that the respective bank will ensure a refund is reflected in your account within eight business days. In case you do not receive a refund within this timeline, please contact the bank for assistance.
+
+Q: How do I pay using a credit or debit card?
+A: You can choose the credit card or debit card payment option during the checkout process of your purchase. For a seamless payment process, please keep your card number, expiration date, and three-digit CVV number handy, which can be found on your card and enter them when requested.
+
+Q: My amount has been debited but order has not been confirmed, what should I do?
+A: It may take up to 3 hours for your order confirmation message to arrive by email or SMS. If the order transaction is unsuccessful, you will receive a refund confirmation and the amount will be credited within eight business days to the original payment source.
+
+Help Topic: Cancellation related
+
+Q: I see the 'Cancel' button but I can't click on it. Why?
+A: A greyed-out and disabled 'Cancel' button can mean any one of the following:
+
+    1. The item has been delivered already OR
+
+    2. The item is non-refundable (e.g. Gift Card)
+
+Q: Can I modify/change the specification for the ordered product without cancelling it?
+A: No, once an order is placed the specification of the product can not be modified.
+
+Q: Can I reinstate a cancelled order?
+A: No, a cancelled order can not be reinstated.
+
+Q: Why i am getting charged for cancellation? / What is cancellation Fee?
+A: Cancellation fee will be applied or charged only if an eligible order is cancelled after 24 hours of placing.
+The reason is to compensate for the time and effort incurred in processing the order by the seller. Also, to compensate our logistics partner for incurring a cost when they ship the order, if the order is shipped. Note: Customer can find this information under the order details by logging into his/her Flipkart account.
+
+Q: How long does it take to cancel an order?
+A: Cancellation of item(s) in an order happens immediately if the order hasn't been shipped yet by the seller. If your order has been shipped, it will be cancelled as soon as the courier service confirms that the shipment is being returned to the seller. Orders from certain categories cannot be cancelled after 24 hours, please check the product page for more details.

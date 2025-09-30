@@ -1,0 +1,22 @@
+prompts: |
+  - role: system
+  content: "{{system_message}}"
+  - role: user
+    content: "{{user_query}}"
+providers:
+- "openai:gpt-3.5-turbo"
+tests:
+- assert:
+  - threshold: 0.05
+    type: similar
+    value: '{{response}}'
+  - type: contains-all
+    value:
+    - '$500'
+    - 'free shipping'
+  description: test if the chatbot can answer the question correctly with context of base knowledge
+  vars:
+    case: 1. Ask about free shipping.
+    expected_response: Free shipping is available on orders over $500.
+    user_query: Do you offer free shipping?
+    context: file://./utils/load_var_context.py

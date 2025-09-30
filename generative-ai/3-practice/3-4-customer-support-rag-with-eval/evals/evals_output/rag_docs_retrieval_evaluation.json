@@ -1,0 +1,178 @@
+{
+  "evalId": "eval-N1T-2024-12-08T14:03:07",
+  "results": {
+    "version": 3,
+    "timestamp": "2024-12-08T14:03:07.103Z",
+    "prompts": [
+      {
+        "raw": "{{user_query}}",
+        "label": "{{user_query}}",
+        "id": "8e0ff6a2d2579f3b2c648b8f607911736d45ffcd5bd613c63a924892c616fccc",
+        "provider": "python:../rag/retrieve.py:default",
+        "metrics": {
+          "score": 0,
+          "testPassCount": 0,
+          "testFailCount": 1,
+          "assertPassCount": 0,
+          "assertFailCount": 2,
+          "totalLatencyMs": 3,
+          "tokenUsage": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 1
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "error": "Aggregate score 0.00 < 0.05 threshold",
+        "gradingResult": {
+          "pass": false,
+          "score": 0,
+          "reason": "Aggregate score 0.00 < 0.05 threshold",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0
+          },
+          "componentResults": [
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Expected output to contain all of [1 million VND, faqs.txt]. Missing: [1 million VND, faqs.txt]",
+              "assertion": {
+                "type": "contains-all",
+                "value": [
+                  "1 million VND",
+                  "faqs.txt"
+                ]
+              }
+            },
+            {
+              "pass": false,
+              "score": 0,
+              "reason": "Expected output to contain \"free shipping\"",
+              "assertion": {
+                "type": "icontains",
+                "value": "free shipping"
+              }
+            }
+          ],
+          "assertion": null
+        },
+        "id": "6ff8cc8a-5977-4ee9-b9a6-c4ff5398eb9d",
+        "latencyMs": 3,
+        "namedScores": {},
+        "prompt": {
+          "raw": "",
+          "label": "{{user_query}}"
+        },
+        "promptId": "8e0ff6a2d2579f3b2c648b8f607911736d45ffcd5bd613c63a924892c616fccc",
+        "promptIdx": 0,
+        "provider": {
+          "id": "python:../rag/retrieve.py:default",
+          "label": ""
+        },
+        "response": {
+          "output": ""
+        },
+        "score": 0,
+        "success": false,
+        "testCase": {
+          "description": "Test document retrieval",
+          "threshold": 0.05,
+          "vars": {
+            "query": "Do you offer free shipping?"
+          },
+          "assert": [
+            {
+              "type": "contains-all",
+              "value": [
+                "1 million VND",
+                "faqs.txt"
+              ]
+            },
+            {
+              "type": "icontains",
+              "value": "free shipping"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "vars": {
+          "query": "Do you offer free shipping?"
+        },
+        "metadata": {}
+      }
+    ],
+    "stats": {
+      "successes": 0,
+      "failures": 1,
+      "tokenUsage": {
+        "cached": 0,
+        "completion": 0,
+        "prompt": 0,
+        "total": 0,
+        "numRequests": 1
+      }
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "Retrieve documents from vector database",
+    "prompts": [
+      "{{user_query}}"
+    ],
+    "providers": [
+      "file:///Users/thanhnguyendiem/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/src/evals/rag/retrieve.py"
+    ],
+    "tests": [
+      {
+        "description": "Test document retrieval",
+        "threshold": 0.05,
+        "vars": {
+          "query": "Do you offer free shipping?"
+        },
+        "assert": [
+          {
+            "type": "contains-all",
+            "value": [
+              "1 million VND",
+              "faqs.txt"
+            ]
+          },
+          {
+            "type": "icontains",
+            "value": "free shipping"
+          }
+        ]
+      }
+    ],
+    "scenarios": [],
+    "env": {},
+    "sharing": true,
+    "defaultTest": {
+      "vars": {},
+      "assert": [],
+      "options": {},
+      "metadata": {}
+    },
+    "outputPath": [
+      "../evals_output/rag_docs_retrieval_evaluation.json"
+    ],
+    "extensions": [],
+    "metadata": {}
+  },
+  "shareableUrl": null
+}

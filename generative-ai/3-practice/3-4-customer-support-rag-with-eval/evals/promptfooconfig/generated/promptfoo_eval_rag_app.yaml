@@ -1,0 +1,153 @@
+outputPath: ./output/generated_eval_rag_app.json
+prompts: '{{user_query}}'
+providers:
+- file:///Users/thanhnguyen/Agility/Training/thanh.nguyendiem/llm-training/3-practice/3-4-customer-support-rag-with-eval/src/rag/retrieve_v1.py
+tests:
+  - description: Test RAG chatbot with user query
+    vars:
+      case: 1. Vague and ambiguous query
+      expected_response: Thank you for reaching out. Could you please specify which
+        policies you are referring to? We have various policies related to ordering,
+        shipping, and returns.
+      query: What are your policies?
+    assert:
+    - type: similar
+      value: '{{response}}'
+      threshold: 0.5
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 1. Vague and ambiguous query
+#     expected_response: I'm sorry, could you please provide more context or specify
+#       your question so I can assist you better?
+#     query: What's up with this?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 2. Long and complex query
+#     expected_response: For items purchased during a sale, our return policy allows
+#       for returns within 30 days of the purchase date. Please ensure the item is in
+#       its original packaging and condition for a full refund.
+#     query: What is the return policy for items purchased during a sale?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 2. Long and complex query
+#     expected_response: For international orders that were damaged during transit,
+#       we offer a full refund or replacement. Please reach out to our customer support
+#       team with your order details for assistance.
+#     query: What is your policy on returns for international orders that were damaged
+#       during transit?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 2. Long and complex query
+#     expected_response: Certainly! For international orders, our return process involves
+#       shipping the item back to our warehouse within 30 days of purchase. Please ensure
+#       the item is in its original packaging and unused for a smooth return process.
+#     query: Can you provide me with more details on the return process for international
+#       orders?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 3. Irrelevant query
+#     expected_response: Not Found
+#     query: What's your favorite color?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 3. Irrelevant query
+#     expected_response: I'm sorry, but we specialize in providing support for e-commerce
+#       related inquiries. If you have any questions about our products or services,
+#       feel free to ask!
+#     query: What is the weather like today?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 3. Irrelevant query
+#     expected_response: Not Found
+#     query: What is the capital of France?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 4. Offensive or inappropriate query
+#     expected_response: We take customer feedback seriously and strive to improve our
+#       products. If you have any specific concerns, please reach out to our customer
+#       support team for assistance.
+#     query: Why are your products so terrible?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 4. Offensive or inappropriate query
+#     expected_response: We strive to provide excellent customer service and support,
+#       but intentionally damaging items does not align with our policy. Please refer
+#       to our terms and conditions for more information on returns.
+#     query: What is your return policy for damaged items that I intentionally broke?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 4. Offensive or inappropriate query
+#     expected_response: We aim to provide high-quality products and value your feedback.
+#       Please let us know specific concerns so we can address them appropriately.
+#     query: Why are your products so crappy?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 5. Mixed questions
+#     expected_response: For refunds on defective products, please reach out to our
+#       support team with your order number. To track your order status, you can log
+#       in to your account on our website or app.
+#     query: Do you offer refunds for defective products? How can I track my order status?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 5. Mixed questions
+#     expected_response: Our return policy allows for returns within the specified refund
+#       period. After this period, returns may not be accepted.
+#     query: Can I return an item after the refund period?
+# - assert:
+#   - threshold: 0.5
+#     type: similar
+#     value: '{{response}}'
+#   description: Test RAG chatbot with user query
+#   vars:
+#     case: 5. Mixed questions
+#     expected_response: I'm here to help! Could you please provide more details about
+#       your current situation or query so I can assist you better?
+#     query: What should I do now?

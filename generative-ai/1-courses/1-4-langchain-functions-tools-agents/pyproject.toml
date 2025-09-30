@@ -1,0 +1,24 @@
+[project]
+name = "1-4-langchain-functions-tools-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-community>=0.3.10",
+    "langchain>=0.3.10",
+    "langchain-openai>=0.2.11",
+    "openai>=1.57.0",
+    "pydantic>=2.10.3",
+    "langchain-core>=0.3.22",
+    "docarray>=0.40.0",
+    "ipykernel>=6.29.5",
+    "bs4>=0.0.2",
+    "wikipedia>=1.4.0",
+    "openapi-pydantic>=0.5.0",
+]
+
+[dependency-groups]
+dev = [
+    "remote-pdb>=2.1.0",
+]

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "LangChain for LLM Application Development Course"
+version = "0.1.0"
+description = ""
+authors = ["Thanh Nguyen"]
+readme = "README.md"
+packages = [{include = "langchain_for_llm_application_development_course"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.51.0"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.4"
+langchain-community = "^0.3.3"
+langchain-openai = "^0.2.4"
+pandas = "^2.2.3"
+docarray = "^0.40.0"
+ipython = "^8.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

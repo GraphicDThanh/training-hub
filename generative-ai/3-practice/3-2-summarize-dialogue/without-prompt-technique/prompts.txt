@@ -1,0 +1,27 @@
+## Google/Flan-T5-Base Model (248M parameters)
+Prompt:
+---
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+---
+
+Response:
+---
+#Person1#: Thank you for your help.
+---
+
+
+## Chat GPT 3.5 Turbo Model (175B parameters)
+System:
+---
+
+---
+
+User:
+---
+#Person1#: Look! This picture of Mom in her cap and gown. #Person2#: Isn't it lovely! That's when she got her Master's Degree from Miami University. #Person1#: Yes, we are very proud of her. #Person2#: Oh, that's a nice one of all of you together. Do you have the negative? May I have a copy? #Person1#: Surely, I'll have one made for you. You want a print? #Person2#: No. I'd like a slide, I have a new projector. #Person1#: I'd like to see that myself. #Person2#: Have a wallet size print made for me, too. #Person1#: Certainly.
+---
+
+Response:
+---
+It seems like Person1 and Person2 are discussing a picture of their mom in her graduation cap and gown, celebrating her Master's Degree from Miami University. Person1 offers to make a copy of the picture for Person2, who requests a slide for their projector as well as a wallet-size print. Person1 agrees to fulfill their requests.
+---

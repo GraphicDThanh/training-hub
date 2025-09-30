@@ -1,0 +1,2 @@
+new_input_case,rationale,input,user_query,context,response
+"1. Vague and ambiguous query: (e.g., Can you help me with this?).",This case aims to test the system's ability to handle unclear user queries.,Can you assist me in resolving this issue?,Can you assist me in resolving this issue?,Not Found,Not Found

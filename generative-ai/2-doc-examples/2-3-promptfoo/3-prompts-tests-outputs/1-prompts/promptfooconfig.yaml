@@ -1,0 +1,78 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+
+# Learn more about building a configuration: https://promptfoo.dev/docs/configuration/guide
+
+description: "Practice with prompts"
+
+# 1. Prompt with raw text
+# prompts:
+#   - 'Translate the following text to French: "{{text}}"'
+#   - 'Translate the following text to Spanish: "{{text}}"'
+#   # multiple strings
+#   - |-
+#     Translate the following text to German:
+#     "{{text}}"
+
+# 2. Prompt as JSON
+# prompts:
+#   - |-
+#     [
+#       { "role": "system", "content": "You are a French translator." },
+#       { "role": "user", "content": "{{text}}" }
+#     ]
+
+# 3. Prompt from file yaml equivalent
+prompts:
+  - file://prompts/prompt.yaml
+
+# 3. Multiple prompts in single text file
+# prompts:
+#   - file://prompts.txt
+
+# 4. Prompt as markdown
+# prompts:
+#   - file://prompts/prompt.md
+
+# 5. Different prompts per model
+# prompts:
+#   - id: file://prompts/prompt.md
+#     label: markdown_prompt
+#   - id: file://prompts/prompt.yaml
+#     label: yaml_prompt
+
+# providers:
+#   - id: "openai:gpt-3.5-turbo"
+#     prompts:
+#       - markdown_prompt
+#   - id: "openai:gpt-4o-mini"
+#     prompts:
+#       - yaml_prompt
+
+# # 6. Prompt function
+# prompts:
+#   # not able to get vars.text
+#   # - file://prompts/prompt.js:promptFunc
+#   # works
+  # - file://prompts/prompt.py:prompt_func
+
+# 7. Nunjucks filters
+# prompts:
+#   - 'Translate this to French: {{text | allcaps}}'
+
+# Question: How to apply filter in prompt python file?
+
+providers:
+  - "openai:gpt-3.5-turbo"
+  # - "openai:gpt-4o-mini"
+
+nunjucksFilters:
+  # must be js file
+  allcaps: ./filters/allCaps.js
+
+tests:
+  - vars:
+      text: 'Hello world'
+  - vars:
+      text: 'Good morning'
+  - vars:
+      text: 'How are you?'

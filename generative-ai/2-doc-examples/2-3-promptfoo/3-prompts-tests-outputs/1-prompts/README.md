@@ -1,0 +1,12 @@
+## Practice with prompts
+- Case 1: Prompt from raw text
+- Case 2: Prompt as JSON
+- Case 3: Prompt from file
+- Case 4: Multiple prompt from simple text file
+  - `file://prompts/prompts.txt`
+- Case 5: Prompts as markdown
+- Case 6: Different prompts for models
+- Case 7: Prompt functions
+- Case 8: Prompt configs
+- Case 9: Nunjucks filter
+- Case 10: Default Prompt

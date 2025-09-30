@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chatgpt-prompt-engineering-for-developers"
+version = "0.1.0"
+description = ""
+authors = ["Thanh Nguyen"]
+readme = "README.md"
+packages = [{include = "chatgpt_prompt_engineering_for_developers"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.51.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

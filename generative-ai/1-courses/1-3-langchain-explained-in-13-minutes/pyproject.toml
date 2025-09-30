@@ -1,0 +1,14 @@
+[project]
+name = "langchain-explained-in-13-minutes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-openai>=0.2.8",
+    "langchain>=0.3.7",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.7.3",
+    "datasets>=3.1.0",
+    "pinecone-client[grpc]>=5.0.1",
+]

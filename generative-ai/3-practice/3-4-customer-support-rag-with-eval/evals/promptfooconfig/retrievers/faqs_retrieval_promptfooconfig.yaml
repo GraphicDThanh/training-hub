@@ -1,0 +1,25 @@
+# EVALUATION FAQS DOCUMENT RETRIEVAL
+description: "Retrieve documents from faqs vector database"
+prompts: "{{user_query}}"
+
+providers:
+  - id: file://./../../rag/retriever_faqs.py
+
+defaultTest:
+  vars:
+    vectorstore_persist_directory: "db/embeddings/evals/faqs_vector_store"
+    vectorstore_collection_name: evals_faqs_collections
+
+tests:
+  - description: "Test faqs.txt document retrieval"
+    threshold: 0.05
+    vars:
+      query: Do you offer free shipping?
+    assert:
+      - type: contains-all
+        value:
+          - 'free shipping'
+          - '1 million VND'
+          - 'faqs.txt'
+
+outputPath: ./output/faqs_docs_retrieval_evaluation.json

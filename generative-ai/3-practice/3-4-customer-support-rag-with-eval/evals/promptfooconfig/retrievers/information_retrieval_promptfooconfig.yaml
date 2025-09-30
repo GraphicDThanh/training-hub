@@ -1,0 +1,46 @@
+# EVALUATION INFORMATION DOCUMENT RETRIEVAL
+description: "Retrieve documents from information vector database"
+prompts: "{{user_query}}"
+
+providers:
+  - id: file://./../../rag/retriever.py
+
+defaultTest:
+  vars:
+    vectorstore_persist_directory: "db/embeddings/evals/information_vector_store"
+    vectorstore_collection_name: evals_information_collections
+
+tests:
+  - description: "Test List Categories"
+    threshold: 0.05
+    vars:
+      query: Give me the list of categories
+    assert:
+      - type: contains-all
+        value:
+          - 'categories'
+          - 'Shirts'
+          - 'T-Shirts'
+          - 'Sweaters'
+          - 'Coats'
+          - 'Jackets'
+          - 'Pants'
+          - 'Shorts'
+          - 'Dresses'
+          - 'information.json'
+  - description: "Test information.json document retrieval policies"
+    threshold: 0.05
+    vars:
+      query: Give me list policies in the store
+    assert:
+      - type: contains-all
+        value:
+          - 'policies'
+          - 'Payments Policy'
+          - 'Returns Policy'
+          - 'Warranty Policy'
+          - 'Shipping Policy'
+          - 'Privacy Policy'
+          - 'information.json'
+
+outputPath: ./output/information_retrieval_evaluation.json

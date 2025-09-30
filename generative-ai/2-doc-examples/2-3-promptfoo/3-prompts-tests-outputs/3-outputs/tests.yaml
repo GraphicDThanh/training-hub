@@ -1,0 +1,21 @@
+- description: 'Translate to French 1'
+  vars:
+    language: 'French'
+    text: 'Hello world'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'
+- description: 'Translate to French 2'
+  vars:
+    language: 'French'
+    text: 'Good morning'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'
+- description: 'Translate to French 3'
+  vars:
+    language: 'French'
+    text: 'How are you?'
+  assert:
+    - type: llm-rubric
+      value: 'Content is French'

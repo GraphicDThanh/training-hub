@@ -1,0 +1,4 @@
+language,input,__expected
+French,"Hello world",llm-rubric:Content is French
+French,"Good morning",llm-rubric:Content is French
+French,"How are you?",llm-rubric:Content is French

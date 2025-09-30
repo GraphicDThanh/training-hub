@@ -1,0 +1,11 @@
+text,[openai:gpt-3.5-turbo] Speak in French: {{text}}
+Hello world,"[PASS] (1.00)
+
+Bonjour le monde
+
+Pass Reason: All assertions passed"
+Good morning,"[PASS] (1.00)
+
+Bonjour
+
+Pass Reason: All assertions passed"

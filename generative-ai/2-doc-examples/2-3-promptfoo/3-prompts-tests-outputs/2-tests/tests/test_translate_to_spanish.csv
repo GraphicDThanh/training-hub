@@ -1,0 +1,4 @@
+language,input,__expected
+Spanish,"Hello world",llm-rubric:Content is Spanish
+Spanish,"Good morning",llm-rubric:Content is Spanish
+Spanish,"How are you?",llm-rubric:Content is Spanish

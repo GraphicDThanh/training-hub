@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "practice-1"
+version = "0.1.0"
+description = ""
+authors = ["Thanh Nguyen <thanh.nguyen@asnet.com.vn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.51.2"
+transformers = "^4.45.2"
+datasets = "^3.0.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+language,input,__expected
+German,"Hello world",llm-rubric:Content is German
+German,"Good morning",llm-rubric:Content is German
+German,"How are you?",llm-rubric:Content is German
