@@ -1,0 +1,8 @@
+- ✅[C# for beginner](https://www.youtube.com/watch?v=9THmGiSPjBQ&list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe)
+- ✅[ASP.NET Core 101](https://www.youtube.com/watch?v=lE8NdaX97m0&list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy)
+- ✅[C# and .NET Development in VS Code for Beginners](https://youtube.com/playlist?list=PLdo4fOcmZ0oWUrumb503vY3v6O3u3P4rW&si=bw7SbgRI6_kWFd-H)
+- [TODO][Backend Web Development with .NET](https://www.youtube.com/watch?v=sHDox4Fx6G0&list=PLdo4fOcmZ0oWunQnm3WnZxJrseIw2zSAk)
+- [TODO][C# and .NET Development in VS Code for Beginners](https://www.youtube.com/watch?v=tFCZw-wZVtg&list=PLdo4fOcmZ0oWUrumb503vY3v6O3u3P4rW)
+- [TODO][.NET on Azure for Beginners](https://www.youtube.com/watch?v=EzdqO6jX8u4&list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
+- [TODO][Entity Framework Core for Beginners](https://www.youtube.com/watch?v=SryQxUeChMc&list=PLdo4fOcmZ0oXCPdC3fTFA3Z79-eVH3K-s)
+- [Web API for Beginners](https://www.youtube.com/watch?v=h0KG8OKKgKs&list=PLdo4fOcmZ0oVjOKgzsWqdFVvzGL2_d72v)

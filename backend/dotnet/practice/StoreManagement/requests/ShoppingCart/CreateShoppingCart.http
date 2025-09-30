@@ -1,0 +1,35 @@
+### Create shopping cart - 201
+POST {{host}}{{route}}/shopping-carts/
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+  "userId": {{userId}}
+}
+
+### Create shopping cart - 401 - unauthorized
+POST {{host}}{{route}}/shopping-carts/
+Content-Type: application/json
+Authorization: Bearer xx
+
+{
+    "user": {{userId}}
+}
+
+### Create shopping cart - 403 - no permission
+POST {{host}}{{route}}/shopping-carts/
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+    "user": {{userId}}
+}
+
+### Create shopping cart - 404 not found
+POST {{host}}{{route}}/shopping-carts
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+    "user": "xxxx-d40b-462e-b74b-26e7aebc57b3"
+}

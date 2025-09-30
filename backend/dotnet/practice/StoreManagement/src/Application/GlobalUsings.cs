@@ -1,0 +1,13 @@
+global using Microsoft.Extensions.Logging;
+global using Microsoft.Extensions.Caching.Memory;
+global using System.Security.Claims;
+global using System.Linq.Expressions;
+global using StoreManagement.Cache;
+global using StoreManagement.Patterns;
+global using StoreManagement.Repositories;
+global using StoreManagement.Entities;
+global using StoreManagement.Errors;
+global using StoreManagement.Specifications;
+global using StoreManagement.Constants;
+global using StoreManagement.DTOs;
+global using StoreManagement.Enums;

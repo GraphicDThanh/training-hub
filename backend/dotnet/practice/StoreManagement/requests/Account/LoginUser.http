@@ -1,0 +1,57 @@
+### User Login - Example
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "xx",
+    "password": "xx",
+}
+
+### Admin - success
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "thanh.nguyen+admin@asnet.com.vn",
+    "password": "abcABC@123!"
+}
+// d2c3cb02-e9b3-410e-aeb1-2c2be2880235
+
+### User - success
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "user@store.com",
+    "password": "abcABC@123"
+}
+// 312f454c-d40b-462e-b74b-26e7aebc57b3
+
+
+// User - require confirm email
+### User - success
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+may27.1@asnet.com.vn",
+  "password": "abcABC@123"
+}
+
+### Invalid credentials - user not found
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin222@gmail.com",
+    "password": "abcABC@123"
+}
+
+### Invalid credentials - wrong pass
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "abcABC@1234"
+}

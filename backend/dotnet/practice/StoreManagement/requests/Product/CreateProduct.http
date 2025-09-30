@@ -1,0 +1,36 @@
+
+### Create product - admin - 201
+POST {{host}}{{route}}/products
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "name": "Product 1",
+    "price": 10,
+    "imageUrl": "http://google.com/product3",
+    "quantity": 10
+}
+
+### Create product - user - 403
+POST {{host}}{{route}}/products
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+    "name": "Product 1",
+    "price": 10,
+    "imageUrl": "http://google.com/product3",
+    "quantity": 10
+}
+
+### Create product - admin - 400 - data invalid
+POST {{host}}{{route}}/products
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "name": "Product 2",
+    "price": -1,
+    "imageUrl": "product3",
+    "quantity": 1000000
+}

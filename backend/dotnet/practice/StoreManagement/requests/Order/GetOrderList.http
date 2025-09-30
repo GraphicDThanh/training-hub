@@ -1,0 +1,5 @@
+GET {{host}}{{route}}/orders/?userId={{userId}}
+Content-Type: application/json
+Authorization: Bearer {{userToken}}
+
+

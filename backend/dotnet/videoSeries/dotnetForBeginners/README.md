@@ -1,0 +1,1 @@
+- Series [C# and .NET Development in VS Code for Beginners](https://youtube.com/playlist?list=PLdo4fOcmZ0oWUrumb503vY3v6O3u3P4rW&si=bw7SbgRI6_kWFd-H)

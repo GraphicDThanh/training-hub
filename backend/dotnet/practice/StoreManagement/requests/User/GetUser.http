@@ -1,0 +1,21 @@
+### Get user by id - Example
+### Not authorize
+GET {{host}}{{route}}/users/{{userId}}
+Authorization: xxx
+
+# Admin - get user
+# - admin can see any profile
+GET {{host}}{{route}}/users/{{userId}}
+Authorization: {{adminToken}}
+
+### Admin - get user not found
+GET {{host}}{{route}}/users/xxx
+Authorization: {{adminToken}}
+
+### Normal user - get their profile
+GET {{host}}{{route}}/users/{{userId}}
+Authorization: {{userToken}}
+
+### Normal user - get their profile
+GET {{host}}{{route}}/users/{{anotherUserId}}
+Authorization: {{userToken}}

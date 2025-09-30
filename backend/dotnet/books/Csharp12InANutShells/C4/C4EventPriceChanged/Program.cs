@@ -1,0 +1,98 @@
+﻿// Stock stock = new Stock("THPW");
+// Console.WriteLine("No event trigger since not register/subscribe");
+// stock.Price = 27.10M;
+// Console.WriteLine("Price is: " + stock.Price);
+
+
+// // Register event
+// Console.WriteLine("Event trigger if increase > 10%:");
+// stock.PriceChanged += stock_PriceChanged;
+// stock.Price = 31.59M;
+
+// void stock_PriceChanged (object sender, PriceChangedEventArgs e)
+// {
+//     if ((e.NewPrice - e.LastPrice) / e.LastPrice > 0.1M)
+//         Console.WriteLine("Alert, 10% stock price increase!");
+// }
+
+// public class PriceChangedEventArgs : EventArgs
+// {
+//     public readonly decimal LastPrice;
+//     public readonly decimal NewPrice;
+
+//     public PriceChangedEventArgs (decimal lastPrice, decimal newPrice)
+//     {
+//         LastPrice = lastPrice; NewPrice = newPrice;
+//     }
+// }
+
+// public class Stock
+// {
+//     string symbol;
+//     decimal price;
+
+//     public Stock (string symbol) => this.symbol = symbol;
+
+//     public event EventHandler<PriceChangedEventArgs> PriceChanged;
+
+//     protected virtual void OnPriceChanged (PriceChangedEventArgs e)
+//     {
+//         PriceChanged?.Invoke(this, e);
+//     }
+
+//     public decimal Price
+//     {
+//         get => price;
+//         set
+//         {
+//             if (price == value) return;
+//             decimal oldPrice = price;
+//             price = value;
+//             OnPriceChanged(new PriceChangedEventArgs(oldPrice, price));
+//         }
+//     }
+
+// }
+
+
+// simplify with EventHandler as no extra information
+Stock stock2 = new Stock("THPW");
+Console.WriteLine("No event trigger since not register/subscribe");
+stock2.Price = 27.10M;
+Console.WriteLine("Price is: " + stock2.Price);
+
+Console.WriteLine("Event trigger:");
+stock2.PriceChanged += stock_PriceChanged;
+stock2.Price = 31.59M;
+
+void stock_PriceChanged (object sender, EventArgs e)
+{
+    Console.WriteLine("Price change!");
+}
+
+public class Stock
+{
+    string symbol;
+    decimal price;
+
+    public Stock (string symbol) => this.symbol = symbol;
+
+    public event EventHandler PriceChanged;
+
+    protected virtual void OnPriceChanged (EventArgs e)
+    {
+        PriceChanged?.Invoke(this, e);
+    }
+
+    public decimal Price
+    {
+        get => price;
+        set
+        {
+            if (price == value) return;
+            price = value;
+            OnPriceChanged(EventArgs.Empty);
+        }
+    }
+
+}

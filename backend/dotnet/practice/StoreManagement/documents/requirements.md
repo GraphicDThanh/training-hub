@@ -1,0 +1,29 @@
+# Store Management Requirements
+- Admin can:
+    - Login
+    - User management (CRUD)
+        - Get all users with
+            - Pagination
+            - Filter
+            - Order
+    - Set role for a user
+    - Product management
+        - Get all products:
+            - Pagination
+            - Filter
+            - Order
+        - Create product
+        - Update product
+        - Delete product
+- User can:
+    - Register/Login
+    - By email/pass
+    - Get all products:
+        - Pagination
+        - Filter
+        - Order
+    - Add/Delete products in his/her carts
+    - Buy all products on carts (cash on delivery)
+    - Get the purchase history
+
+- The user will receive an email notification (text only) after the order (optional)

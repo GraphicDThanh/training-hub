@@ -1,0 +1,71 @@
+// 1. Login
+###
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+admin@asnet.com.vn",
+  "password": "abcABC@123!"
+}
+
+
+// --- User management ---
+// 2. Get all users
+###
+GET {{host}}{{route}}/users
+Authorization: {{adminToken}}
+
+// 3. Set role to user
+###
+POST {{host}}{{route}}/users/set-role
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+  "Email": "user@store.com",
+  "RoleName": "Admin"
+}
+// --- User management ---
+
+
+// --- Product management ---
+// 4. Create product
+###
+POST {{host}}{{route}}/products
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "Product 1001",
+  "price": 1001,
+  "description": "Product 1001 description",
+  "quantity": 101,
+  "imageUrl": "https://www.google.com.vn/images/googlelogo.png"
+}
+
+
+// 5. Update product
+###
+PUT {{host}}{{route}}/products/{{productEditId}}
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "Product 1001 update",
+  "price": 1001,
+  "description": "Product 1000 description update",
+  "quantity": 10
+}
+
+// 5. Delete product
+###
+DELETE {{host}}{{route}}/products/{{productEditId}}
+Authorization: {{adminToken}}
+Content-Type: application/json
+
+// 6. Get product
+###
+GET {{host}}{{route}}/products/{{productEditId}}
+Authorization: {{adminToken}}
+
+// --- Product management ---

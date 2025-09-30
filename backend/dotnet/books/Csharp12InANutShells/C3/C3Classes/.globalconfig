@@ -1,0 +1,20 @@
+﻿# Top level entry required to mark this as a global AnalyzerConfig file
+is_global = true
+
+#### .NET Coding Conventions ####
+# code quality rules
+dotnet_diagnostic.IDE0001.severity = warning
+
+# code style rules
+# IDE0040: Accessibility modifiers required (escalated to a build warning)
+dotnet_diagnostic.IDE0040.severity = e
+
+# this. and Me. preferencesarningarning
+dotnet_style_qualification_for_method = true
+
+# Simplify new expression (IDE0090)rror
+csharp_style_implicit_object_creation_when_type_is_apparent = true
+
+# IDE0021: Use block body for constructor
+csharp_style_expression_bodied_constructors = true
+rror

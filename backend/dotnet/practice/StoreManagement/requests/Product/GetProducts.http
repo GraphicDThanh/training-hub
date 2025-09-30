@@ -1,0 +1,13 @@
+### public api
+GET {{host}}{{route}}/products
+
+
+###
+@productId = 8e062cdd-0929-4ac6-8cae-b00f8ac01a7f
+
+GET {{host}}{{route}}/products/{{productId}}
+
+###
+@productId = 8e062cdd-0929-4ac6-8cae-b00f8ac01a7f
+
+GET {{host}}{{routeV2}}/products/{{productId}}

@@ -1,0 +1,10 @@
+
+### Get users - Example
+
+# Unauthorized - 401
+GET {{host}}{{route}}/users
+Authorization: xxx
+
+### Admin - success
+GET {{host}}{{route}}/users
+Authorization: {{adminToken}}

@@ -1,0 +1,3 @@
+POST {{host}}{{route}}/shopping-carts/{{shoppingCartId}}/order
+Authorization: {{userToken}}
+Content-Type: application/json

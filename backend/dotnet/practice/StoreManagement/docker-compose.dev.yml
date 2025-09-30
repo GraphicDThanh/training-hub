@@ -1,0 +1,41 @@
+services:
+  storedb:
+    image: mcr.microsoft.com/azure-sql-edge:latest
+    container_name: storedb
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=1StrongPassword@
+    ports:
+      - "8002:1433"
+    volumes:
+      - sqlserverdata:/var/opt/mysql
+    networks:
+      - storenetwork
+
+  storeapi:
+    image: storemanagementapi
+    container_name: storeapi
+    build:
+      context: .
+      dockerfile: src/Api/Dockerfile
+    ports:
+      - "8081:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=80
+      - ConnectionStrings__DefaultConnection=
+      - SendGridKey=
+      - SenderEmail=
+      - SenderRecoveryCode=
+      - AdminEmail=
+      - AdminPassword=
+    depends_on:
+      - storedb
+    networks:
+      - storenetwork
+
+networks:
+  storenetwork:
+
+volumes:
+  sqlserverdata:

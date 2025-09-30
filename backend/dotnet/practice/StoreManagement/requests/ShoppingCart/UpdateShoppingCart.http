@@ -1,0 +1,13 @@
+### Update shopping cart
+PUT {{host}}{{route}}/shopping-carts/{{shoppingCartId}}
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+    "cartItems": [
+        {
+        "productId": {{productId}},
+        "quantity": 1
+        }
+    ]
+}

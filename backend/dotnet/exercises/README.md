@@ -1,0 +1,1 @@
+- [Exercises](https://docs.google.com/document/d/1iNwAw9gcFN9EUoBIi5H2NC6YGJ6odDEyHr-wguGf3bs)

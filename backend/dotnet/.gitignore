@@ -1,0 +1,14 @@
+# VSCode
+.vscode
+
+# Build results`
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+.DS_Store

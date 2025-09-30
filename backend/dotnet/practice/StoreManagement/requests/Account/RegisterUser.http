@@ -1,0 +1,64 @@
+### User Register - Example
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+    "name": "xx",
+    "email": "xx",
+    "password": "xx",
+    "confirmpassword": "xx"
+}
+
+### Success - register
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+test1@asnet.com.vn",
+  "password": "abcABC@123"
+}
+
+### Register user - user exists - 409
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "xi",
+  "email": "user@gmail.com",
+  "password": "abcABC@123",
+  "confirmPassword": "abcABC@123"
+}
+
+
+### wrong format email - 400
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "xi",
+  "email": "admingmail.com",
+  "password": "abcABC@123",
+  "confirmPassword": "abcABC@123"
+}
+
+### register user - password mismatch - 400
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "xi",
+  "email": "adminxx@gmail.com",
+  "password": "abcABC@123",
+  "confirmPassword": "abcABC@1234"
+}
+
+### register user - password bad format - 400
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "name": "xi",
+  "email": "adminxx@gmail.com",
+  "password": "123",
+  "confirmPassword": "123"
+}

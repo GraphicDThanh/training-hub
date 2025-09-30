@@ -1,0 +1,51 @@
+### Update product - admin - 200
+PUT {{host}}{{route}}/products/{{productId}}
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+  "name": "Product 1 update May 14",
+  "description": "",
+  "quantity": 23,
+  "price": 11.00,
+  "imageUrl": "http://product3.com"
+}
+
+### Update product - user - 403 - no permission
+PUT {{host}}{{route}}/products/{{productId}}
+Content-Type: application/json
+Authorization: {{userToken}}
+
+{
+    "name": "Product 1 update",
+    "price": 1,
+    "imageUrl": "com",
+    "quantity": 23
+}
+
+
+### Update product (not found) - admin - 404
+PUT {{host}}{{route}}/products/{{productIdNotFound}}
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "name": "Product 1 update",
+    "price": 11,
+    "imageUrl": "http://product3.com",
+    "quantity": 23
+}
+
+
+### Update product - admin - 400 - invalid data
+PUT {{host}}{{route}}/products/{{productId}}
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "name": "Product 1 update",
+    "price": -1,
+    "imageUrl": "com",
+    "quantity": 23
+}
+

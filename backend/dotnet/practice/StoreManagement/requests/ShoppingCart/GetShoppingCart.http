@@ -1,0 +1,5 @@
+GET {{host}}{{route}}/shopping-carts/{shoppingCartId}
+Content-Type: application/json
+Authorization: {{userToken}}
+
+

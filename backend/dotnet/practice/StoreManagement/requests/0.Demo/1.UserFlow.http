@@ -1,0 +1,121 @@
+// --- Anonymous user ---
+
+// Get products list
+GET {{host}}{{route}}/products
+
+// - pagination
+###
+GET {{host}}{{route}}/products?page=1&pageSize=10
+
+// - orderBy, filter
+###
+GET {{host}}{{route}}/products?page=1&size=10&orderBy=quantity&searchTerm=0
+
+
+// Get product detail
+###
+GET {{host}}{{route}}/products/{{productId}}
+
+
+// Get list orders - not permission
+###
+GET {{host}}{{route}}/orders
+
+
+// Register
+###
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+jun4.1@asnet.com.vn",
+  "password": "abcABC@123"
+}
+
+// Confirm email
+
+// Login
+###
+POST {{host}}{{route}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+jun4.1@asnet.com.vn",
+  "password": "abcABC@123"
+}
+// --- Anonymous user ---
+
+// --- Authenticated user ---
+// Get user info
+###
+GET {{host}}{{route}}/users/{{userId}}
+Authorization: {{userToken}}
+
+// Create shopping cart
+###
+POST {{host}}{{route}}/shopping-carts/
+Authorization: {{userToken}}
+Content-Type: application/json
+
+{
+  "userId": {{userId}}
+}
+
+// Get shopping cart
+###
+GET {{host}}{{route}}/shopping-carts/{{shoppingCartId}}
+Authorization: {{userToken}}
+Content-Type: application/json
+
+
+// Update products in shopping cart
+// - Get products list
+###
+GET {{host}}{{route}}/products
+
+
+###
+PUT {{host}}{{route}}/shopping-carts/{{shoppingCartId}}
+Authorization: {{userToken}}
+Content-Type: application/json
+
+{
+  "cartItems": [
+    {
+      "productId": "6a8a7538-452b-4722-974d-8e1ab30104ad",
+      "quantity": 1
+    }
+  ]
+}
+
+// Order shopping cart
+###
+POST {{host}}{{route}}/shopping-carts/{{shoppingCartId}}/order
+Authorization: {{userToken}}
+Content-Type: application/json
+
+// Get email order confirmation
+
+// Get orders list
+###
+GET {{host}}{{route}}/orders/?userId={{userId}}
+Content-Type: application/json
+Authorization: {{userToken}}
+
+// Get order detail
+###
+GET {{host}}{{route}}/orders/{{orderId}}
+Content-Type: application/json
+Authorization: {{userToken}}
+
+
+// --- Test fail 500 - Register ---
+// - email service missing sender -> update in env
+###
+POST {{host}}{{route}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "thanh.nguyen+jun3.3@asnet.com.vn",
+  "password": "abcABC@123"
+}

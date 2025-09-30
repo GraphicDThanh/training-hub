@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{2EDE7C8E-2906-48B9-B237-1651A272A1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Csharp12InANutShells", "Csharp12InANutShells", "{9158E39C-DC50-487E-AF5F-D8F980941E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C13Diagnostics", "csharp\Csharp12InANutShells\C13Diagnostics\C13Diagnostics.csproj", "{0A628D11-4BBA-4E19-B3D9-14222CDD2B04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A628D11-4BBA-4E19-B3D9-14222CDD2B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A628D11-4BBA-4E19-B3D9-14222CDD2B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A628D11-4BBA-4E19-B3D9-14222CDD2B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A628D11-4BBA-4E19-B3D9-14222CDD2B04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9158E39C-DC50-487E-AF5F-D8F980941E74} = {2EDE7C8E-2906-48B9-B237-1651A272A1EF}
+		{0A628D11-4BBA-4E19-B3D9-14222CDD2B04} = {9158E39C-DC50-487E-AF5F-D8F980941E74}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,57 @@
+
+### Set admin role to user - success - 200
+### - admin user request
+POST {{host}}{{route}}/users/set-role/
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "email": "user@gmail.com",
+    "roleName": "User"
+}
+
+
+### Set admin role to user - fail - 403
+### - normal user request
+POST {{host}}{{route}}/users/set-role/
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "email": "user@gmail.com",
+    "roleName": "User"
+}
+
+### Set admin role (not exist) to user - fail - 404
+### - admin user request
+POST {{host}}{{route}}/users/set-role/
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "email": "user2@gmail.com",
+    "roleName": "Adminx"
+}
+
+### Set admin role to user (wrong email format) - fail - 400
+### - admin user request
+POST {{host}}{{route}}/users/set-role/
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "email": "usexxxgmail.com",
+    "roleName": "Admin"
+}
+
+### Set admin role to user (not exist) - fail - 404
+### - admin user request
+POST {{host}}{{route}}/users/set-role/
+Content-Type: application/json
+Authorization: {{adminToken}}
+
+{
+    "email": "usexxx@gmail.com",
+    "roleName": "Admin"
+}
+
