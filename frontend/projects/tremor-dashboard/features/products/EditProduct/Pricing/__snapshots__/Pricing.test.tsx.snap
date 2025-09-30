@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing PricingInfo component Should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full h-full p-4 bg-white dark:bg-dark-tremor-primary rounded-lg w-[67%] shadow-box-icon-default pricing-info"
+      >
+        <p
+          class="text-tremor-default text-primary dark:text-white font-bold text-xl mb-6"
+        >
+          Pricing
+        </p>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-between items-end"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-start sm:flex-row"
+          >
+            <div
+              class="tremor-Flex-root flex w-full flex-col justify-between items-center"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-between items-center sm:flex-row"
+              >
+                <div
+                  class="w-full min-h-20"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <label
+                      class="text-grey text-sm dark:text-lighter after:content-['*'] after:text-red-500 after:text-md"
+                      for="edit-price"
+                    >
+                      Price
+                    </label>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+                    >
+                      <span
+                        class="absolute top-0 left-0 text-sm min-h-[30px] py-1.5 text-primary dark:text-white"
+                      >
+                        $
+                      </span>
+                      <div
+                        class="w-full"
+                      >
+                        <input
+                          class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 pl-[15px]"
+                          data-testid="edit-price"
+                          id="edit-price"
+                          placeholder="0,00"
+                          type="text"
+                          value="0"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="w-full sm:ml-6 min-h-20"
+                >
+                  <div
+                    class="w-full"
+                  >
+                    <label
+                      class="text-grey text-sm dark:text-lighter"
+                      for="edit-sku"
+                    >
+                      SKU
+                    </label>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+                    >
+                      <div
+                        class="w-full"
+                      >
+                        <input
+                          class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                          data-testid="edit-sku"
+                          id="edit-sku"
+                          name="sku"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full min-h-20"
+              >
+                <label
+                  class="text-gray-500 text-sm dark:text-gray-400"
+                  for="tags"
+                >
+                  Tags
+                </label>
+                <div
+                  class="w-full min-w-[10rem] relative text-tremor-default"
+                >
+                  <select
+                    class="h-full w-full absolute left-0 top-0 z-0 opacity-0"
+                    multiple=""
+                    title="multi-select-hidden"
+                  >
+                    <option
+                      class="hidden"
+                      disabled=""
+                      hidden=""
+                      value=""
+                    >
+                      Select...
+                    </option>
+                    <option
+                      class="hidden"
+                      value="1"
+                    >
+                      Black Friday
+                    </option>
+                    <option
+                      class="hidden"
+                      value="2"
+                    >
+                      Expired
+                    </option>
+                    <option
+                      class="hidden"
+                      value="3"
+                    >
+                      Sale
+                    </option>
+                  </select>
+                  <div
+                    class="w-full min-w-[10rem] relative text-tremor-default select-custom select-multi dark:text-white dark:border-light dark:focus:border-white"
+                    data-headlessui-state=""
+                  >
+                    <button
+                      aria-expanded="false"
+                      aria-haspopup="listbox"
+                      class="w-full outline-none text-left whitespace-nowrap truncate rounded-tremor-default focus:ring-2 transition duration-100 border pr-8 py-1.5 shadow-tremor-input focus:border-tremor-brand-subtle focus:ring-tremor-brand-muted dark:shadow-dark-tremor-input dark:focus:border-dark-tremor-brand-subtle dark:focus:ring-dark-tremor-brand-muted pl-3 bg-tremor-background dark:bg-dark-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border dark:border-dark-tremor-border"
+                      data-headlessui-state=""
+                      id="headlessui-listbox-button-:r0:"
+                      type="button"
+                    >
+                      <div
+                        class="h-6 flex items-center"
+                      >
+                        <span>
+                          Select...
+                        </span>
+                      </div>
+                      <span
+                        class="absolute inset-y-0 right-0 flex items-center mr-2.5"
+                      >
+                        <svg
+                          class="tremor-MultiSelect-arrowDownIcon flex-none h-5 w-5 text-tremor-content-subtle dark:text-dark-tremor-content-subtle"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-full p-4 bg-white dark:bg-dark-tremor-primary rounded-lg w-[67%] shadow-box-icon-default pricing-info"
+    >
+      <p
+        class="text-tremor-default text-primary dark:text-white font-bold text-xl mb-6"
+      >
+        Pricing
+      </p>
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-between items-end"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-between items-start sm:flex-row"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-center"
+          >
+            <div
+              class="tremor-Flex-root flex w-full flex-col justify-between items-center sm:flex-row"
+            >
+              <div
+                class="w-full min-h-20"
+              >
+                <div
+                  class="w-full"
+                >
+                  <label
+                    class="text-grey text-sm dark:text-lighter after:content-['*'] after:text-red-500 after:text-md"
+                    for="edit-price"
+                  >
+                    Price
+                  </label>
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+                  >
+                    <span
+                      class="absolute top-0 left-0 text-sm min-h-[30px] py-1.5 text-primary dark:text-white"
+                    >
+                      $
+                    </span>
+                    <div
+                      class="w-full"
+                    >
+                      <input
+                        class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 pl-[15px]"
+                        data-testid="edit-price"
+                        id="edit-price"
+                        placeholder="0,00"
+                        type="text"
+                        value="0"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="w-full sm:ml-6 min-h-20"
+              >
+                <div
+                  class="w-full"
+                >
+                  <label
+                    class="text-grey text-sm dark:text-lighter"
+                    for="edit-sku"
+                  >
+                    SKU
+                  </label>
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+                  >
+                    <div
+                      class="w-full"
+                    >
+                      <input
+                        class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                        data-testid="edit-sku"
+                        id="edit-sku"
+                        name="sku"
+                        type="text"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-full min-h-20"
+            >
+              <label
+                class="text-gray-500 text-sm dark:text-gray-400"
+                for="tags"
+              >
+                Tags
+              </label>
+              <div
+                class="w-full min-w-[10rem] relative text-tremor-default"
+              >
+                <select
+                  class="h-full w-full absolute left-0 top-0 z-0 opacity-0"
+                  multiple=""
+                  title="multi-select-hidden"
+                >
+                  <option
+                    class="hidden"
+                    disabled=""
+                    hidden=""
+                    value=""
+                  >
+                    Select...
+                  </option>
+                  <option
+                    class="hidden"
+                    value="1"
+                  >
+                    Black Friday
+                  </option>
+                  <option
+                    class="hidden"
+                    value="2"
+                  >
+                    Expired
+                  </option>
+                  <option
+                    class="hidden"
+                    value="3"
+                  >
+                    Sale
+                  </option>
+                </select>
+                <div
+                  class="w-full min-w-[10rem] relative text-tremor-default select-custom select-multi dark:text-white dark:border-light dark:focus:border-white"
+                  data-headlessui-state=""
+                >
+                  <button
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    class="w-full outline-none text-left whitespace-nowrap truncate rounded-tremor-default focus:ring-2 transition duration-100 border pr-8 py-1.5 shadow-tremor-input focus:border-tremor-brand-subtle focus:ring-tremor-brand-muted dark:shadow-dark-tremor-input dark:focus:border-dark-tremor-brand-subtle dark:focus:ring-dark-tremor-brand-muted pl-3 bg-tremor-background dark:bg-dark-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border dark:border-dark-tremor-border"
+                    data-headlessui-state=""
+                    id="headlessui-listbox-button-:r0:"
+                    type="button"
+                  >
+                    <div
+                      class="h-6 flex items-center"
+                    >
+                      <span>
+                        Select...
+                      </span>
+                    </div>
+                    <span
+                      class="absolute inset-y-0 right-0 flex items-center mr-2.5"
+                    >
+                      <svg
+                        class="tremor-MultiSelect-arrowDownIcon flex-none h-5 w-5 text-tremor-content-subtle dark:text-dark-tremor-content-subtle"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

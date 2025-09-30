@@ -1,0 +1,60 @@
+.bg-billing-card {
+  @apply bg-[url(https://demos.creative-tim.com/nextjs-material-dashboard-pro//\_next/static/media/pattern-tree.5f0101e0.svg)];
+}
+
+.print-logo {
+  @apply hidden;
+}
+
+#createTransactionForm ul[role="listbox"] {
+  @apply max-h-[180px]
+}
+
+#createTransactionForm .tremor-SearchSelectItem-root {
+  @apply border-none
+}
+
+#createTransactionForm input[role="combobox"] {
+  @apply !bg-transparent rounded-none border-0 !border-b-gray-300 border-b-[2px] border-solid shadow-transparent py-1.5 shadow-none pl-0;
+}
+
+#createTransactionForm input[role="combobox"]:focus {
+  @apply ring-0
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  body,
+  html {
+    @apply h-full p-0;
+  }
+
+  .sidebar {
+    @apply hidden;
+  }
+
+  .print-invoice,
+  .print-content {
+    @apply hidden;
+  }
+
+  .print-footer {
+    @apply max-w-[400px];
+  }
+
+  .print-layout {
+    @apply w-full m-0 p-0;
+  }
+
+  .print-logo {
+    @apply block w-20 h-20;
+  }
+
+  .browser-logo {
+    @apply hidden;
+  }
+}

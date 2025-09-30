@@ -1,0 +1,375 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions Component Testing should match snapshot 1`] = `
+<div>
+  <div
+    class="p-4 bg-white dark:bg-dark-tremor-primary rounded-lg shadow-md"
+  >
+    <div
+      class="flex justify-between"
+    >
+      <div
+        class="flex gap-4"
+      >
+        <h3
+          class="text-sm xs:text-base text-primary font-semibold capitalize dark:text-white tracking-[0.12px]"
+        >
+          Your Transaction's
+        </h3>
+        <button
+          aria-label="Add New Transaction Button"
+          class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis bg-transparent hover:bg-transparent border-none p-0 dark:bg-transparent dark:hover:bg-transparent btn-create"
+          data-testid="openTransactionModal"
+        >
+          <span
+            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+          >
+            <svg
+              class="text-primary w-5 h-4 dark:text-white"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm80 224h-64v64a16 16 0 01-32 0v-64h-64a16 16 0 010-32h64v-64a16 16 0 0132 0v64h64a16 16 0 010 32z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="flex items-center text-secondary"
+        data-testid="date"
+      >
+        <svg
+          class="dark:text-lighter"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 448 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"
+          />
+        </svg>
+        <p
+          class="text-tremor-default text-tertiary dark:text-dark-romance ml-2"
+        >
+          23 - 30 March 2020
+        </p>
+      </div>
+    </div>
+    <b
+      class="font-semibold text-xs my-6 text-tertiary dark:text-dark-romance"
+    >
+      NEWEST
+    </b>
+    <ul
+      class="overflow-y-auto max-h-[492px] dark:max-h-[420px] pr-2 sm:pr-3"
+      tabindex="0"
+    >
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-attention dark:text-attention dark:hover:text-attention border-attention"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Netflix
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:50 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-blood dark:text-pink"
+        >
+          -$2,500.00
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-few dark:text-few dark:hove:text-few border-few"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Apple
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:50 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-greener dark:text-few"
+        >
+          +$2,000.00
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-few dark:text-few dark:hove:text-few border-few"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Stripe
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:51 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-greener dark:text-few"
+        >
+          +$750.00
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-few dark:text-few dark:hove:text-few border-few"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              HubSpot
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Jan 5, 2024 9:51 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-greener dark:text-few"
+        >
+          +$1,000.00
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-few dark:text-few dark:hove:text-few border-few"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Creative Tim
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:52 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-greener dark:text-few"
+        >
+          +$2,500.00
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-primary dark:text-primary dark:hover:text-primary border-primary"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.005 3.1a1 1 0 1 1 1.99 0l-.388 6.35a.61.61 0 0 1-1.214 0L7.005 3.1ZM7 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Webflow
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:52 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-primary dark:text-dark-tremor-content-pending"
+        >
+          Pending
+        </p>
+      </li>
+      <li
+        class="flex py-4 justify-between items-center"
+      >
+        <div
+          class="flex gap-2 sm:gap-4 items-center"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center shrink-0 w-9 h-9 border rounded-full text-few dark:text-few dark:hove:text-few border-few"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"
+              />
+            </svg>
+          </div>
+          <div>
+            <b
+              class="text-sm font-semibold text-primary dark:text-white mb-1"
+            >
+              Momo
+            </b>
+            <p
+              class="text-tremor-default text-xs text-tertiary dark:text-dark-romance"
+            >
+              Feb 5, 2024 9:52 AM
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-tremor-default font-semibold text-greener dark:text-few"
+        >
+          +$90.00
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

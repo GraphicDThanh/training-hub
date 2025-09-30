@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Match snapshot 1`] = `
+<div>
+  <ul
+    class="flex dark:bg-dark-tremor-primary border-solid shadow-box-icon-default rounded-xl w-500 bg-white p-4 flex-col"
+    data-testid="list-navigation"
+  >
+    <li
+      class="px-4 py-2.5 hover:bg-select rounded-tremor-small dark:text-white dark:hover:bg-slate-600"
+    >
+      <a
+        href="#profile"
+      >
+        <div
+          class="flex gap-6"
+        >
+          <svg
+            class="text-primary dark:text-white dark!:hover:text-black"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 256a112 112 0 10-112-112 112 112 0 00112 112zm0 32c-69.42 0-208 42.88-208 128v64h416v-64c0-85.12-138.58-128-208-128z"
+            />
+          </svg>
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content capitalize font-primary text-primary"
+          >
+            profile
+          </p>
+        </div>
+      </a>
+    </li>
+    <li
+      class="px-4 py-2.5 hover:bg-select rounded-tremor-small dark:text-white dark:hover:bg-slate-600"
+    >
+      <a
+        href="#basicInfo"
+      >
+        <div
+          class="flex gap-6"
+        >
+          <svg
+            class="text-primary dark:text-white dark!:hover:text-black"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M160 336V48l32 16 32-16 31.94 16 32.37-16L320 64l31.79-16 31.93 16L416 48l32.01 16L480 48v224"
+              fill="none"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              d="M480 272v112a80 80 0 01-80 80h0a80 80 0 01-80-80v-48H48a15.86 15.86 0 00-16 16c0 64 6.74 112 80 112h288"
+              fill="none"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              d="M224 144h192m-128 80h128"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content capitalize font-primary text-primary"
+          >
+            basic info
+          </p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Navigation renders horizontally with isRow prop is true 1`] = `
+<div>
+  <ul
+    class="flex dark:bg-dark-tremor-primary border-solid shadow-box-icon-default rounded-xl w-500 bg-white p-4"
+    data-testid="list-navigation"
+  >
+    <li
+      class="px-4 py-2.5 hover:bg-select rounded-tremor-small dark:text-white dark:hover:bg-slate-600"
+    >
+      <a
+        href="#profile"
+      >
+        <div
+          class="flex gap-6"
+        >
+          <svg
+            class="text-primary dark:text-white dark!:hover:text-black"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 256a112 112 0 10-112-112 112 112 0 00112 112zm0 32c-69.42 0-208 42.88-208 128v64h416v-64c0-85.12-138.58-128-208-128z"
+            />
+          </svg>
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content capitalize font-primary text-primary"
+          >
+            profile
+          </p>
+        </div>
+      </a>
+    </li>
+    <li
+      class="px-4 py-2.5 hover:bg-select rounded-tremor-small dark:text-white dark:hover:bg-slate-600"
+    >
+      <a
+        href="#basicInfo"
+      >
+        <div
+          class="flex gap-6"
+        >
+          <svg
+            class="text-primary dark:text-white dark!:hover:text-black"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M160 336V48l32 16 32-16 31.94 16 32.37-16L320 64l31.79-16 31.93 16L416 48l32.01 16L480 48v224"
+              fill="none"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              d="M480 272v112a80 80 0 01-80 80h0a80 80 0 01-80-80v-48H48a15.86 15.86 0 00-16 16c0 64 6.74 112 80 112h288"
+              fill="none"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+            <path
+              d="M224 144h192m-128 80h128"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content capitalize font-primary text-primary"
+          >
+            basic info
+          </p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+`;

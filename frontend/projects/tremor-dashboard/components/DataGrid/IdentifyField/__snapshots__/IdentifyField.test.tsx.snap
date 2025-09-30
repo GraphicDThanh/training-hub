@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IdentifyField component should render snapshot correctly 1`] = `
+<div>
+  <div
+    class="flex justify-start items-center w-16"
+  >
+    <a
+      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+      href="/products/1"
+    >
+      #
+      1
+    </a>
+  </div>
+</div>
+`;

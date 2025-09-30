@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Filter component Match Snapshot 1`] = `
+<div>
+  <div
+    class="absolute z-10 right-0 top-0"
+  >
+    <div
+      class="w-fit p-2 rounded-md dark:bg-transparent max-w-[220px]"
+      data-testid="list-option"
+    >
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center items-center group outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm box-shadow-transparent uppercase float-end py-[9px] px-[26px] font-bold bg-transparent border-primary hover:text-light dark:hover:text-light focus:border-primary hover:border-primary text-primary focus:text-white dark:text-white hover:bg-transparent focus:bg-primary rounded-lg dark:border-primary dark:bg-transparent dark:hover:border-primary dark:hover:bg-transparent dark:focus:bg-dark-secondary"
+        data-testid="toggle-select"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          Filters
+        </span>
+        <svg
+          class="tremor-Button-icon shrink-0 h-5 w-5 -mr-1 ml-1.5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"
+          />
+        </svg>
+      </button>
+      <ul
+        class="float-end shadow-tremor-cardImage dark:shadow-select-option p-2 bg-secondary dark:bg-dark-tremor-primary w-[176px] rounded-md"
+      >
+        <li>
+          <button
+            class="tremor-Button-root shrink-0 inline-flex items-center group font-medium outline-none text-sm w-full justify-start px-4 py-[0.3rem] my-[2px] text-tremor-default cursor-pointer text-primary hover:text-secondary hover:bg-select hover:rounded-md min-h-[auto] dark:hover:bg-primary dark:text-white dark:hover:text-lighter rounded-md bg-transparent"
+            data-testid="select-item-0"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              Is Available: Paid
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            class="tremor-Button-root shrink-0 inline-flex items-center group font-medium outline-none text-sm w-full justify-start px-4 py-[0.3rem] my-[2px] text-tremor-default cursor-pointer text-primary hover:text-secondary hover:bg-select hover:rounded-md min-h-[auto] dark:hover:bg-primary dark:text-white dark:hover:text-lighter rounded-md bg-transparent"
+            data-testid="select-item-1"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              Is Available: Refunded
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            class="tremor-Button-root shrink-0 inline-flex items-center group font-medium outline-none text-sm w-full justify-start px-4 py-[0.3rem] my-[2px] text-tremor-default cursor-pointer text-primary hover:text-secondary hover:bg-select hover:rounded-md min-h-[auto] dark:hover:bg-primary dark:text-white dark:hover:text-lighter rounded-md bg-transparent"
+            data-testid="select-item-2"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              Is Available: Canceled
+            </span>
+          </button>
+        </li>
+        <li>
+          <div
+            class="h-px bg-gradient-select my-2 opacity-25 dark:bg-gradient-divider"
+          />
+          <button
+            class="tremor-Button-root shrink-0 inline-flex items-center group font-medium outline-none text-sm bg-transparent w-full text-tremor-default hover:text-attention justify-start text-attention dark:text-attention dark:hover:text-attention px-4 py-[0.3rem] hover:bg-select hover:rounded-md min-h-[auto] dark:hover:bg-primary text-left rounded-md opacity-100 cursor-default"
+            data-testid="remove-filter"
+            disabled=""
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              Remove Filter
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

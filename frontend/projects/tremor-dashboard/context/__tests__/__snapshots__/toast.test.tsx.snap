@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Session Context Should match snapshot open toast and show content message on toast 1`] = `
+<div>
+  <div>
+    Test Toast Context
+    <button>
+      Open Toast
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoiceFooter Testing should match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex w-full flex-col justify-between items-start md:items-end md:flex-row mt-10 md:mt-20 invoice print:mt-10"
+  >
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-between items-start print-footer md:max-w-[40%]"
+    >
+      <p
+        class="text-tremor-default text-primary dark:text-white text-xl font-semibold leading-7 print:text-primary dark:print:!text-primary"
+      >
+        Thank you!
+      </p>
+      <p
+        class="text-tremor-default dark:text-dark-romance font-light text-tertiary leading-5 my-2 print:text-greyer dark:print:text-greyer"
+      >
+        If you encounter any issues related to the invoice you can contact us at:
+      </p>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center gap-1"
+      >
+        <p
+          class="text-tremor-default dark:text-dark-romance font-light text-tertiary leading-5 my-2 print:text-greyer dark:print:text-greyer"
+        >
+          email:
+           
+        </p>
+        <p
+          class="dark:text-dark-romance text-sm font-light text-tertiary leading-5 print:text-greyer dark:print:text-greyer"
+        >
+          <a
+            href="mailto:support@tremor-dashboard.com"
+          >
+            support@tremor-dashboard.com
+          </a>
+        </p>
+      </div>
+    </div>
+    <button
+      class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis rounded-lg bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover py-3 px-6 mt-6 md:mt-0 border-none dark:text-white print:hidden"
+    >
+      <span
+        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+      >
+        <p
+          class="text-tremor-default uppercase font-bold text-xs text-white dark:text-white tracking-wide"
+        >
+          print
+        </p>
+      </span>
+    </button>
+  </div>
+</div>
+`;

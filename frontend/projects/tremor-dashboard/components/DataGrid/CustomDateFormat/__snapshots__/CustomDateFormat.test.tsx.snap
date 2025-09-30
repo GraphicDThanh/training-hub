@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomDateFormat component should render snapshot correctly 1`] = `
+<div>
+  <p
+    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+  >
+    Nov 1, 2001 11:20 AM
+  </p>
+</div>
+`;

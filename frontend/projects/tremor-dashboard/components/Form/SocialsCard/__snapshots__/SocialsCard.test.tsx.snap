@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialsCard Component Should match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary ring-0 p-4"
+  >
+    <p
+      class="text-tremor-title mb-6 font-primary font-bold text-primary dark:text-dark-primary text-xl leading-snug capitalize"
+    >
+      Socials
+    </p>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="shopifyUrl"
+          >
+            Shopify Handle
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="shopifyUrl"
+                name="shopifyUrl"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="facebookUrl"
+          >
+            Facebook Account
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="facebookUrl"
+                name="facebookUrl"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="instagramUrl"
+          >
+            Instagram Account
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="instagramUrl"
+                name="instagramUrl"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

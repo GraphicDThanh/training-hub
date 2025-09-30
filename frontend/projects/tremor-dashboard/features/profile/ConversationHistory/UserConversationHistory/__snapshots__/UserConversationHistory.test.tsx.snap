@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserConversationHistory Should render correctly 1`] = `
+<div>
+  <div
+    as="li"
+    class="tremor-Flex-root flex w-full flex-row justify-between items-center mb-2 py-2 xs:flex-nowrap max-w-[100%]"
+  >
+    <div
+      class="tremor-Flex-root flex flex-row justify-start items-center w-[calc(100%-40px)] sm:w-[calc(100%-70px)]"
+    >
+      <div
+        after-dynamic-value="user2"
+        class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[48px] h-[48px] min-w-[48px]"
+      >
+        <img
+          alt="user2"
+          class="object-cover w-[48px] h-[48px] min-w-[48px]"
+          data-nimg="1"
+          decoding="async"
+          fetchpriority="high"
+          height="48"
+          src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=96&q=75"
+          srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=96&q=75 2x"
+          style="color: transparent;"
+          width="48"
+        />
+      </div>
+      <div
+        class="max-w-[calc(100%-40px)] sm:max-w-[calc(100%-70px)] font-medium dark:text-white pl-4"
+      >
+        <p
+          class="text-tremor-default text-sm text-primary dark:text-dark-primary font-semibold"
+        >
+          user2
+        </p>
+        <p
+          class="text-tremor-default text-xs text-tertiary font-light dark:text-dark-romance line-clamp-2 break-all"
+        >
+          Yes. I will check it now
+        </p>
+      </div>
+    </div>
+    <button
+      class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis min-w-[64px] m-0 border-0 hover:bg-[none] bg-transparent dark:bg-transparent dark:hover:bg-[none] box-shadow-transparent"
+      data-testid="conversation-reply-btn"
+    >
+      <span
+        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+      >
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content text-primary text-xs text-center font-bold uppercase leading-[17px] tracking-wide"
+        >
+          Reply
+        </p>
+      </span>
+    </button>
+  </div>
+</div>
+`;

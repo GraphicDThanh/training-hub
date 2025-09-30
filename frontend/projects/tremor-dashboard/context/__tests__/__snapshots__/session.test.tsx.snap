@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Session Context Should match snapshot in case set session none user 1`] = `
+<div>
+  <span />
+</div>
+`;
+
+exports[`Test Session Context Should match snapshot in case set session with user 1`] = `
+<div>
+  <span>
+    Admin
+  </span>
+</div>
+`;

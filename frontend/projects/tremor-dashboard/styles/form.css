@@ -1,0 +1,253 @@
+.select-custom button {
+  @apply !bg-transparent rounded-none border-0 !border-b-gray-300 border-b-[2px] border-solid shadow-transparent py-1.5;
+}
+
+.select-custom button:hover {
+  @apply bg-transparent shadow-transparent;
+}
+
+.select-custom button:focus {
+  @apply !border-b-[2px];
+}
+
+.select-custom button.border-tremor-border {
+  @apply !border-b-gray-300;
+}
+
+.dark .select-custom button {
+  @apply !border-b-gray-600;
+}
+
+.dark .select-custom button:focus {
+  @apply !border-b-gray-500;
+}
+
+.select-custom button span {
+  @apply dark:text-lighter;
+}
+
+.select-custom li,
+.select-custom svg {
+  @apply cursor-pointer;
+}
+
+.select-custom ul {
+  @apply border-0 shadow-xl p-2;
+}
+
+.select-custom ul div {
+  @apply rounded-md text-secondary;
+}
+
+.dark .select-custom ul div {
+  @apply text-white;
+}
+
+.select-custom > button > div > div {
+  @apply ml-0;
+}
+
+.select-custom button div div div {
+  @apply px-1 rounded-full bg-gray-100 text-white bg-grayLight;
+}
+
+.dark .select-custom button div div div div {
+  @apply bg-transparent;
+}
+
+.select-custom.select-multi button > div {
+  @apply h-auto;
+}
+
+.select-custom.select-multi button > div > div {
+  @apply overflow-x-visible overflow-y-scroll flex-wrap max-h-[60px];
+}
+
+.select-custom.select-multi button > div > div > div {
+  @apply mb-[4px];
+}
+
+.select-custom button div div div div svg {
+  @apply w-2.5 h-2.5 ml-0.5 rounded-full bg-white text-black;
+}
+
+.dark .select-custom button div div div div svg {
+  @apply text-black;
+}
+
+.select-custom button span {
+  @apply text-grey;
+}
+
+.select-custom ul li {
+  @apply px-4 py-2 border-0 text-secondary;
+}
+
+.select-custom ul li[data-headlessui-state="active"] {
+  @apply rounded-md bg-gray-50 text-primary;
+}
+
+.select-custom ul li[data-headlessui-state="active selected"] {
+  @apply rounded-md bg-gray-100 text-primary;
+}
+
+.dark .select-custom ul li[data-headlessui-state="active"] {
+  @apply text-lighter;
+}
+
+.dark .select-custom ul li[data-headlessui-state="active"] {
+  @apply rounded-md bg-dark-tremor-primary;
+}
+
+.dark .select-custom ul li[data-headlessui-state="active selected"] {
+  @apply bg-dark-gradient-primary text-lighter;
+}
+
+.divide-tremor-border > :not([hidden]) ~ :not([hidden]),
+:is(.dark .dark\:divide-dark-tremor-border) > :not([hidden]) ~ :not([hidden]) {
+  @apply border-transparent;
+}
+
+.select-custom button + button {
+  @apply border-0 hidden;
+}
+
+.select-custom[data-headlessui-state="open"] button + button {
+  @apply inline top-0 pl-6;
+}
+
+.select-custom button:focus {
+  @apply bg-transparent rounded-none border-0 border-b !border-b-[#344767] shadow-none outline-none ring-0;
+}
+
+.ql-container.ql-snow {
+  @apply rounded-b-md h-[350px] border-[#d2d6da];
+}
+
+.ql-toolbar.ql-snow {
+  @apply rounded-t-md border-[#d2d6da];
+}
+
+.dark .ql-formats span,
+.dark .select-custom svg,
+.dark .ql-editor.ql-blank::before {
+  @apply text-white;
+}
+
+.dark .ql-snow .ql-stroke {
+  stroke: white;
+}
+
+.ql-editor {
+  @apply text-base;
+}
+
+.dark button .text-tremor-content-emphasis {
+  @apply bg-[#1a2035];
+}
+
+form input.text-tremor-default,
+form button.text-tremor-content,
+form button.text-tremor-content-emphasis,
+form button.text-tremor-content-subtle {
+  @apply pl-0;
+}
+
+form.product-info :is(.dark .dark\:shadow-dark-tremor-input):hover,
+form.pricing-info :is(.dark .dark\:shadow-dark-tremor-input):hover,
+form.user-info :is(.dark .dark\:shadow-dark-tremor-input):hover {
+  @apply bg-transparent;
+}
+
+form.sign-in input.text-tremor-default,
+form.sign-up input.text-tremor-default,
+form.user-info input.text-tremor-default {
+  @apply placeholder:text-greyer dark:placeholder:text-greyish;
+}
+
+form.sign-in :is(.dark .dark\:shadow-dark-tremor-input),
+form.sign-up :is(.dark .dark\:shadow-dark-tremor-input) {
+  @apply shadow-[rgba(52,71,103,0.15)_0rem_0.1875rem_0.1875rem_0rem,rgba(52,71,103,0.2)_0rem_0.1875rem_0.0625rem_-0.125rem,rgba(52,71,103,0.15)_0rem_0.0625rem_0.3125rem_0rem];
+}
+
+input:-webkit-autofill {
+  @apply bg-clip-text;
+}
+
+.dark input:-webkit-autofill {
+  -webkit-text-fill-color: white;
+}
+
+.ql-container > .ql-editor {
+  @apply text-sm text-primary dark:text-white;
+}
+
+.quill > .ql-container,
+.ql-container > .ql-editor {
+  @apply h-[200px] sm:h-[300px];
+}
+
+.ql-container > .ql-editor > p > span {
+  @apply !text-primary dark:!text-white;
+}
+
+@media only screen and (min-width: 1728px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[366px];
+  }
+}
+
+@media (min-width: 1296) and (max-width: 1727px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[332px];
+  }
+}
+
+@media (min-width: 1280) and (max-width: 1295px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[308px];
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 1279px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[332px];
+  }
+}
+
+@media (min-width: 908px) and (max-width: 1025px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[308px];
+  }
+}
+
+@media (min-width: 816px) and (max-width: 907px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[274px];
+  }
+}
+
+@media (min-width: 768px) and (max-width: 815px) {
+  .quill > .ql-container,
+  .ql-container > .ql-editor {
+    @apply h-[240px];
+  }
+}
+
+.edit-user .quill > .ql-container,
+.edit-user .ql-container > .ql-editor {
+  @apply h-[334px];
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .edit-user .quill > .ql-container,
+  .edit-user .ql-container > .ql-editor {
+    @apply h-[300px];
+  }
+}

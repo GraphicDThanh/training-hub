@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media component Should match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center justify-center h-[calc(100%-32px)] w-full"
+  >
+    <label
+      class="flex flex-col items-center justify-center w-full h-full border border-gray-300 rounded-lg hover:cursor-pointer"
+      data-testid="drag-file"
+    >
+      <div
+        class="flex flex-col items-center justify-center pt-5 pb-6 mx-2"
+      >
+        <p
+          class="text-tremor-default text-center text-gray-500 dark:text-gray-400"
+        >
+          Drag and drop your file here to begin uploading.
+        </p>
+        <p
+          class="text-tremor-default text-xs text-yellow-700 dark:text-yellow-500 mt-2 px-2 text-center"
+        >
+          (We accept .png, .jpg, .jpeg, and .webp files, up to 32MB in size.)
+        </p>
+      </div>
+      <input
+        accept="image/*"
+        class="hidden"
+        data-testid="dropzone-file"
+        id="dropzone-file"
+        type="file"
+      />
+    </label>
+  </div>
+</div>
+`;

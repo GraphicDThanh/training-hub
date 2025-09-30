@@ -1,0 +1,16 @@
+.project-form .tremor-Icon-icon {
+  @apply dark:text-white text-black;
+}
+
+form.product-info :is(.dark .dark\:shadow-dark-tremor-input):hover,
+form.pricing-info :is(.dark .dark\:shadow-dark-tremor-input):hover {
+  @apply bg-dark-tremor-background-muted !important;
+}
+
+button.text-tremor-content-emphasis {
+  @apply dark:bg-dark-tremor-primary;
+}
+
+button.text-tremor-content-emphasis {
+  @apply dark:border-tremor-brand-subtle;
+}

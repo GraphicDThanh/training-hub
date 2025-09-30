@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMessageList Should render correctly 1`] = `
+<div>
+  <ul
+    class="h-full overflow-auto pt-3"
+    tabindex="0"
+  >
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-8"
+          >
+            Hello Admin
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Hi User
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-8"
+          >
+            Can I help you?
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Currently, I don't create new user
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Please let me know the error
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Not found account
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-8"
+          >
+            And
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-8"
+          >
+            Not Found 404
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Yes. I will check it now
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Thanks
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`ChatMessageList Should render correctly 2`] = `
+<div>
+  <ul
+    class="h-full overflow-auto pt-3"
+    tabindex="0"
+  >
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Hello Admin
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Hi User
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-8"
+          >
+            Can I help you?
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Currently, I don't create new user
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Please let me know the error
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Not found account
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-8"
+          >
+            And
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-8"
+          >
+            Not Found 404
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row-reverse justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-primary text-white ml-0"
+          >
+            Yes. I will check it now
+          </p>
+        </div>
+      </div>
+    </li>
+    <li
+      class="flex flex-col gap-2"
+      role="listitem"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-start items-center p-3 pt-0 gap-3"
+      >
+        <div
+          after-dynamic-value="User 1"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[24px] h-[24px] min-w-[24px]"
+        >
+          <img
+            alt="User 1"
+            class="object-cover w-[24px] h-[24px] min-w-[24px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="24"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+            style="color: transparent;"
+            width="24"
+          />
+        </div>
+        <div
+          class="cursor-pointer"
+        >
+          <p
+            class="text-tremor-default max-w-48 sm:max-w-60 p-3 rounded-3xl break-all bg-greyish text-primary dark:text-primary dark:bg-greyish ml-0"
+          >
+            Thanks
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

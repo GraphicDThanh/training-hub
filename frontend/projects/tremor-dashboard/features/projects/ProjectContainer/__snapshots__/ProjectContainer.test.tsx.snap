@@ -1,0 +1,831 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectContainer match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex w-full flex-row justify-end items-center flex-wrap sm:justify-between mt-4 sm:mt-0"
+  >
+    <div
+      class="antialiased my-8 sm:max-w-[65%]"
+    >
+      <h3
+        class="text-xl text-tremor-content-title dark:text-dark-tremor-content-title font-bold my-2"
+      >
+        Some of Our Awesome Projects
+      </h3>
+      <p
+        class="text-tremor-title text-tertiary dark:text-dark-tremor-content-romance opacity-100 tracking-wide leading-1.6 font-light"
+      >
+        This is the paragraph where you can write more details about your projects. Keep you user engaged by providing meaningful information.
+      </p>
+    </div>
+    <button
+      class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover min-w-[64px] text-center uppercase sm:px-[22px] px-6 py-2.5 rounded-lg border-0"
+      data-testid="add-new-btn"
+    >
+      <span
+        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+      >
+        <p
+          class="text-tremor-default flex items-center uppercase py-[2px] text-xs font-bold text-white dark:text-dark-tremor-content-title tracking-wide"
+        >
+          <svg
+            class="mr-2"
+            fill="currentColor"
+            height="16"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+          Add New
+        </p>
+      </span>
+    </button>
+  </div>
+  <div>
+    <div
+      class="tremor-Flex-root w-full flex-row justify-start items-start flex-wrap grid gap-x-6 gap-y-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+    >
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Slack Bot"
+                  class="object-cover rounded-md "
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=128&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=128&q=75 2x"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Slack Bot
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                If everything I did failed - which it doesn't, I think that it actually succeeds.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Feb 3, 2022
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Premium Support"
+                  class="object-cover rounded-md h-[2.5rem] filter-invert-1"
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="http://localhost/images/image-regular.svg"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Premium Support
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                Pink is obviously a better color. Everyone’s born confident, and everything’s taken away from you.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Nov 22, 2021
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Design Tools"
+                  class="object-cover rounded-md "
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Design Tools
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                Constantly growing. We’re constantly making mistakes from which we learn and improve.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Jun 3, 2020
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Looking Great"
+                  class="object-cover rounded-md "
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Looking Great
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                You have the opportunity to play this game of life you need to appreciate every moment.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Mar 28, 2024
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Developer First"
+                  class="object-cover rounded-md "
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Developer First
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                For standing out. But the time is now to be okay to be the greatest you.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Sep 26, 2022
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="antialiased items-center justify-between pb-1"
+      >
+        <div
+          class="flex items-center relative"
+        >
+          <div
+            class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand dark:bg-dark-tremor-primary mx-auto px-4 py-1 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative mt-[40px] rounded-xl shadow-md"
+          >
+            <div>
+              <div
+                class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+              >
+                <img
+                  alt="Product Development"
+                  class="object-cover rounded-md "
+                  data-nimg="1"
+                  decoding="async"
+                  height="60"
+                  loading="lazy"
+                  src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+                  style="color: transparent;"
+                  width="60"
+                />
+              </div>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center pl-[90px] mb-6 mt-1 relative"
+            >
+              <div
+                class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+              >
+                <h4
+                  class="text-md text-tremor-content-title dark:text-dark-tremor-content-title font-semibold leading-6 line-clamp-2 items-center"
+                >
+                  Product Development
+                </h4>
+                <div>
+                  <div
+                    class="tremor-Flex-root flex flex-row justify-start items-start mt-1 h-[1.5rem] w-[160px] truncate"
+                  >
+                    <div
+                      after-dynamic-value="Avatar 34"
+                      class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    >
+                      <img
+                        alt="Avatar 34"
+                        class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                        data-nimg="1"
+                        decoding="async"
+                        fetchpriority="high"
+                        height="24"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                        style="color: transparent;"
+                        width="24"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tremor-Flex-root flex flex-col justify-end items-center w-auto"
+              >
+                <div
+                  class="tremor-Flex-root flex flex-col justify-between items-center cursor-pointer w-[30px] h-[16px]"
+                  data-testid="toggle-icon"
+                >
+                  <svg
+                    class="text-secondary dark:text-secondary"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 192 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+              >
+                We strive to embrace and drive change in our industry. We are happy to work at such a project.
+              </div>
+            </div>
+            <div
+              class="h-px bg-[linear-gradient(to_right,rgba(52,71,103,0),rgba(52,71,103,0.4),rgba(52,71,103,0))] dark:bg-gradient-divider opacity-25 my-4"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center my-4"
+            >
+              <div>
+                <p
+                  class="text-tremor-default text-primary font-semibold dark:text-dark-tremor-content-title"
+                >
+                  1
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Participants
+                </p>
+              </div>
+              <div
+                class="text-right"
+              >
+                <p
+                  class="text-tremor-default font-semibold text-red-600 dark:text-red-400"
+                >
+                  Jan 16, 2022
+                </p>
+                <p
+                  class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+                >
+                  Due date
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

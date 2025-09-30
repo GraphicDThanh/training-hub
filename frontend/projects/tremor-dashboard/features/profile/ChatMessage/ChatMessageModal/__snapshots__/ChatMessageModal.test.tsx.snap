@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMessageModal Match snapshot 1`] = `
+<div>
+  <div
+    class="fixed bottom-[70px] right-10 sm:right-[70px] rounded-tremor-default overflow-auto z-50 w-[300px] sm:w-[400px] shadow-tremor-chat"
+    data-testid="conversation-modal"
+  >
+    <div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center bg-primary p-3"
+      >
+        <div
+          class="flex gap-3 items-center"
+        >
+          <div
+            after-dynamic-value="User"
+            class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-md w-[24px] h-[24px] min-w-[24px]"
+          >
+            <img
+              alt="User"
+              class="object-cover shadow-md w-[24px] h-[24px] min-w-[24px]"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="24"
+              src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75"
+              srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 2x"
+              style="color: transparent;"
+              width="24"
+            />
+          </div>
+          <p
+            class="font-medium text-tremor-title dark:text-dark-tremor-content-strong text-white"
+          >
+            User
+          </p>
+        </div>
+        <button
+          class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-sm dark:text-dark-tremor-brand-inverted hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis !rounded-full border-secondary dark:border-secondary text-secondary hover:text-secondary hover:opacity-75 hover:bg-transparent box-shadow-transparent bg-transparent border-0 p-0 dark:bg-transparent dark:hover:bg-transparent"
+          data-testid="conversation-close-btn"
+        >
+          <span
+            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+          >
+            <svg
+              class="text-white text-xl"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="h-[400px] sm:h-[500px] bg-white"
+      >
+        <div
+          class="flex items-center h-full"
+        >
+          <div
+            class="tremor-Flex-root flex flex-row justify-center items-center grow w-full"
+            data-testid="loading-page"
+          >
+            <div
+              class="tremor-Flex-root flex flex-col justify-between items-center grow w-full h-full"
+            >
+              <div
+                role="status"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-8 h-8 text-transparent animate-[spin_0.4s_linear_infinite] dark:text-gray-600 fill-river-bed-500 dark:fill-white"
+                  fill="none"
+                  viewBox="0 0 22 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11 3C11 2.44772 11.4477 2 12 2C17.5228 2 22 6.47715 22 12C22 14.7175 20.9147 17.1835 19.1562 18.9849C18.7704 19.3801 18.1373 19.3878 17.7421 19.002C17.3469 18.6162 17.3392 17.983 17.725 17.5879C19.1336 16.1449 20 14.1746 20 12C20 7.58172 16.4183 4 12 4C11.4477 4 11 3.55228 11 3Z"
+                    fill="river-bed-500"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Loading...
+                </span>
+              </div>
+              <h2
+                class="mt-2 text-gray-400"
+              >
+                Loading
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form
+        id="sendMessageForm"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-between items-center gap-3 p-3 bg-greyish dark:bg-primary"
+        >
+          <div
+            class="w-full"
+          >
+            <label
+              class="text-grey text-sm dark:text-lighter"
+              for="message"
+            />
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+            >
+              <div
+                class="w-full"
+              >
+                <input
+                  class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                  data-testid="chat-message-input"
+                  id="message"
+                  placeholder="Type message"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-sm dark:text-dark-tremor-brand-inverted hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis !rounded-full border-secondary dark:border-secondary text-secondary hover:text-secondary hover:opacity-75 hover:bg-transparent box-shadow-transparent bg-transparent border-0 p-0 dark:bg-transparent dark:hover:bg-transparent"
+            data-testid="conversation-sent-btn"
+            type="submit"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              <svg
+                class="text-xl text-primary dark:text-white "
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M435.9 64.9l-367.1 160c-6.5 3.1-6.3 12.4.3 15.3l99.3 56.1c5.9 3.3 13.2 2.6 18.3-1.8l195.8-168.8c1.3-1.1 4.4-3.2 5.6-2 1.3 1.3-.7 4.3-1.8 5.6L216.9 320.1c-4.7 5.3-5.4 13.1-1.6 19.1l64.9 104.1c3.2 6.3 12.3 6.2 15.2-.2L447.2 76c3.3-7.2-4.2-14.5-11.3-11.1z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

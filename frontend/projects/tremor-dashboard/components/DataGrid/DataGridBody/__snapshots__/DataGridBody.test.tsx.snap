@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataGridBody Should matches snapshot 1`] = `
+<div>
+  <table>
+    <tbody
+      class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+    >
+      <tr
+        class="tremor-TableRow-row"
+      >
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            10425
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2023-11-01T10:20:00+00:00
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            1
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            44.9
+          </p>
+        </td>
+      </tr>
+      <tr
+        class="tremor-TableRow-row"
+      >
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            12345
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2023-11-01T03:20:00+00:00
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            140.2
+          </p>
+        </td>
+      </tr>
+      <tr
+        class="tremor-TableRow-row"
+      >
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            12350
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2023-11-01T11:03:00+00:00
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            112.5
+          </p>
+        </td>
+      </tr>
+      <tr
+        class="tremor-TableRow-row"
+      >
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            12356
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2023-11-01T09:20:00+00:00
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            23.9
+          </p>
+        </td>
+      </tr>
+      <tr
+        class="tremor-TableRow-row"
+      >
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            12352
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            2023-11-01T16:05:00+00:00
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            0
+          </p>
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          />
+        </td>
+        <td
+          class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+        >
+          <p
+            class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+          >
+            350
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

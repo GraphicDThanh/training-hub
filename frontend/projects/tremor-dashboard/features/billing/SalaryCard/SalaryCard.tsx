@@ -1,0 +1,109 @@
+"use client";
+
+import { memo, useState } from "react";
+
+//Components
+import { GrPaypal } from "react-icons/gr";
+import { Card, Text, Flex, Button, Divider } from "@tremor/react";
+import { IconBox } from "@/components";
+
+// Icons
+import { MdAccountBalance } from "react-icons/md";
+import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
+
+// Helpers
+import { moneyFormat } from "@/helpers";
+
+// Constants
+import {
+  CURRENCY,
+  AGGREGATION_TYPE,
+  AGGREGATION_DESCRIPTION,
+} from "@/constants";
+
+// Types
+import { SalaryCardData } from "@/types";
+import { TWithPinCode, withPinCode } from "@/hocs/withPinCode";
+
+const SalaryCard = ({
+  type,
+  value,
+  currency = CURRENCY.DOLLAR,
+  onOpenPinCodeModal,
+}: TWithPinCode<SalaryCardData>) => {
+  const [isShowAmount, setIsShowAmount] = useState(false);
+
+  const isSalary = type === AGGREGATION_TYPE.SALARY;
+
+  const description = isSalary
+    ? AGGREGATION_DESCRIPTION.SALARY
+    : AGGREGATION_DESCRIPTION.PAYPAL;
+
+  const icon = isSalary ? (
+    <MdAccountBalance color="white" size="23px" />
+  ) : (
+    <GrPaypal color="white" size="18px" />
+  );
+
+  const toggleShowHideModal = () => {
+    isShowAmount
+      ? setIsShowAmount(false)
+      : onOpenPinCodeModal(() => setIsShowAmount(true));
+  };
+
+  return (
+    <div className="w-full font-primary antialiased items-center justify-between">
+      <div className="flex items-center">
+        <Card className="bg-tremor-primary dark:bg-dark-tremor-primary mx-auto pt-3 pb-4 px-4 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border-none relative rounded-xl shadow-md md:max-h-[236px] md:min-h-[236px]">
+          <Flex flexDirection="col">
+            <IconBox className="bg-gradient-pickled" icon={icon} />
+            <Flex flexDirection="col" className="mt-4">
+              <Text className="mb-1 text-primary dark:text-lighter text-tremor-title leading-[33px] tracking-[0.1764px] font-semibold">
+                {type}
+              </Text>
+              <Flex justifyContent="center" className="min-h-[35px]">
+                <Text className="text-xs text-center dark:text-dark-romance text-primary font-light">
+                  {description}
+                </Text>
+              </Flex>
+            </Flex>
+          </Flex>
+          <Divider className="opacity-25 dark:opacity-15 my-3" />
+          <Flex className="gap-2 min-h-[35px]">
+            {isShowAmount ? (
+              <Flex justifyContent="start">
+                {isSalary && (
+                  <Text className="text-primary text-xl dark:text-lighter font-semibold">
+                    +
+                  </Text>
+                )}
+                <Text className="text-primary !text-lg dark:text-lighter font-semibold truncate max-w-[89px]">
+                  {moneyFormat({
+                    value: value,
+                    currency: currency,
+                  })}
+                </Text>
+              </Flex>
+            ) : (
+              <Text className="text-primary text-xl h-[20px] dark:text-lighter font-semibold min">
+                *****
+              </Text>
+            )}
+            <Button
+              data-testid="btn-eyes"
+              variant="light"
+              icon={isShowAmount ? FaRegEyeSlash : FaRegEye}
+              onClick={toggleShowHideModal}
+              aria-label="Toggle Show Salary Button"
+              className="text-primary hover:text-primary dark:text-lighter dark:hover:text-lighter"
+            />
+          </Flex>
+        </Card>
+      </div>
+    </div>
+  );
+};
+
+const SalaryCardWithPinCode = withPinCode(SalaryCard);
+
+export default memo(SalaryCardWithPinCode);

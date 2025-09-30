@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddUserForm should render successfully in Social Form 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center relative p-4 bg-white dark:bg-dark-tremor-primary rounded-lg shadow-md mx-auto w-full relative"
+  >
+    <ul
+      class="grid grid-cols-3 pt-6 pb-4 bg-zinc-700 dark:stepper-dark-bg shadow-box-icon-primary rounded-lg absolute -translate-y-10 z-10 w-11/12 dark:bg-gradient-pickled undefined"
+      data-testid="stepper"
+    >
+      <li
+        data-testid="step-content-0"
+      >
+        <div
+          class="flex items-center w-full h-4 pl-[50%]"
+        >
+          <span
+            class="stepper-dot-active"
+          />
+          <span
+            class="1234 h-0.5 w-full bg-white"
+          />
+        </div>
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content stepper-text-content text-xs text-white mt-2"
+        >
+          1. User Info
+        </p>
+      </li>
+      <li
+        data-testid="step-content-2"
+      >
+        <div
+          class="flex items-center w-full h-4"
+        >
+          <span
+            class="h-0.5 w-[50%] bg-white"
+          />
+          <span
+            class="stepper-dot-active"
+          />
+          <span
+            class="h-0.5 w-[50%] bg-white"
+          />
+        </div>
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content stepper-text-content mt-2 text-white text-xs"
+        >
+          2. Profile
+        </p>
+      </li>
+      <li
+        data-testid="last-step-content"
+      >
+        <div
+          class="flex items-center w-full h-4"
+        >
+          <span
+            class="h-0.5 w-[50%] bg-white"
+          />
+          <span
+            class="stepper-dot-active"
+          />
+        </div>
+        <p
+          class="stepper-text-content mt-2 text-white"
+        >
+          3. Social
+        </p>
+      </li>
+    </ul>
+    <form
+      class="w-full mt-20"
+      id="social-form"
+    >
+      <h6
+        class="text-primary dark:text-white font-bold text-xl mb-8"
+      >
+        Socials
+      </h6>
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="twitterUrl"
+          >
+            Twitter Handle
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="twitterUrl"
+                name="twitterUrl"
+                type="text"
+                value="twitter.com"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="facebookUrl"
+          >
+            Facebook Account
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="facebookUrl"
+                name="facebookUrl"
+                type="text"
+                value="facebook.com"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="min-h-20 w-full"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="text-grey text-sm dark:text-lighter"
+            for="instagramUrl"
+          >
+            Instagram Account
+          </label>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="w-full"
+            >
+              <input
+                class="block py-1.5 px-0 w-full text-sm text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-gray-500 focus:outline-none focus:ring-0 focus:border-gray-600 peer disabled:cursor-not-allowed disabled:opacity-50 "
+                id="instagramUrl"
+                name="instagramUrl"
+                type="text"
+                value="instagram.com"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center mt-6"
+      >
+        <button
+          class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted border-tremor-brand dark:border-dark-tremor-brand hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis opacity-50 cursor-not-allowed py-3 px-6 rounded-lg border-none bg-gradient-btn-back dark:bg-gradient-btn-back shadow-btn-surface dark:!shadow-btn-surface hover:!shadow-btn-surface-hover dark:hover:!shadow-btn-surface-hover"
+          disabled=""
+        >
+          <span
+            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+          >
+            <p
+              class="text-tremor-default uppercase font-bold text-xs text-gray-900 dark:text-black tracking-wide"
+            >
+              Back
+            </p>
+          </span>
+        </button>
+        <button
+          class="tremor-Button-root shrink-0 inline-flex justify-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand-inverted border-tremor-brand dark:border-dark-tremor-brand hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis opacity-50 cursor-not-allowed rounded-lg py-3 px-6 bg-gradient-primary dark:bg-gradient-pickled hover:dark:!bg-gradient-pickled border-none dark:text-white text-center items-end mt-0"
+          disabled=""
+          type="submit"
+        >
+          <span
+            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+          >
+            <p
+              class="text-tremor-default uppercase font-bold text-xs text-white dark:text-white tracking-wide"
+            >
+              Send
+            </p>
+          </span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invoices Testing should match snapshot 1`] = `
+<div>
+  <div
+    class="py-6 px-4 bg-white dark:bg-dark-tremor-primary rounded-lg shadow-md w-full min-h-[236px]"
+  >
+    <div
+      class="text-primary dark:text-white flex justify-between items-center"
+    >
+      <h3
+        class="font-semibold"
+      >
+        Invoices
+      </h3>
+      <button
+        class="tremor-Button-root shrink-0 justify-center items-center group outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis uppercase font-bold px-4 py-1.5 border border-primary dark:border-white rounded-md tracking-wide hidden"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content text-xs text-primary"
+          >
+            view all
+          </p>
+        </span>
+      </button>
+    </div>
+    <ul
+      class="flex flex-col gap-2 mt-6 lg:block"
+    >
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Mar 21, 2021
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            AR
+            -
+            804322
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/804322"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Apr 22, 2022
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            AR
+            -
+            8908543
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/8908543"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+    </ul>
+    <ul
+      class="flex flex-col gap-2 mt-2 lg:hidden"
+    >
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Mar 21, 2021
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            AR
+            -
+            804322
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/804322"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Apr 22, 2022
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            AR
+            -
+            8908543
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/8908543"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            May 23, 2023
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            MS
+            -
+            415645
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/415645"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Jun 24, 2024
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            QW
+            -
+            103578
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/103578"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+      <li
+        class="w-full flex justify-between py-2 pr-2"
+      >
+        <div>
+          <p
+            class="text-tremor-default font-semibold text-primary dark:text-white"
+          >
+            Jul 25, 2025
+          </p>
+          <p
+            class="text-tremor-default text-xs mt-1 text-tertiary dark:text-dark-romance"
+          >
+            #
+            RV
+            -
+            126749
+          </p>
+        </div>
+        <div
+          class="flex gap-6 items-center"
+        >
+          <p
+            class="text-tremor-default text-tertiary dark:text-dark-romance"
+          >
+            $180.00
+          </p>
+          <a
+            class="flex gap-1 items-center text-primary dark:text-white font-semibold"
+            href="/billing/invoices/126749"
+          >
+            <svg
+              class="text-xl dark:text-lighter"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"
+              />
+            </svg>
+            PDF
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

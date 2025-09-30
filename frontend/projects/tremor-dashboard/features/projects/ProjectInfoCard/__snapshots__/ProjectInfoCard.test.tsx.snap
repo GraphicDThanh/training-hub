@@ -1,0 +1,581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectInfoCard Component render ProjectInfoCard component with snapshot correctly 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root w-full flex-row justify-start items-start flex-wrap grid gap-x-6 gap-y-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+  >
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Slack Bot-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=128&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=128&q=75 2x"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            1
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Slack Bot
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              If everything I did failed - which it doesn't, I think that it actually succeeds.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Premium Support-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="http://localhost/images/image-regular.svg"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            2
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Premium Support
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              Pink is obviously a better color. Everyone’s born confident, and everything’s taken away from you.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-1.cd822dc7.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Design Tools-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            3
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Design Tools
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              Constantly growing. We’re constantly making mistakes from which we learn and improve.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Looking Great-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            4
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Looking Great
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              You have the opportunity to play this game of life you need to appreciate every moment.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Developer First-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            5
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Developer First
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              For standing out. But the time is now to be okay to be the greatest you.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-start"
+    >
+      <div
+        class="tremor-Card-root w-full text-left rounded-tremor-default p-6 bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card dark:bg-dark-tremor-primary mx-auto py-1 pt-[5px] px-4 2xl:px-6 ring-0 max-w-full lg:max-w-[356px] 2xl:max-w-full border border-romance dark:border-grey relative mt-[40px] rounded-xl shadow"
+      >
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row items-center absolute top-[-22px] left-40px w-[74px] h-[74px] p-1 bg-gradient-arsenic justify-center rounded-xl dark:bg-gradient-pickled"
+          >
+            <img
+              alt="Product Development-cover"
+              class="rounded-md"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="60"
+              src="https://demos.creative-tim.com/nextjs-material-dashboard-pro//_next/static/media/logo-asana.587ac859.svg"
+              style="color: transparent;"
+              width="60"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start pb-3 pt-1"
+        >
+          <p
+            class="text-tremor-default text-tremor-content capitalize font-normal dark:text-dark-tremor-content-romance pl-[5.5rem]"
+          >
+            Project #
+            6
+          </p>
+          <h4
+            class="w-full font-semibold text-md capitalize text-primary dark:text-dark-primary pl-[5.5rem] leading-6 line-clamp-2 items-center"
+          >
+            <a
+              href="/projects"
+            >
+              Product Development
+            </a>
+          </h4>
+          <div>
+            <div
+              class="text-sm text-tertiary my-4 font-light dark:text-dark-tremor-content-romance h-[2.8rem] line-clamp-2 [&>*>*]:!text-primary [&>*>*]:dark:!text-white"
+            >
+              We strive to embrace and drive change in our industry. We are happy to work at such a project.
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+          >
+            <a
+              href="/projects"
+            >
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand dark:text-dark-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-faint box-shadow-transparent uppercase font-sans bg-inherit hover:bg-transparent hover:opacity-75 py-[7px] px-4"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default font-bold text-seldom text-xs leading-[17px] dark:text-dark-tremor-content-seldom"
+                  >
+                    View Project
+                  </p>
+                </span>
+              </button>
+            </a>
+            <div>
+              <div
+                class="tremor-Flex-root flex w-full flex-row justify-end items-start mt-1 pl-1 h-[1.5rem] truncate"
+              >
+                <div
+                  after-dynamic-value="Avatar 34"
+                  class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                >
+                  <img
+                    alt="Avatar 34"
+                    class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] w-[24px] h-[24px] min-w-[24px]"
+                    data-nimg="1"
+                    decoding="async"
+                    fetchpriority="high"
+                    height="24"
+                    src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75"
+                    srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 2x"
+                    style="color: transparent;"
+                    width="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

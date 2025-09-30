@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .no-scrollbar::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .filter-invert-1 {
+    @apply invert-[1];
+  }
+
+  .line-track {
+    @apply h-[calc(100%-2.25rem)];
+  }
+
+  .line-content {
+    @apply content-[''];
+  }
+}
+
+.chat-message-icon {
+  @apply bottom-5 right-7;
+}
+
+.chat-message-icon button {
+  @apply shadow-tremor-chat dark:shadow-tremor-chat;
+}
+
+#sendMessageForm input {
+  @apply border-b-0;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  @apply hidden;
+}

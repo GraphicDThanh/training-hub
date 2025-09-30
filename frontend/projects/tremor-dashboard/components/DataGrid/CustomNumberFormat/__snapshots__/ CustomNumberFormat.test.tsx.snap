@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomNumberFormat component should render snapshot correctly 1`] = `
+<div>
+  <p
+    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+  >
+    $2,024.00
+  </p>
+</div>
+`;

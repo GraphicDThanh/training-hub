@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage component Should matches snapshot 1`] = `
+<div>
+  <p
+    class="text-tremor-default text-xs text-red-500 dark:text-red-500"
+  >
+    Have error
+  </p>
+</div>
+`;

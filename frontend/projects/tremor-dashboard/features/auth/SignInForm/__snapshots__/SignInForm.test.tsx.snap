@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInForm Component should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-between items-center mx-auto bg-white dark:bg-dark-tremor-primary rounded-xl max-w-[348px] md:max-w-xl"
+      >
+        <div
+          class="w-full p-4 antialiased font-primary"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-center items-center bg-gradient-primary dark:bg-gradient-pickled rounded-xl -mt-11 mb-7 pb-7 shadow-btn-primary"
+          >
+            <p
+              class="text-tremor-default dark:text-dark-tremor-content font-semibold pt-8 pb-2 px-8 !text-tremor-normal text-white tracking-wide"
+            >
+              Sign in
+            </p>
+          </div>
+          <form
+            class="w-full sm:p-3 sign-in"
+            novalidate=""
+          >
+            <div
+              class="h-[70px] w-full"
+            >
+              <div
+                class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-brand-subtle ring-tremor-brand-muted dark:ring-dark-tremor-brand-muted py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+              >
+                <input
+                  class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                  data-testid="signin-email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="h-[70px] w-full"
+            >
+              <div
+                class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-border py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+              >
+                <input
+                  class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-12 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                  data-testid="signin-password"
+                  id="password"
+                  name="password"
+                  placeholder="Password"
+                  tabindex="0"
+                  type="password"
+                  value=""
+                />
+                <button
+                  aria-label="Show Password"
+                  class="tremor-TextInput-toggleButton absolute inset-y-0 right-0 flex items-center px-2.5 rounded-lg"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="flex-none h-5 w-5 transition text-tremor-content-subtle hover:text-tremor-content dark:text-dark-tremor-content-subtle hover:dark:text-dark-tremor-content"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.18164 12C2.12215 6.87976 6.60812 3 12.0003 3C17.3924 3 21.8784 6.87976 22.8189 12C21.8784 17.1202 17.3924 21 12.0003 21C6.60812 21 2.12215 17.1202 1.18164 12ZM12.0003 17C14.7617 17 17.0003 14.7614 17.0003 12C17.0003 9.23858 14.7617 7 12.0003 7C9.23884 7 7.00026 9.23858 7.00026 12C7.00026 14.7614 9.23884 17 12.0003 17ZM12.0003 15C10.3434 15 9.00026 13.6569 9.00026 12C9.00026 10.3431 10.3434 9 12.0003 9C13.6571 9 15.0003 10.3431 15.0003 12C15.0003 13.6569 13.6571 15 12.0003 15Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex items-center space-x-3 mt-6"
+            >
+              <div
+                class="flex flex-row items-center justify-start"
+              >
+                <div
+                  class="switch flex justify-center items-center"
+                  tabindex="0"
+                >
+                  <input
+                    class="tremor-Switch-input absolute w-5 h-5 cursor-pointer left-0 top-0 opacity-0"
+                    type="checkbox"
+                  />
+                  <button
+                    aria-checked="false"
+                    class="tremor-Switch-switch w-10 h-5 group relative inline-flex shrink-0 cursor-pointer items-center justify-center rounded-tremor-full focus:outline-none"
+                    data-headlessui-state=""
+                    id="remember"
+                    role="switch"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="tremor-Switch-sr-only sr-only"
+                    >
+                      Switch 
+                      off
+                    </span>
+                    <span
+                      aria-hidden="true"
+                      class="tremor-Switch-background bg-tremor-border dark:bg-dark-tremor-border pointer-events-none absolute mx-auto h-3 w-9 rounded-tremor-full transition-colors duration-100 ease-in-out"
+                    />
+                    <span
+                      aria-hidden="true"
+                      class="tremor-Switch-round translate-x-0 bg-tremor-border dark:bg-dark-tremor-border border-tremor-background dark:border-dark-tremor-background pointer-events-none absolute left-0 inline-block h-5 w-5 transform rounded-tremor-full border-2 shadow-tremor-input duration-100 ease-in-out transition"
+                    />
+                  </button>
+                </div>
+              </div>
+              <p
+                class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+              >
+                Remember me
+              </p>
+            </div>
+            <button
+              aria-disabled="false"
+              class="tremor-Button-root shrink-0 justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-xs dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis px-6 rounded-lg border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover min-h-[43px] flex w-full opacity-100 disabled:opacity-100 disabled:bg-[linear-gradient(195deg,#c1c1c3,#bebebf)] dark:disabled:bg-[linear-gradient(195deg,#283046,#1e263c)] py-0 mt-9 uppercase border-0 border-transparent hover:border-transparent"
+              data-testid="signin-submit"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                <p
+                  class="text-tremor-default text-xs font-bold text-white dark:text-white"
+                >
+                  Sign In
+                </p>
+              </span>
+            </button>
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-center items-center mt-8 mb-2"
+            >
+              <p
+                class="text-tremor-default text-tertiary dark:text-dark-romance font-light"
+              >
+                Don’t have an account?
+              </p>
+              <a
+                class="text-primary dark:text-white font-semibold text-sm ml-1"
+                href="/signup"
+                tabindex="0"
+              >
+                Sign up
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-between items-center mx-auto bg-white dark:bg-dark-tremor-primary rounded-xl max-w-[348px] md:max-w-xl"
+    >
+      <div
+        class="w-full p-4 antialiased font-primary"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-center items-center bg-gradient-primary dark:bg-gradient-pickled rounded-xl -mt-11 mb-7 pb-7 shadow-btn-primary"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content font-semibold pt-8 pb-2 px-8 !text-tremor-normal text-white tracking-wide"
+          >
+            Sign in
+          </p>
+        </div>
+        <form
+          class="w-full sm:p-3 sign-in"
+          novalidate=""
+        >
+          <div
+            class="h-[70px] w-full"
+          >
+            <div
+              class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-brand-subtle ring-tremor-brand-muted dark:ring-dark-tremor-brand-muted py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+            >
+              <input
+                class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                data-testid="signin-email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="h-[70px] w-full"
+          >
+            <div
+              class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-border py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+            >
+              <input
+                class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-12 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                data-testid="signin-password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                tabindex="0"
+                type="password"
+                value=""
+              />
+              <button
+                aria-label="Show Password"
+                class="tremor-TextInput-toggleButton absolute inset-y-0 right-0 flex items-center px-2.5 rounded-lg"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="flex-none h-5 w-5 transition text-tremor-content-subtle hover:text-tremor-content dark:text-dark-tremor-content-subtle hover:dark:text-dark-tremor-content"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.18164 12C2.12215 6.87976 6.60812 3 12.0003 3C17.3924 3 21.8784 6.87976 22.8189 12C21.8784 17.1202 17.3924 21 12.0003 21C6.60812 21 2.12215 17.1202 1.18164 12ZM12.0003 17C14.7617 17 17.0003 14.7614 17.0003 12C17.0003 9.23858 14.7617 7 12.0003 7C9.23884 7 7.00026 9.23858 7.00026 12C7.00026 14.7614 9.23884 17 12.0003 17ZM12.0003 15C10.3434 15 9.00026 13.6569 9.00026 12C9.00026 10.3431 10.3434 9 12.0003 9C13.6571 9 15.0003 10.3431 15.0003 12C15.0003 13.6569 13.6571 15 12.0003 15Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex items-center space-x-3 mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-start"
+            >
+              <div
+                class="switch flex justify-center items-center"
+                tabindex="0"
+              >
+                <input
+                  class="tremor-Switch-input absolute w-5 h-5 cursor-pointer left-0 top-0 opacity-0"
+                  type="checkbox"
+                />
+                <button
+                  aria-checked="false"
+                  class="tremor-Switch-switch w-10 h-5 group relative inline-flex shrink-0 cursor-pointer items-center justify-center rounded-tremor-full focus:outline-none"
+                  data-headlessui-state=""
+                  id="remember"
+                  role="switch"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="tremor-Switch-sr-only sr-only"
+                  >
+                    Switch 
+                    off
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    class="tremor-Switch-background bg-tremor-border dark:bg-dark-tremor-border pointer-events-none absolute mx-auto h-3 w-9 rounded-tremor-full transition-colors duration-100 ease-in-out"
+                  />
+                  <span
+                    aria-hidden="true"
+                    class="tremor-Switch-round translate-x-0 bg-tremor-border dark:bg-dark-tremor-border border-tremor-background dark:border-dark-tremor-background pointer-events-none absolute left-0 inline-block h-5 w-5 transform rounded-tremor-full border-2 shadow-tremor-input duration-100 ease-in-out transition"
+                  />
+                </button>
+              </div>
+            </div>
+            <p
+              class="text-tremor-default text-tertiary dark:text-dark-romance font-normal"
+            >
+              Remember me
+            </p>
+          </div>
+          <button
+            aria-disabled="false"
+            class="tremor-Button-root shrink-0 justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-xs dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis px-6 rounded-lg border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover min-h-[43px] flex w-full opacity-100 disabled:opacity-100 disabled:bg-[linear-gradient(195deg,#c1c1c3,#bebebf)] dark:disabled:bg-[linear-gradient(195deg,#283046,#1e263c)] py-0 mt-9 uppercase border-0 border-transparent hover:border-transparent"
+            data-testid="signin-submit"
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              <p
+                class="text-tremor-default text-xs font-bold text-white dark:text-white"
+              >
+                Sign In
+              </p>
+            </span>
+          </button>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-center items-center mt-8 mb-2"
+          >
+            <p
+              class="text-tremor-default text-tertiary dark:text-dark-romance font-light"
+            >
+              Don’t have an account?
+            </p>
+            <a
+              class="text-primary dark:text-white font-semibold text-sm ml-1"
+              href="/signup"
+              tabindex="0"
+            >
+              Sign up
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

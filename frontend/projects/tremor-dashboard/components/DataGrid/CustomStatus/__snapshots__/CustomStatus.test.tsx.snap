@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomStatus component should render snapshot correctly 1`] = `
+<div>
+  <div
+    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+  >
+    <button
+      aria-label="Done"
+      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-green-500 cursor-default"
+    >
+      <span
+        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+      >
+        <svg
+          class="text-xs text-green-500"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+          />
+        </svg>
+      </span>
+    </button>
+    <p
+      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+    >
+      Paid
+    </p>
+  </div>
+</div>
+`;

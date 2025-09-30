@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectWrapper match snapshot 1`] = `
+<div>
+  <div
+    class="-mt-[150px] sm:-mt-[100px]"
+  >
+    <div
+      class="relative overflow-hidden md:min-w-[320px] min-h-[300px] rounded-xl"
+    >
+      <img
+        alt="All Projects"
+        class="object-cover"
+        data-nimg="fill"
+        decoding="async"
+        fetchpriority="high"
+        sizes="(max-width: 400px) 33vw, 100vw"
+        src="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=3840&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-profile.webp&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+      <div
+        class="absolute w-full h-full bg-project-layer rounded-xl"
+      />
+    </div>
+    <div>
+      Test Project Wrapper
+    </div>
+  </div>
+</div>
+`;

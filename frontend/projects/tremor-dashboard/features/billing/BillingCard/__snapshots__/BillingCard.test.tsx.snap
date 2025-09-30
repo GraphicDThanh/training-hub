@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing BillingCard component Should match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex flex-row justify-between items-center relative text-white bg-gradient-primary dark:bg-gradient-pickled p-0 rounded-lg w-full md:w-[388px] min-h-[236px] shadow-[rgba(0,0,0,0.1)_0rem_1.25rem_1.5625rem_-0.3125rem,rgba(0,0,0,0.04)_0rem_0.625rem_0.625rem_-0.3125rem]"
+  >
+    <img
+      alt="Master Card background"
+      class="opacity-20 bg-cover object-cover"
+      data-nimg="fill"
+      decoding="async"
+      fetchpriority="high"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-center p-4 z-10"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+      >
+        <svg
+          class="text-2xl m-2"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3a4.237 4.237 0 00-6 0zm-4-4l2 2a7.074 7.074 0 0110 0l2-2C15.14 9.14 8.87 9.14 5 13z"
+          />
+        </svg>
+      </div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center mt-6 mb-8 gap-4"
+      >
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content text-xl text-white font-bold"
+        >
+          **** **** **** 7852
+        </p>
+        <button
+          aria-label="Toggle Show Salary Button"
+          class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none text-sm bg-transparent text-white hover:text-white dark:text-white dark:hover:text-white"
+          data-testid="toggle-show-amount"
+        >
+          <svg
+            class="tremor-Button-icon shrink-0 h-5 w-5"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 576 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center 2xl:py-[5px]"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-start min-w-[138px]"
+          >
+            <p
+              class="text-tremor-default dark:text-dark-tremor-content text-white opacity-80 tracking-[0.4px]"
+            >
+              Card Holder
+            </p>
+            <h2
+              class="text-white font-semibold tracking-[0.12px]"
+            >
+              Jack Peterson
+            </h2>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-start"
+          >
+            <p
+              class="text-tremor-default dark:text-dark-tremor-content text-white opacity-80 tracking-[0.4px]"
+            >
+              Expires
+            </p>
+            <p
+              class="text-tremor-title dark:text-dark-tremor-content-strong text-white font-semibold tracking-[0.12px]"
+            >
+              11/24
+            </p>
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-end items-center"
+        >
+          <img
+            alt="master card icon"
+            data-nimg="1"
+            decoding="async"
+            height="30"
+            loading="lazy"
+            src="/_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=96&q=75"
+            srcset="/_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=48&q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+</div>
+`;
+
+exports[`Testing BillingCard component Should open PIN code modal when isShowAmount is false and toggleShowHide 1`] = `
+<div
+  aria-modal="true"
+  class="tremor-dialog-root relative z-50"
+  data-headlessui-state="open"
+  data-testid="modal-pincode"
+  id="pincode-modal"
+  role="dialog"
+>
+  <div
+    class="fixed inset-0 bg-slate-950/30 dark:bg-slate-950/50 transition-opacity ease-out duration-300 opacity-0"
+  />
+  <div
+    class="fixed inset-0 overflow-y-auto w-screen"
+  >
+    <div
+      class="flex min-h-full items-center justify-center p-4"
+    >
+      <div
+        class="tremor-dialog-panel max-w-lg overflow-hidden text-left ring-1 shadow-tremor transition-all transform text-tremor-content ring-tremor-ring dark:text-dark-tremor-content dark:ring-dark-tremor-ring rounded-tremor-default p-6 rounded-md border-none outline-none flex flex-col gap-8 sm:min-w-[80%] bg-tremor-primary dark:bg-dark-tremor-primary md:min-w-[390px] w-[calc(100%-8px)] md:max-w-[390px] ease-out duration-300 opacity-0 scale-95"
+        data-headlessui-state="open"
+        id="headlessui-dialog-panel-:r5:"
+      >
+        <h2
+          class="text-primary dark:text-white font-bold text-2xl text-center"
+        >
+          Enter your PIN code
+        </h2>
+        <div>
+          <div
+            class="tremor-Flex-root flex flex-row justify-between items-center gap-3 sm:gap-6 w-full self-center max-w-[250px] sm:max-w-[360px] m-auto"
+          >
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent focused"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+            <input
+              class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+              data-testid="pin-code-input"
+              inputmode="numeric"
+              maxlength="1"
+              placeholder="○"
+              type="password"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-evenly items-center gap-5"
+        >
+          <button
+            class="tremor-Button-root inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted border-tremor-brand dark:border-dark-tremor-brand hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis opacity-50 cursor-not-allowed py-3 px-6 rounded-lg border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover flex-1 min-w-[64px] sm:px-[22px]"
+            disabled=""
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              <p
+                class="text-tremor-default flex items-center uppercase py-[2px] text-xs font-bold text-white dark:text-dark-tremor-content-title tracking-wide"
+              >
+                Submit
+              </p>
+            </span>
+          </button>
+          <button
+            class="tremor-Button-root inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis py-3 px-6 rounded-lg border-none bg-gradient-btn-back dark:bg-gradient-btn-back shadow-btn-surface dark:!shadow-btn-surface hover:!shadow-btn-surface-hover dark:hover:!shadow-btn-surface-hover mt-0 flex-1"
+            data-testid="btn-close-modal"
+            type="submit"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              <p
+                class="text-tremor-default uppercase font-bold text-xs text-gray-900 dark:text-black tracking-wide"
+              >
+                Cancel
+              </p>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing BillingCard component Should submit success when typing pin code correctly 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex flex-row justify-between items-center relative text-white bg-gradient-primary dark:bg-gradient-pickled p-0 rounded-lg w-full md:w-[388px] min-h-[236px] shadow-[rgba(0,0,0,0.1)_0rem_1.25rem_1.5625rem_-0.3125rem,rgba(0,0,0,0.04)_0rem_0.625rem_0.625rem_-0.3125rem]"
+  >
+    <img
+      alt="Master Card background"
+      class="opacity-20 bg-cover object-cover"
+      data-nimg="fill"
+      decoding="async"
+      fetchpriority="high"
+      sizes="100vw"
+      src="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=3840&q=75"
+      srcset="/_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fbackgrounds%2Fbg-card.webp&w=3840&q=75 3840w"
+      style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+    />
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-start items-center p-4 z-10"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+      >
+        <svg
+          class="text-2xl m-2"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.08 2.93 1 9zm8 8l3 3 3-3a4.237 4.237 0 00-6 0zm-4-4l2 2a7.074 7.074 0 0110 0l2-2C15.14 9.14 8.87 9.14 5 13z"
+          />
+        </svg>
+      </div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center mt-6 mb-8 gap-4"
+      >
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content text-xl text-white font-bold"
+        >
+          4562 1122 4594 7852
+        </p>
+        <button
+          aria-label="Toggle Show Salary Button"
+          class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none text-sm bg-transparent text-white hover:text-white dark:text-white dark:hover:text-white"
+          data-testid="toggle-show-amount"
+        >
+          <svg
+            class="tremor-Button-icon shrink-0 h-5 w-5"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 640 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zm151 118.3C226 97.7 269.5 80 320 80c65.2 0 118.8 29.6 159.9 67.7C518.4 183.5 545 226 558.6 256c-12.6 28-36.6 66.8-70.9 100.9l-53.8-42.2c9.1-17.6 14.2-37.5 14.2-58.7c0-70.7-57.3-128-128-128c-32.2 0-61.7 11.9-84.2 31.5l-46.1-36.1zM394.9 284.2l-81.5-63.9c4.2-8.5 6.6-18.2 6.6-28.3c0-5.5-.7-10.9-2-16c.7 0 1.3 0 2 0c44.2 0 80 35.8 80 80c0 9.9-1.8 19.4-5.1 28.2zm9.4 130.3C378.8 425.4 350.7 432 320 432c-65.2 0-118.8-29.6-159.9-67.7C121.6 328.5 95 286 81.4 256c8.3-18.4 21.5-41.5 39.4-64.8L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5l-41.9-33zM192 256c0 70.7 57.3 128 128 128c13.3 0 26.1-2 38.2-5.8L302 334c-23.5-5.4-43.1-21.2-53.7-42.3l-56.1-44.2c-.2 2.8-.3 5.6-.3 8.5z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center 2xl:py-[5px]"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-start min-w-[138px]"
+          >
+            <p
+              class="text-tremor-default dark:text-dark-tremor-content text-white opacity-80 tracking-[0.4px]"
+            >
+              Card Holder
+            </p>
+            <h2
+              class="text-white font-semibold tracking-[0.12px]"
+            >
+              Jack Peterson
+            </h2>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-start"
+          >
+            <p
+              class="text-tremor-default dark:text-dark-tremor-content text-white opacity-80 tracking-[0.4px]"
+            >
+              Expires
+            </p>
+            <p
+              class="text-tremor-title dark:text-dark-tremor-content-strong text-white font-semibold tracking-[0.12px]"
+            >
+              11/24
+            </p>
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-end items-center"
+        >
+          <img
+            alt="master card icon"
+            data-nimg="1"
+            decoding="async"
+            height="30"
+            loading="lazy"
+            src="/_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=96&q=75"
+            srcset="/_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=48&q=75 1x, /_next/image?url=%2Fassets%2Fimages%2Fmastercard.webp&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+</div>
+`;

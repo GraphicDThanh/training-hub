@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationHistory Tests Should render correctly 1`] = `
+<div>
+  <h3
+    class="text-tremor-title dark:text-dark-tremor-content-title leading-relaxed font-bold tracking-[0.0075em] opacity-100 capitalize no-underline text-primary py-4"
+  >
+    Conversations
+  </h3>
+  <div
+    class="h-[280px] flex items-center"
+  >
+    <div
+      class="tremor-Flex-root flex flex-row justify-center items-center grow w-full"
+      data-testid="loading-page"
+    >
+      <div
+        class="tremor-Flex-root flex flex-col justify-between items-center grow w-full h-full"
+      >
+        <div
+          role="status"
+        >
+          <svg
+            aria-hidden="true"
+            class="w-10 h-10 text-transparent animate-[spin_0.4s_linear_infinite] dark:text-gray-600 fill-river-bed-500 dark:fill-white"
+            fill="none"
+            viewBox="0 0 22 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 3C11 2.44772 11.4477 2 12 2C17.5228 2 22 6.47715 22 12C22 14.7175 20.9147 17.1835 19.1562 18.9849C18.7704 19.3801 18.1373 19.3878 17.7421 19.002C17.3469 18.6162 17.3392 17.983 17.725 17.5879C19.1336 16.1449 20 14.1746 20 12C20 7.58172 16.4183 4 12 4C11.4477 4 11 3.55228 11 3Z"
+              fill="river-bed-500"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Loading...
+          </span>
+        </div>
+        <h2
+          class="mt-2 text-gray-400"
+        >
+          Loading
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ConversationHistory Tests Should render correctly 2`] = `
+<div>
+  <h3
+    class="text-tremor-title dark:text-dark-tremor-content-title leading-relaxed font-bold tracking-[0.0075em] opacity-100 capitalize no-underline text-primary py-4"
+  >
+    Conversations
+  </h3>
+  <ul
+    class="h-[280px] overflow-auto"
+  >
+    <div
+      as="li"
+      class="tremor-Flex-root flex w-full flex-row justify-between items-center mb-2 py-2 xs:flex-nowrap max-w-[100%]"
+    >
+      <div
+        class="tremor-Flex-root flex flex-row justify-start items-center w-[calc(100%-40px)] sm:w-[calc(100%-70px)]"
+      >
+        <div
+          after-dynamic-value="user2"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[48px] h-[48px] min-w-[48px]"
+        >
+          <img
+            alt="user2"
+            class="object-cover w-[48px] h-[48px] min-w-[48px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="48"
+            src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=96&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="48"
+          />
+        </div>
+        <div
+          class="max-w-[calc(100%-40px)] sm:max-w-[calc(100%-70px)] font-medium dark:text-white pl-4"
+        >
+          <p
+            class="text-tremor-default text-sm text-primary dark:text-dark-primary font-semibold"
+          >
+            user2
+          </p>
+          <p
+            class="text-tremor-default text-xs text-tertiary font-light dark:text-dark-romance line-clamp-2 break-all"
+          >
+            Yes. I will check it now
+          </p>
+        </div>
+      </div>
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis min-w-[64px] m-0 border-0 hover:bg-[none] bg-transparent dark:bg-transparent dark:hover:bg-[none] box-shadow-transparent"
+        data-testid="conversation-reply-btn"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default dark:text-dark-tremor-content text-primary text-xs text-center font-bold uppercase leading-[17px] tracking-wide"
+          >
+            Reply
+          </p>
+        </span>
+      </button>
+    </div>
+  </ul>
+</div>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MediaForm component should match snapshot 1`] = `
+<div>
+  <form
+    class="w-full mt-20"
+    id="media-form"
+  >
+    <h6
+      class="text-primary dark:text-white font-bold text-xl mb-8"
+    >
+      Media
+    </h6>
+    <div
+      class="w-full h-[9rem]"
+    >
+      <div
+        class="flex flex-col items-center justify-center h-[calc(100%-32px)] w-full"
+      >
+        <label
+          class="flex flex-col items-center justify-center w-full h-full border border-gray-300 rounded-lg hover:cursor-pointer"
+          data-testid="drag-file"
+        >
+          <div
+            class="flex flex-col items-center justify-center pt-5 pb-6 mx-2"
+          >
+            <p
+              class="text-tremor-default text-center text-gray-500 dark:text-gray-400"
+            >
+              Drag and drop your file here to begin uploading.
+            </p>
+            <p
+              class="text-tremor-default text-xs text-yellow-700 dark:text-yellow-500 mt-2 px-2 text-center"
+            >
+              (We accept .png, .jpg, .jpeg, and .webp files, up to 32MB in size.)
+            </p>
+          </div>
+          <input
+            accept="image/*"
+            class="hidden"
+            data-testid="dropzone-file"
+            id="dropzone-file"
+            type="file"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root flex w-full flex-row justify-between items-center mt-6"
+    >
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis py-3 px-6 rounded-lg border-none bg-gradient-btn-back dark:bg-gradient-btn-back shadow-btn-surface dark:!shadow-btn-surface hover:!shadow-btn-surface-hover dark:hover:!shadow-btn-surface-hover"
+        data-testid="back-btn"
+        type="submit"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default uppercase font-bold text-xs text-gray-900 dark:text-black tracking-wide"
+          >
+            Back
+          </p>
+        </span>
+      </button>
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis py-3 px-6 rounded-lg border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover items-end"
+        data-testid="next-btn"
+        type="submit"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default uppercase font-bold text-xs text-white dark:text-white tracking-wide"
+          >
+            Next
+          </p>
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

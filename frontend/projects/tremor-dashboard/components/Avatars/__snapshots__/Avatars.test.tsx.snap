@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing avatar component Should match snapshot 1`] = `
+<div>
+  <div
+    after-dynamic-value="Avatar 34"
+    class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+  >
+    <img
+      alt="Avatar 34"
+      class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="48"
+      src="http://localhost/_next/image?url=https%3A%2F%2Fi.ibb.co%2FqdHmfB4%2F3dc7fc1691246a10f430400fa95abced-1-1.png&w=96&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fi.ibb.co%2FqdHmfB4%2F3dc7fc1691246a10f430400fa95abced-1-1.png&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FqdHmfB4%2F3dc7fc1691246a10f430400fa95abced-1-1.png&w=96&q=75 2x"
+      style="color: transparent;"
+      width="48"
+    />
+  </div>
+  <div
+    after-dynamic-value="Avatar 35"
+    class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-white first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+  >
+    <img
+      alt="Avatar 35"
+      class="object-cover border-white first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="48"
+      src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fivana-square.10cb0e1f.jpg&w=96&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fivana-square.10cb0e1f.jpg&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fivana-square.10cb0e1f.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="48"
+    />
+  </div>
+  <div
+    after-dynamic-value="+0"
+    class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden border-primary dark:border-white [&>*]:hidden first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+  >
+    <img
+      alt="+0"
+      class="object-cover border-primary dark:border-white [&>*]:hidden first:ml-0 border-2 border-solid ml-[-10px] last:relative last:overflow-visible last:bg-black last:dark:bg-primary last:after:content-[attr(after-dynamic-value)] last:after:block last:after:text-white last:after:absolute last:after:left-1/2 last:after:-translate-x-1/2 last:after:top-1/2 last:after:-translate-y-1/2 last:after:z-10 last:after:text-[9px]"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="48"
+      src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=96&q=75"
+      srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fmarie.460e7723.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="48"
+    />
+  </div>
+</div>
+`;

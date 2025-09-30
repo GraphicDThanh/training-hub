@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ProjectField component Should match snapshot 1`] = `
+<div>
+  <label
+    class="text-gray-500 text-sm dark:text-gray-400 after:content-['*'] after:text-red-500 after:text-md"
+    for="dueDate"
+  >
+    Due Date
+  </label>
+  <div
+    class="relative w-full min-w-[10rem] text-tremor-default focus:ring-2 focus:ring-tremor-brand-muted dark:focus:ring-dark-tremor-brand-muted date-picker [&>button]:!pl-2 py-2"
+    data-headlessui-state=""
+  >
+    <button
+      aria-expanded="false"
+      class="w-full outline-none text-left whitespace-nowrap truncate focus:ring-2 transition duration-100 rounded-tremor-default flex flex-nowrap border pl-3 py-2 shadow-tremor-input focus:border-tremor-brand-subtle focus:ring-tremor-brand-muted dark:shadow-dark-tremor-input dark:focus:border-dark-tremor-brand-subtle dark:focus:ring-dark-tremor-brand-muted pr-8 bg-tremor-background dark:bg-dark-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis border-tremor-border dark:border-dark-tremor-border"
+      data-headlessui-state=""
+      id="headlessui-popover-button-:r0:"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="tremor-DatePicker-calendarIcon flex-none shrink-0 h-5 w-5 mr-2 -ml-0.5 text-tremor-content-subtle dark:text-dark-tremor-content-subtle"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <p
+        class="truncate"
+      >
+        Apr 22, 2024
+      </p>
+    </button>
+    <button
+      class="absolute outline-none inset-y-0 right-0 flex items-center transition duration-100 mr-4"
+      type="button"
+    >
+      <svg
+        class="flex-none h-4 w-4 text-tremor-content-subtle dark:text-dark-tremor-content-subtle"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+  />
+</div>
+`;

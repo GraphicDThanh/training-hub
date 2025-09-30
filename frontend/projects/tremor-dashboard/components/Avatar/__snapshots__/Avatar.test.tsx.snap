@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing avatar component Should match snapshot 1`] = `
+<div>
+  <div
+    after-dynamic-value="Avatar Default"
+    class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden w-[48px] h-[48px]"
+  >
+    <img
+      alt="Avatar Default"
+      class="object-cover w-[48px] h-[48px]"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="48"
+      src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=96&q=75"
+      srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=48&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-md.webp&w=96&q=75 2x"
+      style="color: transparent;"
+      width="48"
+    />
+  </div>
+</div>
+`;

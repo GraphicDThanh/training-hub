@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageCard component should render snapshot correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="tremor-Card-root relative text-left rounded-tremor-default ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand w-full bg-tremor-primary dark:bg-dark-tremor-primary group overflow-visible p-4 border-none ring-0 md:even:mr-0 md:last:mr-0 lg:even:mr-6 analytics-info"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-start items-start -mt-10"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+          >
+            <div
+              class="relative w-full h-[350px] z-10 rounded-xl m-auto shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-white"
+            >
+              <img
+                alt="Minimal Bar Stool 3"
+                class="rounded-xl object-scale-down"
+                data-nimg="fill"
+                decoding="async"
+                fetchpriority="high"
+                sizes="100vw"
+                src="/_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=3840&q=40"
+                srcset="/_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=640&q=40 640w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=750&q=40 750w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=828&q=40 828w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1080&q=40 1080w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1200&q=40 1200w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1920&q=40 1920w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=2048&q=40 2048w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=3840&q=40 3840w"
+                style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+              />
+            </div>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-center pt-7"
+          >
+            <div
+              class="tremor-Flex-root flex w-full flex-row justify-center items-center"
+            >
+              <div
+                class="antialiased text-center uppercase bg-gradient-primary dark:bg-gradient-pickled rounded-lg border-0 shadow-btn-primary hover:shadow-btn-primary-hover px-3 py-2 cursor-pointer leading-[17px] tracking-[0.35px]"
+              >
+                <label
+                  class="uppercase text-xs font-bold text-white cursor-pointer"
+                >
+                  Change Image
+                  <input
+                    accept="image/png, image/jpeg, image/webp"
+                    class="hidden"
+                    type="file"
+                  />
+                </label>
+              </div>
+              <button
+                class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none text-tremor-brand dark:text-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis antialiased p-2 text-center uppercase text-xs bg-secondary dark:bg-gradient-pickled rounded-md border border-red-500 hover:border-red-500 dark:border-attention hover:dark:border-attention hover:bg-transparent hover:opacity-75 mx-2 disabled:cursor-not-allowed disabled:opacity-50"
+                type="button"
+              >
+                <span
+                  class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                >
+                  <p
+                    class="text-tremor-default text-xs font-bold text-danger dark:text-danger uppercase"
+                  >
+                    Remove Image
+                  </p>
+                </span>
+              </button>
+            </div>
+            <p
+              class="text-tremor-default text-xs text-yellow-700 dark:text-yellow-500 mt-2 text-center h-[32px]"
+            >
+              (We accept .png, .jpg, .jpeg, and .webp files, up to 32MB in size.)
+            </p>
+            <p
+              class="font-medium text-tremor-title w-full font-primary tracking-normal text-primary dark:text-dark-primary text-lg text-center leading-snug capitalize mt-4 mb-2"
+            >
+              Minimal Bar Stool 3
+            </p>
+            <div
+              class="text-sm text-primary dark:text-white flex-wrap text-tremor-title font-light leading-[26px] tracking-[0.17136px] text-center lg:text-base line-clamp-4 h-[96px]"
+            >
+              Description
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="tremor-Card-root relative text-left rounded-tremor-default ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand w-full bg-tremor-primary dark:bg-dark-tremor-primary group overflow-visible p-4 border-none ring-0 md:even:mr-0 md:last:mr-0 lg:even:mr-6 analytics-info"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-start items-start -mt-10"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-between items-center relative"
+        >
+          <div
+            class="relative w-full h-[350px] z-10 rounded-xl m-auto shadow-lg shadow-slate-300 dark:shadow-slate-900 bg-white"
+          >
+            <img
+              alt="Minimal Bar Stool 3"
+              class="rounded-xl object-scale-down"
+              data-nimg="fill"
+              decoding="async"
+              fetchpriority="high"
+              sizes="100vw"
+              src="/_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=3840&q=40"
+              srcset="/_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=640&q=40 640w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=750&q=40 750w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=828&q=40 828w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1080&q=40 1080w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1200&q=40 1200w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=1920&q=40 1920w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=2048&q=40 2048w, /_next/image?url=https%3A%2F%2Fi.ibb.co%2FPGcBzMv%2Fa-high-detail-shot-of-a-cat-we.png&w=3840&q=40 3840w"
+              style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+            />
+          </div>
+        </div>
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-between items-center pt-7"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-center items-center"
+          >
+            <div
+              class="antialiased text-center uppercase bg-gradient-primary dark:bg-gradient-pickled rounded-lg border-0 shadow-btn-primary hover:shadow-btn-primary-hover px-3 py-2 cursor-pointer leading-[17px] tracking-[0.35px]"
+            >
+              <label
+                class="uppercase text-xs font-bold text-white cursor-pointer"
+              >
+                Change Image
+                <input
+                  accept="image/png, image/jpeg, image/webp"
+                  class="hidden"
+                  type="file"
+                />
+              </label>
+            </div>
+            <button
+              class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none text-tremor-brand dark:text-dark-tremor-brand hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis antialiased p-2 text-center uppercase text-xs bg-secondary dark:bg-gradient-pickled rounded-md border border-red-500 hover:border-red-500 dark:border-attention hover:dark:border-attention hover:bg-transparent hover:opacity-75 mx-2 disabled:cursor-not-allowed disabled:opacity-50"
+              type="button"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                <p
+                  class="text-tremor-default text-xs font-bold text-danger dark:text-danger uppercase"
+                >
+                  Remove Image
+                </p>
+              </span>
+            </button>
+          </div>
+          <p
+            class="text-tremor-default text-xs text-yellow-700 dark:text-yellow-500 mt-2 text-center h-[32px]"
+          >
+            (We accept .png, .jpg, .jpeg, and .webp files, up to 32MB in size.)
+          </p>
+          <p
+            class="font-medium text-tremor-title w-full font-primary tracking-normal text-primary dark:text-dark-primary text-lg text-center leading-snug capitalize mt-4 mb-2"
+          >
+            Minimal Bar Stool 3
+          </p>
+          <div
+            class="text-sm text-primary dark:text-white flex-wrap text-tremor-title font-light leading-[26px] tracking-[0.17136px] text-center lg:text-base line-clamp-4 h-[96px]"
+          >
+            Description
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

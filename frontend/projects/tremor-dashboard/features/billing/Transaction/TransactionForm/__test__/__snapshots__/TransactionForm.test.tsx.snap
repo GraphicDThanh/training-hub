@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionForm match snapshot 1`] = `
+<div>
+  <form
+    class="flex flex-col gap-5 "
+    data-testid="createTransactionForm"
+    id="createTransactionForm"
+  >
+    <div
+      class="w-full flex flex-col gap-0"
+    >
+      <label
+        class="text-grey text-sm dark:text-lighter capitalize cursor-pointer"
+        for="toUserId"
+      />
+      <div
+        class="w-full min-w-[10rem] relative text-tremor-default"
+      >
+        <select
+          class="h-full w-full absolute left-0 top-0 z-0 opacity-0"
+          id="toUserId"
+          name="toUserId"
+          title="search-select-hidden"
+        >
+          <option
+            class="hidden"
+            disabled=""
+            hidden=""
+            value=""
+          >
+            Choose an account to transfer
+          </option>
+        </select>
+        <div
+          class="w-full min-w-[10rem] relative text-tremor-default text-grey dark:text-white dark:border-light dark:focus:border-white"
+          data-headlessui-state=""
+          data-testid="toUserId"
+          id="toUserId"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            class="w-full"
+            data-headlessui-state=""
+            id="headlessui-combobox-button-:r0:"
+            tabindex="-1"
+            type="button"
+          >
+            <input
+              aria-autocomplete="list"
+              aria-expanded="false"
+              class="w-full outline-none text-left whitespace-nowrap truncate rounded-tremor-default focus:ring-2 transition duration-100 text-tremor-default pr-14 border py-2 shadow-tremor-input focus:border-tremor-brand-subtle focus:ring-tremor-brand-muted dark:shadow-dark-tremor-input dark:focus:border-dark-tremor-brand-subtle dark:focus:ring-dark-tremor-brand-muted pl-3 placeholder:text-tremor-content dark:placeholder:text-tremor-content bg-tremor-background dark:bg-dark-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border dark:border-dark-tremor-border"
+              data-headlessui-state=""
+              id="headlessui-combobox-input-:r1:"
+              placeholder="Choose an account to transfer"
+              role="combobox"
+              type="text"
+              value=""
+            />
+            <div
+              class="absolute inset-y-0 right-0 flex items-center pr-2.5"
+            >
+              <svg
+                class="tremor-SearchSelect-arrowDownIcon flex-none h-5 w-5 text-tremor-content-subtle dark:text-dark-tremor-content-subtle"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex flex-col gap-2"
+    >
+      <div
+        class="flex flex-col gap-2 px-2 py-4 border-solid border-tremor-default border-2 rounded-lg dark:bg-dark-tremor-background dark:border-none"
+      >
+        <p
+          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content ml-4"
+        >
+          Enter amount
+        </p>
+        <div
+          class="tremor-Flex-root flex w-full flex-row justify-between items-center ml-3 pr-4 relative"
+        >
+          <span
+            class="absolute text-light dark:text-white text-xl"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 16 16"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"
+              />
+            </svg>
+          </span>
+          <input
+            class="w-full p-2 rounded-lg pl-6 pr-4 text-md text-light bg-transparent border-none focus:bg-tremor-background-muted focus:outline-none focus:ring-0 focus:border-gray-600 dark:text-white dark:border-gray-600 dark:focus:border-gray-500 dark:focus:bg-dark-tremor-background-muted"
+            name="amount"
+            placeholder="0.00"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="tremor-Flex-root w-full flex-row justify-evenly items-center flex gap-5"
+    >
+      <button
+        class="tremor-Button-root inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-sm text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted border-tremor-brand dark:border-dark-tremor-brand hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis opacity-50 cursor-not-allowed border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover flex-1 min-w-[64px] text-center uppercase sm:px-[22px] px-6 py-2.5 rounded-lg border-0"
+        disabled=""
+        type="submit"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default flex items-center uppercase py-[2px] text-xs font-bold text-white dark:text-dark-tremor-content-title tracking-wide"
+          >
+            Submit
+          </p>
+        </span>
+      </button>
+      <button
+        class="tremor-Button-root justify-center items-center group font-medium outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm border-tremor-brand dark:border-dark-tremor-brand text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted hover:bg-tremor-brand-emphasis dark:hover:bg-dark-tremor-brand-emphasis hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis py-3 px-6 rounded-lg border-none bg-gradient-btn-back dark:bg-gradient-btn-back shadow-btn-surface dark:!shadow-btn-surface hover:!shadow-btn-surface-hover dark:hover:!shadow-btn-surface-hover mt-0 flex flex-1"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          <p
+            class="text-tremor-default uppercase font-bold text-xs text-gray-900 dark:text-black tracking-wide"
+          >
+            Cancel
+          </p>
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

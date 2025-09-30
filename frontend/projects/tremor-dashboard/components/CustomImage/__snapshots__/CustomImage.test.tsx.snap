@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomImage Component Match snapshot 1`] = `
+<div>
+  <img
+    alt="No Image"
+    src="/images/no-image-square.webp"
+  />
+</div>
+`;

@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherProductList component should match snapshot 1`] = `
+<div>
+  <div
+    class="relative w-full"
+  >
+    <div
+      class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand p-0 border-none ring-0 dark:bg-dark-tremor-primary overflow-x-auto !shadow-none"
+    >
+      <div
+        class="flex flex-col items-start justify-start my-2"
+      >
+        <div
+          class="tremor-Table-root overflow-auto w-full"
+        >
+          <table
+            class="tremor-Table-table w-full text-tremor-default text-tremor-content dark:text-dark-tremor-content"
+            id="table"
+            tabindex="0"
+          >
+            <thead
+              class="tremor-TableHead-root text-left text-tremor-content dark:text-dark-tremor-content"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Id"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Id
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Product"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Product
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Price"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Price
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Is Available"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Is Available
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <a
+                    class="text-xs dark:text-lighter text-tertiary font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                    href="/products/230019"
+                  >
+                    #
+                    230019
+                  </a>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Christopher Knight Home avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Christopher Knight Home
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $89.53
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <a
+                    class="text-xs dark:text-lighter text-tertiary font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                    href="/products/87120"
+                  >
+                    #
+                    87120
+                  </a>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Bar Height Swivel Barstool avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Bar Height Swivel Barstool
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $99.99
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <a
+                    class="text-xs dark:text-lighter text-tertiary font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                    href="/products/2456772"
+                  >
+                    #
+                    2456772
+                  </a>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Christopher Knight Home avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Christopher Knight Home
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $89.53
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <a
+                    class="text-xs dark:text-lighter text-tertiary font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                    href="/products/1992"
+                  >
+                    #
+                    1992
+                  </a>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Modern Square avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Modern Square
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $59.99
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <a
+                    class="text-xs dark:text-lighter text-tertiary font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                    href="/products/412301"
+                  >
+                    #
+                    412301
+                  </a>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Signature Design by Ashley avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Signature Design by Ashley
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $129.00
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    Yes
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

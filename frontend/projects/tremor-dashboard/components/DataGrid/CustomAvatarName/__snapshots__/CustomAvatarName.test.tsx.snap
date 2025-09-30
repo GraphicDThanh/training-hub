@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAvatarName should match snapshot 1`] = `
+<div>
+  <div
+    class="flex justify-start items-center gap-2"
+  >
+    <div
+      class="relative h-6 w-6"
+    >
+      <img
+        alt="John Doe avatar"
+        class="object-cover rounded-full"
+        data-nimg="fill"
+        decoding="async"
+        loading="lazy"
+        sizes="24px"
+        src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=3840&q=75"
+        srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=16&q=75 16w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=32&q=75 32w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=48&q=75 48w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=64&q=75 64w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=96&q=75 96w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=128&q=75 128w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=256&q=75 256w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=384&q=75 384w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=640&q=75 640w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=750&q=75 750w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=828&q=75 828w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Favatar%2Favatar-xs.webp&w=3840&q=75 3840w"
+        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+      />
+    </div>
+    <p
+      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+    >
+      John Doe
+    </p>
+  </div>
+</div>
+`;

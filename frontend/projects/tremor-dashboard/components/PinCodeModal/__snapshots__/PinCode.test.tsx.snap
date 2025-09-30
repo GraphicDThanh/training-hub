@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinCode component Should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="tremor-Flex-root flex flex-row justify-between items-center gap-3 sm:gap-6 w-full self-center max-w-[250px] sm:max-w-[360px] m-auto"
+    >
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent focused"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PinCode component Should render correctly match props 1`] = `
+<div>
+  <div>
+    <div
+      class="tremor-Flex-root flex flex-row justify-between items-center gap-3 sm:gap-6 w-full self-center max-w-[250px] sm:max-w-[360px] m-auto"
+    >
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent focused"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value="2"
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+      <input
+        class="w-8 sm:w-full h-8 sm:h-10 border-2 rounded-md outline-none border-secondary focus:border-tremor-secondary text-center font-bold text-2xl text-primary dark:text-white placeholder-secondary focus:placeholder-transparent dark:bg-transparent dark:border-white focus:dark:border-tremor-secondary dark:placeholder-white focus:dark:placeholder-transparent"
+        data-testid="pin-code-input"
+        inputmode="numeric"
+        maxlength="1"
+        placeholder="○"
+        type="password"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

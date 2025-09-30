@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing profile info component Should match snapshot another pathname 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row lg:items-center justify-between"
+      >
+        <div
+          class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info mb-3 -mt-3 -ml-2"
+        >
+          <div
+            after-dynamic-value="Richard Davis avatar"
+            class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+          >
+            <img
+              alt="Richard Davis avatar"
+              class="object-cover shadow-lg w-[50px] h-[50px]"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="50"
+              src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="py-4 ml-6"
+            data-testid="profile-info-lg"
+          >
+            <h2
+              class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+            >
+              Richard Davis
+            </h2>
+            <p
+              class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+            >
+              CEO / Co-Founder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row lg:items-center justify-between"
+    >
+      <div
+        class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info mb-3 -mt-3 -ml-2"
+      >
+        <div
+          after-dynamic-value="Richard Davis avatar"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+        >
+          <img
+            alt="Richard Davis avatar"
+            class="object-cover shadow-lg w-[50px] h-[50px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="50"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+            style="color: transparent;"
+            width="50"
+          />
+        </div>
+        <div
+          class="py-4 ml-6"
+          data-testid="profile-info-lg"
+        >
+          <h2
+            class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+          >
+            Richard Davis
+          </h2>
+          <p
+            class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+          >
+            CEO / Co-Founder
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing profile info component Should match snapshot pathname is project 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row lg:items-center justify-between"
+      >
+        <div
+          class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info mb-3 -mt-3 -ml-2"
+        >
+          <div
+            after-dynamic-value="Richard Davis avatar"
+            class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+          >
+            <img
+              alt="Richard Davis avatar"
+              class="object-cover shadow-lg w-[50px] h-[50px]"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="50"
+              src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="py-4 ml-6"
+            data-testid="profile-info-lg"
+          >
+            <h2
+              class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+            >
+              Richard Davis
+            </h2>
+            <p
+              class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+            >
+              CEO / Co-Founder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row lg:items-center justify-between"
+    >
+      <div
+        class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info mb-3 -mt-3 -ml-2"
+      >
+        <div
+          after-dynamic-value="Richard Davis avatar"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+        >
+          <img
+            alt="Richard Davis avatar"
+            class="object-cover shadow-lg w-[50px] h-[50px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="50"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+            style="color: transparent;"
+            width="50"
+          />
+        </div>
+        <div
+          class="py-4 ml-6"
+          data-testid="profile-info-lg"
+        >
+          <h2
+            class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+          >
+            Richard Davis
+          </h2>
+          <p
+            class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+          >
+            CEO / Co-Founder
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Testing profile info component Should match snapshot with prop isProject is true 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row lg:items-center justify-between"
+      >
+        <div
+          class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info my-1"
+        >
+          <div
+            after-dynamic-value="Richard Davis avatar"
+            class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+          >
+            <img
+              alt="Richard Davis avatar"
+              class="object-cover shadow-lg w-[50px] h-[50px]"
+              data-nimg="1"
+              decoding="async"
+              fetchpriority="high"
+              height="50"
+              src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+              srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+              style="color: transparent;"
+              width="50"
+            />
+          </div>
+          <div
+            class="py-4 ml-6"
+            data-testid="profile-info-lg"
+          >
+            <h2
+              class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+            >
+              Richard Davis
+            </h2>
+            <p
+              class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+            >
+              CEO / Co-Founder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row lg:items-center justify-between"
+    >
+      <div
+        class="flex flex-col xs:flex-row xs:items-center flex-wrap profile-info my-1"
+      >
+        <div
+          after-dynamic-value="Richard Davis avatar"
+          class="inline-flex shadow-box-avatar rounded-full justify-center items-center overflow-hidden shadow-lg w-[50px] h-[50px]"
+        >
+          <img
+            alt="Richard Davis avatar"
+            class="object-cover shadow-lg w-[50px] h-[50px]"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="50"
+            src="http://localhost/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75"
+            srcset="/_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=64&q=75 1x, /_next/image?url=%2Fimages%2Favatar%2Favatar-lg.webp&w=128&q=75 2x"
+            style="color: transparent;"
+            width="50"
+          />
+        </div>
+        <div
+          class="py-4 ml-6"
+          data-testid="profile-info-lg"
+        >
+          <h2
+            class="font-semibold text-xl text-primary dark:text-dark-primary capitalize"
+          >
+            Richard Davis
+          </h2>
+          <p
+            class="text-tremor-default font-normal text-tertiary dark:text-dark-romance"
+          >
+            CEO / Co-Founder
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

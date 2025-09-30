@@ -1,0 +1,1038 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order Table Testing should match snapshot 1`] = `
+<div>
+  <div
+    class="absolute z-10 right-0 top-0"
+  >
+    <div
+      class="w-fit p-2 rounded-md dark:bg-transparent max-w-[220px]"
+      data-testid="list-option"
+    >
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center items-center group outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm box-shadow-transparent uppercase float-end py-[9px] px-[26px] font-bold bg-transparent border-primary hover:text-light dark:hover:text-light focus:border-primary hover:border-primary text-primary focus:text-white dark:text-white hover:bg-transparent focus:bg-primary rounded-lg dark:border-primary dark:bg-transparent dark:hover:border-primary dark:hover:bg-transparent dark:focus:bg-dark-secondary"
+        data-testid="toggle-select"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          Filters
+        </span>
+        <svg
+          class="tremor-Button-icon shrink-0 h-5 w-5 -mr-1 ml-1.5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="relative w-full"
+  >
+    <div
+      class="tremor-Flex-root flex w-full flex-row justify-end items-center p-6 relative"
+    >
+      <div
+        class="tremor-TextInput-root relative flex items-center outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border w-auto min-w-[185px] dark:bg-transparent dark:border-white ring-0"
+      >
+        <input
+          aria-labelledby="table"
+          class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+          data-testid="test-input-debounce"
+          id="search_order"
+          placeholder="Search by ID"
+          style="padding-right: 1rem;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand p-0 border-none ring-0 dark:bg-dark-tremor-primary overflow-x-auto"
+    >
+      <div
+        class="flex flex-col items-start justify-start my-2"
+      >
+        <div
+          class="tremor-Table-root overflow-auto w-full"
+        >
+          <table
+            class="tremor-Table-table w-full text-tremor-default text-tremor-content dark:text-dark-tremor-content"
+            id="table"
+            tabindex="0"
+          >
+            <thead
+              class="tremor-TableHead-root text-left text-tremor-content dark:text-dark-tremor-content"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Id"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Id
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Date"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Date
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Status"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Status
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Customer"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Customer
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Products"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Products
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-quantity"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      quantity
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Revenue"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Revenue
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/orders/10425"
+                    >
+                      #
+                      10425
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 5:20 PM
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+                  >
+                    <button
+                      aria-label="Close"
+                      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-red-500 cursor-default"
+                    >
+                      <span
+                        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                      >
+                        <svg
+                          class="text-xs text-red-500"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+                    >
+                      Canceled
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Orlando Imieto avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Orlando Imieto
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] truncate order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0 min-w-[100px] text-wrap line-clamp-1"
+                    data-testid="order-product"
+                  >
+                    Phone Case Pink
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-white font-semibold leading-[15px] tracking-[0.4px] max-w-[50px] lg:max-w-[150px] xl:max-w-[250px] 2xl:max-w-[350px] min-w-[50px] order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0"
+                  >
+                    2
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[80px]"
+                  >
+                    $44.90
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/orders/12345"
+                    >
+                      #
+                      12345
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 10:20 AM
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+                  >
+                    <button
+                      aria-label="Done"
+                      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-green-500 cursor-default"
+                    >
+                      <span
+                        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                      >
+                        <svg
+                          class="text-xs text-green-500"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+                    >
+                      Paid
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Orlando Imieto avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Orlando Imieto
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] truncate order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0 min-w-[100px] text-wrap line-clamp-1"
+                    data-testid="order-product"
+                  >
+                    Office Papers
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-white font-semibold leading-[15px] tracking-[0.4px] max-w-[50px] lg:max-w-[150px] xl:max-w-[250px] 2xl:max-w-[350px] min-w-[50px] order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0"
+                  >
+                    1
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[80px]"
+                  >
+                    $140.20
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/orders/12350"
+                    >
+                      #
+                      12350
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 6:03 PM
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+                  >
+                    <button
+                      aria-label="Done"
+                      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-green-500 cursor-default"
+                    >
+                      <span
+                        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                      >
+                        <svg
+                          class="text-xs text-green-500"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+                    >
+                      Paid
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Orlando Imieto avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Orlando Imieto
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] truncate order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0 min-w-[100px] text-wrap line-clamp-1"
+                    data-testid="order-product"
+                  >
+                    Water Bottle India
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-white font-semibold leading-[15px] tracking-[0.4px] max-w-[50px] lg:max-w-[150px] xl:max-w-[250px] 2xl:max-w-[350px] min-w-[50px] order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0"
+                  >
+                    3
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[80px]"
+                  >
+                    $112.50
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/orders/12356"
+                    >
+                      #
+                      12356
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 4:20 PM
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+                  >
+                    <button
+                      aria-label="Replay"
+                      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-primary dark:border-primary cursor-default"
+                    >
+                      <span
+                        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                      >
+                        <svg
+                          class="text-xs text-primary dark:text-primary"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+                    >
+                      Refunded
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Orlando Imieto avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Orlando Imieto
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] truncate order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0 min-w-[100px] text-wrap line-clamp-1"
+                    data-testid="order-product"
+                  >
+                    Water Bottle India
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-white font-semibold leading-[15px] tracking-[0.4px] max-w-[50px] lg:max-w-[150px] xl:max-w-[250px] 2xl:max-w-[350px] min-w-[50px] order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0"
+                  >
+                    3
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[80px]"
+                  >
+                    $23.90
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/orders/12352"
+                    >
+                      #
+                      12352
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 11:05 PM
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status w-[120px]"
+                  >
+                    <button
+                      aria-label="Done"
+                      class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm dark:text-dark-tremor-brand bg-transparent dark:hover:text-dark-tremor-brand-emphasis w-[25px] h-[25px] justify-center items-center rounded-full border mr-2 text-tremor-content-title hover:text-tremor-content-title border-green-500 cursor-default"
+                    >
+                      <span
+                        class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                      >
+                        <svg
+                          class="text-xs text-green-500"
+                          fill="currentColor"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-width="0"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          />
+                          <path
+                            d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                          />
+                        </svg>
+                      </span>
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-status"
+                    >
+                      Paid
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <div
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Orlando Imieto avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fteam-2.1593fb7f.jpg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </div>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Orlando Imieto
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] truncate order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0 min-w-[100px] text-wrap line-clamp-1"
+                    data-testid="order-product"
+                  >
+                    Water Bottle India
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tertiary text-xs dark:text-white font-semibold leading-[15px] tracking-[0.4px] max-w-[50px] lg:max-w-[150px] xl:max-w-[250px] 2xl:max-w-[350px] min-w-[50px] order-product first:pt-0 last:pt-5 first:pb-0 last:pb-0 border-0 dark:border-grayish border-t border-gray-100 first:mb-5 first:border-0"
+                  >
+                    3
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[80px]"
+                  >
+                    $350.00
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="antialiased font-primary flex gap-5 flex-col md:flex-row items-start w-full justify-between p-6"
+        >
+          <div
+            class="flex w-full py-2"
+          >
+            <p
+              class="text-tremor-default text-tertiary dark:text-secondary"
+            >
+              Showing 
+              <span
+                class="font-normal"
+              >
+                1
+              </span>
+               to 
+              <span
+                class="font-normal"
+              >
+                10
+              </span>
+               of 
+              <span
+                class="font-normal"
+              >
+                10
+              </span>
+               entries
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DecimalNumberInputGroup Component Should match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-2"
+  >
+    <div
+      class="flex flex-col gap-2 px-2 py-4 border-solid border-tremor-default border-2 rounded-lg dark:bg-dark-tremor-background dark:border-none"
+    >
+      <p
+        class="text-tremor-default text-tremor-content dark:text-dark-tremor-content ml-4"
+      />
+      <div
+        class="tremor-Flex-root flex w-full flex-row justify-between items-center ml-3 pr-4 relative"
+      >
+        <input
+          class="w-full p-2 rounded-lg pl-6 pr-4 text-md text-light bg-transparent border-none focus:bg-tremor-background-muted focus:outline-none focus:ring-0 focus:border-gray-600 dark:text-white dark:border-gray-600 dark:focus:border-gray-500 dark:focus:bg-dark-tremor-background-muted"
+          placeholder="0.00"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderStatus Component render OrderStatus component with snapshot correctly 1`] = `
+<div>
+  <p
+    class="text-tremor-default dark:text-dark-romance font-light opacity-100 text-tertiary leading-[21px] w-full"
+  >
+    Order was delivered 
+    18
+     days ago.
+  </p>
+  <p
+    class="text-tremor-default p-2 mt-4 font-bold text-white dark:text-white bg-killarney text-xs rounded-tremor-small leading-[10.5px] tracking-[0.18px] uppercase"
+  >
+    delivered
+  </p>
+</div>
+`;

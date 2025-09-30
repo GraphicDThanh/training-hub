@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order Table Testing should match snapshot 1`] = `
+<div>
+  <div
+    class="absolute z-10 right-0 top-0"
+  >
+    <div
+      class="w-fit p-2 rounded-md dark:bg-transparent max-w-[220px]"
+      data-testid="list-option"
+    >
+      <button
+        class="tremor-Button-root shrink-0 inline-flex justify-center items-center group outline-none rounded-tremor-default border shadow-tremor-input dark:shadow-dark-tremor-input text-sm box-shadow-transparent uppercase float-end py-[9px] px-[26px] font-bold bg-transparent border-primary hover:text-light dark:hover:text-light focus:border-primary hover:border-primary text-primary focus:text-white dark:text-white hover:bg-transparent focus:bg-primary rounded-lg dark:border-primary dark:bg-transparent dark:hover:border-primary dark:hover:bg-transparent dark:focus:bg-dark-secondary"
+        data-testid="toggle-select"
+      >
+        <span
+          class="tremor-Button-text text-tremor-default whitespace-nowrap"
+        >
+          Filters
+        </span>
+        <svg
+          class="tremor-Button-icon shrink-0 h-5 w-5 -mr-1 ml-1.5"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 15.0006L7.75732 10.758L9.17154 9.34375L12 12.1722L14.8284 9.34375L16.2426 10.758L12 15.0006Z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    class="relative w-full"
+  >
+    <div
+      class="tremor-Flex-root flex w-full flex-row justify-end items-center p-6 relative"
+    >
+      <div
+        class="tremor-TextInput-root relative flex items-center outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border w-auto min-w-[185px] dark:bg-transparent dark:border-white ring-0"
+      >
+        <input
+          aria-labelledby="table"
+          class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+          data-testid="test-input-debounce"
+          id="search_order"
+          placeholder="Search by product name"
+          style="padding-right: 1rem;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand p-0 border-none ring-0 dark:bg-dark-tremor-primary overflow-x-auto"
+    >
+      <div
+        class="flex flex-col items-start justify-start my-2"
+      >
+        <div
+          class="tremor-Table-root overflow-auto w-full"
+        >
+          <table
+            class="tremor-Table-table w-full text-tremor-default text-tremor-content dark:text-dark-tremor-content"
+            id="table"
+            tabindex="0"
+          >
+            <thead
+              class="tremor-TableHead-root text-left text-tremor-content dark:text-dark-tremor-content"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                  data-testid="header-cell-Id"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Id
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Product"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Product
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Price"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Price
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Is Available"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Is Available
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Provider Name"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Provider Name
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+                <th
+                  class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-pointer"
+                  data-testid="header-cell-Created Date"
+                >
+                  <div
+                    class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                  >
+                    <div
+                      class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                    >
+                      Created Date
+                    </div>
+                    <div
+                      class="tremor-Flex-root flex w-full flex-col justify-between items-center relative ml-4 -mt-6"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-0"
+                      >
+                        <button
+                          aria-label="Arrow Drop Up"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 14l5-5 5 5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-end items-center absolute top-1.5"
+                      >
+                        <button
+                          aria-label="Arrow Drop Down"
+                          class="tremor-Button-root shrink-0 inline-flex group font-medium outline-none text-sm text-tremor-brand dark:text-dark-tremor-brand bg-transparent hover:text-tremor-brand-emphasis dark:hover:text-dark-tremor-brand-emphasis justify-center items-center opacity-50 dark:opacity-100"
+                        >
+                          <span
+                            class="tremor-Button-text text-tremor-default whitespace-nowrap"
+                          >
+                            <svg
+                              class="w-4 h-4 text-primary dark:text-secondary fill-secondary"
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M7 10l5 5 5-5z"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+            >
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/products/230019"
+                    >
+                      #
+                      230019
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <button
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Christopher Knight Home avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Christopher Knight Home
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $89.53
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold w-[180px] truncate"
+                  >
+                    Provider A
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 22, 2023 11:01 AM
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/products/87120"
+                    >
+                      #
+                      87120
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <button
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Bar Height Swivel Barstool avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-pink.686a7ae1.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Bar Height Swivel Barstool
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $99.99
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold w-[180px] truncate"
+                  >
+                    Provider B
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Jan 9, 2023 9:00 AM
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/products/2456772"
+                    >
+                      #
+                      2456772
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <button
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Christopher Knight Home avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fblack-chair.b2719b4f.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Christopher Knight Home
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $89.53
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold w-[180px] truncate"
+                  >
+                    Provider A
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Nov 1, 2023 10:20 AM
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/products/1992"
+                    >
+                      #
+                      1992
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <button
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Modern Square avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-wood.d127f22b.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Modern Square
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $59.99
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    No
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold w-[180px] truncate"
+                  >
+                    Provider C
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Aug 9, 2023 6:55 AM
+                  </p>
+                </td>
+              </tr>
+              <tr
+                class="tremor-TableRow-row"
+              >
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center w-16"
+                  >
+                    <a
+                      class="text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-id hover:underline"
+                      href="/products/412301"
+                    >
+                      #
+                      412301
+                    </a>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <div
+                    class="flex justify-start items-center gap-2"
+                  >
+                    <button
+                      class="relative h-6 w-6"
+                    >
+                      <img
+                        alt="Signature Design by Ashley avatar"
+                        class="object-cover rounded-full"
+                        data-nimg="fill"
+                        decoding="async"
+                        loading="lazy"
+                        sizes="24px"
+                        src="http://localhost/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=3840&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=16&q=75 16w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=32&q=75 32w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=48&q=75 48w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=64&q=75 64w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=96&q=75 96w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=128&q=75 128w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnextjs-material-dashboard-pro%2F%2F_next%2Fstatic%2Fmedia%2Fchair-steel.dd1d3892.jpeg&w=3840&q=75 3840w"
+                        style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+                      />
+                    </button>
+                    <p
+                      class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] capitalize order-customer w-[200px] truncate"
+                    >
+                      Signature Design by Ashley
+                    </p>
+                  </div>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] order-revenue truncate w-[130px]"
+                  >
+                    $129.00
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold"
+                  >
+                    Yes
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold w-[180px] truncate"
+                  >
+                    Provider B
+                  </p>
+                </td>
+                <td
+                  class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                >
+                  <p
+                    class="text-tremor-default text-xs text-tertiary dark:text-lighter font-semibold leading-[15px] tracking-[0.4px] w-[180px] truncate"
+                  >
+                    Feb 19, 2023 9:08 AM
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div
+          class="antialiased font-primary flex gap-5 flex-col md:flex-row items-start w-full justify-between p-6"
+        >
+          <div
+            class="flex w-full py-2"
+          >
+            <p
+              class="text-tremor-default text-tertiary dark:text-secondary"
+            >
+              Showing 
+              <span
+                class="font-normal"
+              >
+                1
+              </span>
+               to 
+              <span
+                class="font-normal"
+              >
+                10
+              </span>
+               of 
+              <span
+                class="font-normal"
+              >
+                50
+              </span>
+               entries
+            </p>
+          </div>
+          <div
+            class="w-full flex gap-2 justify-center md:justify-end items-center md:m-0"
+          >
+            <button
+              aria-label="Previous page button"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 opacity-50 cursor-not-allowed text-sm text-gray-400 dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:border-gray-300 dark:border-greyish dark:hover:bg-grayish hidden"
+              data-testid="prev-page-button"
+              disabled=""
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="text-tertiary dark:text-secondary"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button
+              aria-label="Page button 1"
+              class="tremor-Button-root shrink-0 group font-medium outline-none shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 bg-tremor-brand border-tremor-brand dark:border-dark-tremor-brand hover:border-tremor-brand-emphasis dark:hover:border-dark-tremor-brand-emphasis cursor-not-allowed text-sm w-9 h-9 inline-flex opacity-100 border-0 justify-center items-center rounded-tremor-full !bg-black text-white dark:text-white shadow-btn-primary dark:shadow-btn-primary dark:bg-gradient-pickled dark:hover:bg-grayish"
+              disabled=""
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                1
+              </span>
+            </button>
+            <button
+              aria-label="Page button 2"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 inline-flex justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:bg-grayish dark:border-greyish dark:hover:border-greyish text-tertiary"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                2
+              </span>
+            </button>
+            <button
+              aria-label="Page button 3"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 inline-flex justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:bg-grayish dark:border-greyish dark:hover:border-greyish text-tertiary"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                3
+              </span>
+            </button>
+            <button
+              aria-label="Page button 4"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 inline-flex justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:bg-grayish dark:border-greyish dark:hover:border-greyish text-tertiary"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                4
+              </span>
+            </button>
+            <button
+              aria-label="Page button 5"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 inline-flex justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:bg-grayish dark:border-greyish dark:hover:border-greyish text-tertiary"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                5
+              </span>
+            </button>
+            <button
+              aria-label="Next page button"
+              class="tremor-Button-root shrink-0 group font-medium outline-none border shadow-tremor-input dark:shadow-dark-tremor-input px-4 py-2 text-sm text-gray-400 dark:text-gray-400 bg-transparent hover:bg-select dark:bg-transparent dark:hover:greyish w-9 h-9 inline-flex justify-center items-center border-gray-300 hover:border-gray-300 rounded-tremor-full box-shadow-transparent dark:hover:border-gray-300 dark:border-greyish dark:hover:bg-grayish"
+              data-testid="next-page-button"
+            >
+              <span
+                class="tremor-Button-text text-tremor-default whitespace-nowrap"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="text-tertiary dark:text-secondary"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

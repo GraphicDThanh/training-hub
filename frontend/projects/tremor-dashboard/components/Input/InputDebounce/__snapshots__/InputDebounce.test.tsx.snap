@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputDebounce component Should matches snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex w-full flex-row justify-end items-center p-6 relative"
+  >
+    <div
+      class="tremor-TextInput-root relative flex items-center outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background hover:bg-tremor-background-muted dark:hover:bg-dark-tremor-background-muted text-tremor-content dark:text-dark-tremor-content border-tremor-border w-auto min-w-[185px] dark:bg-transparent dark:border-white ring-0"
+    >
+      <input
+        class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+        data-testid="test-input-debounce"
+        id="search_order"
+        placeholder="Search..."
+        style="padding-right: 1rem;"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

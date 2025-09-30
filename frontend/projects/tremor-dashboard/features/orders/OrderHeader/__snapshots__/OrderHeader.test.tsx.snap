@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderHeader component Should match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex w-full flex-col justify-between items-start invoice"
+  >
+    <b
+      class="text-primary font-semibold capitalize dark:text-white tracking-[0.12px]"
+    >
+      Order Details
+    </b>
+    <div
+      class="mt-2 tracking-[0.4px]"
+    >
+      <p
+        class="text-tremor-default text-tertiary dark:text-dark-romance"
+      >
+        Order no. 
+        <b
+          class="text-inherit font-bold"
+        >
+          804322
+        </b>
+         from
+         
+        <b
+          class="text-inherit font-bold"
+        >
+          March, 21, 2021
+        </b>
+      </p>
+      <p
+        class="text-tremor-default text-tertiary dark:text-dark-romance"
+      >
+        Code: 
+        <b
+          class="text-inherit font-bold"
+        >
+          KF332
+        </b>
+      </p>
+    </div>
+  </div>
+</div>
+`;

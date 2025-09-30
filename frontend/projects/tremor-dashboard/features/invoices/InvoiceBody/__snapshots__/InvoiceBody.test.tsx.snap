@@ -1,0 +1,680 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvoiceBody Testing should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-between items-end invoice-body"
+      >
+        <div
+          class="tremor-Flex-root flex w-full flex-col justify-between items-start mb-7 md:flex-row md:items-center print:flex-row print:mb-7"
+        >
+          <div
+            class="w-full mb-5 md:mb-0 print:mb-0"
+          >
+            <p
+              class="text-tremor-title font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer print:mb-1"
+            >
+              Invoice no
+            </p>
+            <a
+              class="text-tremor-primary text-primary dark:text-white leading-relaxed font-bold tracking-wide no-underline print:text-primary dark:print:!text-primary"
+              href="#"
+            >
+              #
+              230220
+            </a>
+          </div>
+          <div
+            class="w-full"
+          >
+            <div
+              class="tremor-Flex-root flex w-full flex-col justify-between items-center md:flex-row mb-1 md:mb-0 print:flex-row print:mb-1"
+            >
+              <p
+                class="text-tremor-title w-full mb-1 md:mb-0 print:mb-1 text-left md:text-end print:text-end font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer"
+              >
+                Invoice date:
+              </p>
+              <p
+                class="w-full text-left md:text-end print:text-end text-tremor-title text-primary font-semibold dark:text-white dark:print:text-primary"
+              >
+                03/06/2019
+              </p>
+            </div>
+            <div
+              class="tremor-Flex-root flex w-full flex-col justify-between items-center md:flex-row print:flex-row"
+            >
+              <p
+                class="text-tremor-title w-full mb-1 md:mb-0 print:mb-1 text-left md:text-end print:text-end font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer"
+              >
+                Due date:
+              </p>
+              <p
+                class="w-full text-left md:text-end print:text-end text-tremor-title text-primary font-semibold dark:text-white dark:print:text-primary"
+              >
+                03/11/2019
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative w-full"
+        >
+          <div
+            class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand p-0 border-none ring-0 dark:bg-dark-tremor-primary overflow-x-auto !shadow-none"
+          >
+            <div
+              class="flex flex-col items-start justify-start my-2"
+            >
+              <div
+                class="tremor-Table-root overflow-auto w-full"
+              >
+                <table
+                  class="tremor-Table-table w-full text-tremor-default text-tremor-content dark:text-dark-tremor-content"
+                  id="table"
+                  tabindex="0"
+                >
+                  <thead
+                    class="tremor-TableHead-root text-left text-tremor-content dark:text-dark-tremor-content"
+                  >
+                    <tr
+                      class="tremor-TableRow-row"
+                    >
+                      <th
+                        class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                        data-testid="header-cell-Item"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                        >
+                          <div
+                            class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                          >
+                            Item
+                          </div>
+                        </div>
+                      </th>
+                      <th
+                        class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                        data-testid="header-cell-Qty"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                        >
+                          <div
+                            class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                          >
+                            Qty
+                          </div>
+                        </div>
+                      </th>
+                      <th
+                        class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                        data-testid="header-cell-Rate"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                        >
+                          <div
+                            class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                          >
+                            Rate
+                          </div>
+                        </div>
+                      </th>
+                      <th
+                        class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                        data-testid="header-cell-Amount"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                        >
+                          <div
+                            class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                          >
+                            Amount
+                          </div>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+                  >
+                    <tr
+                      class="tremor-TableRow-row"
+                    >
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          Premium Support
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          1
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 9.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                          >
+                            Total
+                          </p>
+                        </div>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 9.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                          >
+                            $345.00
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="tremor-TableRow-row"
+                    >
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          Metro Dashboard
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          3
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 100.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                          >
+                            Total
+                          </p>
+                        </div>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 300.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                          >
+                            $345.00
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr
+                      class="tremor-TableRow-row"
+                    >
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          Parts for service
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          2
+                        </p>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 10.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                          >
+                            Total
+                          </p>
+                        </div>
+                      </td>
+                      <td
+                        class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                      >
+                        <div>
+                          <p
+                            class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                          >
+                            $ 20.00
+                          </p>
+                          <p
+                            class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                          >
+                            $345.00
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="tremor-Flex-root flex w-full flex-col justify-between items-end invoice-body"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-between items-start mb-7 md:flex-row md:items-center print:flex-row print:mb-7"
+      >
+        <div
+          class="w-full mb-5 md:mb-0 print:mb-0"
+        >
+          <p
+            class="text-tremor-title font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer print:mb-1"
+          >
+            Invoice no
+          </p>
+          <a
+            class="text-tremor-primary text-primary dark:text-white leading-relaxed font-bold tracking-wide no-underline print:text-primary dark:print:!text-primary"
+            href="#"
+          >
+            #
+            230220
+          </a>
+        </div>
+        <div
+          class="w-full"
+        >
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-center md:flex-row mb-1 md:mb-0 print:flex-row print:mb-1"
+          >
+            <p
+              class="text-tremor-title w-full mb-1 md:mb-0 print:mb-1 text-left md:text-end print:text-end font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer"
+            >
+              Invoice date:
+            </p>
+            <p
+              class="w-full text-left md:text-end print:text-end text-tremor-title text-primary font-semibold dark:text-white dark:print:text-primary"
+            >
+              03/06/2019
+            </p>
+          </div>
+          <div
+            class="tremor-Flex-root flex w-full flex-col justify-between items-center md:flex-row print:flex-row"
+          >
+            <p
+              class="text-tremor-title w-full mb-1 md:mb-0 print:mb-1 text-left md:text-end print:text-end font-normal dark:text-lighter text-tertiary print:text-greyer dark:print:text-greyer"
+            >
+              Due date:
+            </p>
+            <p
+              class="w-full text-left md:text-end print:text-end text-tremor-title text-primary font-semibold dark:text-white dark:print:text-primary"
+            >
+              03/11/2019
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative w-full"
+      >
+        <div
+          class="tremor-Card-root relative w-full text-left rounded-tremor-default bg-tremor-background ring-tremor-ring shadow-tremor-card dark:ring-dark-tremor-ring dark:shadow-dark-tremor-card border-tremor-brand dark:border-dark-tremor-brand p-0 border-none ring-0 dark:bg-dark-tremor-primary overflow-x-auto !shadow-none"
+        >
+          <div
+            class="flex flex-col items-start justify-start my-2"
+          >
+            <div
+              class="tremor-Table-root overflow-auto w-full"
+            >
+              <table
+                class="tremor-Table-table w-full text-tremor-default text-tremor-content dark:text-dark-tremor-content"
+                id="table"
+                tabindex="0"
+              >
+                <thead
+                  class="tremor-TableHead-root text-left text-tremor-content dark:text-dark-tremor-content"
+                >
+                  <tr
+                    class="tremor-TableRow-row"
+                  >
+                    <th
+                      class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                      data-testid="header-cell-Item"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                        >
+                          Item
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                      data-testid="header-cell-Qty"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                        >
+                          Qty
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                      data-testid="header-cell-Rate"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                        >
+                          Rate
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      class="tremor-TableHeaderCell-root whitespace-nowrap text-left top-0 text-tremor-content-strong px-6 py-2 text-[10.4px] leading-[17px] dark:text-white tracking-[0.2px] font-bold uppercase cursor-default"
+                      data-testid="header-cell-Amount"
+                    >
+                      <div
+                        class="tremor-Flex-root flex w-full flex-row justify-between items-center"
+                      >
+                        <div
+                          class="tremor-Flex-root flex w-full flex-row justify-between items-center text-primary dark:text-white print:text-primary dark:print:!text-primary"
+                        >
+                          Amount
+                        </div>
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="tremor-TableBody-root align-top divide-y divide-tremor-border dark:divide-dark-tremor-border"
+                >
+                  <tr
+                    class="tremor-TableRow-row"
+                  >
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        Premium Support
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        1
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 9.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                        >
+                          Total
+                        </p>
+                      </div>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 9.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                        >
+                          $345.00
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    class="tremor-TableRow-row"
+                  >
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        Metro Dashboard
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        3
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 100.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                        >
+                          Total
+                        </p>
+                      </div>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 300.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                        >
+                          $345.00
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr
+                    class="tremor-TableRow-row"
+                  >
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-dark-tremor-content max-w-[250px] md:max-w-sm truncate print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        Parts for service
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <p
+                        class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                      >
+                        2
+                      </p>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 10.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 dark:!text-white dark:print:!text-primary"
+                        >
+                          Total
+                        </p>
+                      </div>
+                    </td>
+                    <td
+                      class="tremor-TableCell-root align-middle whitespace-nowrap text-left p-4 px-6 py-5 border-0 dark:border-grayish border-b border-gray-100"
+                    >
+                      <div>
+                        <p
+                          class="text-tremor-default dark:text-lighter print:text-greyer dark:print:text-greyer text-tertiary"
+                        >
+                          $ 20.00
+                        </p>
+                        <p
+                          class="text-tremor-default text-tremor-content dark:text-dark-tremor-content total hidden mt-6 flex-col items-end dark:!text-white dark:print:!text-primary"
+                        >
+                          $345.00
+                        </p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

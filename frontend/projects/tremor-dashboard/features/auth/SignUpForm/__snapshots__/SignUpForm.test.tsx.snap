@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm Component should match snapshot 1`] = `
+<div>
+  <div
+    class="tremor-Flex-root flex w-full flex-col justify-between items-center mx-auto bg-white dark:bg-dark-tremor-primary rounded-xl max-w-[348px] md:max-w-xl"
+  >
+    <div
+      class="w-full p-4 antialiased font-primary"
+    >
+      <div
+        class="tremor-Flex-root flex w-full flex-col justify-center items-center bg-gradient-primary dark:bg-gradient-pickled rounded-xl -mt-11 mb-7 pb-7 shadow-btn-primary"
+      >
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content font-semibold pt-8 pb-2 px-8 !text-tremor-normal text-white tracking-wide"
+        >
+          Sign up
+        </p>
+        <p
+          class="text-tremor-default dark:text-dark-tremor-content text-white tracking-wide font-light max-w-xs px-8 text-center 2xl:px-0"
+        >
+          Enter your email and password to register
+        </p>
+      </div>
+      <div>
+        <form
+          class="w-full p-2 sign-up"
+        >
+          <div
+            class="h-[70px] w-full"
+          >
+            <div
+              class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-brand-subtle ring-tremor-brand-muted dark:ring-dark-tremor-brand-muted py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+            >
+              <input
+                class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                data-testid="signup-name"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="h-[70px] w-full"
+          >
+            <div
+              class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-border py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+            >
+              <input
+                class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-3 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                data-testid="signup-email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required=""
+                tabindex="0"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="h-[70px] w-full"
+          >
+            <div
+              class="tremor-TextInput-root relative flex items-center min-w-[10rem] outline-none rounded-tremor-default transition duration-100 border shadow-tremor-input dark:shadow-dark-tremor-input bg-tremor-background text-tremor-content dark:text-dark-tremor-content border-tremor-border py-1 w-full rounded-b-none border-l-0 border-r-0 border-t-0 border-b-1 dark:border-white focus:border-b-2 focus:outline-none focus:border-tremor-brand-subtle shadow-none hover:bg-transparent dark:bg-transparent dark:hover:bg-transparent ring-0"
+            >
+              <input
+                class="tremor-TextInput-input w-full bg-transparent focus:outline-none focus:ring-0 border-none text-tremor-default rounded-tremor-default transition duration-100 py-2 text-tremor-content-emphasis dark:text-dark-tremor-content-emphasis [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none pr-12 pl-3 placeholder:text-tremor-content dark:placeholder:text-dark-tremor-content"
+                data-testid="signup-password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                required=""
+                tabindex="0"
+                type="password"
+                value=""
+              />
+              <button
+                aria-label="Show Password"
+                class="tremor-TextInput-toggleButton absolute inset-y-0 right-0 flex items-center px-2.5 rounded-lg"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="flex-none h-5 w-5 transition text-tremor-content-subtle hover:text-tremor-content dark:text-dark-tremor-content-subtle hover:dark:text-dark-tremor-content"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.18164 12C2.12215 6.87976 6.60812 3 12.0003 3C17.3924 3 21.8784 6.87976 22.8189 12C21.8784 17.1202 17.3924 21 12.0003 21C6.60812 21 2.12215 17.1202 1.18164 12ZM12.0003 17C14.7617 17 17.0003 14.7614 17.0003 12C17.0003 9.23858 14.7617 7 12.0003 7C9.23884 7 7.00026 9.23858 7.00026 12C7.00026 14.7614 9.23884 17 12.0003 17ZM12.0003 15C10.3434 15 9.00026 13.6569 9.00026 12C9.00026 10.3431 10.3434 9 12.0003 9C13.6571 9 15.0003 10.3431 15.0003 12C15.0003 13.6569 13.6571 15 12.0003 15Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex items-center space-x-3 pt-3"
+            >
+              <div
+                class="relative inline-flex items-center"
+              >
+                <input
+                  aria-label="Terms And Conditions"
+                  class="peer h-5 w-5 cursor-pointer appearance-none rounded-md border border-blue-gray-200 transition-all before:content[''] before:absolute before:top-2/4 before:left-2/4 before:block before:h-12 before:w-12 before:-translate-y-2/4 before:-translate-x-2/4 before:rounded-full before:bg-blue-gray-500 before:opacity-0 before:transition-opacity hover:before:opacity-10 checked:border-primary checked:bg-primary checked:before:bg-primary"
+                  data-testid="signup-terms"
+                  id="termsAndConditions"
+                  tabindex="0"
+                  type="checkbox"
+                />
+                <span
+                  class="absolute text-white transition-opacity opacity-0 pointer-events-none top-2/4 left-2/4 -translate-y-2/4 -translate-x-2/4 peer-checked:opacity-100"
+                >
+                  <svg
+                    baseProfile="tiny"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    version="1.2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.972 6.251c-.967-.538-2.185-.188-2.72.777l-3.713 6.682-2.125-2.125c-.781-.781-2.047-.781-2.828 0-.781.781-.781 2.047 0 2.828l4 4c.378.379.888.587 1.414.587l.277-.02c.621-.087 1.166-.46 1.471-1.009l5-9c.537-.966.189-2.183-.776-2.72z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <p
+                class="text-tremor-default text-xs xs:text-sm text-tertiary dark:text-dark-romance font-normal"
+              >
+                I agree the
+                 
+                <a
+                  class="no-underline text-primary dark:text-white font-bold"
+                  href="#"
+                  tabindex="0"
+                >
+                  Terms and conditions
+                </a>
+              </p>
+            </div>
+          </div>
+          <button
+            class="tremor-Button-root shrink-0 inline-flex justify-center items-center group font-medium outline-none rounded-tremor-default shadow-tremor-input dark:shadow-dark-tremor-input text-xs text-tremor-brand-inverted dark:text-dark-tremor-brand-inverted dark:border-dark-tremor-brand dark:hover:border-dark-tremor-brand-emphasis opacity-50 cursor-not-allowed px-6 border-none bg-gradient-primary dark:bg-gradient-pickled shadow-btn-primary dark:!shadow-btn-primary hover:!shadow-btn-primary-hover dark:hover:!shadow-btn-primary-hover min-h-[43px] w-full rounded-lg py-[11px] mt-9 uppercase border-0 border-transparent hover:border-transparent"
+            data-testid="signup-submit"
+            disabled=""
+            tabindex="0"
+            type="submit"
+          >
+            <span
+              class="tremor-Button-text text-tremor-default whitespace-nowrap"
+            >
+              <p
+                class="text-tremor-default font-bold text-xs text-white dark:text-white"
+              >
+                Create account
+              </p>
+            </span>
+          </button>
+          <div
+            class="tremor-Flex-root flex w-full flex-row justify-center items-center mt-8 mb-2"
+          >
+            <p
+              class="text-tremor-default text-tertiary dark:text-dark-romance text-xs xs:text-sm font-light"
+            >
+              Already have an account?
+            </p>
+            <a
+              class="text-primary dark:text-white font-semibold text-xs xs:text-sm ml-1"
+              href="/signin"
+              tabindex="0"
+            >
+              Sign In
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
