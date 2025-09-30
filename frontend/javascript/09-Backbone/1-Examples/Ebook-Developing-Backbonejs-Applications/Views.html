@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Views chapter Backbone Basics
+    // Your code goes here
+
+    // Creating new Views
+      var TodoView = Backbone.View.extend({
+
+        tagName: 'li',
+
+        // Cache the template function for a single item.
+        todoTpl: _.template('An example template'),
+
+        events: {
+          'dbclick label': 'edit',
+          'keypress .edit': 'updateOnEnter',
+          'blur .edit': 'close'
+        },
+
+        // Remember the titles of the todo item.
+        render: function() {
+          this.$el.html(this.todoTpl(this.model.toJSON()));
+          this.input = this.$('.edit');
+          return this;
+        },
+
+        edit: function() {
+          // excuted when todo loses focus
+        },
+
+        updateOnEnter: function(e) {
+          // excuted on each keypress when in todo edit mode
+          // but we'll wait for enter to get in action
+        }
+      });
+
+      var todoView = new TodoView();
+
+      // log reference to a DOM element that corresponds to the view instance
+      console.log(todoView.el);
+
+    // What is el
+    var TodoView = Backbone.View.extend({
+      tagName: 'ul', // rewuired, but default to div if not set
+      className: 'container',// optinal, you can assign multiple classes to this property like so: 'container homepage'
+      id: 'todos',// optinal
+    });
+
+    var todoView = new TodoView();
+    console.log(todoView.el);
+    
+
+    // setElement in What is el
+    //We create twon DOM elements representing buttons
+    //which could easily be containers or something else
+    var button1 = $('<button></button>');
+    var button2 = $('<button></button>');
+
+    // Define a new view
+    var View = Backbone.View.extend({
+      events: {
+        click: function(e) {
+          console.log(view.el === e.target);
+        }
+      }
+    });
+
+    // Create a new instance of the view, applying it to button 1
+    var view = new View({ el: button1 });
+
+    // Apply the view to button2 using setElement
+    view.setElement(button2);
+
+    button1.trigger('click');
+    button2.trigger('click');
+    </script>
+  </body>
+</html>

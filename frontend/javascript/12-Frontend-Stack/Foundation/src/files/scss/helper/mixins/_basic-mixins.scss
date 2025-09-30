@@ -1,0 +1,45 @@
+// BEM Syntax
+// Block element
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+// Block Modifier
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+@mixin background-no-repeat($url, $position) {
+  background: url($url) $position no-repeat;
+}
+
+@mixin background-contain($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: contain; 
+}
+
+@mixin background-cover($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: cover; 
+}
+
+//- background image with height
+@mixin bg-with-height($bg-url, $position, $height) {
+  @include background-cover($bg-url, $position);
+  height: $height;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}

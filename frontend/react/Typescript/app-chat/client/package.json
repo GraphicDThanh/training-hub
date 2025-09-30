@@ -1,0 +1,68 @@
+{
+  "name": "my-practice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/chance": "^1.0.1",
+    "@types/firebase": "^3.2.1",
+    "@types/history": "^4.7.2",
+    "@types/lodash": "^4.14.119",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux-logger": "^3.0.6",
+    "@types/redux-mock-store": "^1.0.0",
+    "@types/sinon": "^5.0.7",
+    "chance": "^1.0.16",
+    "firebase": "^5.7.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "redux": "^4.0.0-rc.1",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga": "^0.16.2",
+    "redux-saga-firebase": "^0.14.1",
+    "redux-thunk": "^2.3.0",
+    "reduxsauce": "^1.0.0",
+    "sinon": "^7.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start --NODE_ENV",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "test:coverage": "react-scripts-ts test --coverage --env=jsdom"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.2",
+    "@types/socket.io-client": "^1.4.32",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "react-test-renderer": "^16.6.1",
+    "redux-saga-test-plan": "^3.7.0",
+    "socket.io-client": "^2.1.1",
+    "typescript": "^3.1.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts,tsx}",
+      "!**/*.{d.ts}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/src/config/*",
+      "!**/src/types/*",
+      "!**/src/assets/*",
+      "!**/src/index.tsx",
+      "!**/src/registerServiceWorker.ts"
+    ]
+  }
+}

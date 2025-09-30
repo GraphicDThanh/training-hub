@@ -1,0 +1,6 @@
+<% for job in @site.jobs: %>
+.col-md-12
+  .title
+    a(href='<%- job.url %>') <%- job.name %>
+  .desc <%- job.desc %>
+<% end %>

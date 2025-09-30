@@ -1,0 +1,160 @@
+.products-page-introduction {
+  height: auto;
+
+  .products-page-symphony-text {
+    float: left;
+    width: 485px;
+    margin: 50px 7.5% 0 0;
+
+    .products-page-symphony-content {
+      @include font-size-weight-lato(20px, 300);
+    }
+  }
+
+  .products-page-symphony {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-bottom: 130px;
+  }
+
+  .products-page-symphony-right {
+    float: right;
+    margin-top: -90px;
+    text-align: center;
+
+
+    .products-page-symphony-image {
+      @include background-contain('../img/selerity-new-version/tmp-sympathy.jpg');
+      @include size-width-height(594px, 299px);
+    }
+
+    .products-page-symphony-button {
+      margin-top: -20px;
+    }
+
+    .btn-products-page-symphony {
+      padding: 17px 50px 20px 50px;
+      background-color: #0d78b9;
+      color: #fff;
+      border: 1px solid transparent;
+      border-radius: 50px;
+      font-size: 22px;
+      position: relative;
+
+      &:after {
+        @include position(absolute, 25px, 20px, null, null);
+        @include background-contain('../img/selerity-new-version/chevron-right.png');
+        @include size-width-height(11px, 20px);
+        content: "";
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .products-page-symphony-line {
+    @include position(absolute, null, 0, 0, 0);
+    @include size-width-height(91px, 2px);
+    background-color: #b0b0b0;
+    margin: 0 auto;
+  }
+
+  .products-page-usecase {
+    height: auto;
+    padding-bottom: 35px;
+
+    h3 {
+      @include font-size-weight-lato(30px, 300);
+      text-transform: uppercase;
+      color: #3d3d3d;
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .products-page-usecase-image {
+      @include size-width-height(400px, 310px);
+      overflow: hidden;
+    }
+
+    .products-page-usecase-block {
+      @include size-width-height(100%, 100%);
+      @include transform(translateY(0px));
+      @include transition(all 0.2s ease);
+      @include position(absolute, 0, null, null, null);
+      background-color: rgba(21,118,178,0.9);
+      overflow: hidden;
+      text-align: center;
+      padding-top: 30px;
+      color: #fff;
+
+      h4 {
+        @include font-size-weight-lato(25px, 400);
+        text-transform: capitalize;
+        height: 70px;
+        padding: 0 30px;
+      }
+
+      p {
+        @include font-size-weight-lato(20px, 300);
+        padding: 0 30px;
+      }
+    }
+    .products-page-usecase-hover {
+      height: 100%;
+      z-index: 99;
+      cursor: pointer;
+      overflow: hidden;
+
+      &:nth-child(2) {
+        .products-page-usecase-image {
+          @include background-cover('../img/selerity-new-version/chatui-diagonally.png');
+        }
+      }
+
+      &:nth-child(3) {
+        .products-page-usecase-image {
+          @include background-cover('../img/selerity-new-version/financial-1.png');
+        }
+      }
+
+      &:nth-child(4) {
+        .products-page-usecase-image {
+          @include background-cover('../img/selerity-new-version/research-banking.png');
+        }
+      }
+
+      &:hover {
+        .products-page-usecase-block {
+          @include transform(translateY(225px));
+
+          h4 {
+            @include transform(translateY(-25px));
+          }
+        }
+      }
+    }
+  }
+}
+
+.btn-products-request-demo {
+  @include font-size-weight-lato(22px, 300);
+  color: #fff;
+  margin: 15px auto 15px auto;
+  padding: 12px 30px 15px 30px;
+  border-radius: 30px;
+  display: block;
+  z-index: 10;
+  text-transform: capitalize;
+  background-color: #0d78b9;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border: 1px solid transparent;
+
+  &:focus {
+    outline: 0;
+  }
+}

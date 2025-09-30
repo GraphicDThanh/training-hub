@@ -1,0 +1,322 @@
+@media screen and(max-width: 768px) {
+  .products-page-header {
+    height: 898px;
+
+    .products-page-header-content {
+      width: 70%;
+      top: 19.8%;
+
+      h2 {
+        font-weight: 400;
+        margin: 0 0 80px 0;
+      }
+
+      h3 {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .products-page-introduction {
+
+    .products-page-symphony {
+      padding-bottom: 17.4%;
+    }
+
+    .products-page-symphony-right {
+      float: none;
+      margin-top: -125px;
+
+      .products-page-symphony-image {
+        @include background-contain('../img/mobile/tmp-sympathy-mobile.jpg');
+        max-width: 100%;
+      }
+
+      .products-page-symphony-button {
+        @include position(absolute, -300px, 0, null, 0);
+      }
+    }
+
+    .products-page-symphony-text {
+      float: none;
+      width: 73.8%;
+      margin: 90px auto 0 auto;
+      text-align: center;
+
+      .products-page-symphony-content {
+        font-size: 30px;
+      }
+    }
+
+    .products-page-symphony-line {
+      width: 171px;
+    }
+
+    .products-page-usecase {
+
+      h3 {
+        font-size: 40px;
+      }
+
+      .products-page-usecase-image {
+        height: 465px;
+        overflow: inherit;
+        width: 100%;
+      }
+
+      .products-page-usecase-block  {
+        @include transform(translateY(0));
+        position: inherit;
+
+        h4 {
+          font-size: 45px;
+          margin: 45px auto;
+          height: auto;
+        }
+
+        p {
+          font-size: 30px;
+          padding: 0 10% 10% 10%;
+        }
+      }
+
+      .products-page-usecase-hover {
+        height: auto;
+        margin: 35px 10%;
+
+
+        &:nth-child(2) {
+          .products-page-usecase-image {
+            @include background-cover('../img/mobile/product-chatui-mobile.jpg');
+          }
+        }
+
+        &:nth-child(3) {
+          .products-page-usecase-image {
+            @include background-cover('../img/mobile/financial-mobile.jpg');
+          }
+        }
+
+        &:nth-child(4) {
+          .products-page-usecase-image {
+            @include background-cover('../img/mobile/product-finatical-mobile.jpg');
+          }
+        }
+
+        &:hover {
+          .products-page-usecase-block {
+            @include transform(translateY(0));
+
+            h4 {
+              @include transform(translateY(0));
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .products-page-powerful {
+    height: auto;
+
+    .col-md-3 {
+      &:last-child {
+        .products-page-powerful-block {
+          margin: 30px auto 13.6% auto;
+        }
+      }
+    }
+
+    .products-page-powerful-block {
+      width: 81.4%;
+      height: auto;
+      margin: 30px auto;
+    }
+
+    .products-page-powerful-title {
+      font-size: 45px;
+    }
+
+    .products-page-powerful-subtitle {
+      font-size: 45px;
+      height: auto;
+      margin: 30px auto;
+    }
+
+    .products-page-powerful-description {
+      font-size: 30px;
+      padding: 0 12% 50px 12%;
+    }
+  }
+
+  .products-page-great {
+    height: auto;
+
+    .products-page-great-blue,
+    .products-page-great-white {
+      height: 773px;
+    }
+
+    .products-page-great-title {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 30px;
+
+      a {
+        font-size: 30px;
+      }
+    }
+
+    .products-page-great-title-sources {
+      @include font-size-weight-lato(45px, 400);
+      margin: 10% auto;
+    }
+  }
+
+  .products-page-lingual {
+    height: auto;
+
+    .lingual-title {
+      font-size: 45px;
+      margin-bottom: 60px;
+    }
+
+    .lingual-description,
+    .lingual-line-item a {
+      font-size: 30px;
+      width: 76%;
+    }
+
+    .lingual-line-list {
+      width: 76%;
+      margin: 0 auto 70px auto;
+    }
+
+    .lingual-line-item {
+      float: left;
+
+      &:after {
+        font-size: 30px;
+      }
+    }
+
+    .lingual-line {
+      width: 212px;
+      margin: 25px auto;
+    }
+
+    .lingual-line-languages {
+      font-size: 35px;
+    }
+
+    .col-md-2:last-child {
+      margin-bottom: 100px;
+    }
+
+    .col-md-2:nth-child(1) {
+      margin-top: 50px;
+    }
+
+    .lingual-black-block,
+    .lingual-black-block-white {
+      width: 437px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .lingual-black-title {
+      font-size: 35px;
+      margin: 0;
+    }
+
+    .ligual-back-description {
+      font-size: 30px;
+      padding: 9.4% 4.7% 18.8% 4.7%;
+    }
+
+    .lingual-black-icon {
+      width: 198px;
+      height: 196px;
+      margin: 40px auto;
+    }
+
+    .lingual-black-block-arrow {
+      height: 60px;
+      width: 50px;
+
+      .lingual-arrow-db-right,
+      .lingual-arrow-db-left {
+        @include rotate(90);
+        position: initial;
+      }
+    }
+
+    .lingual-black-icon-domain {
+      @include background-cover('../img/selerity-new-version/domain-icon-mobile.png');
+    }
+
+    .lingual-black-icon-personal {
+      @include background-cover('../img/selerity-new-version/personal-icon-mobile.png');
+    }
+
+    .lingual-black-icon-domain-specific {
+      @include background-cover('../img/selerity-new-version/domain-specific-mobile.png');
+    }
+  }
+
+  .products-api {
+    height: auto;
+
+    .products-api-icon {
+      @include size-width-height(336px, 365px);
+    }
+
+    .products-api-widget-icon {
+      @include background-contain('../img/selerity-new-version/widget-icon-mobile.png');
+    }
+
+    .products-api-api-icon {
+      @include background-contain('../img/selerity-new-version/api-icon-mobile.png');
+    }
+
+    .products-api-title,
+    .products-api-blue-title {
+      font-size: 45px;
+    }
+
+    .products-api-blue-description {
+      font-size: 30px;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .products-api-blue-line {
+      width: 211px;
+      margin: 40px auto;
+    }
+
+    .products-api-blue-subtitle {
+      font-size: 35px;
+    }
+
+    .products-api-block {
+      padding-top: 11.4%;
+    }
+  }
+
+  .popup-block-fixed .image-popup {
+    &.enterprise {
+      @include background-contain('../img/mobile/enterprise-messaging-mobile.jpg');
+    }
+
+    &.financial-publisher {
+      @include background-contain('../img/mobile/eBroker-mobile.jpg');
+    }
+
+    &.banking-portal {
+      @include background-contain('../img/mobile/bankingPortal-mobile.jpg');
+    }
+  }
+}

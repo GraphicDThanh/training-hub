@@ -1,0 +1,49 @@
+@mixin background-no-repeat($url, $position) {
+  background: url($url) $position no-repeat;
+}
+
+@mixin background-contain($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: contain; 
+}
+
+@mixin background-cover($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: cover; 
+}
+
+@mixin border-radius($value) {
+  border-radius: $value;
+  -webkit-border-radius: $value;
+  -o-border-radius: $value;
+  -ms-border-radius: $value; 
+}
+
+@mixin link-style(
+  $color: $blue-link-color, 
+  $color-hover: darken($blue-link-color, 10%)) 
+{
+  color: $color;
+  &:hover {
+    color: $color-hover;
+  }
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+}
+
+//position
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+//size
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}

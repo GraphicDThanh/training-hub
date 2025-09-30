@@ -1,0 +1,115 @@
+@media screen and (max-width: 480px) {
+  .carrers-selerity {
+    header {
+      height: 140px;
+    }
+  }
+
+  #carrers {
+    .cover-image {
+      h2 {
+        font-size: 2em;
+        left:50px;
+      }
+    }
+
+    .cover-content {
+      h3 {
+        font-size:1.5em;
+        line-height: 1.5;
+      }
+
+      hr {
+        margin:20px 0 10px;
+      }
+
+      .container-box {
+        margin:20px 0px;
+        .box {
+          font-size: 0.875em;
+        }
+
+        h4 {
+          font-size:1.25em;
+          margin:20px 0 15px;
+        }
+      }
+
+      .embrace {
+        ul {
+          padding-left:20px;
+          li {
+            font-size: 0.875em;
+            line-height:1.5;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            width:100%;
+            &:last-child {
+              margin-bottom: 20px;
+            }
+          }
+        }
+
+        .title {
+          font-size: 1.25em;
+        }
+      }
+
+      .benefits, .day-life, .current-openings {
+        padding:0;
+      }
+
+      .benefits {
+        ul {
+          padding-top:20px;
+          li {
+            font-size: 0.875em;
+            margin-bottom: 20px;
+            width:100%;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+
+          .cover-content h3 {
+            padding-left: 15px;
+          }
+        }
+
+        .col-md-9 {
+          font-size: 0.875em;
+          h6 {
+            font-size: 1.25em;
+          }
+        }
+      }
+
+      .current-openings {
+        .content {
+          .container-text {
+            margin:25px 0;
+            .title {
+              font-size: 1em;
+            }
+
+            .desc {
+              font-size: 0.875em;
+            }
+          }
+        }
+      }
+    }
+
+    .btn-recruiters {
+      font-size: 0.75em;
+      padding: 8px 30px;
+    }
+  }
+
+  .btn {
+    &.btn-current-openings {
+      padding:15px 35px !important;
+      font-size:15px !important;
+    }
+  }
+}

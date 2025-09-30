@@ -1,0 +1,18 @@
+.header {
+  &__logo {
+    @extend %reset-margin;
+    &--text {
+      @extend %boulder-color;
+      @extend %font-14;
+      @extend %font-weight-600;
+      @extend %link-none-style;
+      &:hover {
+        color: darken($boulder, 20%)
+      }
+    }
+  }
+}
+
+.header .mainNav__item:first-child {
+  @extend %display-none;
+}

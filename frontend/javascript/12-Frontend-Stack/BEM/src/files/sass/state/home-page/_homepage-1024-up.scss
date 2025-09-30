@@ -1,0 +1,49 @@
+@media screen and(max-width: 1366px) {
+  .header-carousel {
+    .header-title-block {
+      padding-top: 9%;
+    }
+
+    .header-image {
+      @include size-width-height(580px, 320px);
+    }
+  }
+
+  .customers  {
+    .customers-background {
+      margin-top: 2%;
+    }
+
+    .customers-background {
+      height: 410px;
+    }
+
+    .customers-content-block {
+      height: 465px;
+    }
+  }
+
+  .fullpage-wrapper.full-page-with-trending {
+    .markets .markets-title {
+      padding-bottom: 6%;
+    }
+
+    .customers {
+      .customers-background {
+        height: 350px;
+      }
+
+      .customers-background {
+        margin-top: 6%;
+      }
+
+      .customers-content-block {
+        height: 515px;
+      }
+    }
+  }
+
+  #fp-nav {
+    top: 25%;
+  }
+}

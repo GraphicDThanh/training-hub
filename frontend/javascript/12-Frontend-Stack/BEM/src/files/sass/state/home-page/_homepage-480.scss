@@ -1,0 +1,174 @@
+@media screen and (max-width: 480px) {
+	.main-navbar-fixed-top {
+    .navbar-header__button {
+      margin-top: 10px;
+    }
+
+    .navbar-button .navbar-button__iconbar {
+      width: 21px;
+      margin-top: 5px;
+    }
+
+    .navbar-header__logo {
+      @include size-width-height(122px, 30px);
+      margin: 10px auto;
+    }
+
+    .logo .logo__image {
+      background-size: contain;
+      height: 30px;
+    }
+  }
+
+  .btn-header {
+    font-size: 19px;
+    width: 185px;
+  }
+
+  .btn-header-learn-more {
+    font-size: 25px;
+  }
+
+  .header-carousel {
+    height: 570px;
+
+    .header-title,
+    .header-subtitle {
+      font-size: 28px;
+    }
+
+    .btn-header-mobile {
+      font-size: 24px;
+      padding: 10px 20px;
+    }
+	}
+
+  .main-navbar-fixed-top {
+    .nav-item {
+      .nav-item-link {
+        font-size: 29px;
+        padding: 15px 0 15px 40px;
+      }
+    }
+  }
+
+  .sliding-panel {
+    &.is-visible {
+      .sliding-panel-logo {
+        @include size-width-height(73px, 68px);
+      }
+    }
+  }
+
+  .markets {
+    .markets-title {
+      font-size: 38px;
+      padding-top: 140px;
+    }
+
+    .markets-content-icon {
+      @include size-width-height(114px, 109px);
+    }
+
+    .markets-content-title {
+      font-size: 26px;
+    }
+
+    .markets-content-desciption {
+      font-size: 18px;
+    }
+
+    .markets-content-block,
+    .markets-background-black {
+      padding-top: 40px;
+    }
+  }
+
+  .customers {
+    .costomers-title {
+      font-size: 28px;
+    }
+
+    .customers-logo {
+      height: 26px;
+      margin: 4% 0;
+      padding: 0;
+
+      &:nth-child(2) {
+        img {
+          @include size-width-height(90%, 26px);
+          margin-top: 5px;
+        }
+      }
+
+      img {
+        height: 26px;
+      }
+
+      &:nth-child(5) img {
+        height: 20px;
+      }
+    }
+
+    .customers-background {
+      height: 64%;
+    }
+
+    .customers-content-block {
+      height: 68%;
+    }
+  }
+
+  .footer-link {
+    h4 {
+      font-size: 20px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+    }
+
+    .collapseClose,
+    .collapseOpen {
+      @include size-width-height(10px, 10px);
+    }
+
+    .link {
+      margin-bottom: 15px;
+    }
+  }
+
+  .footer-text {
+
+    .text {
+      .text-logo {
+        width: 140px;
+      }
+
+      .copyright {
+        font-size: 15px;
+        margin-top: 15px;
+      }
+
+      .company {
+        font-size: 15px;
+      }
+    }
+  }
+
+  #visitUsCollapse h6,
+  #visitUsCollapse p,
+  #contactUsCollapse p,
+  #contactUsCollapse a {
+    line-height: 25px;
+  }
+
+  #contactUsCollapse {
+    padding-bottom: 20px;
+  }
+
+  .footer-link-item .link, #visitUsCollapse h6,
+  #visitUsCollapse p,
+  #contactUsCollapse p,
+  #contactUsCollapse a {
+    font-size: 15px;
+  }
+}

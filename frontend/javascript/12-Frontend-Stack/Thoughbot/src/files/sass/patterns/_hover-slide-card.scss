@@ -1,0 +1,57 @@
+@each $block-name, $bg-image in 
+  ("enterprise","chatui-diagonally"), 
+  ("financial","financial-1"), 
+  ("research","research-banking") 
+{
+  .#{$block-name}-slide-card {
+    @include background-cover('../images/product-page/#{$bg-image}.png', center);
+  }
+}
+
+.slide-cards {
+  @include display(flex);
+  @include flex-flow(row wrap);
+  @include justify-content(space-between);
+}
+
+.hover-slide-card {
+  $card-margin: 1%;
+  $base-spacing: 1.5%;
+  @include flex-basis(15em);
+  @include flex-grow(1);
+  @include position(relative);
+  overflow: hidden;
+  margin: 0 $card-margin $base-spacing $card-margin;
+  @include e('image') {
+    @include size(100% 310px);
+  }
+
+  @include e('content') {
+    @include position(absolute, 0 null null 0);
+    @include size(100% 100%);
+    @include transparent-panel($blue-lighter, 0.9);
+    @extend %text-center;
+    color: $white;
+    padding: 30px 30px 0 30px;
+    @include m('title') {
+      @extend %font-normal;
+      @extend %text-capitalize;
+      @include font-size(25, 0.8);
+      height: 80px;
+    }
+
+    @include m('desc') {
+      @include font-size(20);
+    }
+  }
+
+  &:hover {
+    .hover-slide-card__content {
+      @include transform(translateY(225px));
+      @include transition(all 0.2s ease-in-out);
+      .hover-slide-card__content--title {
+        @include transform(translateY(-15px));
+      }
+    }
+  }
+}

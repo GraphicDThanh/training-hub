@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="result"></p>
+    <script type="text/javascript">
+    var resulString = "<p>This page \u00A9 Shelly Power.</p>";
+    var result2 = "You can\"t use 'double' quotes in a string surround by double quotes."
+
+    //print out to page
+    var blk = document.getElementById("result");
+    blk.innerHTML = resulString + result2;
+    </script>
+  </body>
+</html>

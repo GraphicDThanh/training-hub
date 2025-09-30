@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // RUN WITH LOCAL ENVIROMENT
+    // Do following Views chapter Backbone Basics
+    // Your code goes here
+      // var TodoRouter = Backbone.Router.extend({
+      // /* define the route and function maps for this router */
+      // routes: {
+      //   "about" : "showAbout",
+      //   "search/:query" : "searchTodos",
+      //   "search/:query/p:page" : "searchTodos"
+      // },
+      
+      // showAbout: function(){},
+      // searchTodos: function(query, page){
+      // var page_number = page || 1;
+      //   console.log("Page number: " + page_number + " of the results for todos
+      //   containing the word: " + query);
+      // }
+      // });
+      // var myTodoRouter = new TodoRouter();
+      // Backbone.history.start();
+      
+      var TodoRouter = Backbone.Router.extend({
+      /* define the route and function maps for this router */
+        routes: {
+          "todo/:id" : "viewTodo",
+          "todo/:id/edit" : "editTodo",
+        },
+        
+        viewTodo: function(id) {
+          console.log('View todo requested.');
+          this.navigate('todo/' + id + '/edit', {trigger: true});
+          // update the fragment for us, but doesn't trigger the route
+        },
+
+        editTodo: function(id) {
+          console.log('Edit todo opened.');
+        }
+      });
+
+      var myTodoRouter = new TodoRouter();
+      Backbone.history.start();
+    </script>
+  </body>
+</html>

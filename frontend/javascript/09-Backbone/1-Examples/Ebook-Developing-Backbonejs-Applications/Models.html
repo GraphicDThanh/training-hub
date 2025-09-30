@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Models chapter Backbone Basics
+    // Your code goes here
+    var Todo = Backbone.Model.extend({});
+
+    // We can then create our own concrete instance of a (Todo) model
+    // with no value at all
+    var todo1 = new Todo();
+
+    // Following logs: {}
+    console.log(todo1);
+    console.log(JSON.stringify(todo1));
+
+    // or with some arbitrary data:
+    var todo2 = new Todo({
+      title: 'Check the attributes of both model instances in the console.',
+      completed: true
+    });
+
+    // Following logs: {'title': 'Check the attributes of both model
+    // instances in the console.', 'completed': true}
+    console.log(todo2);
+    console.log(JSON.stringify(todo2));
+    
+
+
+    // initialize() method is call when a new instance of a model is created
+    var Todo = Backbone.Model.extend({
+      initialize: function() {
+        console.log('This model has been initialized.');
+      }
+    });
+
+    var myTodo = new Todo();
+
+
+    // example with defaults
+    var Todo = Backbone.Model.extend({
+      // Default todo attribute values
+      defaults: {
+        title: '',
+        completed: false
+      }
+    });
+
+    // Now, we can create our concrete instance of the model
+    // with default values as follows:
+    var todo1 = new Todo();
+
+    // Following logs: {'title': '', 'completed': 'false'}
+    console.log(JSON.stringify(todo1));
+
+    // Or we could instantiate it with some of the attributes (e.g, with
+    // custom title):
+    var todo2 = new Todo({
+      title: 'Check attributes of the logged models in the console.'
+    });
+
+    //Following logs: {'title': 'Check attributes of the logged models
+    // in the console.', 'completed': false}
+    console.log(JSON.stringify(todo2));
+
+    // Or override all of the default attributes:
+    var todo3 = new Todo({
+      title: 'This todo is done, so take no action on this one',
+      completed: true
+    });
+
+    // Following logs: {'title': 'This todo is done, do take no action on this one',
+    // 'completed': true}
+    console.log(JSON.stringify(todo3));
+
+
+    Getter and Setter
+    Model.get()
+    var Todo = Backbone.Model.extend({
+      // Default todo attribute values
+      defaults: {
+        title: '',
+        completed: false
+      }
+    });
+
+    var todo1 = new Todo();
+    console.log(todo1.get('title'));// empty string
+    console.log(todo1.get('completed'));// false
+
+    var todo2 = new Todo({
+      title: 'Retrieved with model\'s get() method',
+      completed: true
+    });
+    console.log(todo2.get('title'));// Retrieved with model's get() method
+    console.log(todo2.get('completed'));// true
+    
+
+    // Model.set()
+    var Todo = Backbone.Model.extend({
+      // Default todo attributes values
+      defaults: {
+        title: '',
+        completed: false
+      }
+    });
+
+    // Setting the value of attributes via instantiation
+    var myTodo = new Todo({
+      title: 'Set through instantiation'
+    });
+
+    console.log('Todo title:' + myTodo.get('title'));
+    // Todo title: Set through instantiation.
+    
+    console.log('Completed:' + myTodo.get('completed'));
+    // Completed: false
+    
+    // Set single attribute value value at a time through Model.set():
+    myTodo.set('title', 'Title attribute set through Model.set().');
+    console.log('Todo title:' + myTodo.get('title'));
+    // Todo title:Title attribute set through Model.set().
+    
+    console.log('Completed: ' + myTodo.get('completed'));
+    // Completed:false
+    
+    // Set map of attributes through Model.set():
+    myTodo.set({
+      title: 'Both attributes set through Model.set().',
+      completed: true
+    });
+
+    console.log('Todo title: ' + myTodo.get('title'));
+    // Todo title: Both attriburtes set through Madel.set().
+    
+    console.log('Completed: ' + myTodo.get('completed'));
+    // Completed: true
+    
+
+    // Direct access
+    var Person = new Backbone.Model();
+    Person.set({name: 'Jeremy'}, {silent: true});
+
+    console.log(!Person.hasChanged(0));
+    //true
+    
+    console.log(!Person.hasChanged(''));
+    //true
+    
+
+    // Listening for Changes to your Model
+    var Todo = Backbone.Model.extend({
+      // Default todo attribute values
+      defaults: {
+        title: '',
+        completed: false
+      },
+
+      initialize: function() {
+        console.log('This model has been initialized.');
+        this.on('change', function() {
+          console.log('- Value for this model have changed');
+        });
+      }
+    });
+
+    var myTodo = new Todo();
+
+    myTodo.set('title', 'The listener is triggered whenever an attribute value changes.');
+    console.log('Title has changed:' + myTodo.get('title'));
+
+    myTodo.set('completed', true);
+    console.log('Completed has changed: ' + myTodo.get('completed'));
+
+    myTodo.set({
+      title: 'Changing more than one attribute at the same time only triggers the listener once',
+      completed: true
+    });
+    
+
+    var Todo = Backbone.Model.extend({
+      // Default todo attributes values
+      defaults: {
+        title: '',
+        completed: false
+      },
+
+      initialize: function() {
+        console.log('This model has been initialized');
+        this.on('change:title', function() {
+          console.log('Title value for this model has changed');
+        });
+      },
+
+      setTitle: function(newTitle) {
+        this.set({ title: newTitle });
+      }
+    });
+
+    var myTodo = new Todo();
+
+    // Both of the following changes trigger the listener
+    myTodo.set('title', 'Chech what\' logged');
+    myTodo.setTitle('Go fishing on Sunday.');
+
+    // But this change type is not observed, so no listener is triggered
+    myTodo.set('completed', true);
+    console.log('Todo set as completed: ' + myTodo.get('completed'));
+    
+
+    // Validation
+    var Person = new Backbone.Model({name: 'Jeremy'});
+
+    // Validate the model name
+    Person.validate = function(attrs) {
+      if(!attrs.name) {
+        return 'I need your name';
+      }
+    };
+
+    // Change the name
+    Person.set({name: 'Samuel'});
+    console.log(Person.get('name'));
+    //'Samuel'
+    
+    // Remove the name attribute, force validation
+    Person.unset('name', {validate: true});
+    // false
+    
+
+
+    // Validation completed ẽample
+    var Todo = Backbone.Model.extend({
+      defaults: {
+        completed: false
+      },
+
+      validate: function(attribs) {
+        if (attribs.title === undefined) {
+          return 'Remember to set a title for your todo.';
+        }
+      },
+
+      initialize: function() {
+        console.log('This model has been initialized.');
+        this.on('invalid', function(model, error) {
+          console.log(error);
+        });
+      }
+    });
+
+    var myTodo = new Todo();
+    myTodo.set('completed', true, { validate: true });
+    // log: Remember to set a title for your todo
+    
+    console.log('completed: ' + myTodo.get('completed'));// completed: false
+    </script>
+  </body>
+</html>

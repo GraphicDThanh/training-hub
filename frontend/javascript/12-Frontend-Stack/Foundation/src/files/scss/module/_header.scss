@@ -1,0 +1,148 @@
+// Custom foudation
+.top-bar-section {
+  ul li.has-dropdown:hover > a:after {
+    border-color: rgba($topbar-dropdown-toggle-color-hover, $topbar-dropdown-toggle-alpha) transparent transparent transparent;
+  }
+  
+  ul li .js-generated,
+  .dropdown li.parent-link {
+    display: none;
+  }
+
+  ul li a {
+    transition:  all 0.5s ease;
+    -webkit-transition:  all 0.5s ease;
+  }
+}
+
+.top-bar {
+  border-bottom: 3px solid $oil;
+  height: auto;
+  .nasdaq_ticker {
+    display: inline-block;
+    margin-top: -10px;
+  }
+
+  .toggle-topbar.menu-icon a {
+    display: inline-block;
+    margin-top: -10px;
+  }
+}
+
+// Own style
+.page-header {
+  border-bottom: 3px solid $border-header-color;
+  &__logo {
+    height: 38px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    padding-top: 8px;
+  }
+
+  &__nasdaq_ticker {
+    height: 50px;
+    padding-right: 15px;
+  }
+
+}
+
+.desktop-menu {
+  &__sub-menu {
+    @include absolute(right -50% left -30%);
+    background-color: rgba(39, 39, 39, 0.8);
+    padding: 30px;
+    opacity: 1;
+    transition:  opacity 2s ease-in-out;
+    -webkit-transition:  opacity 2s ease-in-out;
+    width: 60%;
+    z-index: 99;  
+    &.hide {
+      opacity: 0;
+      z-index: 1;
+    }
+
+    &--link {
+      background-color: $charcoal;
+      border: none;
+      box-shadow: -1px 1px 4px -1px $black;
+      color: $iron;
+      display: block;
+      font-size: rem-calc(12);
+      margin: 0;
+      transition: all 400ms ease;
+      -webkit-transition: all 1s ease;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  position: absolute !important;
+  top: 0;
+  left: 100%;
+  width: 80%;
+  ul {
+    margin-left: 0.5em;
+  }
+
+  a.caret:after {
+    @include relative(top 10px);
+    @include size(0px, 0px);
+    border: 5px solid;
+    border-color: $white transparent transparent transparent;
+    content: '';
+    float: right;
+  }
+
+  .mega-menu a {
+    background-color: $oil;
+    color: $iron;
+    display: block;
+    font-size: rem-calc(12);
+    font-weight: 200;
+    margin-bottom: 0.5em;
+    padding: 0.5rem;
+    &:hover {
+      background-color: lighten($charcoal, 0.5);
+    }
+  }
+}
+
+body {
+  background-color: $mine-shaft;
+  left: 0;
+  position: relative;
+  transition: left 0.5s;
+  -webkit-transition: left 0.5s;
+}
+
+body.expand-menu {
+  left: -80%;
+}
+
+body.expand-menu #backdrop {
+  display: block;
+}
+
+#backdrop {
+  background-color: $oil;
+  @include absolute(top 0 left 0);
+  opacity: 0.8;
+  z-index: 99;
+  cursor: pointer;
+  display: none;
+}
+
+@include breakpoint("medium-screen-fix") {
+  .top-bar-section {
+    li:not(.has-form) a:not(.button) {
+      padding: 0 0.7rem;
+    }
+
+    .page-header__nasdaq_ticker {
+      float: right;
+    }
+  }
+}

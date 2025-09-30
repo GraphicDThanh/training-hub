@@ -1,0 +1,30 @@
+{
+  "name": "Front_End_Stack",
+  "version": "1.0.0",
+  "description": "Practice for front-end-stack",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.asoft-python.com:g-thanhnguyendiem/javascript-training.git"
+  },
+  "author": "thanh.nguyen@asnet.com.vn",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.3.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "imagemin": "^3.2.0",
+    "jshint-stylish": "^2.0.1"
+  }
+}

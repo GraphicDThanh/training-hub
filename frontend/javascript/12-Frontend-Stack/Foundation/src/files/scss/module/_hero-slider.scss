@@ -1,0 +1,76 @@
+@each $index, $bg-image in 
+	("1", "axist"),
+	("2", "benhogan"),
+	("3", "callaway"),
+	("4", "cubavera"),
+	("5", "grandslam"),
+	("6", "havanera"),
+	("7", "jacknicklaus"),
+	("8", "jag"),
+	("9", "jantzen"),
+	("10", "perryellis") 
+{
+	.slideshow {
+		@include e('item') {
+			&:nth-child(#{$index}) {
+				.slideshow__image {
+					@include background-cover('../images/#{$bg-image}.jpg', top center);
+				}
+			}
+		}
+	}
+}
+
+.slideshow {
+	@include e('item') {
+		@include breakpoint(small-screen) {
+			height: 300px;
+		}
+
+		@include breakpoint(medium-screen-fix) {
+			height: 400px;
+		}
+
+		@include breakpoint(large-screen) {
+			height: 585px;
+		}	
+	}
+
+	@include e('image') {
+		height: 100%;
+	}
+
+	@include e('panel-transparent') {
+		@include linear-gradient(top, rgba(42,48,54,0) 0%, rgba(42,48,54,.4) 27%, rgba(42,48,54,.8) 100%);
+		@include position(relative);
+		@include size(100%, 60px);
+		width: 100%;
+		z-index: 3;
+
+		@include breakpoint(small-screen) {
+			height: 40px;
+			margin-top: -40px;
+		}
+
+		@include breakpoint(medium-screen) {
+			height: 60px;
+			margin-top: -60px;
+		}
+	}
+
+	@include e('logo') {
+		@include position(absolute);
+		margin-left: 15px;
+		z-index: 9;
+
+		@include breakpoint(small-screen) {
+			max-height: 30px;
+			margin-top: 5px;
+		}
+
+		@include breakpoint(medium-screen) {
+			max-height: 40px;
+			margin-top: 10px;
+		}
+	}
+}	

@@ -1,0 +1,87 @@
+%text-center {
+  text-align: center;
+}
+
+%font-14 {
+  font-size: 14px;
+}
+
+%font-18 {
+  font-size: 18px;
+}
+
+%font-30 {
+  font-size: 30px;
+}
+
+%font-weight-700 {
+  font-weight: 700;
+}
+
+%font-weight-600 {
+  font-weight: 600;
+}
+
+// text transform
+%text-uppercase {
+  text-transform: uppercase;
+}
+
+%text-capitalize {
+  text-transform: capitalize;
+}
+
+%white-bg {
+  background-color: $white;
+}
+
+%alabaster-bg {
+  background-color: $alabaster;
+}
+
+%mercury-bg {
+  background-color: $mercury;
+}
+
+%font-awesome {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+// color
+%white-color {
+  color: $white;
+}
+
+%black-color {
+  color: $black;
+}
+
+%boulder-color {
+  color: $boulder;
+}
+
+%alabaster-color {
+  color: $alabaster;
+}
+
+// link none style
+%link-none-style {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// space
+%reset-margin {
+  margin: 0;
+}
+
+%reset-padding {
+  padding: 0;
+}
+
+//display
+%display-none {
+  display: none;
+}

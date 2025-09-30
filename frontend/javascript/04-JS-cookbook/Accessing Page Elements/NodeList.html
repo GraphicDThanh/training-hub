@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NodeList</title>
+    <script>
+    window.onload = function() {
+      var imgs = document.getElementsByTagName('img');
+      alert(imgs.length);
+      var p = document.createElement("p");
+      var img = document.createElement("img");
+
+      img.src = "http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg";
+      p.appendChild(img);
+
+      var paras = document.getElementsByTagName('p');
+      paras[0].parentNode.appendChild(p);
+
+      alert(imgs.length);
+    }
+    </script>
+  </head>
+  <body>
+    <p>
+      <img src="http://www.last-video.com/wp-content/uploads/2013/11/superbe-image-de-poissons-sous-l-eau.jpg" alt="Orchid from MBG 2009 orchid show" />
+    </p>
+    <p>
+      <img src="http://www.online-image-editor.com//styles/2014/images/example_image.png" alt="Orchid from MBG 2009 orchid show" />
+    </p>
+    <p>
+      <img src="http://img.gettyimageslatam.com/public/userfiles/redesign/images/landing/home/img_entry_002.jpg" alt="Orchid from MBG 2009 orchid show" />
+    </p>
+  </body>
+</html>

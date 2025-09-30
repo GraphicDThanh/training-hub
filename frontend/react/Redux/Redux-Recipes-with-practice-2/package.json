@@ -1,0 +1,36 @@
+{
+  "name": "practice-2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "@storybook/react": "^3.4.7",
+    "babel-core": "^6.26.3",
+    "faker": "^4.1.0",
+    "jest": "^23.4.0",
+    "lodash": "^4.17.10",
+    "redux-actions": "^2.4.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^3.3.2"
+  }
+}

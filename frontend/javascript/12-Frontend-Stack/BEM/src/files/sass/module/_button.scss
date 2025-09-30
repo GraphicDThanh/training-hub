@@ -1,0 +1,42 @@
+.btn-header,
+.btn-header-learn-more {
+  text-transform: capitalize;
+  font-family: $font-lato;
+  font-weight: 300;
+  color: $base-color;
+  vertical-align: middle;
+  touch-action: manipulation;
+  border: 1px solid transparent;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  &:hover {
+    color: #3d3d3d;
+    text-decoration: none;
+  }
+}
+
+.btn-header {
+  font-size: 22px;
+  padding: 12px 30px 15px 30px;
+  border-radius: 30px;
+  background-color: #0d78b9;
+  display: block;
+  z-index: 10;
+  margin: -30px auto 0 auto;
+}
+
+.btn-header-learn-more {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding: 5px 0;
+  border-radius: 1px;
+  background-color: transparent;
+  display: inline-block;
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      //true if variable exists, is a string and has a length greater than 0
+      var unknownVariable = prompt("What's your variable?");
+      console.log(unknownVariable);
+      console.log(typeof unknownVariable);
+      console.log(typeof unknownVariable != undefined);
+      console.log(typeof unknownVariable.valueOf() == "string");
+      console.log(unknownVariable.length > 0);
+      if (((typeof unknownVariable != undefined) && (typeof unknownVariable.valueOf() == "string")) && (unknownVariable.length > 0)) {
+         alert("Valid variable!");
+      } 
+      else {
+        alert("NOT DONE!");
+      }
+    </script>
+  </body>
+</html>
+<!-- Have somthing wrong here, need confirm -->

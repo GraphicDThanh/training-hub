@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id = "demo-1"></p>
+    <script type="text/javascript">
+        var strName = prompt("What's your name?");
+
+        if (strName.toUpperCase() == "SHELLY") {
+          alert("Your name is Shelly! Good for you!");
+        }
+        else {
+          alert("You aren't not Shelly. Bummer.");
+        }
+
+        var numVal = 10.00;
+        if (numVal == "10") alert ("The value is ten");
+
+        var strObject = new String("Shelly");
+        var strLiteral = "Shelly";
+        // if (strObject == strLiteral) {
+        //   alert ("You're right!");
+        // }
+
+        if (strObject === strLiteral) {
+          alert ("You're wrong. Be careful!");
+        }
+        else {
+          alert ("You're right. Congrat!");
+        }
+
+        var str1 = "one";
+        var str2 = "two";
+        if (str1 != str2) {
+          alert ("Cheers!");
+        }
+
+        var strObject1 = new String("Shelly");
+        var strObject2 = "Shelly";
+        if (strObject1 !== strObject2) {
+          alert ("Awesome!");
+        }
+
+        var sOne = "cat";
+        var sTwo = "Cat";
+        if (sOne > sTwo) {
+          alert("False!");
+        }
+        else {
+          alert("Cat is greater than cat");
+        }
+
+        var dOne = "dog";
+        var dTwo = "cat";
+        if (dOne < dTwo) {
+          alert("False!");
+        }
+        else {
+          alert("dog is greater than cat");
+        }
+
+    </script>
+  </body>
+</html>

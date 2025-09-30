@@ -1,0 +1,65 @@
+
+@mixin breakpoint($point) {
+  @if $point == 'small-screen' {
+    /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+    @media only screen and (max-width: 40em) {
+      @content;
+    }  
+  }
+
+  @else if $point == 'medium-screen' {
+    // Medium screens
+    /* min-width 641px, medium screens */
+    @media only screen and (min-width: 40.063em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'medium-screen-fix' {
+    // Medium screens fix
+    /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'large-screen' {
+    // Large screens
+    /* min-width 1025px, large screens */
+    @media only screen and (min-width: 64.063em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'large-screen-fix' {
+    // Large screens fix
+    /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+    @media only screen and (min-width: 64.063em) and (max-width: 90em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'xlarge-screen' {
+    // XLarge screens
+    /* min-width 1441px, xlarge screens */
+    @media only screen and (min-width: 90.063em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'xlarge-screen-fix' {
+    // Xlarge screens fix
+    /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+    @media only screen and (min-width: 90.063em) and (max-width: 120em) {
+      @content;
+    }   
+  }
+
+  @else if $point == 'xxlarge-screen' {
+    // XXLarge screens
+    /* min-width 1921px, xxlarge screens */
+    @media only screen and (min-width: 120.063em) {
+      @content;
+    }   
+  }
+}

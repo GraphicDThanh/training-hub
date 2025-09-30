@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Changing Style</title>
+    <meta charset="utf-8" />
+    <style>
+    #elem {
+      width: 200px;
+      background-color: lime;
+    }
+    </style>
+    <script>
+
+    function getStyle(elem, cssprop, cssprop2) {
+      // IE
+      if (elem.currentStyle) {
+        return elem.currentStyle[cssprop];
+      // other browsers
+      } else if (document.defaultView && document.defaultView.getComputedStyle) {
+        return document.defaultView.getComputedStyle(elem, null).getPropertyValue(cssprop2);
+      // fallback
+      } else {
+        return null;
+      }
+    }
+
+    window.onload = function() {
+      // setting and accessing style properties
+      var elem = document.getElementById("elem");
+      var color = getStyle(elem, "backgroundColor", "background-color");
+      alert(color);
+
+      elem.style.width = "500px";
+      elem.style.backgroundColor = "yellow";
+
+      alert(elem.style.width);
+      alert(elem.style.backgroundColor);
+
+      // array notation
+      elem.style["font-Family"] = "Courier";
+
+      // demonstrating overwriting properties
+      var style = elem.getAttribute("style");
+      alert(style);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="elem" style="color: purple">
+    testing
+    </div>
+  </body>
+  
+</html>

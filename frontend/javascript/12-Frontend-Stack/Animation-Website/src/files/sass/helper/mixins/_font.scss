@@ -1,0 +1,10 @@
+@mixin font-size($font-size: 16, $line-height: 1.1) {
+  font-size: em($font-size);
+  line-height: em($font-size) * $line-height;
+}
+
+//-fontawesome
+@mixin font-awesome($content) {
+  font-family: 'FontAwesome';
+  content: $content;
+}

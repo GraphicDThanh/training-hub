@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Overlay</title>
+    <style>
+    img {
+      padding: 5px;
+      border-style: none;
+    }
+
+    .overlay {
+      background-color: #000;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+      position: absolute; top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 10;
+    }
+
+    .overlayimg {
+      position: absolute;
+      z-index: 11;
+      left: 50px;
+      top: 50px;
+    }
+    </style>
+    <script>
+    // expand photo when a/img is clicked
+    function imgClick() {
+      var img = this.firstChild;
+      expandPhoto(img.getAttribute("data-larger"));
+      return false;
+    }
+
+    // if overlay is open, and ESC, close overlay
+    // account for keydown event in page
+    function imgKeyDown(evnt) {
+      evnt = (evnt) ? event : ((window.event) ? window.event : "");
+      var keycode = (evnt.which) ? evnt.which : evnt.keycode;
+      if (document.getElementById("overlay")) {
+        if (keycode === 27) {
+          restore();
+          retrun false;
+        }
+      } else {
+        if (keycode === 13) {
+          var img = this.firstChild;
+          var src = img.getAttribute("data-larger");
+          expandPhoto(src);
+          return false;
+        }
+      }
+      return true;
+    }
+
+    //create overlay, expand photo
+    function expandPhoto(src) {
+      // create overlay element
+      var overlay = document.createElement("div");
+      overlay.setAttribute("id", "overlay");
+      overlay.setAttribute("class", "overlay");
+
+      // IE7
+      // overlay.id = "overlay";
+      // overlay.className = "overlay";
+
+      document.body.appendChild(overlay);
+
+      // add image
+      var img = document.createElement("img");
+      img.src = src;
+      img.setAttribute("id", "img");
+
+      // set tabindex, for focus
+      img.setAttribute("tabindex", "-1");
+
+      // style image
+      img.setAttribute("class", "overlayimg");
+
+      // IE7
+      // img.className = "overlayimg";
+
+      img.onclick = restore;
+      img.onkeydown = imgKeyDown;
+
+      document.body.appendChild(img);
+       // focus on image on overlay
+       img.focus();
+    }
+
+    // remove overlay and image
+    function restore() {
+      document.body.removeChild(document.getElementById("overlay"));
+      document.body.removeChild(document.getElementById("img"));
+    }
+
+    // add click and keyboard events
+    window.onload = function() {
+      var aimgs = document.getElementsByTagName("a");
+      aimgs[0].focus();
+      for (var i = 0; i < aimgs.length; i ++) {
+        aimgs[i].onclick = imgClick;
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <p>Mouse click on image, or use keyboard to move to photo and hit
+    ENTER to expand the photo. To close expanded photo, hit ESC or
+    mouse click on image.</p>
+
+    <a href="http://www.mountainguides.com/photos/everest-south/c2_2011b.jpg">
+      <img src="http://kharwal.com/wp-content/uploads/2015/03/why-need-img-2.png"
+           data-larger="http://www.mountainguides.com/photos/everest-south/c2_2011b.jpg"
+           alt="image of common dragonfly on bright green and pink flowers" />
+    </a>
+
+    <a href="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" 
+           data-larger="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg"
+           alt="Dark orange dragonfly on water lily" />
+    </a>
+
+    <a href="http://upload.wikimedia.org/wikipedia/commons/8/80/Knut_IMG_8095.jpg">
+      <img src="http://media-cdn.tripadvisor.com/media/photo-s/05/07/67/bb/img-hotel.jpg" 
+           data-larger="http://upload.wikimedia.org/wikipedia/commons/8/80/Knut_IMG_8095.jpg"
+           alt="Dark orange dragonfly on purple water lily" />
+    </a>
+
+    <a href="http://www.itsnature.org/travel/wp-content/uploads/2010/10/Natural-Science-Center-of-Greensboro5.jpg">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/8/80/Knut_IMG_8095.jpg" 
+           data-larger="http://www.itsnature.org/travel/wp-content/uploads/2010/10/Natural-Science-Center-of-Greensboro5.jpg"
+           alt="Dragonfly on bright pink water lily" />
+    </a>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "my-redux-practice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "deep-freeze": "0.0.1",
+    "expect": "^23.1.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-undo": "^1.0.0-beta7",
+    "reselect": "^3.0.1"
+  },
+  "_comment": {
+    "desc": "my comment here",
+    "deep-freeze": "use for testing immute by freeze data",
+    "expect": "use for testing"
+  }
+}

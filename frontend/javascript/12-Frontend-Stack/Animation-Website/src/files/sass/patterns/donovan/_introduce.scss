@@ -1,0 +1,71 @@
+.introduce {
+  @include row;
+  &__sub-title {
+    @extend %font-thin;
+    @extend %open-sans;
+    @extend %text-capitalize;
+    
+    margin-bottom: 15px;
+  }
+
+  &__desc {
+    &--content {
+      @extend %verdana;
+      @include font-size(14, 1.75);
+      color: $gray-light;
+    }
+    
+  }
+
+  &__contact-person {
+    &--list {
+      margin-bottom: 24px;
+    }
+
+    &--list-item {
+      @extend %verdana;
+      @include font-size(14, 2.5);
+      color: $gray-light;
+      background: url('../images/donovan/inf_icon.png') no-repeat;
+      padding-left: 44px;
+      &:nth-child(1) {
+        background-position: 0 0;
+      }
+
+      &:nth-child(2) {
+        background-position: 0 -95px;
+      }
+
+      &:nth-child(3) {
+        background-position: 0 -183px;
+      }
+
+      &:nth-child(4) {
+        background-position: 0 -260px;
+      }
+    }
+
+    &--link {
+      @include link-style($gray-light, $flamingo);
+    }
+  }
+
+  &__tweet {
+    @extend %verdana;
+    @include font-size(14, 1.75);
+    color: $gray-light;
+  }
+
+}
+
+@include media($screen-320-up) {
+  .introduce__sub-title {
+    @include font-size(22, 0.5);
+  }
+}
+
+@include media($screen-768-up) {
+  .introduce__sub-title {
+    @include font-size(32, 0.5);
+  }
+}

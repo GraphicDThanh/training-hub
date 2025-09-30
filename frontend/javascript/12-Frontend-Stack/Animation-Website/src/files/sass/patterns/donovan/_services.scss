@@ -1,0 +1,57 @@
+.services {
+  &__item {
+    @extend %pointer;
+    &:hover .services__item-content--title {
+      @include transition-delay(0.7s);
+      @extend %flamingo-color;
+    }
+  }
+
+  &__item-icon {
+    @include row;
+    @include position(relative, 0 null null 50%);
+    @include size(102px 116px);
+    margin-left: -51px;
+    &--show {
+      @extend %opacity-show;
+      @include transition(all 0.5s ease-out);
+    }
+
+    &--hover-show {
+      @extend %opacity-hide;
+      @include transition(all 0.5s ease-out);
+      @include transform(rotate(720deg) scale(0));
+      @include position(absolute, 0 null null 0);
+    }
+
+    &:hover {
+      .services__item-icon--hover-show {
+        @extend %opacity-show;
+        @include transform(rotate(720deg) scale(1));
+        @include transition-delay(0.4s);
+      }
+
+      .services__item-icon--show {
+        @extend %opacity-hide;
+        @include transform(rotate(720deg) scale(0));
+      }
+    }
+  }
+
+  &__item-content {
+    @extend %text-center;
+    &--title {
+      @extend %text-capitalize;
+      @include transition(all 0.2s ease-in-out);
+      @include font-size(20);
+      color: $silver-chalice;
+
+    }
+
+    &--desc {
+      @extend %verdana;
+      @include font-size(14, 1.75);
+      color: $dove-gray;
+    }
+  }
+}

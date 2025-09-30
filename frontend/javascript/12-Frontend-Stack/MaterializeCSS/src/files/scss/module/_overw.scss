@@ -1,0 +1,46 @@
+.overw {
+  position: relative;
+  color: $white;
+  &__list {
+    @include size(100%, 100%);
+    @include absolute(top 0);
+    background-color: rgba(206,142,142,0.7);
+    padding: 100px 0;
+  }
+
+  &__icon-box {
+    @extend %pointer;
+    @include size(100px, 100px);
+    border: 3px solid $white;
+    margin: 0 auto;
+    &:hover {
+      background-color: $white;
+      .overw__icon {
+        color: $puce;
+      }
+    }
+  }
+
+  &__icon {
+    @include font-size(50);
+    color: $white;
+    line-height: 94px;
+  }
+
+  &__title {
+    @include font-size(35);
+    line-height: 135%;
+    margin: 25px 0;
+  }
+
+  &__desc {
+    margin: 25px 0;
+  }
+
+  &__line-break {
+    margin: 25px auto;
+    width: 50px;
+    border-top: solid;
+    border-color: $white;
+  }
+}

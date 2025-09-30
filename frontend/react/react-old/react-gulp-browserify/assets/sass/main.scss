@@ -1,0 +1,22 @@
+@import "general";
+
+.rating {
+  font-size: 175%;
+  padding: 0 0.5em;
+  
+  .rating-highlight {
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  .rating-normal {
+    &:hover {
+      color: $dark-grey;
+    }
+  }
+
+  & > a {
+    text-decoration: none;
+  }
+}

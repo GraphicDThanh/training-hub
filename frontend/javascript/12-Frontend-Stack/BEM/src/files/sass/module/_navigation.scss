@@ -1,0 +1,179 @@
+// block navigation
+.main-navbar-fixed-top {
+  background-color: transparent;
+  border-bottom: none;
+
+  
+
+  .nav-item {
+
+    .nav-item-link {
+      font-size: 18px;
+      padding: 30px 50px;
+      color: #fff ;
+      font-weight: 400;
+      font-family: $font-lato;
+
+      &:hover {
+        background-color: rgb(13, 120, 185);
+      }
+    }
+  }
+
+  .nav-item.active {
+    background-color: rgb(13, 120, 185);
+  }
+}
+
+.navbar-button {
+  @include e('iconbar') {
+    display: block;
+    background-color: #fff;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    margin-top: 4px;
+  }
+}
+
+.logo {
+  margin: 0;
+  @include e('image') {
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+    display: block;
+    height: 48px;
+    position: relative;
+    margin: 0;
+    text-indent: -9999px;
+  }
+}
+
+.navbar-header {
+  &__logo {
+    height: 48px;
+    width: 203px;
+    margin-top: 17px;
+  }
+
+  &__button {
+    display: none;
+    float: left;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}
+
+// Add class background white and text blue color  for homepage
+.nav-background-blue {
+  background-color: #fff !important;
+
+  .navbar-button .navbar-button__iconbar {
+    background-color: #0d78b9 !important;
+  }
+
+  .logo .logo__image {
+    background: url('../img/logo-blue.png') no-repeat !important;
+    background-size: contain !important;
+  }
+
+  .nav-item {
+    .nav-item-link {
+      color: #0d78b9 !important;
+    }
+
+    &:hover {
+
+      .nav-item-link {
+        color: #fff !important;
+      }
+    }
+
+    &:active {
+      background-color: #0d78b9;
+      color: #fff;
+    }
+  }
+}
+
+// Add class background white and text blue color for about and the clone page
+.navbar-fixed-top.style-scroll-down {
+  &.main-navbar-fixed-top {
+    background-color: #fff;
+  }
+
+  .nav-item .nav-item-link {
+    color: #0d78b9;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .nav-item.active {
+
+    .nav-item-link {
+      color: #fff;
+    }
+  }
+
+  .logo .logo__image {
+    background-image: url("../img/logo-blue.png");
+  }
+}
+
+.navbar-fixed-top.style-scroll-down,
+.navbar-fixed-top.navbar-not-hero-page {
+  &.main-navbar-fixed-top {
+    background-color: $base-color;
+  }
+
+  .nav-item {
+    .nav-item-link {
+      color: #0d78b9;
+      &:hover {
+        color: $base-color;
+      }
+    }
+    &.active .nav-item-link {
+      color: $base-color;
+    }
+  }
+
+  .logo .logo__image {
+    background-image: url("../img/logo-blue.png");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-fixed-top.navbar-not-hero-page {
+    .icon-bar {
+      background-color: #0d78b9 !important;
+    }
+
+    .navbar-header {
+      float: none;
+    }
+
+    .main-navbar-fixed-top .navbar-header__button {
+      float: left;
+    }
+
+    .navbar-toggle {
+      float: left;
+    }
+
+    .nav-item {
+      .nav-item-link {
+        color: $base-color;
+      }
+      &.active .nav-item-link {
+        color: $base-color;
+      }
+    }
+  }
+}

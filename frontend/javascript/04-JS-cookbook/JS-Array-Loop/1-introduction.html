@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function chgArray(arr) {
+        arr[0] = "suprise!";
+      }
+
+      var newArray = new Array("val1", "val2");
+      var newLiteral = ["val1", "val2"];
+
+      chgArray(newArray);
+      chgArray(newLiteral);
+
+      alert(newArray); // prints surprise, val2
+      alert(newLiteral); // prints surprise!, val2 
+
+      // an array can hold values of different data types
+      var arrObject = new Array("val1", 34, true); // string, number, boolean
+      var arrLiteral = [arrObject, "val2", 18, false]; //// object, string, number, boolean
+
+      // WHEN PRINT AN ARRAY, js ENGINE MAKES THE ARRAY-TO-STRING
+      alert(arrObject);
+      alert(arrLiteral);
+      
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>

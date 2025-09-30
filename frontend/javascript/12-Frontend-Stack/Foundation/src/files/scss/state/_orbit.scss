@@ -1,0 +1,6 @@
+.orbit-timer {
+  @include absolute(top auto left -1000px);
+  @include size(1px, 1px);
+  overflow: hidden;
+}
+

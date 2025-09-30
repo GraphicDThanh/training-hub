@@ -1,0 +1,37 @@
+//- survey.html.jade
+extends ../layouts/default.jade
+
+block head-title
+  title todo List
+
+block main-content
+  .container
+    section.todoapp
+      header#header
+        h1.text-center todos
+        input#new-todo(type='text', placeholder='what need to be done?')
+      section#main.main-content.hide
+        label.check-all-item
+          input#toggle-all(type='checkbox' name="all-items")
+          span.overlay
+        ul#todo-list.todo-list.list-unstyled
+          //- li.task-wrapper
+          //-   .view
+          //-     label
+          //-       input.toggle(type='checkbox' name='task-item')
+          //-       span.overlay
+          //-     <label class="task-title">My task 1</label>
+          //-     <button class="destroy"></button>
+
+      footer#footer.footer-content.text-center.hide
+        span#todo-count.counter.text-left
+          strong 1
+          span  items left
+        ul#filters.filters.list-unstyled.clearfix
+          li
+            a#all-task.selected(href='#/') All
+            a#active-task(href='#/active') Active
+            a#completed-task(href='#/completed') Completed
+
+          li
+            button#clear-completed.hide Clear completed

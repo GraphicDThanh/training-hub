@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ES6 Examples</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p>Example 1:</p>
+    <button id="btn-ex-simple">Basic Generator Run</button>
+    <p>Please open console to see the result!</p>
+
+    <p>Example 2</p>
+    <p><textarea name="input" id="input" cols="30" rows="10">I go to school yesterday</textarea></p>
+
+    <p>Lets run through the generator all at once</p>
+    <button id="btn-ex-complex">Go By Click!</button>
+    <script>
+      /*
+        Generator examples (https://thewebivore.com/javascript-generators-3-minutes-less/)
+      */
+      // 1. Basic example
+      // a generator
+      function* Greetings() {
+        yield 'Hello';
+        yield 'Next to hello';
+        yield 'Last hello';
+      }
+
+      // create an iterator from above generator
+      var greeting = Greetings();
+
+      document.getElementById('btn-ex-simple').addEventListener('click', function(e) {
+        console.log(greeting.next());
+      });
+
+
+      // 2. More complex example
+      function* stringBreaker(str) {
+        var word = '';
+        for (character of str) {
+          if (character === ' ') {
+            yield word;
+            word = '';
+            continue;
+          }
+
+          word += character;
+        }
+        if (word != '') {
+          yield word;
+        }
+
+        return '\000';
+      }
+
+      document.getElementById('btn-ex-complex').addEventListener('click', function(e) {
+        var str = document.querySelector('textarea').value;
+
+        for(item of stringBreaker(str)) {
+          console.log(item);
+        }
+      });
+    </script>
+  </body>
+</html>

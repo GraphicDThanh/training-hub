@@ -1,0 +1,259 @@
+body {
+  font-family: 'Lato';
+  color: #4d4d4d;
+  line-height: 1.4em;
+  background-color: #f5f5f5;
+  font-weight: 300;
+}
+
+.todoapp {
+  // @include position(relative);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 160px;
+  position: relative;
+  width: 500px;
+  h1 {
+    color: rgba(175, 47, 47, 0.15);
+    font-size: 100px;
+    font-weight: 500;
+    position: absolute;
+    top: -155px;
+    width: 100%;
+  }
+
+  header input {
+    padding: 16px 16px 16px 60px;
+    border: none;
+    background: rgba(0, 0, 0, 0.003);
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+    font-style: italic;
+    box-sizing: border-box;
+    opacity: 0.5;
+    &::-webkit-input-placeholder { /* WebKit browsers */
+      padding-top: 5px;
+    }
+
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      padding-top: 5px;
+    }
+
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+    }
+
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+      padding-top: 5px;
+    }
+  }
+}
+
+.main-content {
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  z-index: 2;
+}
+
+label[for='toggle-all'] {
+  display: none;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  .view {
+    font-size: 24px;
+    position: relative;
+    min-height: 58px;
+    height: auto;
+    .toggle {
+      height: auto;
+      margin: 0 auto;
+      position: absolute;
+      text-align: center;
+      width: 44px;
+    }
+
+    .task-title {
+      display: block;
+      margin: 0;
+      padding: 19px 30px 19px 80px;
+      white-space: pre;
+      word-break: break-word;
+      &.completed {
+        text-decoration: line-through;
+        color: #aaa;
+      }
+    }
+
+    > label:first-child {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+    }
+  }
+
+  label {
+    .overlay {
+      @include border-radius(50%);
+      @include square(30px);
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      border: 1px solid #eee;
+      vertical-align: middle;
+    }
+
+    input:checked {
+      & + span:before {
+        @include size(0.7em, 0.75em);
+        margin: 5px;
+        display: block;
+        content: '✔';
+        font-size: 20px;
+      }
+
+      & + .overlay {
+        border: 1px solid #ccc;
+      }
+    }
+    
+  }
+
+  li {
+    input.toggle:after {
+      @include border-radius(50%);
+      border: 1px solid #ccc;
+    }
+
+    .destroy {
+      @include square(40px);
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 10px;
+      bottom: 0;
+      margin: auto 0;
+      font-size: 30px;
+      color: #cc9a9a;
+      margin-bottom: 11px;
+      transition: color 0.2s ease-out;
+      outline: none;
+      background: none;
+      border: none;
+      z-index: 2;
+      &:after {
+        content: '×';
+      }
+    }
+
+    &:hover .destroy {
+      display: block;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #e6e6e6;
+    }
+  }
+}
+
+.todoapp label input {
+  visibility: hidden;
+}
+
+.check-all-item {
+  left: 23px;
+  position: absolute;
+  top: -58px;
+}
+
+label.check-all-item .overlay {
+  border: 1px solid #ccc;
+}
+
+label.check-all-item  input:checked + .overlay {
+  border: 1px solid #aaa;
+}
+
+label.check-all-item .overlay,
+label.check-all-item input:checked + .overlay {
+  @include square(15px);
+  display: block;
+  padding: 0 7px;
+}
+
+.task-item {
+  .task-title {
+    @include text-overflow();
+    padding: 15px 60px 15px 15px;
+    margin-left: 45px;
+    display: block;
+    line-height: 1.2;
+    transition: color 0.4s;
+    color: #000;
+    font-weight: 300;
+  }
+  
+  .view > label:first-child {
+    @include square(40px);
+    position: absolute;
+    top: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+}
+
+footer.footer-content {
+  color: #777;
+  padding: 10px 15px;
+  height: 40px;
+  border-top: 1px solid #e6e6e6;
+  position: relative;
+  &:before {
+    content: '';
+    // position: absolute;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
+  }
+
+  .counter {
+    float: left;
+  }
+}
+
+.filters li a {
+  @include border-radius(3px);
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  &:hover,
+  &.selected {
+    border-color: rgba(175, 47, 47, 0.2);
+  }
+}
+
+#clear-completed {
+  outline: none;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.edit-todo {
+  background-color: #f8f8f8;
+  border:  1px solid #eee;
+  margin-left: 80px;
+  margin-top: 10px;
+  padding-left: 15px;
+  width: 72%;
+}

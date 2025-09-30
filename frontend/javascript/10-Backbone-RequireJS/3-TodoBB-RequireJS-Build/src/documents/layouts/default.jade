@@ -1,0 +1,19 @@
+//- default.jade
+doctype html
+html(lang="en")
+  //- vars block is used for passing between jade templates
+  head
+    block head-title
+      title TodoList with Backbone
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+
+    //- Import when build gulp task default(develop)
+    link(href="files/css/main.css" rel="stylesheet", type="text/css")
+  body
+    block main-content
+      .main-content Default layout
+    <!-- Scripts -->
+    //- Do with requirejs
+    script(data-main="files/scripts/app" src="files/bower-components/requirejs/require.js")
+
+

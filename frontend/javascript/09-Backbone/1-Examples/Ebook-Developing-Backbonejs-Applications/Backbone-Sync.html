@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Backbone's Sync chapter Backbone Basics
+    // Your code goes here
+    // // Create a new library collection
+    // var Library = Backbone.Collection.extend({
+    //   url : function() { return '/library';}
+    // });
+
+    // // Define attributes for our model
+    // var attrs = {
+    //   title : 'The Tempest',
+    //   author : 'Bill Shakespeare',
+    //   length : 123
+    // };
+
+    // // create a new library instance
+    // var library = new Library;
+
+    // // Create a new instance of a model within our collection
+    // library.create(attrs, {wait: false});
+
+    // // Update with just emulateHTTP
+    // library.first().save({id: '2-the-tempest', author: 'Tim Shakespeare'}, {emulateHTTP: true});
+
+    // // Check the ajaxSettings being used for our request
+    // console.log(this.ajaxSettings.url === '/library/2-the-tempest'); // true
+    // console.log(this.ajaxSettings.type === 'POST'); // true
+    // console.log(this.ajaxSettings.contentType === 'application/json'); // true
+
+    // // Parse the data for the request to confirm it is as expected
+    // var data = JSON.parse(this.ajaxSettings.data);
+    // console.log(data.id === '2-the-tempest'); //true
+    // console.log(data.author === 'Tim Shakespeare'); // true
+    // console.log(data.length === 123); //true
+    
+
+    // Overriding Backbone.sync
+    Backbone.sync = function(method, model, options) {
+      // Handle successful results from myAPI
+      if(options.success) {
+        options.success(result);
+      }
+    }
+
+    function error(result) {
+      // Handle error results from MyAPI
+      if(options.error) {
+        options.error(results);
+      }
+    }
+
+    options || (options = {});
+
+    switch (method) {
+      case 'create':
+        return myAPI.create(model, success, error);
+
+      case 'update':
+        return MyAPI.update(model, success, error);
+
+      case 'patch':
+        return MyAPI.patch(model, success, error);
+
+      case 'delete':
+        return MyAPI.destroy(model, success, error);
+
+      case 'read':
+        if (model.attributes[model.idAttribute]) {
+          return MyAPI.find(model, success, error);
+        } else {
+          return MyAPI.findAll(model, success, error);
+        }
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!-- An HTML event can be something the browser does, or some thing a user does.
+Some examples: 
+  - An HTML web page has finished loading.
+  - An HTML input field was changed.
+  - An HTML button was clicked. 
+
+HTML allow event handler attributes, with JS code, to be added to HTML elements. Ex:
+<some-HTMl-element some-event="some Javacript">
+or
+<some-HTMl-element some-event='some Javacript'>
+-->
+
+<!-- Some common HTMl Events: 
+1. onchange
+2. onclick
+3. onmouseover
+4. onmouseout
+5. onkeydown
+6. onload -->
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Example 1 about event example -->
+    <p>The JS code change the content of the element with id="demo-1".</p>
+    <button onclick="getElementById('demo-1').innerHTML=Date()">The time is?</button>
+    <p id="demo-1"></p>
+
+    <!-- Example 2 about event example with this-->
+    <p>The JS code changes the content of it's own element(using this.innerHTML):</p>
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+
+    <!-- Example 3 about event example use function-->
+    <p>Click the button to diaplay the date.</p>
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo-2"></p>
+
+    <script type="text/javascript">
+      function displayDate() {
+        document.getElementById("demo-2").innerHTML = Date();
+      }
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,51 @@
+@each $index, $bg_image in 
+  ("1", "campaign"),
+  ("2", "international"),
+  ("3", "report")
+{
+  .picture-news__item:nth-child(#{$index}) {
+    .picture-news__image {
+      @include background-cover("../images/picture-news/news-#{$bg_image}.jpg", center);
+    } 
+  }
+}
+
+.picture-news {
+  @include border-radius(2px);
+  background-color: $white;
+  &__link-to {
+    display: block;
+  }
+
+  &__image {
+    @include border-radius(5px);
+    @include size(100%, 160px);
+    box-shadow: $oil 0 3px 6px 0;
+    overflow: hidden;
+    &:hover {
+      @include relative(top -3px);
+    }
+  }
+
+  &__desc {
+    @extend %font-light;
+    border-top: 5px solid $oil;
+    font-size: rem-calc(15);
+    margin: 0 auto;
+    line-height: 15px;
+    padding-top: 5px;
+    width: 80%;
+  }
+}
+
+@include breakpoint('small-screen') {
+  .picture-news {
+    &__item {
+      padding-bottom: 2rem;
+    }
+
+    &__image {
+      height: 180px;
+    }
+  }
+}

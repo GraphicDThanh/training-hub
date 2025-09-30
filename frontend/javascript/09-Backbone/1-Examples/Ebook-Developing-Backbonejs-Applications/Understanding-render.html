@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // var ListView = Backbone.View.extend({
+    //   render: function() {
+    //     this.$el.html(thismodel.toJSON());
+    //   }
+    // });
+
+    var ItemView = Backbone.View.extend({
+      event: {},
+      render: function() {
+        this.$el.html(this.model.toJSON());
+        return this;
+      }
+    });
+
+    var ListView = Backbone.View.extend({
+      render :function () {
+
+        // Assume our model exposes the items we will
+        // display in your list
+        var items = this.model.get('items');
+
+        // Loop through each of our items using the Underscore
+        // _.each iterator
+        _.each(items, function (){
+
+          // Create a new instance of the ItemView, passing
+          // it a specific model item
+          var itemView = new ItemView({ model: item });
+
+          // The itemView's DOM element is appended after it
+          // has been rendered. Here, the 'return this' is helpful
+          // as the itemView renders its model. Later, we ask for
+          // its output ('el')
+          this.$el.append( itemView.render().el );
+        }, this);
+      }
+    });
+    </script>
+  </body>
+</html>

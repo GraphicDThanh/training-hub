@@ -1,0 +1,18 @@
+//- jade mixin for header
+mixin navitem(linkto, name_item)
+  li.horizontal-list__item.nav-item
+    a.horizontal-list__item__link.nav-item__link(href=linkto)= name_item
+
+//- main navigation
+.navbar-fixed-top
+  .navbar-fixed-top__container
+    .header-bar
+      .header-bar__logo
+        h1.logo
+          a.logo__image(href="#") SELERITY
+      #js-button-mobile-product.header-bar__button
+      nav.header-bar__navbar#js-navigation-menu
+        ul.horizontal-list
+          +navitem('products.html', 'Products')
+          +navitem('about.html', 'Abouts')
+          +navitem('careers.html', 'Careers')

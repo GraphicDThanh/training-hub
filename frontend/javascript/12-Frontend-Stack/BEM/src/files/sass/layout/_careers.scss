@@ -1,0 +1,225 @@
+/* Carrers page */
+.carrers-selerity {
+  .light-bg  > .row  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  header {
+    height: 700px;
+  }
+
+  .header-background-image {
+    @include background-cover('../img/selerity-new-version/selerity-carrers.jpg');
+    height: 100%;
+  }
+
+  .light-bg {
+    background: #f1eee7;
+  }
+
+  .container-button {
+    margin-bottom: 65px;
+  }
+
+  .carrer-page-title {
+    @include font-size-weight-lato(2em, 700);
+    color: #000;
+    margin-top: 20px;
+    + h3 span {
+      font-weight: 600;
+    }
+  }
+}
+
+// old style
+#carrers {
+  .cover-content {
+    h3 {
+      font-size: 2em;
+      line-height: 42px;
+    }
+
+    h4 {
+      @include font-size-weight-lato(20px, 700);
+      margin:35px 0 20px;
+    }
+
+    h5 {
+      @include font-size-weight-lato(1.3125em, 400);
+    }
+
+    h6 {
+      @include font-size-weight-lato(1.125em, 700);
+      margin-bottom:8px;
+    } 
+
+    ul#openings {
+      margin:0!important;
+      padding:0!important;
+    }
+
+    .container-box {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      .col-md-12 {
+        padding: 0;
+      }
+
+      .title {
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      .box {
+        @include font-size-weight-lato(18px, 300);
+        background: $base-color;
+        border-top: #0c63ab 3px solid;
+        box-shadow: 0px 0px 1px 1px #ddd;
+        display: table-cell;
+        padding: 0px 30px 25px;
+        vertical-align: top;
+        width: 30%;
+        &:last-child {          
+          margin-right:0px;
+        }
+      }
+
+      .divider {
+        @include size-width-height(70px, 100%);
+        display:table-cell;
+        vertical-align: top;
+      }    
+    }
+
+    .embrace {
+      margin-top:50px;
+      .title {
+        @include font-size-weight-lato(21px, 700);
+        margin-bottom:40px;
+      }
+
+      ul {
+        padding-left: 16%;
+        margin-bottom: 0;
+        li {
+          font-size: 16px;
+          margin-bottom:20px;
+          margin-right: 12%;
+          width:38%;
+          &:last-child {
+            margin-bottom:0;
+          }
+        }
+      }
+    }
+
+    .benefits {
+      ul {
+        padding-top:35px;
+        padding-left:0;
+        &:last-child {
+          margin-bottom:0;
+        }
+
+        li {
+          width:50%;
+          list-style: none;
+          line-height: 21px;
+        }
+      }
+
+      .col-md-9 {
+        font-size: 16px;
+        h6 {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .current-openings {
+      .content {
+        margin-left:-15px;
+        &:last-child {
+          margin-bottom: 0;
+        }    
+
+        .container-text {
+          margin:35px 0;
+
+          .title {
+            @include font-size-weight-lato(18px, 700);
+            margin-bottom:10px;
+          }
+
+          .desc {
+            font-size: 16px;
+            line-height:21px;
+            margin-bottom:30px;
+          }
+        }
+      }
+    }
+
+    hr {
+      border-bottom:1px #a6a6a6 solid;
+      margin:60px 0 50px;
+    }
+  }
+
+  .btn-current-openings {
+    @include border-radius(5px);
+    background: #0c63ab;
+    color: $base-color;
+    font-size:22px;
+    padding:15px 35px;
+    &:hover {
+      background: #0f608b;
+    }
+  }
+
+  .btn-recruiters {
+    @include font-size-weight-lato(16px, 700);
+    background: #ebebeb;
+    border:1px #d6d6d6 solid;
+    padding:8px 135px;
+  }
+}
+
+.jobs {
+  padding-top: 80px;
+  .cover-title {
+    background:#4c4b4b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .title-1 {
+      color:#fff;
+      font-size: 34px;
+      text-transform: uppercase;
+    }
+  }
+  .cover-content {
+    background:#f1eee7;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    .title-2 {
+      color:#333;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .line {
+      margin-top:28px;
+      line-height: 28px;
+      font-size:16px;
+      .bold {
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+      ul {
+        margin:0;
+        padding-left:20px;
+      }
+    }
+  }
+}

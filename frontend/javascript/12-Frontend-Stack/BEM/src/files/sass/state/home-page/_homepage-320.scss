@@ -1,0 +1,89 @@
+@media screen and(max-width: 320px) {
+  .header-carousel {
+    height: 380px;
+
+    .header-title,
+    .header-subtitle {
+      font-size: 19px;
+    }
+
+    .btn-header {
+      font-size: 16px;
+      width: 155px;
+    }
+
+    .btn-header-learn-more {
+      font-size: 17px;
+    }
+  }
+  .markets {
+
+    .markets-title {
+      font-size: 25px;
+    }
+
+    .markets-content-title {
+      font-size: 18px;
+    }
+
+    .markets-content-desciption {
+      font-size: 14px;
+    }
+
+    .markets-content-icon  {
+      width: 76px;
+      height: 73px;
+    }
+
+    .markets-content-block,
+    .markets-background-black {
+      padding: 10px;
+    }
+  }
+
+  .main-navbar-fixed-top {
+    .nav-item {
+      .nav-item-link {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .sliding-panel {
+    &.is-visible {
+      .sliding-panel-logo {
+        width: 49px;
+        height: 46px;
+      }
+    }
+  }
+
+  .customers {
+    .costomers-title {
+      font-size: 1.5em;
+      margin: 0;
+    }
+    .customers-logo {
+      height: 26px;
+      margin: 4% 0;
+      padding: 0;
+
+      &:nth-child(2) {
+        img {
+          height: 23px;
+          margin-top: 7px;
+        }
+      }
+
+      &:nth-child(5) img {
+        height: 19px;
+      }
+    }
+
+
+
+    .customers-content-block {
+      padding-top: 15%;
+    }
+  }
+}

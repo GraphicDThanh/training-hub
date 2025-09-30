@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!--Shown to diffence format with get method -->
+    <div id="date"></div>
+    <p id="date2"></p>
+    <script type="text/javascript">
+      var dateElement = document.getElementById("date");
+      var today = new Date();
+      var utcDate = today.toUTCString();
+      dateElement.innerHTML = "<p>local datetime: " + today + "<br />UTC datetime: " + utcDate + "</p>"
+      var day = today.getUTCDate();
+      var month = today.getUTCMonth() + 1;
+      var year = today.getUTCFullYear();
+
+      document.getElementById("date2").innerHTML = 
+      "<p>" + month + "/" + day + "/" + year + "</p>";
+    </script>
+  </body>
+</html>

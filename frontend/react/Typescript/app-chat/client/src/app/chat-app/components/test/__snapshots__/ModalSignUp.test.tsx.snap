@@ -1,0 +1,1957 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component Modal Sign Up smapshot 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "modal-wrapper",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "model-dialog",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "modal-content",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "modal-header",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "title",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Please add youself to begin chat",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "h4",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "modal-body",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your display name:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "name",
+                              "placeholder": "Enter your name here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "name",
+                            "placeholder": "Enter your name here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your display name:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "input-group",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your avatar url online:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "form-control",
+                                "data-attr": "avatar",
+                                "placeholder": "Enter your avatar url online here",
+                                "type": "text",
+                                "value": "",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "avatar",
+                              "placeholder": "Enter your avatar url online here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "for": "",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Your avatar url online:",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "label",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "for": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "for": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your avatar url online:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "avatar",
+                              "placeholder": "Enter your avatar url online here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "avatar",
+                            "placeholder": "Enter your avatar url online here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your avatar url online:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "input-group",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your display name:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "form-control",
+                                "data-attr": "name",
+                                "placeholder": "Enter your name here",
+                                "type": "text",
+                                "value": "",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "name",
+                              "placeholder": "Enter your name here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "for": "",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Your display name:",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "label",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "for": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "for": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "modal-footer",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "btn btn-join",
+                          "data-attr": "btn-join",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Join Room",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "button",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "modal-body",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "input-group",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "for": "",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Your display name:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "name",
+                            "placeholder": "Enter your name here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "for": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "for": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "form-control",
+                          "data-attr": "name",
+                          "placeholder": "Enter your name here",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your display name:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                          "placeholder": undefined,
+                          "type": undefined,
+                          "value": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                          "placeholder": undefined,
+                          "type": undefined,
+                          "value": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your avatar url online:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "avatar",
+                              "placeholder": "Enter your avatar url online here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "avatar",
+                            "placeholder": "Enter your avatar url online here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your avatar url online:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "input-group",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "for": "",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Your avatar url online:",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "label",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "avatar",
+                            "placeholder": "Enter your avatar url online here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "for": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "for": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "form-control",
+                          "data-attr": "avatar",
+                          "placeholder": "Enter your avatar url online here",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "children": Array [],
+                        "name": "input",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your avatar url online:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                          "placeholder": undefined,
+                          "type": undefined,
+                          "value": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "data-attr": undefined,
+                          "placeholder": undefined,
+                          "type": undefined,
+                          "value": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your display name:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "name",
+                              "placeholder": "Enter your name here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "name",
+                            "placeholder": "Enter your name here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your display name:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "modal-footer",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "btn btn-join",
+                        "data-attr": "btn-join",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Join Room",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "button",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "data-attr": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "data-attr": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "modal-header",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "title",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Please add youself to begin chat",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "h4",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "modal-footer",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "btn btn-join",
+                      "data-attr": "btn-join",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Join Room",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "data-attr": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "data-attr": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "modal-body",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your display name:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "name",
+                              "placeholder": "Enter your name here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "name",
+                            "placeholder": "Enter your name here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your display name:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "input-group",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your avatar url online:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "form-control",
+                                "data-attr": "avatar",
+                                "placeholder": "Enter your avatar url online here",
+                                "type": "text",
+                                "value": "",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "avatar",
+                              "placeholder": "Enter your avatar url online here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "for": "",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Your avatar url online:",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "label",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "for": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "for": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "input-group",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "for": "",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Your avatar url online:",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "label",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "avatar",
+                              "placeholder": "Enter your avatar url online here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "for": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "for": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "form-control",
+                            "data-attr": "avatar",
+                            "placeholder": "Enter your avatar url online here",
+                            "type": "text",
+                            "value": "",
+                          },
+                          "children": Array [],
+                          "name": "input",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your avatar url online:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "data-attr": undefined,
+                            "placeholder": undefined,
+                            "type": undefined,
+                            "value": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "input-group",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "for": "",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "Your display name:",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "label",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "form-control",
+                                "data-attr": "name",
+                                "placeholder": "Enter your name here",
+                                "type": "text",
+                                "value": "",
+                              },
+                              "children": Array [],
+                              "name": "input",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                                "data-attr": undefined,
+                                "placeholder": undefined,
+                                "type": undefined,
+                                "value": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "for": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "for": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "form-control",
+                              "data-attr": "name",
+                              "placeholder": "Enter your name here",
+                              "type": "text",
+                              "value": "",
+                            },
+                            "children": Array [],
+                            "name": "input",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "for": "",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "Your display name:",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "label",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "for": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "for": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "data-attr": undefined,
+                              "placeholder": undefined,
+                              "type": undefined,
+                              "value": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "modal-header",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "title",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Please add youself to begin chat",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "h4",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

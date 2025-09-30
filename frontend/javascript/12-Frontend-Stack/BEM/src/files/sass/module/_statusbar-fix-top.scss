@@ -1,0 +1,85 @@
+.statusbar-fix-top {
+  position:fixed;
+  z-index: 9999;
+  height: 54px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #df4547;
+  @include e('title') {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  @include e('link') {
+    color: #fff;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-top: 15px;
+    text-decoration: underline;
+  }
+
+  @include e('logo'){
+    margin-top: -5px;
+    width: 40px;
+  }
+
+  @include e('close-button') {
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    cursor: pointer;
+  }
+}
+
+
+// Restyle when have trending bar for navbar and full-page
+@media screen and (min-width: 768px) {
+  .main-navbar-fixed-top.is-changed {
+    top: 54px;
+  }
+
+  .fullpage-wrapper.is-changed {
+    .markets .container {
+      padding-top: 54px;
+    }
+
+    .customers .customers-background {
+      margin-top: 54px;
+    }
+
+    .customers {
+      .customers-content-block {
+        height: 560px;
+      }
+
+      .customers-background:nth-child(3) {
+        height: 65%;
+      }
+    }
+
+    .header-carousel .header-title-block {
+      padding-top: 11%;
+    }
+  }
+}
+
+// Fix Broke Ui when in 768-992
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .statusbar-fix-top { 
+    @include e('link') {
+      font-size: 14px;
+    }
+  }
+}
+
+// Hide trending bar when screen < 768px
+@media screen and(max-width: 768px) {
+  .statusbar-fix-top {
+    display: none;
+  }
+}

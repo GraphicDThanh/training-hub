@@ -1,0 +1,41 @@
+extends layouts/default.jade
+
+block head-title
+  title MUICSS Practice
+  <!--http://demo.uncommons.pro/themes/wp/maya/-->
+
+block main-content
+  - var content_list = []
+  - content_list.push({img_src:"game", title:"eco", sub_title:"To make it Impressive", link_to:"games"})
+  - content_list.push({img_src:"wedding", title:"wedding", sub_title:"To make it Unforgettable", link_to:"wedding"})
+  - content_list.push({img_src:"creative", title:"creative", sub_title:"To make it Impressive", link_to:"creative"})
+  - content_list.push({img_src:"business", title:"business", sub_title:"To make it Profitable", link_to:"business"})
+  - content_list.push({img_src:"eco", title:"eco", sub_title:"To make it Responsive", link_to:"eco"})
+  - content_list.push({img_src:"lifestyle", title:"life style", sub_title:"To make it Fashion", link_to:"lifestyle"})
+  - content_list.push({img_src:"food", title:"food", sub_title:"To make it Delicious", link_to:"food"})
+  .hero-section.mui-container-fluid
+    .hero-section__logo
+      .wrap-image
+        img(src="images/logo.png")
+    p.hero-section__desc.mui-text-center.text-uppercase smart and creative wp theme
+  .main-content.mui-container
+    each item in content_list
+      .mui-col-lg-6
+        .tile.mui-text-center
+          .tile__thumbnail
+            .wrap-image
+              img(src="images/browser-top.png")
+            a.wrap-image(href="http://demo.uncommons.pro/themes/wp/maya/#{item.link_to}/")
+              img(src="images/#{item.img_src}.jpg")
+          .tile__title.text-uppercase
+            a.tile__title--content(href="http://demo.uncommons.pro/themes/wp/maya/#{item.link_to}/")= item.title
+          .tile__sub-title= item.sub_title
+
+  footer.footer
+    .footer__btn.mui-text-center
+      i#btn-scroll-top.footer__btn--icon.fa.fa-angle-up
+    .footer__copy.mui-text-center
+      | &copy; 
+      a.footer__link(href="http://www.uncommons.pro") unCommons
+      |   Team - All Rights Reserved
+

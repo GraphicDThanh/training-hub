@@ -1,0 +1,8 @@
+**/out/
+**/node_modules/
+**/src/files/bower_components
+**/.vagrant
+**/.sass-cache
+**/dist
+**/jQuery-Fourth-Edition/code
+**/bower-components

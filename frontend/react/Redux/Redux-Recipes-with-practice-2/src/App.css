@@ -1,0 +1,49 @@
+.app-logo {
+  animation: app-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.app-header {
+  background-color: #222;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.app-content {
+  padding: 20px;
+}
+
+.app-content .function-buttons {
+  text-align: center;
+}
+
+.function-buttons button {
+  margin-right: 10px;
+}
+
+/*utilities class*/
+.column {
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+@keyframes app-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

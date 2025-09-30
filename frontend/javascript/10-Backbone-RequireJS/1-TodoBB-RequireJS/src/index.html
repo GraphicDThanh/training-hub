@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TodoList with Backbone</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="files/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="todoapp">
+        <header id="header">
+          <h1 class="text-center">todos</h1>
+          <input id="new-todo" type="text" placeholder="what need to be done?">
+        </header>
+        <section id="main" class="main-content">
+          <label class="check-all-item">
+            <input id="toggle-all" type="checkbox" name="all-items"><span class="overlay"></span>
+          </label>
+          <ul id="todo-list" class="todo-list list-unstyled"></ul>
+        </section>
+        <footer id="footer" class="footer-content text-center"></footer>
+      </section>
+    </div><!-- Scripts -->
+    <script data-main="files/scripts/app" src="files/bower-components/requirejs/require.js"></script>
+  </body>
+</html>

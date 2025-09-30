@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <script type="text/javascript">
+      var strValue = "This is the Cookbook's test string.";
+      var subValue = "Cookbook";
+      var iValue1 = strValue.indexOf(subValue);
+      if (iValue1 != -1) {
+        alert("Have substring in original string.");
+      }
+
+
+      var tstString = "This apple is my apple";
+      var iValue2 = tstString.indexOf("apple", 10); // will return 17, index of second substring
+      alert(iValue2);
+
+
+      var txtString = "This apple is my apple";
+      var iValue3 = txtString.lastIndexOf("apple"); // will return 17
+      alert(iValue3);
+
+
+      var iValue4 = "This apple is my apple".lastIndexOf("apple",12); // returns value of 5
+      alert(iValue4);
+
+
+      var iValue5 = "This apple is my apple".lastIndexOf("apple", 3);
+      alert(iValue5);
+    </script>
+  </body>
+</html>

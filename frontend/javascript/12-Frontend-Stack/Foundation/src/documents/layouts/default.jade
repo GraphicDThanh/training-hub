@@ -1,0 +1,84 @@
+doctype html
+html(lang="en")
+  head
+    block head-title
+      title Default title
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+    link(href="css/app.css" rel="stylesheet", type="text/css")
+    script(src="js/modernizr.js")
+  
+  body
+    include ./../mixins/sub-nav.jade
+    include ./../mixins/sub-nav-mobile.jade
+    - var sub_nav_list = []
+    - sub_nav_list.push({class_name:"company", title: "OUR COMPANY", link_to: "Company/Overview", sub_code:"company-sub-list"})
+    - sub_nav_list.push({class_name:"investor", title: "INVESTOR RELATIONS", link_to: "Investor/Overview", sub_code:"investor-sub-list"})
+    - sub_nav_list.push({class_name:"brands", title: "OUR BRANDS", link_to: "Brand/PerryEllis", sub_code:"brands-sub-list"})
+
+    - var mobile_sub_nav_list = []
+    - mobile_sub_nav_list.push({id_name:"company", title: "OUR COMPANY", sub_code:"mobile_company-sub-list"})
+    - mobile_sub_nav_list.push({id_name:"investor", title: "INVESTOR RELATIONS", sub_code:"mobile_investor-sub-list"})
+    - mobile_sub_nav_list.push({id_name:"brands", title: "OUR BRANDS", sub_code:"mobile_brands-sub-list"})
+
+    #page
+      .sticky
+        nav.page-header_main-nav.top-bar.hide-small-only(data-topbar, role="navigation", data-options="sticky_on: medium, large")
+          ul.title-area
+            li.name
+              a(herf="#")
+                image.page-header__logo(src="images/logo_black.png")
+            li.toggle-topbar.menu-icon
+              .nasdaq_ticker.hidden-for-medium-up
+                iframe(name="ticker", allowtransparentcy="yes", frameborder="0", width="185", height="40", scrolling="no", src="http://investor.pery.com/includes/quote_include.cfm")
+              a(href="#")
+                span
+          section.top-bar-section.clearfix.hide-for-small-only
+            <!-- Right Nav Section -->
+            ul.right
+              li
+                a(href="#")
+                  i.fa.fa-home
+              each sub_nav in sub_nav_list
+                li.has-dropdown
+                  a(href="http://www.pery.com/Company/Overview")= sub_nav.title
+              li
+                a(href="http://www.pery.com/Company/News") NEWS
+              li
+                a(href="http://www.pery.com/Company/Careers") CAREERS
+              li.page-header__nasdaq_ticker
+                iframe(name="ticker", allowtransparentcy="yes", frameborder="0", width="185", height="40", scrolling="no", src="http://investor.pery.com/includes/quote_include.cfm")
+        
+        <!--DESKTOP main navigation-->
+        .desktop-menu.hidden-for-small-down
+          each sub_nav in sub_nav_list
+            .desktop-menu__sub-menu.row.hide(class="#{sub_nav.class_name}-sub-nav")
+              +code(sub_nav.sub_code)
+
+        <!--MOBILE main navigation-->
+        .mobile-menu.hidden-for-medium-up.hide
+          ul.accordion(data-accordion, role="tab-list")
+            each mobile_sub_nav in mobile_sub_nav_list
+              li.accordion-navigation
+                a.caret(href="##{mobile_sub_nav.id_name}")= mobile_sub_nav.title
+                .content(id="#{mobile_sub_nav.id_name}")
+                  +code_mobile(mobile_sub_nav.sub_code)
+            li.accordion-navigation
+                a(href="http://www.pery.com/Company/News") NEWS
+            li.accordion-navigation
+              a(href="http://www.pery.com/Company/Careers") CAREERS
+        <!--backdrop page in mobile screen-->
+        #backdrop
+
+        <!--Main Content-->
+        block main-content
+
+    <!--Script Collection-->
+    block scripts
+      script(src="js/jquery.min.js")
+      script(src="js/fastclick.js")
+      script(src="js/foundation.min.js")
+      script(src="js/main.js")
+      
+      script 
+        | $(document).foundation();

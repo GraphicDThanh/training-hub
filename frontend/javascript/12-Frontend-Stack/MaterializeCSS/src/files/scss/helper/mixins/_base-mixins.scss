@@ -1,0 +1,13 @@
+@mixin center-block($width, $margin) {
+  width: $width;
+  margin: $margin auto;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin font-size($font-size) {
+  font-size: $font-size+ px;
+}

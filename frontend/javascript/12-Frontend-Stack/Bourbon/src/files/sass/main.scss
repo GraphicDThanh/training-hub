@@ -1,0 +1,35 @@
+@import 'bourbon',
+  'base/variable',
+  'helper/keyframes',
+  'layout/header';
+
+.box-animation {
+  @include position(relative);
+  @include border-top-radius(100px);
+  @include border-bottom-radius(100px);
+  @include background-image(linear-gradient(hsla(0, 100%, 100%, 0.25) 0%, hsla(0, 100%, 100%, 0.08) 50%, transparent 50%),
+                            linear-gradient(#8fdce5, darken(#8fdce5, 10%)));
+  // @include animation-delay(10s);
+  @include size(100px);
+  // @include appearance(radio);
+  border: 1px solid #2aa4b2;
+  margin: 100px;
+  &:hover {
+    @include animation(scale 1.0s ease-in, slide 2.0s ease);
+    @include animation-name(scale, slide);
+    @include animation-duration(2s);
+    @include animation-timing-function(ease);
+    @include animation-iteration-count(infinite);
+  }
+}
+
+.test-background-1 {
+  @include size(200px 50px);
+  @include background(linear-gradient(#000, #fff) left repeat);
+}
+
+
+.test-background-2 {
+  @include size(200px 50px);
+  @include background(radial-gradient(#f22500, #f4a102));
+}

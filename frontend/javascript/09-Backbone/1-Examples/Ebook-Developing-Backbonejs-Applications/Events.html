@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <div id='todo'>
+      <input type='checkbox'/>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Models chapter Backbone Basics
+    // Your code goes here
+      // var ourObject = {};
+
+      // // Mixin
+      // _.extend(ourObject, Backbone.Events);
+
+      // // Add a custom event
+      // ourObject.on('dance', function(msg) {
+      //   console.log('We triggered ' + msg);
+      // });
+
+      // // Trigger the custom event
+      // ourObject. trigger('dance', 'our event');
+      
+      // function dancing(msg) {
+      //   console.log('We started ' + msg);
+      // }
+
+      // // Add namespaced custom events
+      // ourObject.on('dance:tap', dancing);
+      // ourObject.on('dance:break', dancing);
+
+      // // Trigger the custom events
+      // ourObject.trigger('dance:tap', 'tap dancing. Yeah!');
+      // ourObject.trigger('dance:break', 'break dancing. Yeah!');
+
+      // // This one triggers nothing as no listener listens for it
+      // ourObject.trigger('dance', 'break dancing. Yeah!');
+      
+      // ourObject.on('all', function(eventName) {
+      //   console.log('The name of the event passed was ' + eventName);
+      // });
+
+      // // This his each event will be caught with a catch 'all' event listener
+      // ourObject.trigger('dance:tap', 'tap dancing. Yeah!');
+      // ourObject.trigger('dance:break', 'break dancing. Yeah!');
+      // ourObject.trigger('dance', 'break dancing. Yeah!');
+      
+
+      // var ourObject = {};
+
+      // // Mixin
+      // _.extend(ourObject, Backbone.Events);
+
+      // function dancing(msg) {
+      //   console.log('We' + msg);
+      // }
+
+      // // Add namespaced custom events
+      // ourObject.on('dance:tap', dancing);
+      // ourObject.on('dance:break', dancing);
+
+      // // Trigger the custom events. Each will be caught and acted upon
+      // ourObject.trigger('dance:tap', 'started tap dancing. Yeah!');
+      // ourObject.trigger('dance:break', 'started break dancing. Yeah!');
+
+      // // Removes event bound to the object
+      // ourObject.off('dance:tap');
+
+      // // Trigger the custom events again, but one is logged
+      // ourObject.trigger('dance:tap', 'stopped tap dancing.');
+      // // won't be logged as it's not listened for
+      // ourObject.trigger('dance:break', 'break dancing. Yeah!');
+      
+
+      // var ourObject = {};
+
+      // // Mixin
+      // _.extend(ourObject, Backbone.Events);
+
+      // function dancing(msg) {
+      //   console.log('We are dancing. ' + msg);
+      // }
+
+      // function jumping(msg) {
+      //   console.log('We are jumping. ' + msg);
+      // }
+
+      // // Add two listeners to the same event
+      // ourObject.on('move', dancing);
+      // ourObject.on('move', jumping);
+
+      // // Trigger the events. Both listeners are called.
+      // ourObject.trigger('move', 'Yeah!');
+
+      // // Removes specified listener
+      // ourObject.off('move', dancing);
+
+      // // Trigger the events again. One listener left.
+      // ourObject.trigger('move', 'Yeah, jump, jump!');
+      
+
+      // var ourObject = {};
+
+      // // Mixin
+      // _.extend(ourObject, Backbone.Events);
+
+      // function doAction(msg) {
+      //   console.log('We are ' + msg);
+      // }
+
+      // // Add event listeners
+      // ourObject.on('dance', doAction);
+      // ourObject.on('jump', doAction);
+      // ourObject.on('skip', doAction);
+
+      // // Single event
+      // ourObject.trigger('dance', 'just dancing.');
+
+      // // Multiple events
+      // ourObject.trigger('dance jump skip', 'very tired from so much action');
+      
+
+      // trigger can pass multiple arguments to the callback function
+      // var ourObject = {};
+
+      // // Mixin
+      // _.extend(ourObject, Backbone.Events);
+
+      // function doAction(action, duration) {
+      //   console.log('We are ' + action + ' for ' + duration);
+      // }
+
+      // // Add event listeners
+      // ourObject.on('dance', doAction);
+      // ourObject.on('jump', doAction);
+      // ourObject.on('skip', doAction);
+
+      // // Passing multiple arguments to multiple events
+      // ourObject.trigger('dance jump skip', 'on fire', '15 minutes');
+      
+
+      // // listenTo() and stopListening()
+      // var a = _.extend({}, Backbone.Events);
+      // var b = _.extend({}, Backbone.Events);
+      // var c = _.extend({}, Backbone.Events);
+
+      // // add listeners to A for events on B and C
+      // a.listenTo(b, 'anything', function(event) {
+      //   console.log('anything happened');
+      // });
+
+      // a.listenTo(c, 'everything', function(event) {
+      //   console.log('everything happened');
+      // });
+
+      // // trigger an event
+      // b.trigger('anything');
+
+      // //stop listening
+      // a.stopListening();
+
+      // // A does not receive these events
+      // b.trigger('anything');
+      // c.trigger('everything');
+      
+      // // use remove() method
+      // var view = new Backbone.View();
+      // var b = _.extend({}, Backbone.Events);
+
+      // view.listenTo(b, 'all', function() {
+      //   console.log(true);
+      // });
+      // b.trigger('anything');
+
+      // view.listenTo(b, 'all', function() {
+      //   console.log(false);
+      // });
+      // view.remove(); //stopListening() implicitly called
+      // b.trigger('anything');
+      // // does not log anything
+      
+
+      // Events and Views
+      var View = Backbone.View.extend({
+        el: '#todo',
+
+        //bind to DOM event using events property
+        events: {
+          'click [type='checkbox']': clicked,
+        },
+
+        initialize: function() {
+          // bind to DOM event using jQuery
+          this.$el.click(this.jqueryClicked);
+
+          // bind to API event
+          this.on('apiEvent', this.callback);
+        },
+
+        // 'this' is view
+        clicked: function(event) {
+          console.log('events handler for ' + this.el.outerHTML);
+          this,trigger('apiEvent', event.type);
+        },
+
+        // 'this' is handling DOM element
+        jqueryClicked: function(event) {
+          console.log('jQuery handler for '+ this.outerHTML);
+        },
+
+        callback: function(eventType) {
+          console.log('event type was ') + eventType;
+        }
+      });
+
+      var view = new View();
+    </script>
+  </body>
+</html>

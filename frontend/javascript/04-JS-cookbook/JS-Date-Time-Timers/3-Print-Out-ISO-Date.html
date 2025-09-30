@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      var dt = new Date();
+      //get month and increment
+      var mnth = dt.getUTCMonth();
+      mnth++;
+
+      var day = dt.getUTCDate();
+      if (day < 10) day = "0" + day;
+
+      var yr = dt.getUTCFullYear();
+
+      var hrs = dt.getUTCHours();
+      if (hrs < 10) hrs = "0" + hrs;
+
+      var min = dt.getUTCMinutes();
+      if (min < 10) min = "0" + min;
+
+      var secs = dt.getUTCSeconds();
+      if (secs < 10) secs = "0" + secs;
+      console.log("year is: " + yr);
+      console.log("month is: " + mnth);
+      console.log("day is: " + day);
+      console.log("hour is: " + hrs);
+      console.log("minute is: " + min);
+      console.log("sec is: " + secs);
+
+      //put out a ISO date time
+      var newDate = yr + "-" + mnth + "-" + day + "T" + hrs + ":" + min + ":" + secs + "Z";
+      console.log(newDate);
+    </script>
+  </body>
+</html>

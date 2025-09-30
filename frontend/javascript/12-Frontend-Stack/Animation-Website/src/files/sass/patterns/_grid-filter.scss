@@ -1,0 +1,29 @@
+.grid-filter {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  &__row {
+    position: relative;
+    padding-left: 100px;
+    &:before {
+      @include position(absolute, 50% null null null);
+      @include size(28px 1px);
+      background-color: $cod-gray;
+      content: "";
+    }
+  }
+
+  &__list {
+    padding-left: 40px;
+  }
+  button {
+    @extend %font-italic;
+    @include font-size(18);
+    @include link-style($color: $cod-gray, $color-hover: $froly);
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    &:focus {
+      outline-color: $white;
+    }
+  }
+}

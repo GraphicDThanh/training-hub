@@ -1,0 +1,67 @@
+.markets {
+	height: 100%;
+	background-color: #e4e5e6;
+
+	.markets-title {
+    @include font-size-weight-lato(30px, 300);
+		color: #3d3d3d;
+		padding: 8.5% 0;
+    margin: 0;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+  .markets-content-block-title {
+    position: relative;
+    height: 144px;
+  }
+
+	.markets-content-icon {
+    @include size-width-height(62px, 59px);
+    margin: 0 auto 30px auto;
+
+    .icon-messaging,
+    .icon-e-broker,
+    .icon-banking {
+      height: 100%;
+    }
+
+    .icon-messaging {
+      @include background-contain('../img/messaging-icon.png');
+    }
+
+    .icon-e-broker {
+      @include background-contain('../img/e-broker-icon.png');
+    }
+
+    .icon-banking {
+      @include background-contain('../img/banking-icon.png');
+    }
+	}
+
+	.markets-content-title {
+    @include font-size-weight-lato(25px, 400);
+		color: #3d3d3d;
+		text-align: center;
+    margin: 0;
+		text-transform: capitalize;
+	}
+
+	.markets-content-desciption {
+    @include font-size-weight-lato(20px, 300);
+		margin-top: 30px;
+		color: #3d3d3d;
+		text-align: center;
+	}
+
+	.markets-content-block,
+  .markets-background-black {
+		background-color: #fff;
+		padding: 25px;
+		height: 387px;
+	}
+
+  .markets-background-black {
+    background-color: #f4f4f4;
+  }
+}

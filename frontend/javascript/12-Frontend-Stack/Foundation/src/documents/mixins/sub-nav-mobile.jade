@@ -1,0 +1,66 @@
+- var company_mobile_sub_list = []
+- company_mobile_sub_list.push({name:"COMPANY OVERVIEW", link:"#"})
+- company_mobile_sub_list.push({name:"CORPORATE OFFICERS", link:"#"})
+- company_mobile_sub_list.push({name:"BOARD OF DIRECTORS", link:"#"})
+- company_mobile_sub_list.push({name:"CORPORATE GOVERNANCE", link:"#"})
+- company_mobile_sub_list.push({name:"COMPANY HISTORY", link:"#"})
+- company_mobile_sub_list.push({name:"SOCIAL RESPONSIBILITY", link:"#"})
+- company_mobile_sub_list.push({name:"CODE OF ETHICS AND CONDUCT", link:"#"})
+- company_mobile_sub_list.push({name:"SOCIAL COMPLIANCE CODE OF CONDUCT", link:"#"})
+
+
+- var investor_mobile_sub_list = []
+- investor_mobile_sub_list.push({name:"OVERVIEW", link:"#"})
+- investor_mobile_sub_list.push({name:"STOCK INFORMATION", link:"#"})
+- investor_mobile_sub_list.push({name:"STOCK LOOKUP", link:"#"})
+- investor_mobile_sub_list.push({name:"QUARTERLY RESULTS", link:"#"})
+- investor_mobile_sub_list.push({name:"ANALYST COVERAGE", link:"#"})
+- investor_mobile_sub_list.push({name:"FUNDAMENTALS", link:"#"})
+- investor_mobile_sub_list.push({name:"FINANCIAL REPORT", link:"#"})
+- investor_mobile_sub_list.push({name:"INVESTMENT CALCULATOR", link:"#"})
+- investor_mobile_sub_list.push({name:"ANNUAL REPORTS", link:"#"})
+- investor_mobile_sub_list.push({name:"KEY RATIOS", link:"#"})   
+- investor_mobile_sub_list.push({name:"SEC FILINGS", link:"#"})
+- investor_mobile_sub_list.push({name:"PRESENTATIONS", link:"#"})
+- investor_mobile_sub_list.push({name:"EVENTS CALENDAR", link:"#"})
+- investor_mobile_sub_list.push({name:"E-MAIL ALERTS", link:"#"})   
+- investor_mobile_sub_list.push({name:"INVESTOR KIT", link:"#"})
+- investor_mobile_sub_list.push({name:"FAQS", link:"#"})
+
+- var brands_mobile_sub_list = []
+- brands_mobile_sub_list.push({name:"BEN HOGAN", link:"#"})
+- brands_mobile_sub_list.push({name:"FARAH", link:"#"})
+- brands_mobile_sub_list.push({name:"JACK NICKLAUS", link:"#"})
+- brands_mobile_sub_list.push({name:"JOHN HENRY", link:"#"})
+- brands_mobile_sub_list.push({name:"PEONY", link:"#"})
+- brands_mobile_sub_list.push({name:"SAVANE", link:"#"})
+- brands_mobile_sub_list.push({name:"CALLAWAY", link:"#"})
+- brands_mobile_sub_list.push({name:"GRAND SLAM", link:"#"})
+- brands_mobile_sub_list.push({name:"JAG", link:"#"})
+- brands_mobile_sub_list.push({name:"LAUNDRY BY SHELLI SEGAL", link:"#"})
+- brands_mobile_sub_list.push({name:"PRO PLAYER", link:"#"})
+- brands_mobile_sub_list.push({name:"AXIST", link:"#"})
+- brands_mobile_sub_list.push({name:"CUBAVERA", link:"#"})
+- brands_mobile_sub_list.push({name:"HAVANERA", link:"#"})
+- brands_mobile_sub_list.push({name:"JANTZEN", link:"#"})
+- brands_mobile_sub_list.push({name:"NIKE SWIM", link:"#"})
+- brands_mobile_sub_list.push({name:"ORIGINAL PENGUIN", link:"#"})
+- brands_mobile_sub_list.push({name:"RAFAELLA", link:"#"})
+- brands_mobile_sub_list.push({name:"PGA TOUR", link:"#"})
+
+mixin code_mobile(mobile_sub_nav)
+  case mobile_sub_nav
+    when 'mobile_company-sub-list'
+      .mega-menu.row.text-center
+        each item in company_mobile_sub_list
+          a.button(href="#{item.link}")= item.name
+              
+    when 'mobile_investor-sub-list'
+      .mega-menu.row.text-center
+        each item in investor_mobile_sub_list
+          a.button(href="#{item.link}")= item.name
+
+    when 'mobile_brands-sub-list'
+      .mega-menu.row.text-center
+        each item in brands_mobile_sub_list
+          a.button(href="#{item.link}")= item.name

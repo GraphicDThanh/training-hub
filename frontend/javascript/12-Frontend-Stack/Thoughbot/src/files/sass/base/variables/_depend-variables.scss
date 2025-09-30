@@ -1,0 +1,65 @@
+//****general****//
+
+$base-background-color: $white;
+// Text
+$text-color-base: $dark-grayer;
+$base-border-color: $light-gray;
+$secondary-background-color: tint($base-border-color, 75%);
+// Spacing
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+// Border
+$base-border: 1px solid $base-border-color;
+// Font Colors
+$base-font-color: $dark-grayer;
+$action-color: $blue;
+
+//Forms
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+// Typography
+$base-font-family: $lato;
+$heading-font-family: $base-font-family;
+
+
+//****Modules****//
+
+////**Accordion Tabs**////
+$tab-action-color: $tufts-blue;
+$tab-content-background: lighten($light-gray, 10);
+$tab-active-background: $tab-content-background;
+$tab-inactive-color: $white;
+$tab-inactive-hover-color: darken($light-gray, 5);
+$tab-mode: $medium-screen;
+$tab-border: 1px solid $gainsboro;
+
+////**Cards**////
+$card-border-color: $base-border-color;
+$card-border: 1px solid $card-border-color;
+$card-background: lighten($card-border-color, 10%);
+$card-header-background: $card-background;
+$card-margin: 1em;
+$card-image-hover-opacity: 0.7;
+$card-image-hover-color: $blue-lighter;
+
+////**Block Like Comment**////
+$comment-gutter: 1.4em;
+$comment-image-padding: 0.7em;
+$comment-color: $base-font-color;
+$comment-image-vert-alignment: top;
+
+////**Hero Unit**////
+$hero-image: "../images/about-page/about-background.jpg";
+$hero-color: $white;
+
+////**Footer**////
+$footer-background: desaturate(darken($action-color, 20%), 30%);
+$footer-color: $white;
+$footer-link-color: transparentize($footer-color, 0.6);
+$footer-disclaimer-color: transparentize($footer-color, 0.6);
+
+////**Hover Tile Animation**////
+$hover-tile-height: 300px;
+$base-spacing: 1.5em;
+
+////**Bullets**////
+$icon-bullet-size: 3.5em;

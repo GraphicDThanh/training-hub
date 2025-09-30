@@ -1,0 +1,134 @@
+.portpolio {
+  &__item {
+    @include position(relative);
+    height: 291px;
+  }
+
+  &__wrap-item-content {
+    @include clearfix;
+    @include position(relative);
+    @include size(255px 291px);
+    margin: 0 auto;
+    overflow: hidden; 
+    &:hover {
+      .portpolio__desc {
+        top: 20px;
+      }
+
+      .portpolio__item-image {
+        top: 273px;
+      }
+
+      .portpolio__zoom {
+        left: 80px;
+      }
+
+      .portpolio__link {
+        right: 80px;
+      }
+    }
+  }
+
+  &__item-frame {
+    @include position(absolute);
+    top: 0;
+    z-index: 1;
+  }
+
+  &__item-image {
+    @include position(absolute);
+    @include transition(all 0.2s ease-in-out);
+    top: 19px;
+  }
+
+  &__desc {
+    @extend %text-center;
+    @extend %white-color;
+    @include size(255px 291px);
+    @include position(absolute, -273px null null null);
+    @include transition(all 0.2s ease-in-out);
+    background-color: $flamingo;
+    padding: 75px 10px 0 10px;
+    &--title {
+      @extend %font-normal;
+      @extend %text-uppercase;
+      @include font-size(18, 1.8);
+      margin: 0;
+    }
+
+    &--content {
+      @extend %font-normal;
+      @include font-size(14);
+    }
+  }
+
+  &__icon {
+    @include size(42px 42px);
+    @include position(absolute);
+    @include opacity(0.6);
+    @include transition(all 0.2s ease-in-out);
+    @include transition-delay(0.2s);
+    bottom: 85px;
+    z-index: 10;
+    &--link {
+      @extend %block;
+      @include size(100% 100%);
+    }
+
+    &:hover {
+      @include opacity(1);
+    }
+  }
+
+  &__zoom {
+    background: url('../images/donovan/zoom.png') no-repeat center;
+    left: -83px;
+  }
+
+  &__link {
+    background: url('../images/donovan/link.png') no-repeat center;
+    right: -83px;
+  }
+}
+
+@include media($screen-320-up) {
+  .portpolio {
+    &__item {
+      width: 100%;
+      display: block;
+    }
+
+    &__item-frame {
+      left: 0;
+    }
+
+    &__item-image {
+      left: 7%;
+    }
+  }
+}
+
+@include media($screen-768-up) {
+  .portpolio {
+    &__item {
+      display: inline-block;
+      width: 49.7%;
+      &:nth-child(2n) {
+        margin-left: -13%;
+      }
+
+      &:nth-child(2n+1) {
+        margin-left: 7%;
+      }
+    }
+  }
+}
+
+@include media($screen-1200-up) {
+  .portpolio {
+    &__item {
+      width: 24.7%;
+      margin: 0 !important;
+    }
+  }
+}

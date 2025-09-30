@@ -1,0 +1,166 @@
+//-SECTION: product hero header
+.product-header {
+  @extend %parent-force-center-content;
+  @include e('hero') {
+    @include row();
+    @include bg-with-height('../images/background-header.jpg', 436px);
+    @include m('cover') {
+      @include transparent-panel($black, 0.2);
+    }
+  }
+
+  @include e('content') {
+    @extend %content-force-center-box;
+    max-width: 627px;
+    min-width: 270px;
+  }
+}
+
+.hero-description {
+  @extend %text-center;
+  color: $white;
+  @include e('title') {
+    @extend %text-capitalize;
+    @extend %font-light;
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  @include e('content') {
+    @extend %font-light;
+    @include font-size(20);
+  }
+}
+
+//-SECTION: product introduction
+//-block
+.product-intro {
+  @extend %container;
+  margin-bottom: 3em;
+  @include e('container') {
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+  }
+
+  @include e('text-content') {
+    @include flex-basis(20em);
+    @include flex-grow(1);
+    @include font-size(20px);
+    margin-top: 50px;
+    @include media($medium-screen) {
+      margin-right: 2em;
+    }
+  }
+
+  @include e('symphony') {
+    @include flex-basis(30em);
+    @include flex-grow(1);
+    @include position(relative);
+    @include media(min-width $large-screen) { 
+      margin-top: -90px;
+      z-index: 1;
+    }
+  }
+}
+
+//-block
+.intro-symphony {
+  @include e('image') {
+    @include background-contain('../images/product-page/tmp-sympathy.jpg', center);
+    height: 300px;
+    @include media(max-width $small-medium-screen) {
+      height: 200px;
+    }
+  }
+
+  @include e('btn') {
+    @extend %text-center;
+    z-index: 2;
+    @include media($small-screen) {
+      margin: 5%;
+    }
+
+    @include media($medium-screen) {
+      margin-top: -12%;
+    }
+
+    @include media($large-screen) {
+      margin-top: -3%;
+    }
+
+    @include m('right-arrow') {
+      @include position(relative);
+    }
+  }
+}
+
+//-SECTION: USE CASE
+.product-use-case {
+  @extend %container;
+  @include e('title') {
+    @extend %font-light;
+    @extend %text-uppercase;
+    @extend %text-center;
+    @include font-size(30);
+  }
+
+  @include e('blocks-content') {
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+    margin-top: 45px;
+  }
+
+  @include e('button') {
+    @extend %block;
+    @extend %text-capitalize;
+    @include margin(15px auto);
+    @include button-variant($white, $blue-darker, $blue-darker);
+    @include button-size(15px, 30px, 22px, null, 30px);
+  }
+}
+
+@each $index, $bg in 
+  ("1", "chatui-diagonally"), 
+  ("2", "financial-1"), 
+  ("3", "research-banking")
+{
+  .product-use-case {
+    .cards__item:nth-child(#{$index}) {
+      .cards__image--specific {
+        @include background-cover('../images/product-page/#{$bg}.png', center);
+      }
+    }
+
+    .hover-tile:nth-child(#{$index}) {
+      @include background-cover('../images/product-page/#{$bg}.png', center);
+    }
+  }
+}
+// hack for break text down in nth(2) box
+.hover-slide-card .financial-slide-card + .hover-slide-card__content .hover-slide-card__content--title {
+  padding: 0 40px;
+}
+
+// SECTION: product powerful
+.product-powerful {
+  @include background-cover('../images/product-page/background-power.jpg', center);
+  min-height: 600px;
+  @include e('title') {
+    @extend %text-center;
+    @extend %text-uppercase;
+    @extend %font-light;
+    @include font-size(30);
+    color: $white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @include e('blocks-content') {
+    @extend %container;
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include justify-content(space-between);
+  }
+}

@@ -1,0 +1,243 @@
+<!-- String method help you work with Strings -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Finding a String in a String -->
+    <!-- JavaScript counts positions from zero. 0 is the first position in a string, 1 is the second, 2 is the third ... -->
+    <!-- Example 1 about  indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string:-->
+    <p id="p1">Please locate where 'locate' occurs!.</p>
+    <button onclick="myFunction1()">Try it</button>
+    <p id="demo-1"></p>
+    
+    <script type="text/javascript">
+      function myFunction1() {
+        var str = document.getElementById("p1").innerHTML;
+        var pos = str.indexOf("locate");
+        document.getElementById("demo-1").innerHTML = pos;
+      }
+    </script>
+
+    <!-- Example 2 about  lastIndexOf() method returns the index of the last occurrence of a specified text in a string:-->
+    <p id="p2">Please locate where 'locate' occurs!.</p>
+    <button onclick="myFunction2()">Try it</button>
+    <p id="demo-2"></p>
+    
+    <script type="text/javascript">
+      function myFunction2() {
+        var str = document.getElementById("p2").innerHTML;
+        var pos = str.lastIndexOf("locate");
+        document.getElementById("demo-2").innerHTML = pos;
+      }
+    </script>
+    
+
+    <!-- Searching a String in a String -->
+    <!-- Example 3 about search() method -->
+    <p id="p3">Please locate where 'locate' occurs!.</p>
+    <button onclick="myFunction3()">Try it</button>
+    <p id="demo-3"></p>
+
+    <script type="text/javascript">
+      function myFunction3() {
+        var str = document.getElementById("p3").innerHTML;
+        var pos = str.search("locate");
+        document.getElementById("demo-3").innerHTML = pos;
+      }
+    </script>
+    <!-- NOTE: 
+    The two methods, indexOf() and search(), are equal.
+    They accept the same arguments (parameters), and they return the same value.
+    The two methods are equal, but the search() method can take much more powerful search values.-->
+
+
+    <!-- Extracting String Parts:
+    slice(start, end)
+    substring(start, end)
+    substr(start, length) -->
+
+    <!--Example 4 The slice() method -->
+    <p>The slice() method extract a part of a string and returns the extracted parts in a new string:</p>
+    <p id="demo-4"></p>
+
+    <script>
+      var str = "Apple, Banana, Kiwi";
+      document.getElementById("demo-4").innerHTML = str.slice(7,13);
+    </script>
+
+    <!--Example 5 The slice() method with negative number-->
+    <p>The slice() method extract a part of a string
+    and returns the extracted parts in a new string:</p>
+    <p id="demo-5"></p>
+
+    <script>
+    var str = "Apple, Banana, Kiwi";
+    document.getElementById("demo-5").innerHTML = str.slice(-12,-6);
+    </script>
+
+    <!--Example 6 The slice() method without second parameter, the method will slice the rest of the string-->
+    <p>The slice() method extract a part of a string and returns the extracted parts in a new string:</p>
+    <p id="demo-6"></p>
+
+    <script>
+      var str = "Apple, Banana, Kiwi";
+      document.getElementById("demo-6").innerHTML = str.slice(7);
+    </script>
+
+    <!--Example 7 The slice() method without second parameter, the method will slice the rest of the string-->
+    <p>The slice() method extract a part of a string
+    and returns the extracted parts in a new string:</p>
+
+    <p id="demo-7"></p>
+
+    <script>
+      var str = "Apple, Banana, Kiwi";
+      document.getElementById("demo-7").innerHTML = str.slice(-12);
+    </script>
+    <!--Negative positions does not work in Internet Explorer 8 and earlier.-->
+
+
+    <!--Example 8 The substring() method -->
+    <!-- substring() is similar to slice().
+    The difference is that substring() cannot accept negative indexes. -->
+    <p>The substr() method extract a part of a string and returns the extracted parts in a new string:</p>
+    <p id="demo-8"></p>
+
+    <script>
+      var str = "Apple, Banana, Kiwi";
+      document.getElementById("demo-8").innerHTML = str.substring(7,13);
+    </script>
+
+    <!--Example 9 The substr() method -->
+    <!-- substr() is similar to slice().
+    The difference is that the second parameter specifies the length of the extracted part. -->
+    <p>The substr() method extract a part of a string and returns the extracted parts in a new string:</p>
+    <p id="demo-9"></p>
+
+    <script>
+      var str = "Apple, Banana, Kiwi";
+      document.getElementById("demo-9").innerHTML = str.substr(7,6);
+    </script>
+
+
+    <!-- Replacing String Content -->
+    <!--Example 10 The replace() method -->
+    <p>Replace "Micosoft" with "W3Schools" in the paragraph below:</p>
+    <button onclick="myFunction10()">Try it</button>
+    <p id="demo-10">Please visit Microsoft!</p>
+
+    <script type="text/javascript">
+    function myFunction10() {
+      var str = document.getElementById("demo-10").innerHTML;
+      var txt = str.replace("Microsoft", "W3Schools");
+
+      document.getElementById("demo-10").innerHTML = txt;
+    }
+    </script>
+
+    <!-- Converting to Upper and Lower Case -->
+    <!--Example 11 The toUpperCase() method -->
+    <p>Convert string to upper case:</p>
+    <button onclick="myFunction11()">Try it</button>
+    <p id="demo-11">Hello World!</p>
+
+    <script type="text/javascript">
+    function myFunction11() {
+      var text = document.getElementById("demo-11").innerHTML;
+      document.getElementById("demo-11").innerHTML = text.toUpperCase();
+    }
+    </script>
+
+    <!--Example 12 The toLowerCase() method -->
+    <p>Convert string to upper case:</p>
+    <button onclick="myFunction12()">Try it</button>
+    <p id="demo-12">Hello World!</p>
+
+    <script type="text/javascript">
+    function myFunction12() {
+      var text = document.getElementById("demo-12").innerHTML;
+      document.getElementById("demo-12").innerHTML = text.toLowerCase();
+    }
+    </script>
+
+
+    <!-- concat() joins two or more strings: -->
+    <!--Example 13 The concat() method -->
+    <p>The concat() method joins two or more strings:</p>
+    <p id="demo-13"></p>
+
+    <script>
+      var text1 = "Hello";
+      var text2 = "World!";
+      document.getElementById("demo-13").innerHTML = text1.concat(" ",text2);
+    </script>
+    <!-- All string methods return a new string. They don't modify the original string.
+    Formally said: Strings are immutable: Strings cannot be changed, only replaced. -->
+
+
+    <!--Extracting String Characters:
+        There are 2 safe methods for extracting string characters:
+        charAt(position)
+        charCodeAt(position) -->
+
+    <!--Example 14 The charAt() method -->
+    <p>The charAt() method returns the character at a given position in a string:</p>
+    <p id="demo-14"></p>
+
+    <script>
+      var str = "HELLO WORLD";
+      document.getElementById("demo-14").innerHTML = str.charAt(0);
+    </script>
+
+    <!--Example 15 The charCodeAt() method -->
+    <p>The charCodeAt() method returns the unicode of the character at a given position in a string:</p>
+    <p id="demo"></p>
+
+    <script>
+      var str = "HELLO WORLD";
+      document.getElementById("demo").innerHTML = str.charCodeAt(0);
+    </script>
+
+
+    <!-- Accessing a String as an Array is Unsafe -->
+    <!-- You might have seen code like this, accessing a string as an array:
+    var str = "HELLO WORLD";
+    str[0];                   // returns H
+    This is unsafe and unpredictable:
+    - It does not work in all browsers (not in IE5, IE6, IE7)
+    - It makes strings look like arrays (but they are not)
+    - str[0] = "H" does not give an error (but does not work)
+    If you want to read a string as an array, convert it to an array first. -->
+
+
+
+    <!--Example 16 Converting a String to an Array with split() method -->
+    <p>Click "Try it" to display the first array element, after a string split.</p>
+    <button onclick="myFunction16()">Try it</button>
+    <p id="demo-16"></p>
+
+    <script type="text/javascript">
+    function myFunction16() {
+      var str = "a,b,c,d,e,f";
+      var arr = str.split(",");
+
+      document.getElementById("demo-16").innerHTML = arr[0];
+    }
+    </script>
+
+
+    <!--Example 17 Converting a String to an Array with split() method with the separator is ""-->
+    <p id="demo-17"></p>
+    <script type="text/javascript">
+      var str = "Hello";
+      var arr = str.split("");
+      var text = "";
+      var i;
+      for(i = 0; i < arr.length; i++) {
+        text += arr[i] + "<br>"
+      }
+
+      document.getElementById("demo-17").innerHTML = text;
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.products-page-header {
+  position: relative;
+  height: 436px;
+  z-index: -1;
+  background: url('../img/background-header.jpg') bottom no-repeat;
+  background-size: cover;
+
+  .products-page-header-background {
+    @include size-width-height(100%, 100%);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .products-page-header-content {
+    @include position(absolute, 154px, 0, null, 0);
+    max-width: 627px;
+    margin: 0 auto;
+    color: #fff;
+
+    h2 {
+      @include font-size-weight-lato(50px, 300);
+    }
+
+    h3 {
+      @include font-size-weight-lato(20px, 300);
+    }
+  }
+}

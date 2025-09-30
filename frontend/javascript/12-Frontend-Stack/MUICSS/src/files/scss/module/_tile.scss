@@ -1,0 +1,19 @@
+.tile {
+  border: 1px solid mui-color('grey', '100');
+  margin-bottom: 50px;
+  &__title {
+    line-height: 70px;
+    &--content {
+      @extend %font-20;
+      @extend %font-light;
+      color: inherit;
+    }
+  }
+
+  &__sub-title {
+    @extend %font-16;
+    @extend %text-silver-chalice;
+    margin-bottom: 25px;
+    padding: 0 20px;
+  }
+}

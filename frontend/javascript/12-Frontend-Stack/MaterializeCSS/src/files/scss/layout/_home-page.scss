@@ -1,0 +1,12 @@
+.overview {
+  padding: 50px 0;
+  &__title {
+    @extend %font-bold;
+    @include font-size(35);
+    color: $puce;
+  }
+  &__desc {
+    @extend %font-very-light;
+    @include font-size(18);
+  }
+}

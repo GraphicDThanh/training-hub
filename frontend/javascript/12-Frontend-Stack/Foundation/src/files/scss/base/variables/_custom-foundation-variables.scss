@@ -1,0 +1,29 @@
+// TOP BAR VARIABLES CUSTOMS
+$topbar-bg-color: $white;
+$topbar-bg: $topbar-bg-color;
+
+$topbar-height: rem-calc(50);
+$topbar-dropdown-bg: $white;
+$topbar-dropdown-link-color: $oil;
+$topbar-dropdown-link-bg: $white;
+$topbar-dropdown-link-bg-hover: $white;
+$topbar-dropdown-toggle-color: $oil;
+
+$topbar-link-color: $oil;
+$topbar-link-color-hover: $white;
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $oil;
+$topbar-menu-icon-color: $oil;
+
+// ACCORDITION VARIABLES CUSTOMS
+// $include-html-accordion-classes: $include-html-classes;
+// $accordion-navigation-padding: rem-calc(16);
+$accordion-navigation-bg-color: $tuatara;
+// $accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+// $accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%);
+// $accordion-navigation-active-font-color: $jet;
+$accordion-navigation-font-color: $white;
+// $accordion-navigation-font-size: rem-calc(16);
+// $accordion-navigation-font-family: $body-font-family;
+// $accordion-content-padding: $column-gutter/2;
+$accordion-content-active-bg-color: $mine-shaft;

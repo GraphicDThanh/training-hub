@@ -1,0 +1,245 @@
+{
+  "talent_grid": [
+    {
+      "filter_class_1": "men", 
+      "filter_class_2": "mainboard",
+      "icon_1"        : "favourite",
+      "link_to"       : "adam-lovell", 
+      "name"          : "Adam Lovell", 
+      "first_name"    : "Adam"
+    },
+    {
+      "filter_class_1": "men ", 
+      "filter_class_2": "mainboard",
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "alberto-trombin", 
+      "name"          : "Alberto Trombin", 
+      "first_name"    : "Alberto"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "mainboard",
+      "icon_1"        : "favourite",
+      "link_to"       : "aleisha-robertson", 
+      "name"          : "Aleisha Robertson", 
+      "first_name"    : "Aleisha"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "mainboard", 
+      "icon_1"        : "favourite",
+      "link_to"       : "alex-feneridis-2", 
+      "name"          : "Alex Feneridis", 
+      "first_name"    : "Alex"
+    },
+    {
+      "filter_class_1": "men", 
+      "filter_class_2": "mainboard", 
+      "icon_1"        : "favourite",
+      "link_to"       : "alex-roberts", 
+      "name"          : "Alex Roberts", 
+      "first_name"    : "Alex"
+    },
+    {
+      "filter_class_1": "men", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "link_to"       : "aliah-morpeth", 
+      "name"          : "Aliah Morpeth", 
+      "first_name"    : "Aliah"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "alicia-davis", 
+      "name"          : "Alicia Davis", 
+      "first_name"    : "Alicia"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "alisa-ahmann", 
+      "name"          : "Alisa Ahmann", 
+      "first_name"    : "Alisa"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "alys-hale", 
+      "name"          : "Alys Hale", 
+      "first_name"    : "Alys"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "alyssa-hiyama", 
+      "name"          : "Alyssa Hiyama", 
+      "first_name"    : "Alyssa"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "amalie-gassman", 
+      "name"          : "Amalie Gassman", 
+      "first_name"    : "Amalie"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "mainboard", 
+      "icon_1"        : "favourite",
+      "link_to"       : "amanda-mitchell", 
+      "name"          : "Amanda Mitchell", 
+      "first_name"    : "Amanda"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "link_to"       : "amber-lyon", 
+      "name"          : "Amber Lyon", 
+      "first_name"    : "Amber"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "amy-finlayson", 
+      "name"          : "Amy Finlayson", 
+      "first_name"    : "Amy"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "andreja-pejic", 
+      "name"          : "Andreja Pejic", 
+      "first_name"    : "Andreja"
+    },
+    {
+      "filter_class_1": "men", 
+      "filter_class_2": "mainboard", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "andrew-eggleton", 
+      "name"          : "Andrew Eggleton", 
+      "first_name"    : "Andrew"
+    },
+    {
+      "filter_class_1": "men", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "link_to"       : "andrew-frankish", 
+      "name"          : "Andrew Frankish", 
+      "first_name"    : "Andrew"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "link_to"       : "anna-cherry", 
+      "name"          : "Anna Cherry", 
+      "first_name"    : "Anna"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "development", 
+      "icon_1"        : "favourite",
+      "link_to"       : "anna-lines", 
+      "name"          : "Anna Lines", 
+      "first_name"    : "Anna"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "mainboard", 
+      "icon_1"        : "favourite",
+      "link_to"       : "annabel-liddell", 
+      "name"          : "Annabel Liddell", 
+      "first_name"    : "Annabel"
+    },
+    {
+      "filter_class_1": "women", 
+      "filter_class_2": "international", 
+      "icon_1"        : "favourite",
+      "icon_2"        : "overseas",
+      "link_to"       : "annaliese-treharne", 
+      "name"          : "Annaliese Treharne", 
+      "first_name"    : "Annaliese"
+    }
+  ],
+
+  "services" : [
+    {
+      "title": "portraits",
+      "content": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+      "img": "icon1",
+      "img_hover": "icon1_h"
+    },
+    {
+      "title": "wedding",
+      "content": "Pellentesque quis varius augue. Pellentesque cursus eros eget ipsum commodo",
+      "img": "icon2",
+      "img_hover": "icon2_h"
+    },
+    {
+      "title": "objects",
+      "content": "Aliquam leo felis, venenatis eu bibendum in, interdum vel est. Nullam ut tellus non",
+      "img": "icon3",
+      "img_hover": "icon3_h"
+    },
+    {
+      "title": "fashion",
+      "content": "Suspendisse in metus et nisl dapibus luctus vestibulum vel nisl. Mauris ac",
+      "img": "icon4",
+      "img_hover": "icon4_h"
+    }
+  ],
+
+  "portpolio_list": [
+    {
+      "title": "1",
+      "img" : "1"
+    },
+    {
+      "title": "2",
+      "img" : "2"
+    },
+    {
+      "title": "3",
+      "img" : "3"
+    },
+    {
+      "title": "4",
+      "img" : "4"
+    },
+    {
+      "title": "5",
+      "img" : "5"
+    },
+    {
+      "title": "6",
+      "img" : "6"
+    },
+    {
+      "title": "7",
+      "img" : "7"
+    },
+    {
+      "title": "8",
+      "img" : "8"
+    }
+
+  ]
+}

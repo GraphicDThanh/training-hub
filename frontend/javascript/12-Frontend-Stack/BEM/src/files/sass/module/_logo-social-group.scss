@@ -1,0 +1,66 @@
+.logo-social {
+  a.fa-circle {
+    width: 35px;
+    position: relative;
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:before {
+      font-size: 35px;
+    }
+  }
+
+  &.bg-dark {
+    .fa-circle {
+      color: #3d3d3d;
+      .fa {
+        color: #fff;
+      }
+    }
+
+    .fa-facebook {
+      position: absolute;
+      top: 28%;
+      left: 34%;
+      font-size: 18px;
+    }
+
+    .fa-linkedin {
+      position: absolute;
+      top: 25%;
+      left: 32%;
+      font-size: 16px;
+    }
+
+    .fa-twitter {
+      position: absolute;
+      font-size: 18px;
+      top: 25%;
+      left: 26%;
+    }
+  }
+
+  &.bg-white {
+    .fa-circle {
+      color: #fff;
+      .fa-twitter,
+      .fa-linkedin {
+        position: absolute;
+        color: #505050;
+      }
+
+      .fa-twitter {
+        font-size: 20px;
+        top: 22%;
+        left: 15%;
+      }
+
+      .fa-linkedin {
+        font-size: 18px;
+        top: 22%;
+        left: 22%;
+      }
+    }
+  }
+}

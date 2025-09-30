@@ -1,0 +1,6 @@
+.mainNav {
+  &__link {
+    @extend %text-capitalize;
+    @extend %font-weight-600;
+  }
+}

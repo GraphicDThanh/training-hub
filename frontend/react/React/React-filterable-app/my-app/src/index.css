@@ -1,0 +1,36 @@
+/* general class */
+.product-filterable-table {
+  padding-top: 40px;
+}
+
+.header-title {
+  color: red;
+}
+
+.product-content {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.product-table-content {
+  clear: both;
+  padding-top: 10px;
+}
+
+.table-header {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.category {
+  color: blue;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.out-of-stock {
+  color: #ccc;
+}

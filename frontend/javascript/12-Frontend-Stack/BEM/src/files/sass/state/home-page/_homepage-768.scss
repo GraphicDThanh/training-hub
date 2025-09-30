@@ -1,0 +1,327 @@
+@media screen and (max-width: 768px) {
+	.main-navbar-fixed-top .navbar-button .navbar-button__iconbar {
+    width: 25px;
+    margin-top: 5px;
+  }
+  .navbar-header {
+    float: none;
+  }
+
+  .header-carousel {
+    height: 890px;
+    position: inherit;
+
+    .header-image {
+      @include size-width-height(89.7%, 41.2%);
+      position: relative;
+
+      .header-image-ui {
+        @include background-contain('../img/chatui-mobile.jpg');
+      }
+    }
+
+    .header-title {
+      font-size: 45px;
+      margin: 0 0 6% 0;
+    }
+
+    .header-subtitle {
+      font-size: 45px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+		.header-title-block {
+			width: 100%;
+      top: 17%;
+      padding-left: 15px;
+      padding-right: 15px;
+		}
+
+    .header-background-color {
+      position: inherit;
+    }
+
+    .header-background-image {
+      @include background-cover('../img/mobile/header-background-mobile.jpg');
+    }
+	}
+
+  .btn-header {
+    font-size: 38px;
+    border-radius: 50px;
+    width: 327px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -9%;
+    margin: 0 auto;
+  }
+
+  .btn-header-learn-more {
+    margin: 7.2% auto;
+    font-size: 40px;
+  }
+
+
+  .main-navbar-fixed-top {
+
+    .navbar-header__button {
+      display: block;
+      margin-top: 30px;
+
+      &.is-visible {
+        visibility: hidden;
+      }
+    }
+
+    .navbar-header__logo {
+      margin: 20px auto;
+    }
+
+    .nav-item {
+      .nav-item-link {
+        font-size: 45px;
+        font-weight: 300;
+        padding: 30px 0 30px 40px;
+      }
+    }
+  }
+
+  .sliding-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateX(-496px);
+    -moz-transform: translateX(-496px);
+    -o-transform: translateX(-496px);
+    transform: translateX(-496px);
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    background-color: rgba(65,65,65,0.9);
+    z-index: 9999;
+    @include size-width-height(64.6%, 100%);
+
+    &.is-visible {
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+      transform: translateX(0px);
+
+      .sliding-panel-logo {
+        display: block;
+        position: absolute;
+        bottom: 3%;
+        left: 35%;
+        right: 0;
+        @include size-width-height(114px, 107px);
+        @include background-contain('../img/sliding-logo.png');
+      }
+    }
+
+    .sliding-panel-block {
+      margin: 32.3% 0 0 0;
+    }
+  }
+
+  .sliding-panel-fade-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+
+    &.is-visible {
+      opacity: 0.4;
+      visibility: visible;
+    }
+  }
+
+  .nav-background-blue {
+    .nav-item {
+      .nav-item-link {
+        color: #fff !important;
+      }
+
+      &:hover {
+
+        .nav-item-link {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+
+  .navbar-fixed-top.style-scroll-down {
+
+    .nav-item .nav-item-link {
+      color: #fff;
+    }
+  }
+
+  .markets {
+    height: auto;
+
+    .markets-title {
+      font-size: 60px;
+      padding-top: 247px;
+    }
+
+    .markets-content-title {
+      font-size: 45px;
+    }
+
+    .markets-content-desciption {
+      font-size: 29px;
+      text-align: center;
+    }
+
+    .markets-content-block-title {
+      height: auto;
+    }
+
+    .markets-content-icon {
+      @include size-width-height(178px, 170px);
+      margin: 0 auto 10px auto;
+
+      .icon-messaging {
+        @include background-contain('../img/mobile/messaging-icon-mobile.png');
+      }
+
+      .icon-e-broker {
+        @include background-contain('../img/mobile/e-broker-icon-mobile.png');
+      }
+
+      .icon-banking {
+        @include background-contain('../img/mobile/banking-icon-mobile.png');
+      }
+    }
+
+    .markets-content-block,
+    .markets-background-black {
+      padding: 8.7%;
+      max-width: 85.5%;
+      margin: 10px auto;
+      height: auto;
+    }
+  }
+
+  .customers {
+    height: 631px;
+
+    .customers-background,
+    .customers-content-block {
+      top: 15%;
+    }
+
+    .costomers-title {
+      font-size: 45px;
+      margin: 15px 5%;
+    }
+
+    .customers-logo {
+      @include size-width-height(50%, 40px);
+      display: block;
+      margin: 2% 0;
+      float: left;
+
+      &:nth-child(2) {
+        img {
+          height: 30px;
+        }
+      }
+
+      img {
+        height: 40px;
+      }
+
+      &:last-child {
+        width: 100%;
+      }
+
+      &:nth-child(5) img {
+        height: 30px;
+      }
+    }
+  }
+
+  .footer-default {
+    padding-top: 0;
+  }
+
+  .footer-text {
+
+    .text {
+      .text-logo {
+        width: 150px;
+        margin: 0 auto;
+      }
+
+      .copyright {
+        position: static;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .company {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .footer-link {
+    padding: 0 15px;
+    h4 {
+      font-size: 33px;
+      padding-top: 45px;
+      padding-bottom: 40px;
+      cursor: pointer;
+    }
+  }
+
+  .footer-link-item {
+    border-bottom: 1px solid #484848;
+    .link {
+      font-size: 33.33px;
+      margin-bottom: 35px;
+      padding-left: 20px;
+    }
+
+    .logo-social {
+      display: none;
+    }
+  }
+
+  #contactUsCollapse {
+    padding-bottom: 90px;
+  }
+
+  #visitUsCollapse h6,
+  #visitUsCollapse p,
+  #contactUsCollapse p,
+  #contactUsCollapse  a {
+    line-height: 50px;
+  }
+
+  .footer-link-item .link,
+  #visitUsCollapse p,
+  #visitUsCollapse h6,
+  #contactUsCollapse p,
+  #contactUsCollapse  a {
+    font-size: 33.33px;
+    color: #fff;
+    font-weight: 300;
+  }
+
+  .modal-request-content {
+    padding: 20px 40px;
+  }
+}
+
+

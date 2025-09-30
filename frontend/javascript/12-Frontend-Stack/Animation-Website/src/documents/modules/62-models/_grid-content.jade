@@ -1,0 +1,17 @@
+section.grid-content
+  each talent in talent_grid
+    .talent-item(class="#{talent.filter_class_1} #{talent.filter_class_2}")
+      .talent-item__thumbnail
+        .talent-item__thumbnail--image
+        .talent-item__thumbnail--mask
+          a.talent-item__wrap-content(href="http://www.62models.com/talent/#{talent.link_to}/")
+            .talent-item__content
+              h3.talent-item__content--full-name= talent.name
+              span view portpolio
+      .talent-item__footer
+        ul
+          li
+            a.talent-item__footer--icon.talent-item__footer--control.pull-left(href="" title="Add this model to your favorite" class="#{talent.icon_1}")
+          li
+            a.talent-item__footer--icon.pull-left(class="#{talent.icon_2}")
+        h2.talent-item__footer--firstname= talent.first_name

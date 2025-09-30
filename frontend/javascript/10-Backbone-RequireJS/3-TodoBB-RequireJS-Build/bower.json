@@ -1,0 +1,21 @@
+{
+  "name": "Todo Practice with Backbone",
+  "version": "0.0.0",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "bootstrap-sass-official": "~3.3.5",
+    "handlebars": "~3.0.3",
+    "Backbone.localStorage": "~1.1.16",
+    "requirejs": "~2.1.19",
+    "almond": "~0.3.1",
+    "requirejs-hbs": "~0.1.1"
+  }
+}

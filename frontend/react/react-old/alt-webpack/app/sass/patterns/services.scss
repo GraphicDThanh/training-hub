@@ -1,0 +1,29 @@
+.services {
+  margin-top: 50px;
+  &__section {
+    padding: 50px 0;
+    &--even {
+      @extend %alabaster-bg;
+    }
+
+    &--head-line {
+      @extend %mercury-bg;
+      @include size(200px, 3px);
+    }
+
+    &--title {
+      @extend %font-30;
+      @extend %font-weight-700;
+      margin-top: 40px;
+      padding-bottom: 30px;
+    }
+
+    &--title-part-1 {
+      margin-bottom: -10px;
+    }
+
+    &--content {
+      @extend %font-18;
+    }
+  }
+}

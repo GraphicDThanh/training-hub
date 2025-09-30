@@ -1,0 +1,26 @@
+extends layouts/_default
+block head-title
+  title MUICSS Practice
+  <!--http://demo.uncommons.pro/themes/wp/maya/-->
+
+block main-content
+  .wrap-content
+    include ./modules/_reloader
+    include ./modules/_hero-slide
+    .overview.center-align
+      h3.text-uppercase.overview__title overview
+      p.overview__desc 
+        | Lorem ipsum dolor sit amet, consectetur 
+        | adipiscing elit.
+        br 
+        | Donec lacinia, turpis nec convallis volutpat, 
+        | velit lacus consectetur nulla
+    include ./modules/_parallax-overw
+    .overview.center-align
+      h3.text-uppercase.overview__title nice and impressive
+      p.overview__desc 
+        | Lorem ipsum dolor sit amet, consectetur 
+        | adipiscing elit.
+        br 
+        | Donec lacinia, turpis nec convallis volutpat, 
+        | velit lacus consectetur nulla

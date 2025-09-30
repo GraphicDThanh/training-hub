@@ -1,0 +1,11 @@
+node_modules
+out
+.DS_Store
+.git
+.docpad.db
+vendor/
+.vagrant
+bower-components/
+npm-debug.log
+.gitignore~
+vagrant/Vagrantfile~

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script type="text/javascript">
+      var test = new Date("2015-03-08T15:32:20Z");
+      console.log(test);
+
+      var dtstr = "2015-03-08T15:32:20Z";
+
+      dtstr = dtstr.replace(/\D/g, " ");
+      console.log(dtstr);
+
+      var dtcomps = dtstr.split(" ");
+      console.log(dtcomps[1]);
+      // modifu month between 1 based ISO 8601 and zero based Date
+      dtcomps[1]--;
+      console.log(dtcomps[1]);
+
+      var convdt = new Date(Date.UTC(dtcomps[0], dtcomps[1], dtcomps[2],
+        dtcomps[3], dtcomps[4], dtcomps[5]));
+      console.log(convdt);
+    </script>
+  </body>
+</html>

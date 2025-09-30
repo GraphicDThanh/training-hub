@@ -1,0 +1,31 @@
+.hero-section {
+  background-color: mui-color('grey', '100');
+  margin-bottom: 50px;
+  padding: 150px 0;
+  &__logo {
+    @include center-block(150px, 0);
+  }
+
+  &__desc {
+    @extend %font-20;
+    @extend %font-light;
+    @extend %text-silver-chalice;
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  border-top: 1px solid $alto;
+  padding: 50px 0;
+  &__btn {
+    margin-bottom: 50px;
+    &--icon {
+      @extend %font-30;
+      @extend %pointer;
+    }
+  }
+
+  &__link {
+    color: inherit;
+  }
+}

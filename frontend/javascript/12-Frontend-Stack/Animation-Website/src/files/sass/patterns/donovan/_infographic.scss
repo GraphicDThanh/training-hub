@@ -1,0 +1,291 @@
+.infographic {
+  &__wrap-content {
+    @include clearfix;
+    @include position(relative);
+  }
+
+  &__vertical-line {
+    width: 1px;
+  }
+
+  &__section {
+    @include clearfix;
+    &:not(:nth-child(2)) {
+      .infographic__event {
+        @include border-radius(12px);
+        padding: 10px 15px;
+      }
+
+      &:hover {
+        .infographic__number {
+          font-size: 26px;
+        }
+
+        .infographic__event {
+          @include box-shadow(0, 0, 16px, rgba(0, 0, 0, 0.15));
+        }
+      }
+    }
+  }
+
+  &__number {
+    @extend %flamingo-color;
+    @include position(absolute);
+    @include transition(all 0.2s ease-in-out);
+    font-size: 22px;
+    line-height: 20px;
+    width: 130px;
+  }
+
+  &__event {
+    @include font-size(14, 1.8);
+    @include transition(all 0.2s ease-in-out);
+
+    &--content {
+      @extend %verdana;
+      @include font-size(14, 1.75);
+      margin: 0;
+    }
+
+    &--title {
+      @include transition(all 0.2s ease-in-out);
+      font-weight: 400;
+    }
+  }
+}
+
+@include media($screen-320-up) {
+  .infographic {
+    // Set background image for 320 screen for kinds of background
+    &--light-bg {
+      .infographic__section:not(:nth-child(2)) .infographic__number {
+        background: url('../images/donovan/exhib_date_left_bg.png') no-repeat left center;
+      }
+    }
+
+    &--dark-bg {
+      .infographic__section:not(:nth-child(2)) .infographic__number {
+        background: url('../images/donovan/exhib_date_left_bg2.png') no-repeat left center;
+      }
+    }
+    
+    // Set position for timeline
+    &__vertical-line {
+      @include position(absolute, 10px null null 4px);
+    }
+    
+    &__section {
+      &:nth-child(2) {
+        .infographic__number {
+          background: url('../images/donovan/exhib_date_top_bg_h.png') no-repeat left center;
+          left: 0px;
+          padding-left: 42px;
+          top: 0px;
+        }
+
+        .infographic__event {
+          margin-left: 42px;
+          padding-top: 32px;
+          width: auto;
+        }
+      }
+
+      &:not(:nth-child(2)) {
+        .infographic__number {
+          left: 1px;
+          height: 180px;
+          padding-left: 42px;
+        }
+
+        .infographic__event {
+          float: none;
+          margin-left: 42px;
+          width: 230px;
+        }
+      }
+    }
+  }
+}
+
+@include media($screen-480-up) {
+  .infographic {
+    &__vertical-line {
+      height: 88%;
+    }
+
+    &__section {
+      &:not(:nth-child(2)) .infographic__event {
+        width: 350px;
+      }
+
+      &:nth-child(4) .infographic__number {
+        top: 335px;
+      }
+
+      &:nth-child(5) .infographic__number {
+        top: 560px;
+      }
+    }
+  }
+}
+
+@include media($screen-768-up) {
+  .infographic {
+    // Style bg image for kinds of background
+    // For light background
+    &--light-bg {
+      .infographic__section {
+        &:nth-child(2n):not(:nth-child(2)) {
+          .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg_right.png') no-repeat left center;
+          }
+        }
+
+        &:nth-child(2n+1) {
+          .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg.png') no-repeat right center;
+          }
+        }
+
+        &:hover {
+          &:nth-child(2n):not(:nth-child(2)) .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg_right_h.png') no-repeat left center;
+          }
+
+          &:nth-child(2n+1) .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg_h.png') no-repeat right center;
+          }
+        }
+      }
+    }
+
+    // For dark background
+    &--dark-bg {
+      .infographic__section {
+        &:nth-child(2n):not(:nth-child(2)) {
+          .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg_right2.png') no-repeat left center;
+          }
+        }
+
+        &:nth-child(2n+1) {
+          .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg2.png') no-repeat right center;
+          }
+        }
+
+        &:hover {
+          &:nth-child(2n):not(:nth-child(2)) .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg_right2_h.png') no-repeat left center;
+          }
+
+          &:nth-child(2n+1) .infographic__number {
+            background: url('../images/donovan/exhib_date_left_bg2_h.png') no-repeat right center;
+          }
+        }
+      }
+    }
+
+    // Vertical Center Line for Infographic
+    &__vertical-line {
+      height: 80%;
+      @include position(absolute, 10px null null 50%);
+    }
+
+    &__section {
+      &:not(:nth-child(2)) {
+        .infographic__number {
+          height: auto;
+          padding-left: 0;
+        }
+
+        .infographic__event {
+          margin-left: 0;
+          width: 310px;
+        }
+      }
+
+      &:nth-child(2n):not(:nth-child(2)) {
+        float: left;
+        .infographic__number {
+          // background: url('../images/donovan/exhib_date_left_bg_right.png') no-repeat left center;
+          // left: 44.7%;
+          text-align: right;
+        }
+
+        .infographic__event {
+          margin-left: 13px;
+        }
+      }
+
+      &:nth-child(2n+1) {
+        float: right;
+        .infographic__event {
+          margin-right: 13px;
+        }
+      }
+
+      &:nth-child(2) {
+        .infographic__event {
+          padding-top: 0;
+          margin-top: 0;
+          &--title {
+            width: 250px;
+          }
+        }
+
+        .infographic__number {
+          width: 95px;
+          left: 49.5%;
+        }
+      }
+    }
+  }
+}
+
+@include media($screen-992-up) {
+  .infographic {
+    &__section {
+      &:nth-child(2n):not(:nth-child(2)) {
+        .infographic__event {
+          margin-left: 0px;
+        }
+      }
+
+      &:nth-child(2n+1) {
+        .infographic__event {
+          margin-right: -2px;
+        }
+      }
+    }
+  }
+}
+
+@include media($screen-1200-up) {
+  .infographic {
+    &__vertical-line {
+      height: 83%;
+    }
+
+    &__section {
+      &:nth-child(2n):not(:nth-child(2)) {
+        .infographic__event {
+          margin-left: 99px;
+        }
+      }
+
+      &:nth-child(2n+1) {        
+        .infographic__event {
+          margin-right: 99px;
+        }
+      }
+
+      &:nth-child(2) {
+        .infographic__event--title {
+          margin-left: 75px;
+          width: auto;
+        }
+      }
+    }
+  }
+}

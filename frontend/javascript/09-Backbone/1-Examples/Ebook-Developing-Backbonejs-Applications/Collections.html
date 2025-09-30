@@ -1,0 +1,385 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Collection chapter Backbone Basics
+    // Your code goes here
+
+      // ADDING AND REMOVE MODELS
+      var Todo = Backbone.Model.extend({
+        defaults: {
+          title: '',
+          completed: false
+        }
+      });
+
+      var TodosCollection = Backbone.Collection.extend({
+        model: Todo
+      });
+
+      var myTodo = new Todo({title: 'Read the whole book', id: 2});
+      var catTodo = new Todo({title: 'eat fish at 8pm after dinner', id: 4});
+
+      // pass array of models on collection instantiation
+      var todos = new TodosCollection([myTodo, catTodo]);
+      console.log('Collection size: ' + todos.length);
+
+      // Adding and removing models
+      var Todo = Backbone.Model.extend({
+        defaults: {
+          title: '',
+          completed: false
+        }
+      });
+
+      var TodosCollection = Backbone.Collection.extend({
+        model: Todo
+      });
+
+      var a = new Todo({ title: 'Go to Jamaica'}),
+          b = new Todo({ title: 'Go to Chine'}),
+          c = new Todo({ title: 'Go to Disneyland.'});
+      var todos = new TodosCollection([a,b]);
+      console.log('Collection size:' + todos.length);
+
+      todos.add(c);
+      console.log('Collection size:' + todos.length);
+
+      todos.remove([a,b]);
+      console.log('Collection size:' + todos.length);
+
+      todos.remove(c);
+      console.log('Collection size:' + todos.length);
+
+      var items = new Backbone.Collection;
+      items.add([{ id : 1, name: 'Dog', age: 3}, { id: 2, name: 'cat', age: 2}]);
+      items.add([{ id : 1, name: 'Bear' }], {merge: true});
+      items.add([{ id : 2, name: 'lion' }]);// merge: false
+
+      console.log(JSON.stringify(items.toJSON()));
+      
+
+      // RETRIEVING MODELS
+      var myTodo = new Todo({title: 'Read the whole book', id: 2});
+
+      // pass array of models on collection instantiation
+      var todos = new TodosCollection([myTodo]);
+
+      var todo2 = todos.get(2);
+
+      var todoCid = todos.get(todo2.cid);
+
+      // As mentioned in previous example,
+      // models are passed by reference
+      console.log(todoCid === myTodo); //true
+
+      // Models, as objects. are passed by reference
+      console.log(todo2 === myTodo); // true
+      
+      // LISTENING FOR EVENT
+      var TodosCollection = new Backbone.Collection();
+
+      TodosCollection.on('add', function(todo) {
+        console.log('I should ' + todo.get('title') + '. Have I done it before? ' + (todo.get('completed') ? 'Yeah!' : 'No.'));
+      });
+
+      TodosCollection.add([
+        { title: 'go to Jamaica', completed: false },
+        { title: 'go to Chine', completed: false},
+        { title: 'go to Disneyland', completed: true }
+      ]);
+      var TodosCollection = new Backbone.Collection();
+      // log a message if a model in the collection changes
+      TodosCollection.on('change:title', function (model) {
+        console.log('Change my mind! I should ' + model.get('title'));
+      });
+
+      TodosCollection.add([
+        { title: 'go to Jamaica', completed: false, id: 3 }
+      ]);
+
+      var myTodo = TodosCollection.get(3);
+      myTodo.set('title', 'go fishing');
+      
+
+      // better then above
+      var Todo = Backbone.Model.extend({
+        default: {
+          title: '',
+          completed: false
+        }
+      });
+
+      var myTodo = new Todo();
+      myTodo.set({title: 'Buy some cookies', completed: true});
+
+      myTodo.on({
+        'change:title' : titleChanged,
+        'change:completed' : stateChanged
+      });
+
+      function titleChanged() {
+        console.log('The title was changed!');
+      }
+
+      function stateChanged() {
+        console.log('The state was changed');
+      }
+
+      myTodo.set({title: 'Get the groceries'});
+
+
+      // once() method
+      // Define an object with tow counters
+      var TodoCounter = { counterA: 0, counterB: 0 };
+      // Mix in Backbone Events
+      _.extend(TodoCounter, Backbone.Events);
+
+      // Increment counterA. triggering an event
+      var incrA = function() {
+        TodoCounter.counterA += 1;
+        TodoCounter.trigger('event');
+      };
+
+      // Increment counterB
+      var incrB = function() {
+        TodoCounter.counterB += 1;
+      };
+
+      // Use once rather than having to explicily unbind
+      // our event listener
+      TodoCounter.once('event', incrA);
+      TodoCounter.once('event', incrB);
+
+      // Trigger the event once again
+      TodoCounter.trigger('event');
+
+      // Check our output
+      console.log(TodoCounter.counterA === 1); // true
+      console.log(TodoCounter.counterB === 1); // true
+      
+      // RESETTING/ REFRESHING COLLECTIONS
+      var TodosCollection = new Backbone.Collection();
+
+      TodosCollection.add([
+        { id: 1, title: 'go to Jamaica', completed: false },
+        { id: 2, title: 'go to China', completed: false },
+        { id: 3, title: 'go to Disneyland.', completed: true}
+      ]);
+
+      // we can listen for add/change/remove events
+      TodosCollection.on('add', function(model) {
+        console.log('Added ' + model.get('title'));
+      });
+
+      TodosCollection.on('remove', function(model) {
+        console.log('Remove ' + model.get('title'));
+      });
+
+      TodosCollection.on('change:completed', function(model) {
+        console.log('Completed ' + model.get('title'));
+      });
+
+      TodosCollection.set([
+        { id: 1, title: 'go to Jamaica', completed: true },
+        { id: 2, title: 'go to China', completed: false },
+        { id: 4, title: 'go to Disney World', completed: false }
+      ]);
+      
+
+      // can use Collection.reset()
+      var TodosCollection = new Backbone.Collection();
+
+      // we can listen for reset events
+      TodosCollection.on('reset', function() {
+        console.log('Collection reset');
+      });
+
+      TodosCollection.add([
+        { title: 'go to Jamaica.', completed: false },
+        { title: 'go to China.', completed: false },
+        { title: 'go to Disneyland', completed: true }
+      ]);
+
+      console.log('Collection size: ' + TodosCollection.length); // Collection size: 3
+
+      TodosCollection.reset([
+        { title: 'go to Cuba.', completed: false }
+      ]);
+      // Above logs 'Collection reset'
+      
+      console.log('Collection size: ' + TodosCollection.length); // Collection size: 1
+
+      var Todo = new Backbone.Model();
+      var Todos = new Backbone.Collection([Todo])
+      .on('reset', function(Todos, options) {
+        console.log(options.previousModels);
+        console.log([Todo]);
+        console.log(options.previousModels[0] === Todo); //true
+      });
+
+      Todos.reset([]);
+      
+
+      // update() method
+      var theBeatles = new Collection(['john', 'paul', 'george', 'ringo']);
+      theBeatles.update(['john', 'paul', 'george', 'pete']);
+      console.log(theBeatles);
+      
+
+
+      // UNDERSCORE UTILITY FUNCTIONS
+      
+      var Todos = new Backbone.Collection();
+
+      Todos.add([
+        { title: 'go to Belgium.', completed: false },
+        { title: 'go to China.', completed: false },
+        { title: 'go to Austria.', completed: true }
+      ]);
+
+      // forEach: Iterate over collections
+      // iterate over models in the collection
+      Todos.forEach(function(model) {
+        console.log(model.get('title'));
+      });
+      
+
+      // sortBy(): Sort a collection on a specific attribute
+      var sortedByAlphabet = Todos.sortBy(function(todo) {
+        return todo.get('title').toLowerCase();
+      });
+
+      console.log('- Now sorted: ');
+
+      sortedByAlphabet.forEach(function(model) {
+        console.log(model.get('title'));
+      });
+      
+
+      // map(): Create a new collection by mapping each value in a list through a transformation function
+      var count = 1;
+      console.log(Todos.map(function(model) {
+        return count++ + '. ' + model.get('title');
+      }));
+      
+
+      // min()/ max(): Retrieve item with the min or max value of an attribute
+      Todos.max(function(model) {
+        return model.id;
+      }).id;
+
+      Todos.min(function(model) {
+        return model.id;
+      }).id;
+      
+
+      // pluck(): Extract a specific attribute
+      var captions = Todos.pluck('caption');
+      // returns list of captions
+      
+
+      // filter(): Filter a collectionas
+      var Todos = Backbone.Collection.extend({
+        model: Todo,
+        filterById: function(ids) {
+          return this.models.filter(
+            function(c) {
+              return _.contains(ids, c.id);
+            });
+        }
+      });
+      
+
+      // indexOf(): return the item at a particular index within a collection
+      var People = new Backbone.Collection;
+      People.comparator = function(a, b) {
+        return a.get('name') < b.get('name') ? -1 : 1;
+      };
+
+      var tom = new Backbone.Model({name: 'Tom'});
+      var rob = new Backbone.Model({name: 'Rob'});
+      var tim = new Backbone.Model({name: 'Tim'});
+
+      People.add(tom);
+      People.add(rob);
+      People.add(tim);
+
+      console.log(People);
+      console.log(People.indexOf(tom));
+      console.log(People.indexOf(rob));
+      console.log(People.indexOf(tim));
+      
+
+      // any(): confirm if any of the values in a collection pass an interator truth test
+      Todos.any(function(model) {
+        return model.id === 100;
+      });
+
+      // size(): Confirm if any of the values in a collection pass an iterator truth test
+      Todos.size();
+
+      //equivalent to
+      Todos.length();
+
+      // isEmpty(): Determine whether a collection is empty
+      var isEmpty = Todos.isempty();
+
+      // groupBy(): Group a collection into groups like items
+      var Todos = new Backbone.Collection();
+      Todos.add([
+        { title: 'go to Belgium.', completed: false },
+        { title: 'go to China.', completed: false },
+        { title: 'go to Austria.', completed: true }
+      ]);
+      // create groups of completed and incomplete models
+      var byCompleted = Todos.groupBy('completed');
+      var completed = new Backbone.Collection(byCompleted[true]);
+      console.log(completed.pluck('title'));
+      
+
+      // pick(): Extract a set of attributes from a model
+      var Todo = Backbone.Model.extend({
+        defaults: {
+          title: '',
+          completed: false
+        }
+      });
+
+      var todo = new Todo({title: 'go to Austria.'});
+      console.log(todo.pick('title'));
+
+      // omit(): Extract all attributes from a model except those listed
+      var todo = new Todo({title: 'go to Austria.'});
+      console.log(todo.omit('title'));
+
+      // key() and value(): Get lits ò attribute names and values
+      var todo = new Todo({title: 'go to Austria'});
+      console.log(todo.keys());
+
+      console.log(todo.values());
+
+      // pair(): get list of attributes as [key, value] pairs
+      var todo = new Todo({title: 'go to Austria'});
+      var pairs = todo.pairs();
+
+      console.log(pair[0]);
+      console.log(pairs[1]);
+      
+
+      // invert(): Create object in which the values are keys and the attributes are values
+      var todo = new Todo({title: 'go to Austria'});
+      console.log(todo.invert());
+    </script>
+  </body>
+</html>

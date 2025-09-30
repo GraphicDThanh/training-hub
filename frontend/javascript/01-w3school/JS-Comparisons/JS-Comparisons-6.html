@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+First Name: <input type="text" id="fname" value="John">
+
+<p id="demo"></p>
+
+<script>
+var firstName = document.getElementById("fname").value;
+var result = (firstName === "John") ? "Hello John": "You\'re not John";
+document.getElementById("demo").innerHTML = result;
+</script>
+
+</body>
+</html>

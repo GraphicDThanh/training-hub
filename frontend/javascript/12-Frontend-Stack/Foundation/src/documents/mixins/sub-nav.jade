@@ -1,0 +1,99 @@
+- var company_sub_list_left = []
+- company_sub_list_left.push({name:"COMPANY OVERVIEW", link:"#"})
+- company_sub_list_left.push({name:"CORPORATE OFFICERS", link:"#"})
+- company_sub_list_left.push({name:"BOARD OF DIRECTORS", link:"#"})
+- company_sub_list_left.push({name:"CORPORATE GOVERNANCE", link:"#"})
+
+- var company_sub_list_right = []
+- company_sub_list_right.push({name:"COMPANY HISTORY", link:"#"})
+- company_sub_list_right.push({name:"SOCIAL RESPONSIBILITY", link:"#"})
+- company_sub_list_right.push({name:"CODE OF ETHICS AND CONDUCT", link:"#"})
+- company_sub_list_right.push({name:"SOCIAL COMPLIANCE CODE OF CONDUCT", link:"#"})
+
+- var investor_sub_list_1 = []
+- investor_sub_list_1.push({name:"OVERVIEW", link:"#"})
+- investor_sub_list_1.push({name:"STOCK INFORMATION", link:"#"})
+- investor_sub_list_1.push({name:"STOCK LOOKUP", link:"#"})
+- investor_sub_list_1.push({name:"QUARTERLY RESULTS", link:"#"})
+
+- var investor_sub_list_2 = []
+- investor_sub_list_2.push({name:"ANALYST COVERAGE", link:"#"})
+- investor_sub_list_2.push({name:"FUNDAMENTALS", link:"#"})
+- investor_sub_list_2.push({name:"FINANCIAL REPORT", link:"#"})
+- investor_sub_list_2.push({name:"INVESTMENT CALCULATOR", link:"#"})
+
+- var investor_sub_list_3 = []
+- investor_sub_list_3.push({name:"ANNUAL REPORTS", link:"#"})
+- investor_sub_list_3.push({name:"KEY RATIOS", link:"#"})   
+- investor_sub_list_3.push({name:"SEC FILINGS", link:"#"})
+- investor_sub_list_3.push({name:"PRESENTATIONS", link:"#"})
+
+- var investor_sub_list_4 = []
+- investor_sub_list_4.push({name:"EVENTS CALENDAR", link:"#"})
+- investor_sub_list_4.push({name:"E-MAIL ALERTS", link:"#"})   
+- investor_sub_list_4.push({name:"INVESTOR KIT", link:"#"})
+- investor_sub_list_4.push({name:"FAQS", link:"#"})
+
+- var brands_sub_list_left_first_col = []
+- brands_sub_list_left_first_col.push({name:"BEN HOGAN", link:"#"})
+- brands_sub_list_left_first_col.push({name:"FARAH", link:"#"})
+- brands_sub_list_left_first_col.push({name:"JACK NICKLAUS", link:"#"})
+- brands_sub_list_left_first_col.push({name:"JOHN HENRY", link:"#"})
+- brands_sub_list_left_first_col.push({name:"PEONY", link:"#"})
+- brands_sub_list_left_first_col.push({name:"SAVANE", link:"#"})
+
+- var brands_sub_list_left_second_col = []
+- brands_sub_list_left_second_col.push({name:"CALLAWAY", link:"#"})
+- brands_sub_list_left_second_col.push({name:"GRAND SLAM", link:"#"})
+- brands_sub_list_left_second_col.push({name:"JAG", link:"#"})
+- brands_sub_list_left_second_col.push({name:"LAUNDRY BY SHELLI SEGAL", link:"#"})
+- brands_sub_list_left_second_col.push({name:"PRO PLAYER", link:"#"})
+
+- var brands_sub_list_right = []
+- brands_sub_list_right.push({name:"AXIST", link:"#"})
+- brands_sub_list_right.push({name:"CUBAVERA", link:"#"})
+- brands_sub_list_right.push({name:"HAVANERA", link:"#"})
+- brands_sub_list_right.push({name:"JANTZEN", link:"#"})
+- brands_sub_list_right.push({name:"NIKE SWIM", link:"#"})
+- brands_sub_list_right.push({name:"ORIGINAL PENGUIN", link:"#"})
+- brands_sub_list_right.push({name:"RAFAELLA", link:"#"})
+- brands_sub_list_right.push({name:"PGA TOUR", link:"#"})
+
+
+mixin code(sub_nav)
+  case sub_nav
+    when 'company-sub-list'
+      .columns.medium-6.large-6.no-padding.desktop-menu__sub-menu--left
+        each item in company_sub_list_left
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+      .columns.medium-6.large-6.no-padding.desktop-menu__sub-menu--right
+        each item in company_sub_list_right
+            a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+              
+    when 'investor-sub-list'
+      .columns.medium-6.large-3.no-padding.desktop-menu__sub-menu--1
+        each item in investor_sub_list_1
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+      .columns.medium-6.large-3.no-padding.desktop-menu__sub-menu--2
+        each item in investor_sub_list_2
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+      .columns.medium-6.large-3.no-padding.desktop-menu__sub-menu--3
+        each item in investor_sub_list_3
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+      .columns.medium-6.large-3.no-padding.desktop-menu__sub-menu--4
+        each item in investor_sub_list_4
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+
+    when 'brands-sub-list'
+      .columns.medium-6.large-6.no-padding.desktop-menu__sub-menu--left
+        a.button.desktop-menu__sub-menu--link(href="#") PERRY ELLIS
+        .row
+          .columns.medium-6.large-6.no-padding
+            each item in brands_sub_list_left_first_col
+              a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+          .columns.medium-6.large-6.no-padding
+            each item in brands_sub_list_left_second_col
+              a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name
+      .columns.medium-6.large-6.no-padding.desktop-menu__sub-menu--right
+        each item in brands_sub_list_right
+          a.button.desktop-menu__sub-menu--link(href="#{item.link}")= item.name

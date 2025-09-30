@@ -1,0 +1,250 @@
+
+
+/* Landing page */
+
+.cover-landing-1 {
+  width:100%;
+  position:relative;
+  margin-bottom: 5px;
+  h2 {
+    font-size: 2.625em;
+    line-height: 1.625em;
+    color:#fff;
+    text-align: center;
+    position:absolute;
+    top:35%;
+    width:100%;
+    font-family: "Lato", sans-serif;
+  }
+  .arrow-container {
+    width: 100%;
+    text-align: center;
+    position:absolute;
+    bottom:10%;
+  }
+}
+.cover-landing-2 {
+  width:100%;
+  position:relative;
+  margin-bottom: 5px;
+  h4 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.625em;
+    color:#fff;
+    text-align: center;
+    position:absolute;
+    top:45%;
+    width:40%;
+    font-family: "Lato", sans-serif;
+  }
+  .radius-container {
+    width: 60%;
+    text-align: center;
+    position:absolute;
+    top:20%;
+    right:0;
+  }
+  .radius-cover {
+    margin-bottom:40px;
+  }
+  .radius {
+    width:136px;
+    height:136px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -web-kit-border-radius:50%;
+    background:#fff;
+    color:#333;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+.cover-text-1 {
+  background:#0d78b9;
+  font-size: 1.25em;
+  padding:90px 80px 80px;
+  margin-bottom:5px;
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.625em;
+    line-height: 1.5em;
+    font-weight: 300;
+    color:#fff;
+    font-family: "Lato", sans-serif;
+  }
+  h5 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color:#fff;
+    font-family: "Lato", sans-serif;
+  }
+  .content {
+    color:#fff;
+    margin-bottom: 60px;
+    font-size:20px;
+    line-height: 32px;
+  }
+}
+.how-it-work {
+  background:#f1eee7;
+  margin-bottom:5px;
+  h3 {
+    font-size: 2em;
+    margin-bottom: 60px;
+    color:#333;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 50px;
+  }
+  h4 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color:#333;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 120px;
+  }
+  h5 {
+    font-size: 2em;
+    line-height: 1.625em;
+    color:#333;
+    margin-bottom: 40px;
+    font-family: "Lato", sans-serif;
+  }
+  .experience {
+    img {
+      float:right;
+      margin-right:50px;
+    }
+  }
+  .analyze, .events, .delivery, .provide {
+    img {
+      margin:0 auto;
+    }
+  }
+  .provide {
+    img {
+      margin-top:20px;
+    }
+  }
+  .content {
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+  .content-2 {
+    margin-top:50px;
+    @extend .content;
+    text-align: center;
+    float:left;
+    width:100%;
+  }
+  .line {
+    width:100%;
+    height:1px;
+    background:#ccc;
+    margin:80px 0;
+    float:left;
+  }
+  .desc {
+    text-align: center;
+    color:#666;
+    margin:10px 0;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .container-button {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+    margin-top:70px;
+    float:left;
+    width:100%;
+    #form-getstarted {
+      display:none;
+      margin:auto;
+      width:750px;
+      color:#333;
+      background:#fff;
+      border:1px solid #d9d6d0;
+      padding:40px 30px 30px;
+      text-transform:capitalize;
+      font-size: 14px;
+      form {
+        button {
+          font-size: 14px!important;
+        }
+        input {
+          padding-left:5px;
+          font-size: 14px!important;
+          width:230px;
+        }
+        select {
+          padding:5px;
+          font-size: 14px!important;
+          width:230px;
+        }
+        .required {
+          font-style: italic;
+          font-size: 12px;
+          font-weight:bold;
+        }
+        &.form-horizontal {
+          .control-label {
+            font-size: 13px;
+            width: 300px;
+          }
+          .controls {
+            float: left;
+            margin-left: 10px;
+            width: 300px;
+            &.error {
+              input, select {
+                border-color:red;
+              }
+            }
+          }
+        }
+      }
+    }
+    #thankyou-getstarted {
+      display:none;
+      margin:auto;
+      width:550px;
+      color:#333;
+      background:#fff;
+      border:1px solid #d9d6d0;
+      padding:20px;
+      text-transform:none;
+      font-size: 14px;
+    }
+  }
+}
+.navigation {
+  li.arrow {
+    width:60px;
+    margin:0 auto;
+  }
+}
+#contact {
+  .error {
+    input, textarea {
+      border-color:red;
+    }
+  }   
+}
+#requestPrivateBeta {
+  .error {
+    input, select {
+      border-color:red;
+    }
+  }   
+}

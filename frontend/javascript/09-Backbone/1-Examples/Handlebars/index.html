@@ -1,0 +1,27 @@
+<!-- <html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="handlebars-v3.0.3.js"></script>
+  </head>
+  <body>
+    The List of Shoes:
+    <ul class="shoesNav"></ul>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html> -->
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="handlebars-v3.0.3.js"></script>
+  </head>
+  <body>
+    The List of Shoes:
+    <ul class="shoesNav"></ul>
+    <script id="shoe-template" type="x-handlebars-template">
+    {{#each this}}
+      <li class="shoes"><a href="/{{name}}">{{name}} -- Price: {{price}}</a></li>
+    {{/each}}
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

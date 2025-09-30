@@ -1,0 +1,7 @@
+.header-page {
+  @include position(relative);
+  @include e('transparent-panel') {
+    @include position(absolute);
+    @include size(100%);
+  }
+}

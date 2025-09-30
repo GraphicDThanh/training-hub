@@ -1,0 +1,65 @@
+.products-api {
+  height: 670px;
+  text-align: center;
+
+  .products-api-background-white,
+  .products-api-background-blue {
+    height: 100%;
+    padding: 30px;
+  }
+
+  .products-api-background-white {
+    background-color: #fff;
+  }
+
+  .products-api-background-blue {
+    background-color: #0d78b9;
+    color: #fff;
+  }
+
+  .products-api-title {
+    font-size: 28px;
+    font-weight: 300;
+  }
+
+  .products-api-icon {
+    @include size-width-height(171px, 186px);
+    margin: 0 auto;
+    margin-top: 55px;
+  }
+
+  .products-api-widget-icon {
+    @include background-contain('../img/selerity-new-version/widget-icon.png');
+  }
+
+  .products-api-api-icon {
+    @include background-contain('../img/selerity-new-version/api-icon.png');
+  }
+
+  .products-api-block {
+    padding-top: 130px;
+  }
+
+  .products-api-blue-title {
+    @include font-size-weight-lato(30px, 300);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+  .products-api-blue-description {
+    @include font-size-weight-lato(20px, 300);
+    letter-spacing: -0.6px;
+  }
+
+  .products-api-blue-line {
+    @include size-width-height(91px, 2px);
+    background-color: #fff;
+  }
+
+  .products-api-blue-subtitle {
+    @include font-size-weight-lato(25px, 300);
+    text-transform: capitalize;
+    margin: 20px 0;
+  }
+}

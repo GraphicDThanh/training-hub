@@ -1,0 +1,45 @@
+- var use_case_slide_card_list = []
+- use_case_slide_card_list.push({class_part:"enterprise", title: "enterprise messaging platforms", content:"Dynamically recommend personalized news and research based on companies and topics being discussed by your users. Enrich real-time conversations with relevant content."})
+- use_case_slide_card_list.push({class_part:"financial", title: "financial publishers & e-Brokers", content:"Construct company quotes pages with the most up to date and relevant content. Reduce low relevance and redundant content from inconsistent source tags."})
+- use_case_slide_card_list.push({class_part:"research", title: "research & banking portals", content:"Recommend relevant content based on companies, currencies, and commodities being searched by users. Create a trending news and topics page"})
+
+section.product-use-case
+  span.product-use-case__head-line
+  h3.product-use-case__title use case
+  .product-use-case__blocks-content.slide-cards
+    each item in use_case_slide_card_list
+      .hover-slide-card
+        .hover-slide-card__image(class="#{item.class_part}-slide-card")
+        .hover-slide-card__content
+          p.hover-slide-card__content--title= item.title
+          p.hover-slide-card__content--desc= item.content
+  button(type="button").product-use-case__button request demo
+
+//- Version refills with components CARDS
+section.product-use-case
+  span.product-use-case__head-line
+  h3.product-use-case__title use case
+  .product-use-case__blocks-content
+    .cards
+      each item in use_case_slide_card_list
+        .cards__item
+          .cards__image
+            .cards__image--specific
+          .cards__header= item.title
+          .cards__copy
+            p.cards__copy--content= item.content
+  button(type="button").product-use-case__button request demo
+
+//- Version refills with components CARDS
+section.product-use-case
+  span.product-use-case__head-line
+  h3.product-use-case__title use case
+  .product-use-case__blocks-content
+    each item in use_case_slide_card_list
+      .hover-tile
+        .hover-tile__container
+          .hover-tile__wrapper.hover-tile__wrapper--visible
+          .hover-tile__wrapper.hover-tile__wrapper--hidden
+            h4.hover-tile__title= item.title
+            p.hover-tile__content= item.content
+  button(type="button").product-use-case__button request demo

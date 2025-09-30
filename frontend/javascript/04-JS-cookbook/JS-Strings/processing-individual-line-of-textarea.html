@@ -1,0 +1,34 @@
+<!-- Print which has in a textarea to web page
+ -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id = "test">
+      Lorem ipsum dolor sit amet,
+      ndisse auctor
+      incidunt vehicula. Duis iaculis sollicitudin felis vitae congue. Pellentesque rhoncus mi diam, vitae ultricies lorem
+      tiam euismod consectetur lectus
+      Pellentesque rhoncus mi diam, vitae ultricies lo
+      ultrices posuere cubilia Curae; In cursus
+    </textarea>
+
+    <p id="result"></p>
+    
+    <script type="text/javascript">
+      //get textares string and split on new lines
+      var txtBox = document.getElementById("test");
+      var lines = txtBox.value.split("\n");
+
+      //generate HTMl version of text
+      var resultString = "<p>";
+      for (var i = 0; i < lines.length; i ++) {
+        resultString += lines[i] + "<br />";
+      }
+      resultString += "</p>";
+
+      //print out to page
+      var blk = document.getElementById("result");
+      blk.innerHTML = resultString;
+    </script>
+  </body>
+</html>

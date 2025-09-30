@@ -1,0 +1,35 @@
+{
+  "name": "TodoWithBackbone",
+  "version": "1.0.0",
+  "description": "Todo Practice with Backbone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@asoft.git:training/training-thanhnguyen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-sass": "^2.0.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "jshint-stylish": "^2.0.1",
+    "node-sass": "^3.2.0",
+    "through2": "^2.0.0",
+    "which": "^1.1.1"
+  },
+  "dependencies": {
+    "gulp-minify-html": "^1.0.3"
+  }
+}

@@ -1,0 +1,26 @@
+.donovan-footer {
+  background-color: $mine-shaft-light;
+  padding: 30px 0 151px 0;
+  &__container {
+    @extend %container;
+  }
+
+  &__copyright {
+    @extend %pull-left;
+    @extend %text-uppercase;
+    @include font-size(14);
+    color: $dusty-gray;
+    &--link {
+      @include link-style($flamingo, $white);
+    }
+  }
+
+  &__to-top {
+    float: right;
+    &--btn {
+      @extend %block;
+      @include size(26px 30px);
+      background: url('../images/donovan/back_top.png') no-repeat;
+    }
+  }
+}

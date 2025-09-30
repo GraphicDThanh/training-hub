@@ -1,0 +1,24 @@
+//- Modal request
+#modal-request.modal.fade(tabindex="-1", role="dialog", aria-labelledby="modal-request-title")
+  .modal-dialog.modal-request-block(role="document")
+    .modal-content.modal-request-content
+      button.close.modal-request-close(type="button", data-dismiss="modal", aria-label="Close")
+        span(aria-hidden="true") &times;
+      h4#modal-request-title.modal-title.modal-request-title.modal-request-private-title request a demo
+      form#contact.form-horizontal
+        .form-group
+          .row
+            .col-xs-12.col-md-6
+              input.form-control.modal-request-input.first-name(name="firstname" type="text" placeholder="First Name")
+            .col-xs-12.col-md-6
+              input.form-control.modal-request-input(name="lastname" type="text" class="" placeholder="Last Name")
+        .form-group
+            input.form-control.modal-request-input(name="email" type="email" placeholder="Work Email")
+        .form-group
+            input.form-control.modal-request-input(name="phone" type="text" placeholder="Work Phone (optional)")
+        .form-group
+            input.form-control.modal-request-input(name="company" type="text" placeholder="Company Name")
+        .form-group
+            textarea.form-control.modal-request-textarea(name="request" rows="3" placeholder="The demo should focus on... (optional)")
+        .form-group
+          button.btn.btn-primary.col-xs-12.modal-request-button.hide-loading-state(type="submit") submit

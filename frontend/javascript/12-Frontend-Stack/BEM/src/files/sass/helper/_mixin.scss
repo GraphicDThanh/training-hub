@@ -1,0 +1,97 @@
+// Block element
+// @access public
+// @param {String} $element - Element's name
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier's name
+@mixin m($modifier) {
+  &__#{$modifier} {
+    @content;
+  }
+}
+
+@mixin background-cover($url) {
+  background: url($url) center no-repeat;
+  background-size: cover;
+}
+
+@mixin background-contain($url) {
+  background: url($url) center no-repeat;
+  background-size: contain;
+}
+
+@mixin font-size-weight-lato($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+  font-family: $font-lato;
+}
+
+@mixin size-width-height($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+     -moz-transform: $transforms;
+      -ms-transform: $transforms;
+       -o-transform: $transforms;
+          transform: $transforms;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
+
+@mixin translate ($x, $y) {
+   @include transform(translate($x, $y));
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+
+@mixin skew ($skew) {
+  @include transform(skew($skew));
+}
+
+@mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin text-ellipsis-by-line($font-size-content-ellipsis, $line-height-content-ellipsis, $line-to-show) {
+  display: -webkit-box;
+  height: $font-size-content-ellipsis*$line-height-content-ellipsis*$line-to-show;
+  margin: 0 auto;
+  font-size: $font-size-content-ellipsis;
+  -webkit-line-clamp: $line-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

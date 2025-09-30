@@ -1,0 +1,27 @@
+{
+  "name": "react-tutorial",
+  "description": "Code from the React tutorial.",
+  "main": "server.js",
+  "authors": [
+    "petehunt"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

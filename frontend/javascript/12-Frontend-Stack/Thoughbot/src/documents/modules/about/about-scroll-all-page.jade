@@ -1,0 +1,51 @@
+- var director_team = []
+- director_team.push({class_active: "accordion-tabs__link--active", name: "Doug Atkin", desc:"Mr. Atkin has been an investor, founder, and senior executive in the financial technology industry for over 25 years.  Since 2011, he has run Venture Investing at Guggenheim Partners, a privately held global financial services firm with more than $180 billion in assets under management.  Mr. Atkin began his career at Instinet where he rose to become the company’s CEO, leading its successful $435 million IPO in 2001. Most recently, Mr. Atkin was the CEO of Majestic Research (acquired by ITG (NYSE:ITG)).  Mr. Atkin was selected as one of the Top New Yorkers by New York Magazine for his leading role in redefining the financial marketplace, and Institutional Investor profiled him as one of the top 30 individuals making the greatest impact on e-finance.  He was educated at Tufts University."})
+- director_team.push({class_active: "", name: "Matthew Burkley", desc:"Matthew Burkley is the CEO of Genscape since 2011. Before Genscape, Matthew was CFO and acting President of the Sales & Trading group at Thomson Reuters building on previous leadership positions he held at the firm since 2006. Prior to joining Thomson Reuters, Mr. Burkley was Co-founder and Managing Director at ZEFER, a technology and strategy consulting firm. Matthew was educated at Colorado College and Harvard Business School."})
+- director_team.push({class_active: "", name: "Donal Smith", desc:"Donal is currently a co-founder at Credit Benchmark. Prior to Credit Benchmark, Donal was CEO of Data Explorers (acquired by Markit April 2012). Previously he held roles at Thomson Reuters including CEO of Thomson Financial’s businesses in Europe and Asia. He has also served as CEO of eCountries, CEO of "})
+- director_team.push({class_active: "", name: "Ryan Terpstra", desc:"See bio above."})
+
+- var advisors_team = []
+- advisors_team.push({number: "1", class_active: "is-active", name: "Roger Ehrenberg", desc:"Roger Ehrenberg is Managing Partner of IA Ventures, a seed stage venture fund focused on companies managing and extracting value from Big Data. Prior to IA Ventures, Roger was an active seed-stage angel investor in over 40 companies. Earlier in his career, Roger served as president and CEO of DB Advisors, Deutsche Bank's internal hedge fund trading platform. Before DB Advisors, he was global co-head of Deutsche Bank’s Strategic Equity Transactions Group. Previously, he worked as an investment banker and managing director at Citibank, where he held a variety of roles in the Global Derivatives, Capital Markets, Mergers & Acquisitions and Capital Structuring groups."})
+- advisors_team.push({number: "2", class_active: "", name: "Ian Koenig", desc:"Ian Koenig is the Chief Architect for LexisNexis with global responsibility for Enterprise Architecture, Architecture Governance, Technology Strategy and New Technology Research. Prior to Joining LexisNexis, Ian was an Independent Consultant, specializing in helping companies create Enterprise Architecture practice. At Thomson Financial, Ian was Chief Architect responsible for Enterprise Architecture, Technology Strategy and Architecture Governance. Prior to joining Thomson, Ian was the Chief Architect for Products and Platforms at Reuters, where he worked for 19 years. Koenig began a 30+ year career in technology as a software developer at Reveal Software."})
+- advisors_team.push({number: "3", class_active: "", name: "Emanuel Mond", desc:"Emanuel is a serial entrepreneur who has helped start and scale a number of businesses in the fintech arena. In the 90's he started Monis which he later sold to SunGard in 2002. He then spent 8 years at SunGard as President at first of the Trading Software group and then of the Alternative Investments segment. He was a founding shareholder in Cadis and became their chairman in 2011. The business was sold to Markit in June 2012."})
+
+.about-main-content
+  .scroll-on-page
+    aside#scroll-on-page-top.scroll-on-page__control
+      a.scroll-on-page__link(href="#scroll-link-1") Executive Team
+      a.scroll-on-page__link(href="#scroll-link-2") Board of Directors
+      a.scroll-on-page__link(href="#scroll-link-3") Advisors
+      a.scroll-on-page__link(href="#scroll-link-4") Investors
+      a.scroll-on-page__link(href="#scroll-link-5") Contact Us
+
+    article.scroll-on-page__wrap-content
+      section.scroll-on-page__section
+        h4#scroll-link-1.scroll-on-page__section--title Executive Team
+        include unit/execute-member.jade
+      section.scroll-on-page__section
+        h4#scroll-link-2.scroll-on-page__section--title Board of Directors
+        ul.accordion-tabs
+          each item in director_team
+            li.accordion-tabs__item
+              a(href="javascript:void(0)" class="#{item.class_active}").accordion-tabs__link= item.name
+              .accordion-tabs__content
+                p= item.desc
+      section.scroll-on-page__section
+        h4#scroll-link-3.scroll-on-page__section--title Advisors
+        .vertical-tabs-container
+          .vertical-tabs
+            each item in advisors_team
+              a(href="javascript:void(0)" class="#{item.class_active}" rel="tab#{item.number}").js-vertical-tab.vertical-tab= item.name
+          .vertical-tab-content-container
+            each item in advisors_team
+              a(href="" rel="tab#{item.number}" class="#{item.class_active}").js-vertical-tab-accordion-heading.vertical-tab-accordion-heading= item.name
+              .js-vertical-tab-content.vertical-tab-content(id="tab#{item.number}")
+                p= item.desc
+      section.scroll-on-page__section
+        h4#scroll-link-4.scroll-on-page__section--title Investors
+        p.scroll-on-page__section--content Selerity is backed by some of financial technology's most successful executives, entrepreneurs, and investors including Donal Smith, Roger Ehrenberg, Mark Faulkner, Tom Glocer, Emanuel Mond, Lee Olesky, and Sharon Rowlands.
+
+      section.scroll-on-page__section
+        h4#scroll-link-5.scroll-on-page__section--title Contact Us
+        #map_canvas
+        a.scroll-on-page-link(href="#scroll-on-page-top") Back to top

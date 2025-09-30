@@ -1,0 +1,116 @@
+.contact {
+  @extend %open-sans;
+  &__image {
+    @include position(relative);
+    height: 385px;
+    &--frame {
+      @include position(absolute);
+      z-index: 1;
+    }
+    &--avatar {
+      @include position(absolute);
+      top: 0;
+    }
+  }
+
+  &__info {
+    padding-bottom: 100px;
+    &--name {
+      margin-bottom: 10px;
+    }
+    &--desc {
+      @extend %gray-color;
+      @extend %verdana;
+      @include font-size(14, 1.75);
+    }
+  }
+
+  &__social-item {
+    @extend %inline-block;
+    @include size(27px 32px);
+    @include transition(all 0.2s ease-in-out);
+    background: url('../images/donovan/socials.png') no-repeat;
+    margin: 5px 10px;
+    &:nth-child(1) {
+      background-position: 0 0;
+      &:hover {
+        background-position: 0 -32px;
+      }
+    }
+
+    &:nth-child(2) {
+      background-position: -47px 0;
+      &:hover {
+        background-position: -47px -32px;
+      }
+    }
+
+    &:nth-child(3) {
+      background-position: -94px 0;
+      &:hover {
+        background-position: -94px -32px;
+      }
+    }
+
+    &:nth-child(4) {
+      background-position: -141px 0;
+      &:hover {
+        background-position: -141px -32px;
+      }
+    }
+  }
+}
+
+
+@include media($screen-320-up) {
+  .contact {
+    &__image--frame,
+    &__image--avatar {
+        left: 0;
+        right: auto;
+    }
+
+    &__info--name {
+      @include font-size(25, 0.8);
+    }
+  }
+}
+
+
+@include media($screen-768-up) {
+  .contact {
+    &__image--frame,
+    &__image--avatar {
+        left: auto;
+        right: 0;
+    }
+
+    &__info {
+      padding-top: 100px;
+      &--name {
+        @include font-size(32, 0.5);
+      }
+    }
+  }
+}
+
+@include media($screen-992-up) {
+  .contact {
+    &__image--frame,
+    &__image--avatar {
+        left: 0;
+        right: auto;
+    }
+
+    &__info {
+      padding-right: 30px;
+      padding-top: 90px;
+    }
+  }
+}
+
+@include media($screen-1200-up) {
+  .contact__info {
+    padding-top: 115px;
+  }
+}

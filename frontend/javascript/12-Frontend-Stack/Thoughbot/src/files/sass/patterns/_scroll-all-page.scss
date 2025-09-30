@@ -1,0 +1,46 @@
+.scroll-on-page {
+  display: inline-block;
+  &__control {
+    @include media($medium-small-screen) {
+      @include span-columns(3);
+    }
+  }
+
+  &__link {
+    color: $action-color;
+    text-decoration: none;
+    border-bottom: 1px solid transparentize($action-color, 0.8);
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding: ($base-spacing / 2) 0;
+
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+  }
+
+  &__wrap-content {
+    @include media($medium-small-screen) {
+      @include span-columns(9);
+    }
+  }
+
+  &__section {
+    &--title {
+      @extend %font-light;
+      @extend %text-uppercase;
+      @include font-size(30);
+      padding-top: 30px;
+      margin: 0 0 0.5em 0;
+    }
+
+    &--content {
+      color: $base-font-color;
+      line-height: $base-line-height;
+      &:last-of-type {
+        margin-bottom: 2em; 
+      }   
+    }
+  }
+}

@@ -1,0 +1,28 @@
+// @include direction-context(right-to-left) {
+//   .direction-context {
+//     @include span-columns(6);
+//   }
+// }
+
+.direction-context {
+  @include clearfix;
+}
+
+.columns-6 {
+  @include span-columns(6);
+}
+
+.columns-4 {
+  @include omega();
+}
+
+@include display-context(table) {
+  .display-context { 
+    @include span-columns(4);
+  }
+}
+
+.display-context a {
+  @include fill-parent;
+  @include row();
+}

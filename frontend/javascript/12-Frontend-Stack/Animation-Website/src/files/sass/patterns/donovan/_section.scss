@@ -1,0 +1,55 @@
+.section {
+  @extend %open-sans;
+  padding: 85px 0;
+  &.donovan-header {
+    padding: 0;
+  }
+  
+  &--light-bg {
+    @extend %bg-image-repeat-light;
+  }
+
+  &--dark-bg {
+    color: $silver;
+    @extend %bg-image-repeat-dark;
+    .section__title {
+      border-bottom: 1px solid $mine-shaft-lighter;
+    }
+  }
+
+  &__wrap-content {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %text-capitalize;
+    @include font-size(70, 0.25);
+    border-bottom: 1px solid $alto;
+    margin-bottom: 40px;
+  }
+}
+
+@include media($screen-320-up) {
+  .section {
+    &__title {
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+@include media($screen-480-up) {
+  .section {
+    &__title {
+      font-size: 45px;
+    }
+  }
+}
+
+@include media($screen-768-up) {
+  .section {
+    &__title {
+      font-size: 70px;
+    }
+  }
+}

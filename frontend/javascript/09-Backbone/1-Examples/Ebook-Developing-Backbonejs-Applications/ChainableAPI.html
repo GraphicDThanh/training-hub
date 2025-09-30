@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js">
+    </script>
+    <script src="http://documentcloud.github.com/backbone/backbone-min.js">
+    </script>
+    <script>
+    // Do following Chainable chapter Backbone Basics
+    // Your code goes here
+    var collection = new Backbone.Collection([
+      { name: 'Tim', age: 5 },
+      { name: 'Ida', age: 26 },
+      { name: 'Rob', age: 55 }
+    ]);
+
+    var filteredNames = collection.chain()
+    // start chain, returns wrapper around collection's models
+      .filter(function(item) { return item.get('age') > 10; })
+      // retrun wrappered array excluding Tim
+      .map(function(item) { return item.get('name'); })
+      // returns wrapped array containing remaining names
+      .value(); // terminates the chain and returns the resulting array
+    console.log(filteredNames);
+
+    // some the Backbone-specific method do return this, which mean can be chained as well
+    var collection = new Backbone.Collection();
+
+    collection
+      .add({name: 'John', age: 23})
+      .add({name: 'Harry', age: 33})
+      .add({name: 'Steve', age: 41});
+
+    var names = collection.pluck('name');
+    </script>
+  </body>
+</html>

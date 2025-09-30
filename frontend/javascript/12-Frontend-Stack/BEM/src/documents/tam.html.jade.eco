@@ -1,0 +1,67 @@
+---
+layout: inner-not-hero
+title: Job - Technical Account Manager
+active: careers
+---
+
+
+#tam.jobs
+  section
+    .cover-title
+      .container
+        .row
+          <!-- title -->
+          .title-1 SELERITY CAREERS
+  section
+    .cover-content
+      .container
+        .row
+          <!-- content -->
+          .title-2 <%- @site.careers.tam.job_title %>
+          .line
+            .bold <%- @site.careers.tam.job_type %>
+            | <%- @site.careers.tam.employment_cont %>
+          .line
+            .bold <%- @site.careers.tam.location %>
+            | <%- @site.careers.tam.location_cont %>
+          .line
+            .bold <%- @site.careers.tam.job_description %>
+            p <%- @site.careers.tam.job_description_cont1 %>
+              br
+              a(href="products-event-data.html") Learn More
+            br
+            p <%- @site.careers.tam.job_description_cont2 %>
+            br
+            p <%- @site.careers.tam.job_description_cont3 %>
+          .line
+            .bold You
+            ul
+              li <%- @site.careers.tam.required_qualifications_cont_1 %>
+              li <%- @site.careers.tam.required_qualifications_cont_2 %>
+              li <%- @site.careers.tam.required_qualifications_cont_3 %>
+              li <%- @site.careers.tam.required_qualifications_cont_4 %>
+              li <%- @site.careers.tam.required_qualifications_cont_5 %>
+              li <%- @site.careers.tam.required_qualifications_cont_6 %>
+              li <%- @site.careers.tam.required_qualifications_cont_7 %>
+          .line
+            p
+              span.bold Our stack
+              span <%- @site.careers.tam.desired_qualifications %>
+            ul
+              li <%- @site.careers.tam.desired_qualifications_cont_1 %>
+              li <%- @site.careers.tam.desired_qualifications_cont_2 %>
+              li <%- @site.careers.tam.desired_qualifications_cont_3 %>
+              li <%- @site.careers.tam.desired_qualifications_cont_4 %>
+              li <%- @site.careers.tam.desired_qualifications_cont_5 %>
+          .line
+            .bold <%- @site.careers.tam.job_compensation %>
+            p <%- @site.careers.tam.job_compensation_cont %>
+          .line
+            .bold <%- @site.careers.tam.job_candidates %>
+            p <%- @site.careers.tam.job_candidates_cont_1 %>
+              a(href='mailto:<%- @site.careers.tam.job_candidates_email %>') <%- @site.careers.tam.job_candidates_email %>
+              | <%- @site.careers.tam.job_candidates_cont_2 %>
+            p <%- @site.careers.tam.job_candidates_cont_3 %>
+          .line
+            .bold <%- @site.careers.tam.job_recuiter %>
+            p <%- @site.careers.tam.job_recuiter_cont %>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id="test">
+      This is content 1
+      This is content 2 
+      This is conern   4    
+         Soem confkn fg r   
+    </textarea>
+    <script type="text/javascript">
+      var txtBox = document.getElementById("test");
+      var lines = txtBox.value.split("\n");
+
+      var resultString = "";
+      for(var i = 0; i < lines.length; i++) {
+        var strng = lines[i].trim();
+        resultString += strng + "-";
+      }
+
+      alert(resultString);
+    </script>
+  </body>
+</html>

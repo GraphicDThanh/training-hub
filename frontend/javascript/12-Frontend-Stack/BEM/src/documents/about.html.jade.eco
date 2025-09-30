@@ -1,0 +1,247 @@
+---
+layout: inner
+title: About
+active: about
+---
+
+#about.about-selerity
+  header.container-fluid
+    .row.header-background-image
+      .header-background-color
+      .header-content
+        .left-corner
+        p.text-center Selerity is fundamentally changing the way people discover
+          | relevant information by bringing the age of context to the business
+          | professional. Our mission is to empower professionals with relevant
+          | content based on their individual workflow and what's happening in
+          | the world in real-time.
+        .right-corner
+  #about-nav.about-nav
+    nav.container
+      .row
+        ul(role='navigation')#about-nav.row.navigation.list-inline.list-unstyled
+          li(data-section='1')
+            a(href='javascript:void(0);')
+              | Executive Team
+          li(data-section='2')
+            a(href='javascript:void(0);')
+              | Board of Directors
+          li(data-section='3')
+            a(href='javascript:void(0);')
+              | Advisors
+          li(data-section='4')
+            a(href='javascript:void(0);')
+              | Investors
+          li(data-section='5')
+            a(href='javascript:void(0);')
+              | Contact Us
+  section.intro.about-section
+    .container
+      .row
+        .part-intro
+          h3.text-uppercase.section-title about
+          p Selerity is the first contextual content recommendation 
+            | company for enterprise applications. We deliver high-quality, 
+            | personalized content that is engaging and actionable optimized 
+            | business professionals in specific verticals such as finance. 
+            | Using Selerity, enterprise messaging platforms, publishers, 
+            | research & banking portals, and e-brokers can rapidly incorporate 
+            | high-quality 3rd party and proprietary content personalized 
+            | to their users’ workflow and interests. The result is higher 
+            | engagement, traffic, and customer satisfaction.
+        .part-intro
+          h3.text-uppercase.section-title history
+          p Selerity began as a real-time search and breaking news platform 
+            | for institutional and retail investors. Our customers include 
+            | some of the most sophisticated electronic trading firms, asset 
+            | managers, and retail investors operating in the market today. 
+            | In only a few years, Selerity established itself as the industry’s 
+            | leading real-time event data provider, but we had aspirations of 
+            | expanding beyond our core market. Using our deep understanding of 
+            | real-time news, unstructured content analytics, and the needs of 
+            | information professionals, we began working on the industry's 
+            | first contextual content recommendation service. The result, 
+            a(href="products.html") Selerity Context
+            | , a platform that dynamically recommends relevant content based 
+            | on a deep understanding of importance and user intent.
+
+  section.about-section.cover-content-1#section1.section(data-section='1')
+    <!-- Executive Team -->
+    .container.executive-team
+      .row
+        h3.section-title.text-uppercase Executive Team
+      .row.clearfix.executive_member
+        .col-md-3
+          img.img-responsive(src='<%- @site.executive_team.ryan_terpstra.job_img %>')
+        .col-md-9
+          h5 <%- @site.executive_team.ryan_terpstra.job_name %>
+          h6 <%- @site.executive_team.ryan_terpstra.job_title %>
+          .logo-social-1.text-center.logo-social.bg-dark.two-logos
+            a.fa.fa-circle(href='<%- @site.executive_team.ryan_terpstra.twitter_link %>')
+              i.fa.fa-twitter
+            a.fa.fa-circle(href='<%- @site.executive_team.ryan_terpstra.linkedin_link %>')
+              i.fa.fa-linkedin
+          p
+            | <%- @site.executive_team.ryan_terpstra.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .row.clearfix.executive_member
+        .col-md-3
+          img.img-responsive(src='<%- @site.executive_team.andrew_brook.job_img %>')
+        .col-md-9
+          h5 <%- @site.executive_team.andrew_brook.job_name %>
+          h6 <%- @site.executive_team.andrew_brook.job_title %>
+          .logo-social-1.text-center.logo-social.bg-dark
+            a.fa.fa-circle(href='<%- @site.executive_team.andrew_brook.linkedin_link %>')
+              i.fa.fa-linkedin
+          p
+            | <%- @site.executive_team.andrew_brook.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .row.clearfix.executive_member
+        .col-md-3
+          img.img-responsive(src='<%- @site.executive_team.brendan_gilmartin.job_img %>')
+        .col-md-9
+          h5 <%- @site.executive_team.brendan_gilmartin.job_name %>
+          h6 <%- @site.executive_team.brendan_gilmartin.job_title %>
+          .logo-social-1.text-center.logo-social.bg-dark
+            a.fa.fa-circle(href='<%- @site.executive_team.brendan_gilmartin.linkedin_link %>')
+              i.fa.fa-linkedin
+          p
+            | <%- @site.executive_team.brendan_gilmartin.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .row.clearfix.executive_member
+        .col-md-3
+          img.img-responsive(src='<%- @site.executive_team.ashfaq_rahman.job_img %>')
+        .col-md-9
+          h5 <%- @site.executive_team.ashfaq_rahman.job_name %>
+          h6 <%- @site.executive_team.ashfaq_rahman.job_title %>
+          .logo-social-1.text-center.logo-social.bg-dark
+            a.fa.fa-circle(href='<%- @site.executive_team.ashfaq_rahman.linkedin_link %>')
+              i.fa.fa-linkedin
+          p
+            | <%- @site.executive_team.ashfaq_rahman.job_desc_1 %>
+            a(href="http://www.shop.com/", target="_blank") Shop.com.
+            | <%- @site.executive_team.ashfaq_rahman.job_desc_2 %>
+            a(href="http://www.iseek.com/iseek/home.page", target="_blank") iseek.com
+            | <%- @site.executive_team.ashfaq_rahman.job_desc_3 %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .row.clearfix.executive_member
+        .col-md-3
+          img.img-responsive(src='<%- @site.executive_team.yordanka_ilieva.job_img %>')
+        .col-md-9.executive_member
+          h5 <%- @site.executive_team.yordanka_ilieva.job_name %>
+          h6 <%- @site.executive_team.yordanka_ilieva.job_title %>
+          .logo-social-1.text-center.logo-social.bg-dark
+            a.fa.fa-circle(href='<%- @site.executive_team.yordanka_ilieva.linkedin_link %>')
+              i.fa.fa-linkedin
+          p
+            | <%- @site.executive_team.yordanka_ilieva.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+  section.about-section.cover-content-2#section2.section(data-section='2')
+    <!-- Board of Directors -->
+    .container.board-directors
+      .row
+        h3.section-title.text-uppercase Board of Directors
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.board_directors.doug_atkin.job_name %>
+        .col-md-9
+          p
+            | <%- @site.board_directors.doug_atkin.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.board_directors.matthew_burkley.job_name %>
+        .col-md-9
+          p
+            | <%- @site.board_directors.matthew_burkley.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.board_directors.donal_smith.job_name %>
+        .col-md-9
+          p
+            | <%- @site.board_directors.donal_smith.job_desc_1 %>
+            a(href="http://FT.com", target="_blank") FT.com
+            | <%- @site.board_directors.donal_smith.job_desc_2 %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .clearfix.row
+        .col-md-3
+          h5 Ryan Terpstra
+        .col-md-9
+          p See bio above.
+  section.about-section.cover-content-3#section3.section(data-section='3')
+    <!-- Advisors -->
+    .container.advisors
+      .row
+        h3.section-title.text-uppercase Advisors
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.advisors.roger_ehrenberg.job_name %>
+        .col-md-9
+          p
+            | <%- @site.advisors.roger_ehrenberg.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.advisors.ian_koenig.job_name %>
+        .col-md-9
+          p
+            | <%- @site.advisors.ian_koenig.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+      .clearfix.row
+        .col-md-3
+          h5 <%- @site.advisors.emanuel_mond.job_name %>
+        .col-md-9
+          p
+            | <%- @site.advisors.emanuel_mond.job_desc %>
+          a.btn-read-more.text-center.text-capitalize read more
+  section.about-section.cover-content-4#section4.section(data-section='4')
+    <!-- Investors -->
+    .container.investors
+        .row
+          h3.section-title.text-uppercase Investors
+        .clearfix.row
+          p
+            | <%- @site.investors.investors_main.job_desc %>
+  section.about-section.cover-content-5#section5.section(data-section='5')
+    <!-- Contact Us -->
+    .contact-us
+      .container
+        .row
+          h3.section-title.text-uppercase Contact Us
+        .clearfix.container-box.row
+          .col-md-3.box
+            .content
+              a(href='mailto:info@seleritycorp.com') info@seleritycorp.com
+          .col-md-3.box
+            .content
+              a(href='mailto:sales@seleritycorp.com') sales@seleritycorp.com
+          .col-md-3.box
+            .content
+              a(href='mailto:support@seleritycorp.com') support@seleritycorp.com
+          .col-md-3.box
+            .content
+              a(href='mailto:press@seleritycorp.com') press@seleritycorp.com
+        .office-container.clearfix
+          .row
+            h3.text-uppercase.section-title Visit our office
+          .row
+            .col-md-6
+              .gmap
+                <iframe width="100%" height="285" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=7+West+36th+Street,+4th+Floor,+New+York+City,+NY+10018&amp;aq=&amp;sll=38.341656,-95.712891&amp;sspn=58.033323,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=7+W+36th+St,+New+York,+10018&amp;t=m&amp;z=14&amp;ll=40.750245,-73.984262&amp;iwloc=&amp;output=embed"></iframe>
+            .col-md-6.office-info
+              h4 NYC Headquarters
+              .container-address
+                .addr
+                  p.street 7 West 36th Street
+                  p.floor 4th Floor
+                  p New York City, NY 10018
+                .number-group
+                  p Tel. +1 646 655 0719
+                  p Fax. +1 201 604 5454
+              .logo-social-2.clearfix.logo-social.bg-white
+                a.fa.fa-circle.logo-twitter-2(href='https://twitter.com/Selerity')
+                  i.fa.fa-twitter
+                a.fa.fa-circle.logo-linkedin-2(href='http://www.linkedin.com/company/selerity')
+                  i.fa.fa-linkedin
+

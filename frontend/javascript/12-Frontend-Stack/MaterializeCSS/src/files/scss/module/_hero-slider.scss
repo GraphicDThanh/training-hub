@@ -1,0 +1,29 @@
+.slider {
+  .slides {
+    height: inherit !important;
+    .caption {
+      h3 {
+        @extend %font-bold;
+        @include font-size(60);
+        padding: 150px 0 50px;
+      }
+
+      a {
+        background-color: $puce;
+      }
+    }
+  }
+
+  .indicators {
+    left: 50px;
+    bottom: 50px;
+    z-index: 99;
+    .indicator-item {
+      display: block;
+      margin: 20px;
+      &.active {
+        @extend .pink.lighten-4;
+      }
+    }
+  }
+}

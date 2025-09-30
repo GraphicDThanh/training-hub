@@ -1,0 +1,12 @@
+.section.section--dark-bg(data-slide="3")
+  .section__wrap-content
+    .section__title services
+    .section__content.services
+      each item in services
+        .services__item.col-sm-3
+          .services__item-icon
+            img.services__item-icon--show(src="images/donovan/#{item.img}.png")
+            img.services__item-icon--hover-show(src="images/donovan/#{item.img_hover}.png")
+          .services__item-content
+            p.services__item-content--title= item.title
+            p.services__item-content--desc= item.content

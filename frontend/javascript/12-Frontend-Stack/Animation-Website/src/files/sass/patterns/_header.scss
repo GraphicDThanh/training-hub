@@ -1,0 +1,23 @@
+.header {
+  @extend %container;
+  @include position(relative);
+  height: 95px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  z-index: 1;
+  &__logo {
+    @include size(70px);
+    @include position(absolute);
+    &:hover .header__logo--image {
+      fill: $froly;
+    }
+
+    &--image {
+      @include transition(fill 0.2s ease);
+    }
+  }
+}
+
+.main-nav {
+  padding-left: 70px;
+}

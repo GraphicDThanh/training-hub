@@ -1,0 +1,91 @@
+.modal-request-content {
+  padding: 20px 100px;
+
+  .modal-request-close {
+    font-size: 1.375em;
+    color: #0d78b9;
+    border: 1px solid #0d78b9;
+    border-radius: 50%;
+    padding: 0px 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .modal-request-title,
+  .modal-request-private-title {
+    @include font-size-weight-lato(1.825em, 300);
+    color: #0d78b9;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .modal-request-private-title {
+    margin-bottom: 50px;
+  }
+
+  .modal-request-phone {
+    @include font-size-weight-lato(1.275em, 300);
+    color: #8e8e8e;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .modal-request-input,
+  .modal-request-button {
+    @include font-size-weight-lato(1.175em, 300);
+    border-radius: 2px;
+    line-height: 26px;
+    height: 42px;
+  }
+
+  .modal-request-textarea {
+    @include font-size-weight-lato(1.175em, 300);
+    border-radius: 2px;
+  }
+
+  .modal-request-select {
+    border-radius: 2px;
+    background-color: #0d78b9;
+    color: $base-color;
+    font-style: italic;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance:none;
+    appearance: none;
+    background-image: url('../img/selerity-new-version/select-down.png');
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    @include font-size-weight-lato(1.175em, 300);
+  }
+
+  .height {
+    height: 60px;
+  }
+
+  .modal-request-button {
+    padding: 10px 0;
+    font-weight: normal;
+    text-transform: capitalize;
+
+    &.hide-loading-state:after {
+      content: '';
+    }
+
+    &:after {
+      content: '\f110';
+      font-family: FontAwesome;
+      margin-left: 10px;
+      animation: rotate 1.5s infinite linear;
+    }
+  }
+}
+
+.modal-request-block {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  right: 0;
+}

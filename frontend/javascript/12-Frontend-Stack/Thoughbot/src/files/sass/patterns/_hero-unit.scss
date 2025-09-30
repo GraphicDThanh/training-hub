@@ -1,0 +1,39 @@
+.hero {  
+  @include background-cover($hero-image, center);
+  padding-bottom: 3em;
+
+  &__logo {
+    &--specific {
+      height: 4em;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 3.5em;
+    text-align: center;
+
+  }
+  
+  &__copy {
+    text-align: center;
+    &--content {
+      color: $hero-color;
+      line-height: 1.4em;
+      margin: 0 auto 3em auto; 
+
+      @include media($large-screen) {
+        font-size: 1.1em;
+        max-width: 40%;
+      }
+
+      @include media($medium-screen) {
+        max-width: 70%;
+      }
+    }
+  }
+}

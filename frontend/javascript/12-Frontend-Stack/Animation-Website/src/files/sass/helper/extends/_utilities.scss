@@ -1,0 +1,135 @@
+//-font style class
+%font-normal {
+  font-weight: $font-weight-normal;
+  font-style: normal;
+}
+
+%font-bold {
+  font-weight: bold;
+}
+
+%font-italic {
+  font-style: italic;
+}
+
+%font-light {
+  font-weight: $font-weight-light;
+}
+
+%font-thin {
+  font-weight: $font-weight-lighter;
+}
+
+//- force float
+%pull-left {
+  float: left;
+}
+
+%pull-right {
+  float: right;
+}
+
+//- style for list
+%none-style-list {
+  list-style: none;
+}
+
+//- reset class
+%reset-margin {
+  margin: 0;
+}
+
+%reset-padding {
+  padding: 0;
+}
+
+//- force restyle for link
+%none-style-link {
+  text-decoration: none;
+}
+
+//- force display
+%block {
+  display: block;
+}
+
+%inline {
+  display: inline;
+}
+
+%inline-block {
+  display: inline-block;
+}
+
+//text-style
+%text-center {
+  text-align: center;
+}
+
+%text-left {
+  text-align: left;
+}
+
+%text-right {
+  text-align: right;
+}
+
+%text-capitalize {
+  text-transform: capitalize;
+}
+
+%text-uppercase {
+  text-transform: uppercase;
+}
+
+%text-italic {
+  font-style: italic;
+}
+
+//- parent must have position relative
+%parent-force-center-content {
+  @include position(relative);
+}
+
+//- content need to force center
+%content-force-center-box {
+  @include position(absolute, 50% null null 50%);
+  @include transform(translate(-50%, -50%));
+}
+
+%sr-only {
+  display: none;
+}
+
+%pointer {
+  cursor: pointer;
+}
+
+%font-awesome {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+%open-sans {
+  //-font style class
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+%verdana {
+  font-family: 'Verdana', sans-serif;
+}
+%opacity-show {
+  @include opacity(1);
+}
+
+%opacity-hide {
+  @include opacity(0);
+}
+
+%bg-image-repeat-light {
+  background: url('../images/donovan/bg-light.jpg') repeat left top;
+}
+
+%bg-image-repeat-dark {
+  background: url('../images/donovan/bg-dark.jpg') repeat left top;
+}

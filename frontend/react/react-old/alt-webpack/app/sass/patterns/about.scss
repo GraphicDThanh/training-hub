@@ -1,0 +1,48 @@
+.about {
+  @include background-cover('../images/intro-bg.jpg', center);
+  color: $alabaster;
+  height: 700px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  &__brand {
+    margin: 0;
+    font-size: 5em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    &--sub {
+      border-bottom: 1px solid #fff;
+      margin: 0 auto 20px auto;
+      padding-bottom: 20px;
+      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+      width: 400px;
+    }
+  }
+  &__message {
+    @extend %text-center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  &__social-item {
+    &--link {
+      @extend %text-uppercase;
+      @extend %white-bg;
+      @include border-radius(6px);
+      @include link-style($black, $black);
+      @include font-size(14px);
+      padding: 10px 16px;
+      
+    }
+  }
+}
+
+@each $index, $icon in 
+  ("1", "\f099"),
+  ("2", "\f09b"),
+  ("3", "\f0e1") {
+  .about__social .about__social-item:nth-child(#{$index}) .about__social-item--link:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 18px;
+    content: "#{$icon}";
+    padding-right: 10px;
+  }
+}

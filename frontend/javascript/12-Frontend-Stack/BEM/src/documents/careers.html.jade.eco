@@ -1,0 +1,113 @@
+---
+layout: inner
+title: Careers
+active: careers
+---
+
+#carrers.carrers-selerity
+  header
+    .header-background-image
+  section.light-bg
+    .row
+      .cover-content
+        p.text-uppercase.carrer-page-title.text-center join team selerity
+        h3.text-center
+          span Extraordinary
+          |  results require 
+          span extraordinary
+          |  people doing 
+          span extraordinary
+          |  things.
+        .container.container-box.clearfix.text-center
+          h3.text-center.title Why Selerity?
+          .col-md-12
+            .box
+              h4.text-uppercase global impact
+              | Build and support products that move world financial markets independent of location or language.
+            .divider.hide-small-only
+            .box
+              h4.text-uppercase go big or go home
+              | Tackle big problems involving blazing speed, pinpoint accuracy and white glove service.
+            .divider.hide-small-only
+            .box
+              h4.text-uppercase creative solutions
+              | We value pushing the envelope by challenging convention, taking risks, and pushing boundaries.
+              br
+              | Smart. Resourceful. Fun.
+        ul#openings.navigation.container-button.text-center.list-unstyled(role='navigation')
+          li(data-section='1')
+            a(href='javascript:void(0);')
+              button.btn.btn-current-openings View Current Openings
+        .container.embrace.clearfix
+          .title.text-center <%- @site.investors.embrace.job_title %>
+          ul.clearfix
+            li.pull-left High caliber, hardworking, team oriented
+            li.pull-left Goal oriented with a direct impact on success
+          ul.clearfix
+            li.pull-left Self-motivated individuals that thrive in agile, fast-moving environments
+            li.pull-left Passionate problem solvers that like challenges
+          ul.clearfix
+            li.pull-left Customer centric and professional
+            li.pull-left “Good people” who are respectful of diverse backgrounds and experiences
+        hr.clearfix
+        .container.benefits.clearfix
+          h3 Benefits
+          .row
+            ul.clearfix
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-11.png')
+                  .col-md-9.col-xs-9
+                    h6 Medical, Dental, Vision, and Life InsuranceBenfits
+                    | Generous health benefits from a nationally recognized provider.
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-12.png')
+                  .col-md-9.col-xs-9
+                    h6 Pre-tax Transit Benefits
+                    | Pre-tax commuter benefits.
+            ul.clearfix
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-13.png')
+                  .col-md-9.col-xs-9
+                    h6 Self-managed Vacation Time
+                    | We’re all professionals.  As long as you’re productive we allow people to manage their own paid-time-off.
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-14.png')
+                  .col-md-9.col-xs-9
+                    h6 Referral Bonus
+                    | Generous referral bonus for all employees that refer candidates the company ends up hiring.
+            ul.clearfix
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-15.png')
+                  .col-md-9.col-xs-9
+                    h6 Employee Stock Options
+                    | We believe everyone should have a piece of the pie.  We’re all working towards making Selerity a great company.
+              li.pull-left
+                .col-md-12
+                  .col-md-3.col-xs-3
+                    img.img-responsive(src='/img/radius-16.png')
+                  .col-md-9.col-xs-9
+                    h6 Multiple Screen Workstations
+                    | Quantity often has a quality all its own, especially for screens and productivity.
+        hr.clearfix
+        section#section1.section(data-section='1')
+          .container.current-openings.clearfix
+            h3 Current Openings
+            .content.clearfix
+              #current-openings.container-text
+
+        .container.container-button.text-center
+          button.btn-recruiters
+            h6
+              | We are not currently using 3
+              sup rd
+              |  party recruiters for any of our open positions.

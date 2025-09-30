@@ -1,0 +1,27 @@
+- var powerful_card_list = []
+- powerful_card_list.push({icon_src: "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png", title: "premium content", content:"Selerity sources content from the best publishers, platforms, and researchers relevant to financial and business professionals."})
+- powerful_card_list.push({icon_src: "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png", title: "domain-optimized search", content:"Return recommended content based on your user's search queries optimized for their industry and profession."})
+- powerful_card_list.push({icon_src: "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png", title: "real-time push of novel and trending content", content:"Dynamically push your users relevant content based on their interests and what's trending in the market."})
+- powerful_card_list.push({icon_src: "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_4.png", title: "automated, anonymized persionalization", content:"Content individually tailored to users leveraging anonymized session IDs.Pass Selerity anonymized information about your users such as watch lists and profile information to further personalize their experience."})
+
+section.product-powerful
+  h3.product-powerful__title power new capitalities for your users
+  .product-powerful__blocks-content
+    each item in powerful_card_list
+      .content-card
+        .content-card__content
+          p.content-card__content--title= item.title
+          p.content-card__content--desc= item.content
+
+//- apply refil icon bullets
+section.product-powerful
+  h3.product-powerful__title power new capitalities for your users
+  .product-powerful__blocks-content
+    ul.bullets
+      each item, index in powerful_card_list
+        li.bullets__item
+          .bullets__icon(class="bullets__icon--#{index}")
+            img.bullets__icon--image(src="#{item.icon_src}" alt="")
+          .bullets__wrap-content
+            h2.bullets__wrap-content--title= item.title
+            p.bullets__wrap-content--content= item.content

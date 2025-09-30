@@ -1,0 +1,12 @@
+.section {
+  padding: 85px 0;
+  &__wrap-content {
+    @extend %container;
+  }
+
+  &__title {
+    @extend %text-capitalize;
+    @include font-size(70, 0.25);
+    border-bottom: 1px solid $alto;
+  }
+}

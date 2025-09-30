@@ -1,0 +1,12 @@
+.contact {
+  margin-top: 50px;
+  @extend %alabaster-color;
+  @include background-cover('../images/banner-bg.jpg', center);
+  padding: 100px 0;
+  &__title {
+    @extend %font-weight-700;
+    @extend %reset-margin;
+    font-size: 3em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  }
+}

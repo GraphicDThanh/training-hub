@@ -1,0 +1,58 @@
+
+
+/* Terms & Conditions */
+
+.terms-conditions {
+  background:#f1eee7;
+  color: #3d3d3d;
+  margin-bottom:5px;
+  padding:60px 90px;
+  z-index: 99999;
+
+  .modal-body {
+    position: relative;
+    padding: 20px 30px 30px;
+    overflow-y: auto;
+    height: 550px;
+  }
+
+  h5 {
+    font-size: 2em;
+    color:#333;
+    font-family: "Lato", sans-serif;
+  }
+
+  h6 {
+    font-size: 1.125em;
+    line-height: 1.625em;
+    color:#666;
+    font-family: "Lato", sans-serif;
+  }
+  p {
+    font-size: 16px;
+    color:#333;
+  }
+
+  ol {
+    color:#0c63ab;
+    margin:0;
+    padding-left:20px;
+    list-style-position:outside;
+
+    li {
+      display:list-item;
+      clear:left;
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 26px;
+
+      ol {
+        color:#333;
+
+        li {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}

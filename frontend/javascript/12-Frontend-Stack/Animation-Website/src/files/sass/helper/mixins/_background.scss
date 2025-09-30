@@ -1,0 +1,25 @@
+@mixin background-no-repeat($url, $position) {
+  background: url($url) $position no-repeat;
+}
+
+@mixin background-contain($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: contain; 
+}
+
+@mixin background-cover($url, $position) {
+  @include background-no-repeat($url, $position);
+  background-size: cover; 
+}
+
+//- background image with height
+@mixin bg-with-height($bg-url, $height) {
+  @include background-cover($bg-url, bottom);
+  height: $height;
+}
+
+//- transparent cover
+@mixin transparent-panel($color, $opacity) {
+  @include opacity($opacity);
+  background-color: $color; 
+}

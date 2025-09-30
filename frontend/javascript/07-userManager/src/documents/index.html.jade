@@ -1,0 +1,65 @@
+//- survey.html.jade
+extends ../layouts/default.jade
+
+block head-title
+  title User Manager
+
+block main-content
+  .container
+    h2.center.capitalize User Manager
+    //- input#search-box(type='text' placeholder='Search by name ...')
+    //- button.btn-search#btn-search Search
+    .row.search-wrapper
+      .col-lg-6
+        .input-group
+          input.form-control#search-content(type="text" placeholder="Search by username ...")
+          span.input-group-btn
+            button.btn.btn-primary#btn-search(type="button") Search
+    //- .add-wrapper
+    //-   input#user-name(type='text' placeholder='User name ...')
+    form.form-add-user
+      .text-center
+        label.form-title Form Add New User
+      .form-group
+        label(for="add-name") Name
+        input.form-control#add-name(type="text" placeholder="user name...")
+      .form-group
+        label(for="add-email") Email
+        input.form-control#add-email(type="email" placeholder="user.email@gmail.com")
+      .form-group
+        label(for="add-occupation") Occupation
+        input.form-control#add-occupation(type="text" placeholder="user's occupation")
+      button.btn.btn-primary#add-user(type="button") Add User
+
+    .panel.panel-default
+      .panel-heading User List
+      .panel-body
+        p This is list already users. You can search by name in search box above, edit or remove user with button.
+      .list-users.table
+        .table-header.row
+          .col-xs-1 #
+          .col-xs-3 User Name
+          .col-xs-3 Email
+          .col-xs-3 Occupation
+        .table-content#users-content
+        .modal.fade.modal-edit(tabindex="-1" role="dialog" aria-labelledby="edit-user-modal" aria-hidden="true")
+          .modal-dialog
+            .modal-content
+              .modal-header
+                button.close(type="button" data-dismiss="modal" aria-label="Close")
+                  span(aria-hidden="true") &times;
+                h4.modal-title#editModalLabel Edit User Content
+              .modal-body
+                form.form-edit-user
+                  .form-group
+                    label(for="edit-name") Name
+                    input.form-control#edit-name(type="text" placeholder="user name...")
+                  .form-group
+                    label(for="edit-email") Email
+                    input.form-control#edit-email(type="email" placeholder="user.email@gmail.com")
+                  .form-group
+                    label(for="edit-occupation") Occupation
+                    input.form-control#edit-occupation(type="text" placeholder="user's occupation")
+              .modal-footer
+                button.btn.btn-default(type="button" data-dismiss="modal") Close
+                button.btn.btn-primary.save-change(type="button") Save changes

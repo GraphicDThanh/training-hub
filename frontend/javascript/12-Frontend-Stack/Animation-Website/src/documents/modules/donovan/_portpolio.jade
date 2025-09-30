@@ -1,0 +1,16 @@
+.section.section--light-bg(data-slide="6")
+  .section__wrap-content
+    .section__title portpolio
+    .section__content.portpolio
+      each portpolio in portpolio_list
+        .portpolio__item
+          .portpolio__wrap-item-content
+            img.portpolio__item-frame(src="images/donovan/img_block_bg.png")
+            img.portpolio__item-image(src="images/donovan/#{portpolio.img}.jpg")
+            .portpolio__desc
+              p.portpolio__desc--title Nunc non purus
+              p.portpolio__desc--content Quisque vulputate tristique
+            .portpolio__icon.portpolio__zoom
+              a.portpolio__icon--link(href="javascript:avoid(0)")
+            .portpolio__icon.portpolio__link
+              a.portpolio__icon--link(href="javascript:avoid(0)")

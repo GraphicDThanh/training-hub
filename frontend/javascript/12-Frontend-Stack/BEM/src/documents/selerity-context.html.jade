@@ -1,0 +1,72 @@
+---
+layout: inner
+title: Products
+active: products
+---
+
+.products-context-selerity
+  header.container-fluid
+    .row.header-brackground-image
+      .header-background-color
+      .header-content.text-center
+        h2 Selerity Context on Symphony
+        h3 Combing Content and Messaging to Facilitate True Collaboration
+  section.intro-products
+    .container
+      .intro-products-block
+        .row
+          .col-md-6.col-xs-12
+            a(href="javascript:void(0)").intro-products-image
+              img(src="img/selerity-new-version/tmp-sympathy.jpg", alt="sympathy")
+          .col-md-6.col-xs-12
+            .intro-products-content
+              a.btn-request-beta(type='button',data-toggle='modal',data-target='#modal-request-private')
+                span.text-capitalize request private beta access
+              .intro-products-description
+                p
+                  | Selerity Context integrated with Symphony's secure messaging platform gives
+                  | financial professionals seamless access to contextually relevant news, research,
+                  | and Selerity's proprietary breaking news notifications for better decision making and Collaboration
+                p Our service allows users to rapidly discover content based on their search queries and
+                  | be dynamically pushed contextually relevant trending events
+  section
+    #premium-slider.carousel.slide(data-ride="carousel")
+      span.above-line
+      ol.carousel-indicators
+        li.premium-list-item(data-target="#premium-slider", data-slide-to="0" class="active")
+        li.premium-list-item(data-target="#premium-slider", data-slide-to="1")
+        li.premium-list-item(data-target="#premium-slider", data-slide-to="2")
+        li.premium-list-item(data-target="#premium-slider", data-slide-to="3")
+        li.premium-list-item(data-target="#premium-slider", data-slide-to="4")
+      .carousel-inner.premium-content(role="listbox")
+        .item.active
+          .premium-content-block
+            h2 Premium Content
+            p Over fifteen premium publishers including the Financial Times, Reuters, and Business Insider providing real-time reporting on the global equities, currency, and commodity markets.
+        .item
+          .premium-content-block
+            h2 Selerity Breaking News Notifications
+            p Get Selerity’s breaking news notifications pushed to you. When we scoop a big event, you'll know about it.
+        .item
+          .premium-content-block
+            h2 Real-time Discovery & Updates
+            p Selerity Context will push you novel content based on your search queries, interests, and what's trending. Just keep the window open and let the magic happen.
+        .item
+          .premium-content-block
+            h2 Rapid, Single-click Search
+            p Rapidly search companies, currencies, and commodities by clicking $ tags and # tags in your chat session.  You can also get recommended content by inputting queries in the Selerity Context search bar.
+        .item
+          .premium-content-block
+            h2 Anonymized, Secure Personalization
+            p Selerity Context automatically  personalizes your experience using machine-learning and anonymized session IDs that cannot be linked back to you.  Information security and data privacy are key tenants of our platform.
+            p For more information, please contact
+              a(href='mailto:security-officer@seleritycorp.com')  security-officer@seleritycorp.com
+      a.left.carousel-control(href="#premium-slider", role="button", data-slide="prev")
+        span.menu-left(aria-hidden="true")
+        span.sr-only Previous
+      a.right.carousel-control(href="#premium-slider", role="button", data-slide="next")
+        span.menu-right(aria-hidden="true")
+        span.sr-only Previous
+  .popup-block-fixed
+    button.close#popup-close(type="button") ×
+    .image-popup

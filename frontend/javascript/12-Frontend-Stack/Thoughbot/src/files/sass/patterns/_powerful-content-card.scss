@@ -1,0 +1,25 @@
+.content-card {
+  @extend %text-center;
+  @include flex-basis(10em);
+  @include flex-grow(1);
+  background-color: $dark-grayer;
+  height: 275px;
+  margin: 1em;
+  padding: 40px 20px 0 20px;
+
+
+  @include e('content') {
+    color: $white;
+    @include m('title') {
+      @extend %font-normal;
+      @extend %text-uppercase;
+      @include font-size(18);
+      height: 70px;
+    }
+
+    @include m('desc') {
+      @extend %font-light;
+      @include font-size(15);
+    }
+  }
+}

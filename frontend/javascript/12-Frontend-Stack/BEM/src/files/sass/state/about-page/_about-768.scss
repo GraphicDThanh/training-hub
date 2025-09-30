@@ -1,0 +1,236 @@
+@media screen and (max-width: 768px) {
+  .navbar-fixed-top.style-scroll-down .navbar-button .navbar-button__iconbar {
+    background-color: #0d78b9 !important;
+  }
+
+  .about-selerity {
+    .btn-read-more {
+      display: inherit;
+    }
+
+    p.show {
+      display: block !important;
+      height: auto !important;
+      text-overflow: initial !important;
+      overflow: visible !important;
+
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+    .cover-content-4 .investors h3,
+    .cover-content-5 .contact-us .section-title,
+    .cover-content-3 .advisors h3,
+    .cover-content-2 .board-directors h3 {
+      margin-bottom: 0;
+    }
+
+    .cover-content-2 .board-directors .col-md-9,
+    .cover-content-3 .advisors .col-md-9 {
+      border-top: none;
+      padding-bottom: 50px;
+    }
+
+
+    .container {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    .about-section .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .intro .section-title {
+      text-align: left;
+    }
+
+    .logo-social-2 {
+      display: none;
+    }
+
+    .container-address {
+      .floor {
+        display: none;
+      }
+
+      .street {
+        font-size: 40px;
+      }
+
+      .addr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .contact-us .container-box {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    .office-info {
+      text-align: center;
+    }
+
+    .section-title {
+      text-align: center;
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+
+    .cover-content-1 .executive-team .section-title {
+      padding-bottom: 30px;
+    }
+
+    .executive_member {
+      text-align: center;
+      .col-md-9 {
+        padding-top: 40px;
+      }
+
+      h5 {
+        margin-bottom: 20px;
+      }
+
+      .logo-social-1 {
+        position: static;
+        margin-right: 0;
+      }
+
+      .img-responsive {
+        display: inline-block;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+
+    .board-directors,
+    .cover-content-3 {
+      h5 {
+        text-align: center;
+      }
+    }
+
+    .cover-content-5 .contact-us .container-box {
+      .content {
+        padding: 0;
+        border: none;
+        text-align: left;
+      }
+
+      div.box {
+        a:before {
+          font-size: 30px;
+          font-weight: 300;
+          position: static;
+          width: 150px;
+          display: inline-block;
+        }
+      }
+    }
+
+    .about-nav {
+      display: none;
+    }
+
+    .header-content {
+      @include transform(none);
+      @include position(relative, 0, null, null, 0);
+      margin-top: 30%;
+      p {
+        font-size: 30px;
+        padding-left: 20%;
+        padding-right: 20%;
+        line-height: 40px;
+        width: auto;
+      }
+
+      .left-corner {
+        left: 15%;
+      }
+
+      .right-corner {
+        right: 15%;
+      }
+    }
+  }
+
+  .cover-content-5 .contact-us .office-container .office-info {
+    padding-top: 40px;
+  }
+
+  .logo-social.bg-white .fa-circle .fa-twitter {
+    left: 25%;
+  }
+
+  .logo-social.bg-white .fa-circle .fa-linkedin {
+    left: 30%;
+  }
+
+  .cover-content-5 .contact-us .office-container .office-info {
+    padding-left: 0;
+  }
+
+  .logo-social {
+    &.bg-dark {
+      .fa-twitter {
+        font-size: 23px;
+        left: 30%;
+      }
+
+      .fa-linkedin {
+        font-size: 21px;
+        left: 34%;
+      }
+      
+    }
+
+    a.fa-circle {
+      width: 50px;
+      &:before {
+        font-size: 45px;
+      }
+    }
+  }
+
+  .about-selerity .executive_member p ,
+  .cover-content-2 .board-directors p,
+  .cover-content-3 .advisors  p  {
+    @include text-ellipsis-by-line(30px, 1.45, 7);
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .about-selerity,
+  .about-selerity .intro .part-intro p,
+  .cover-content-3 .advisors p,
+  .cover-content-4 .investors p,
+  .cover-content-5 .contact-us .container-box div.box a,
+  .cover-content-5 .contact-us .office-container .container-address,
+  .board-directors h5,
+  .cover-content-2 .board-directors p,
+  .cover-content-1 .executive-team p {
+    font-size: 30px;
+  }
+
+  .cover-content-5 .contact-us .office-container .container-address {
+    line-height: 45px;
+  }
+
+  .cover-content-2 .board-directors h5,
+  .cover-content-3 .advisors h5,
+  .cover-content-1 .executive-team h5,
+  .about-selerity .section-title {
+    font-size: 50px;
+  }
+
+  .cover-content-1 .executive_member h6,
+  .cover-content-5 .contact-us h4 {
+    font-size: 40px;
+  }
+}

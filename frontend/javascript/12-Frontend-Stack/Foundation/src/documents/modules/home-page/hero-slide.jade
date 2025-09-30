@@ -1,0 +1,19 @@
+- var logo_list = []
+- logo_list.push({logo:"axist"})
+- logo_list.push({logo:"benhogan"})
+- logo_list.push({logo:"callaway"})
+- logo_list.push({logo:"cubavera"})
+- logo_list.push({logo:"grandslam"})
+- logo_list.push({logo:"havanera"})
+- logo_list.push({logo:"jacknicklaus"})
+- logo_list.push({logo:"jag"})
+- logo_list.push({logo:"jantzen"})
+- logo_list.push({logo:"perryellis"})
+
+  .hero
+    .slideshow(data-orbit)
+      each item in logo_list
+        .slideshow__item
+          .slideshow__image
+          .slideshow__panel-transparent
+            img.slideshow__logo(src="images/logo/#{item.logo}.png")

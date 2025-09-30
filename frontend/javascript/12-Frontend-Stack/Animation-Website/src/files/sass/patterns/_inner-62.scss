@@ -1,0 +1,35 @@
+.wrap-content {
+  @extend %container;
+}
+
+@each $index, $bg in 
+  ("1", "Adam-Lovell-Maccano-Karen-Ishigoru.jpg"),
+  ("2", "Alberto-Trombin-Fashion.jpg"),
+  ("3", "Aliesha-Robertson.jpeg"),
+  ("4", "Alex-Feneridis.jpg"),
+  ("5", "Boys-62-17may15779-220x296.jpg"),
+  ("6", "Aliah-Morpeth-Andrie.jpg"),
+  ("7", "Alicia-Davis.jpg"),
+  ("8", "Alisa-Ahmann.jpg"),
+  ("9", "Alys-Hale.jpg"),
+  ("10", "Alyssa-Hiyama-Beauty-Test-2-copy-220x296.jpg"),
+  ("11", "Amalie-Gassmann-Shoot-01-220x296.jpg"),
+  ("12", "Amanda-Mitchell-Beauty-05-220x296.jpg"),
+  ("13", "Amber-Lyon-Adam-Bryce-Test-02-220x296.jpg"),
+  ("14", "Amy-Finlayson-Shoot-01-220x296.jpg"),
+  ("15", "Andreja-Pejic-Patrick-Demarchelier-Shoot-01-220x296.jpg"),
+  ("16", "Andrew-Eggleton-Test-06-220x296.jpg"),
+  ("17", "AndrewF_resized_FB-220x296.jpg"),
+  ("18", "1AMissue25-copy-220x296.jpg"),
+  ("19", "Anna-Lines-Jedd-Cooney-Pitch-Zine-011-220x296.jpg"),
+  ("20", "Annabel-Liddell-Laura-Test-06-220x296.jpg"),
+  ("21", "Annaliese-Treharne-01-220x296.jpg")
+{
+  .grid-content .talent-item:nth-child(#{$index}) .talent-item__thumbnail--image {
+    @include background-cover('../images/grid-content/#{$bg}', center);
+  }
+}
+
+.grid-content .talent-item:not(:first-child):nth-child(5n) {
+  margin-right: 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <span id="result"></span>
+    <span>hello</span>
+
+    <div>
+      <span>hello</span>
+      <span id="demo-1"></span>
+    </div>
+    <script type="text/javascript">
+    // add space to the right
+      var prefLineLength1 = 20;
+      var oldStr1 = "This is a string";
+
+      var diff1 = prefLineLength1 - oldStr1.length;
+      var filler1 = '&nbsp;';
+
+      for(var i = 0; i < diff1; i++) {
+        oldStr1 += filler1;
+      }
+
+      document.getElementById("result").innerHTML = oldStr1;
+
+      // add space to the left
+      var prefLineLength2 = 50;
+      var oldStr2 = "This is a string";
+
+      var diff2 = prefLineLength2 - oldStr2.length;
+      var filler2 = '&nbsp;';
+
+      for(var i = 0; i < diff2; i++) {
+        oldStr2 = filler2 + oldStr2;
+      }
+      document.getElementById("demo-1").innerHTML = oldStr2;
+    </script>
+  </body>
+</html>

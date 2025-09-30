@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Using Safari Orientation events and Other Mobile Development Environments</title>
+    <script>
+    window.onorientationchange = function () {
+      var orientation = window.orientation;
+      switch(orientation) {
+        case 0:
+              // portrait orientation;
+              break;
+        case 90:
+        case -90:
+              // lanscape orientation
+              break;
+      }
+    }
+    </script>
+  </head>
+</html>

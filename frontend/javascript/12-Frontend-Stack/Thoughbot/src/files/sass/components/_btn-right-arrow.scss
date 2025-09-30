@@ -1,0 +1,25 @@
+.btn-right-arrow {
+  @include button-variant($white, $blue-darker, $blue-darker);
+  @include button-size(20px, 50px, 22px, null, 50px);
+  cursor: pointer;
+  &:after {
+    @include font-awesome('\f054');
+    @include position(absolute, 25% 5% null null);
+    @include media(max-width $small-medium-screen) { 
+      top: 30%;
+    }
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  @include media(max-width $large-screen) {
+    font-size: 18px;
+  }
+
+  @include media(max-width $small-medium-screen) {
+    font-size: 14px;
+    padding: 18px 30px;
+  }
+}

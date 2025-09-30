@@ -1,0 +1,137 @@
+.main-navigation {
+  @extend %open-sans;
+  @extend %text-center;
+  @include size(100% 76px);
+  background-color: $mine-shaft;
+  z-index: 2;
+
+  &__container {
+    @extend %container;
+  }
+
+  &__menu {
+    @include border-bottom-radius(5px);
+    @include border-top-radius(5px);
+    overflow: hidden;
+  }
+
+  &__btn-dropdown {
+    @include border-top-radius(5px);
+    @include border-bottom-radius(5px);
+    @include link-style($cod-gray, $silver-chalice);
+    background-color: $white;
+    padding: 5px 40px;
+  }
+
+  &__menu-item {
+    @extend %pointer;
+    @include transition(all 0.3s ease-in-out);
+    @include link-style($silver-chalice, $white);
+    @include font-size(18);
+    font-weight: 400;
+    padding-bottom: 10px;
+    width: 128px;
+    &--active {
+      color: $white;
+    }
+
+    &:nth-child(1):hover ~ .main-navigation__effect {
+      left: -25px;
+    }
+
+    &:nth-child(2):hover ~ .main-navigation__effect {
+      left: 100px;
+    }
+
+    &:nth-child(3):hover ~ .main-navigation__effect {
+      left: 230px;
+    }
+
+    &:nth-child(4):hover ~ .main-navigation__effect {
+      left: 350px;
+    }
+
+    &:nth-child(5):hover ~ .main-navigation__effect {
+      left: 480px;
+    }
+
+    &:nth-child(6):hover ~ .main-navigation__effect {
+      left: 610px;
+    }
+  }
+
+  &__effect {
+    @include background-contain('../images/donovan/menu_effect.png', center);
+    @include size(128px 10px);
+    @include position(relative, null null 7px -70px);
+    @include transition(0.5s ease-in-out);
+  }
+}
+
+@include media($screen-320-768) {
+  .main-navigation {
+    @include position(fixed, 0 null null null);
+    &__container {
+      @include position(relative);
+      width: 200px;
+    }
+
+    &__btn-dropdown {
+      @extend %font-bold; 
+      display: inline-block;
+      margin-left: -50px;
+      margin-top: 20px;
+    }
+
+    &__menu {
+      display: none;
+      margin-top: 10px;
+    }
+
+    &__menu-item {
+      @extend %block;
+      @extend %cod-gray-color;
+      @extend %text-left;
+      background-color: $white;
+      padding-left: 15px;
+      padding-top: 10px;
+      width: 100%;
+      &:hover {
+        @extend %white-color;
+        background-color: $cod-gray;
+      }
+    }
+
+    &__effect {
+      display: none;
+    }
+  }
+}
+
+@include media($screen-768-up) {
+  .main-navigation {
+    @include position(relative);
+    margin-top: -76px;
+    &.main-navigation--fixed {
+      @include position(fixed, 0 0 0 0 );
+      margin-top: 0;
+    }
+
+    &__btn-dropdown {
+      display: none;
+    }
+
+    &__menu {
+      display: block;
+      margin: 0 auto;
+      padding-top: 25px;
+      width: 770px;
+    }
+
+    &__menu-item {
+      border-bottom: 1px solid $mine-shaft-lighter;
+      display: inline-block;
+      margin: 0 -2.5px;
+    }
+  }
+}

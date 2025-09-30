@@ -1,0 +1,12 @@
+- var picture_news_list = []
+- picture_news_list.push({link_to:"/Content/AnnualReport/index.html", img_src:"", desc:"Perry Ellis International Annual Report 2015"})
+- picture_news_list.push({link_to:"http://investor.pery.com/releasedetail.cfm?ReleaseID=893235", img_src:"", desc:"Perry Ellis Launches Spring 2015 Advertising Campaign"})
+- picture_news_list.push({link_to:"http://investor.pery.com/releasedetail.cfm?ReleaseID=770444", img_src:"", desc:"Perry Ellis International 20th Anniversary on NASDAQ and New Manhattan Headquarters"})
+.panel.picture-news
+  .row
+    each item in picture_news_list
+      .columns.large-4.medium-4.picture-news__item
+        a.picture-news__link-to(href="#{item.link_to}")
+          .picture-news__image
+
+          p.picture-news__desc.text-center= item.desc

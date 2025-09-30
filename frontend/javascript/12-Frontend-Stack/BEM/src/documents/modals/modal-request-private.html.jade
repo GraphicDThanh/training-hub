@@ -1,0 +1,32 @@
+//- Modal request private
+#modal-request-private.modal.fade(tabindex="-1", role="dialog", aria-labelledby="modal-request-title")
+  .modal-dialog.modal-request-block(role="document")
+    .modal-content.modal-request-content
+      button.close.modal-request-close(type="button", data-dismiss="modal", aria-label="Close")
+        span(aria-hidden="true") &times;
+      h4#modal-request-private-title.modal-title.modal-request-title.modal-request-private-title request beta access
+      form#requestPrivateBeta.form-horizontal
+        .form-group
+          .row
+            .col-xs-12.col-md-6
+              input.form-control.modal-request-input.first-name.height(name="firstname", type="text", placeholder="First Name")
+            .col-xs-12.col-md-6
+              input.form-control.modal-request-input.height(name="lastname" type="text" placeholder="Last Name")
+        .form-group
+          input.form-control.modal-request-input.height(name="email" type="email" placeholder="Work Email")
+        .form-group
+          input.form-control.modal-request-input.height(name="phone" type="text" placeholder="Work Phone (optional)")
+        .form-group
+          input.form-control.modal-request-input.height(name="company" type="text" placeholder="Company Name")
+        .form-group
+          select.form-control.modal-request-select.height(name="about")
+            option(value="" disabled selected) What Best Describes You?
+            option(value="Institutional Trader") Institutional Trader
+            option(value="Portfolio Manager") Portfolio Manager
+            option(value="Analyst") Analyst
+            option(value="Retail Investor") Retail Investor
+            option(value="Business Intelligence Professional") Business Intelligence Professional
+            option(value="Economist") Economist
+            option(value="Other") Other
+        .form-group
+          button.btn.btn-primary.col-xs-12.modal-request-button.height.hide-loading-state(type="submit") submit

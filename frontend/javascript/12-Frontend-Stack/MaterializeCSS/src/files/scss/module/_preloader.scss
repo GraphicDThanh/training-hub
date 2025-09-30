@@ -1,0 +1,51 @@
+body {
+  overflow: hidden;
+  &.loading {
+    overflow: visible;
+  }
+}
+
+
+
+.loading .pre-loader {
+  &__valign {
+    @include display(none);
+  }
+
+  &__section {
+    &--left {
+      @include transform(translateX(-100%));
+      transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+      -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+
+    &--right {
+      @include transform(translateX(100%));
+      transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+      -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    }
+  }
+
+}
+
+.pre-loader {
+  @include absolute(top 0 bottom 0);
+  width: 100%;
+  &__valign {
+    z-index: 2000;
+    margin: 0 auto;
+  }
+
+  &__section {
+    @include fixed(top 0);
+    @include size(51%, 100%);
+    z-index: 1000;
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+  }
+}

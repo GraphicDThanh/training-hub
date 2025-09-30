@@ -1,0 +1,14 @@
+// create reusable fucntion will can an event
+// cancel event
+function cancelEvent (Event) {
+  if (event.preventDefault) {
+    event.preventDefault();
+  } else {
+    event.returnValue = false;
+  }
+}
+
+function validateForm(evt) {
+  evt = evt || window.event;
+  cancelEvent(evt);
+}

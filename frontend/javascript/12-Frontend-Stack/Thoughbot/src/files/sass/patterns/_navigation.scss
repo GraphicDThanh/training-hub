@@ -1,0 +1,16 @@
+.horizontal-list {
+  @extend %none-style-list;
+  @extend %reset-margin;
+  @include e('item') {
+    @include media($medium-small-screen) {
+      float: left;
+    }
+
+    @include e('link') {
+      @extend %block;
+      @include media(max-width $medium-small-screen) {
+        text-align: right;
+      }
+    }
+  }
+}

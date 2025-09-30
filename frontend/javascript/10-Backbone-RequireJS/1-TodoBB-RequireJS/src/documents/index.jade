@@ -1,0 +1,18 @@
+//- survey.html.jade
+extends ./layouts/default.jade
+
+block head-title
+  title TodoList with Backbone
+
+block main-content
+  .container
+    section.todoapp
+      header#header
+        h1.text-center todos
+        input#new-todo(type='text', placeholder='what need to be done?')
+      section#main.main-content
+        label.check-all-item
+          input#toggle-all(type='checkbox' name="all-items")
+          span.overlay
+        ul#todo-list.todo-list.list-unstyled
+      footer#footer.footer-content.text-center

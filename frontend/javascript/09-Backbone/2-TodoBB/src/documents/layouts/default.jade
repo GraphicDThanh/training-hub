@@ -1,0 +1,73 @@
+//- default.jade
+doctype html
+html(lang="en")
+  //- vars block is used for passing between jade templates
+  head
+    block head-title
+      title TodoList with Backbone
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+
+    //- Import when build gulp task production
+    //- link(href="./files/styles/main.min.css" rel="stylesheet", type="text/css")
+
+    //- Import when build gulp task default(develop)
+    link(href="./files/styles/main.css" rel="stylesheet", type="text/css")
+  body
+    block main-content
+      .main-content Default layout
+    <!-- Scripts -->
+
+    //- Import when build gulp task production
+    //- script(src="./files/bower-components/vendor.min.js", defer)
+    //- script(src="./files/scripts/main.min.js", defer)
+
+    //- Import when build gulp task default(develop)
+    script(src="./files/bower-components/jquery.js" defer)
+    script(src="./files/bower-components/bootstrap.js" defer)
+    script(src="./files/bower-components/underscore.js" defer)
+    script(src="./files/bower-components/backbone.js" defer)
+    script(src="./files/bower-components/backbone.localStorage.js" defer)
+    script(src="./files/bower-components/handlebars.js" defer)
+
+    script(src="./files/scripts/configHandle.js" defer)
+    script(src="./files/scripts/todo.js" defer)
+    script(src="./files/scripts/todos.js" defer)
+    script(src="./files/scripts/todo-view.js" defer)
+    script(src="./files/scripts/app-view.js" defer)
+    script(src="./files/scripts/router.js" defer)
+    script(src="./files/scripts/app.js" defer)
+
+    script#todo-template(type="text/x-handlebars-template")
+      {{#if done}}
+      .view
+        label
+          input.toggle(type="checkbox" name="task-item" checked)
+          span.overlay
+        label.task-title.done {{title}}
+        input.edit-todo.hide
+        button.destroy
+      | {{else}}
+      .view
+        label
+          input.toggle(type="checkbox" name="task-item")
+          span.overlay
+        label.task-title {{title}}
+        input.edit-todo.hide
+        button.destroy
+      | {{/if}}
+
+    script#footer-template(type="text/x-handlebars-template")
+      span#todo-count.counter.text-left
+        strong {{notDone}}
+        span  {{#compare this.notDone 2 operator="<"}} item
+              | {{else}} items
+              | {{/compare}}
+      ul#filters.filters.list-unstyled.clearfix
+        li
+          a#all-task.selected(href='#/') All
+          a#active-task(href='#/active') Active
+          a#completed-task(href='#/completed') Completed
+        {{#if done}}
+        li
+          button#clear-completed Clear completed
+        {{/if}}

@@ -1,0 +1,96 @@
+// base/variables/depend-variables
+// $tab-action-color: $tufts-blue;
+// $tab-content-background: lighten($light-gray, 10);
+// $tab-active-background: $tab-content-background;
+// $tab-inactive-color: $white;
+// $tab-inactive-hover-color: darken($light-gray, 5);
+// $tab-mode: $medium-screen;
+// $tab-border: 1px solid $gainsboro;
+
+.accordion-tabs {
+  @include clearfix;
+  line-height: 1.5;
+  margin-bottom: $base-spacing;
+  padding: 0;
+
+  @include media(max-width $tab-mode) {
+    border-radius: $base-border-radius;
+    border: $tab-border;
+  }
+
+  &__item {
+    list-style: none;
+
+    @include media($tab-mode) {
+      display: inline;
+    }
+
+    &:first-child .accordion-tabs__link {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+
+      @include media(max-width $tab-mode) {
+        border-top: 0;
+      }
+    }
+
+    &:last-child .accordion-tabs__link {
+      @include media(max-width $tab-mode) {
+        border-bottom-left-radius: $base-border-radius;
+        border-bottom-right-radius: $base-border-radius;
+      }
+    }
+  }
+
+  &__link {
+    background-color: $tab-inactive-color;
+    border-top: $tab-border;
+    color: $dark-gray;
+    display: block;
+    font-weight: bold;
+    padding: $base-spacing/2 $gutter/2;
+    text-decoration: none;
+
+    @include media($tab-mode) {
+      border-top-left-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border-top: 0;
+      display: inline-block;
+    }
+
+    &:hover {
+      color: $tab-action-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &--active {
+      background-color: $tab-active-background;
+
+      @include media($tab-mode) {
+        background-color: $tab-active-background;
+        border: $tab-border;
+        border-bottom-color: $tab-active-background;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  &__content {
+    background: $tab-content-background;
+    display: none;
+    padding: $base-spacing $gutter;
+    min-height: 250px;
+    width: 100%;
+
+    @include media($tab-mode) {
+      border-bottom-left-radius: $base-border-radius;
+      border-bottom-right-radius: $base-border-radius;
+      border-top-right-radius: $base-border-radius;
+      border: $tab-border;
+      float: left;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+//- default.jade
+doctype html
+html(lang="en")
+  //- vars blocks is used for passing between jade templates
+  head
+    block head-title
+      title Javascript Practice
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")/
+    link(href="./styles/main.css", rel="stylesheet", type="text/css")
+    
+  body
+    block main-content
+      .main-content Default layout
+
+    <!-- Scripts -->
+    != getBlock('scripts').toHTML()
+    script(src="./vendor/jquery/dist/jquery.js")
+    script(src="./scripts/todo.js")
+    script(src="./scripts/todoView.js")
+    script(src="./scripts/todoListViews.js")
+    script(src="./scripts/helper.js")
+    script(src="./scripts/main.js").
+      HTMLInspector.inspect()

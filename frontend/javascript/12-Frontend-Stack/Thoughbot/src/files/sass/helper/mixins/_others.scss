@@ -1,0 +1,22 @@
+//- opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin link-style(
+  $color: $blue-link-color, 
+  $text-decoration: none, 
+  $bg: transparent, 
+  $color-hover: darken($blue-link-color, 10%),
+  $bg-hover: transparent) 
+{
+  color: $color;
+  text-decoration: $text-decoration;
+  background-color: $bg;
+  &:hover {
+    color: $color-hover;
+    background-color: $bg-hover;
+  }
+}

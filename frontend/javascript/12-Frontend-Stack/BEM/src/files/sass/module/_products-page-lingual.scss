@@ -1,0 +1,136 @@
+.products-page-lingual {
+  height: 794px;
+  text-align: center;
+  color: #fff;
+
+  .lingual-title {
+    @include font-size-weight-lato(30px, 300);
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
+
+  .lingual-description {
+    width: 830px;
+    margin: 15px auto 30px auto;
+  }
+
+  .lingual-description,
+  .lingual-line-item a {
+    @include font-size-weight-lato(20px, 300);
+    color: #fff;
+
+  }
+
+  .lingual-line-item {
+    float: left;
+
+    a {
+      text-decoration: none;
+    }
+
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+
+    &:after {
+      @include font-size-weight-lato(20px, 300);
+      content: "/";
+      margin-right: 5px;
+    }
+  }
+
+  .lingual-line {
+    @include size-width-height(91px, 2px);
+    background-color: #fff;
+    margin: 0 auto;
+  }
+
+  .lingual-line-languages {
+    @include font-size-weight-lato(25px, 300);
+    margin: 20px 0;
+  }
+
+  .lingual-line-list {
+    list-style: none;
+    width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .lingual-padding-top {
+    padding-top: 90px;
+    background-color: #3d3d3d;
+    padding-bottom: 40px;
+  }
+
+  .lingual-background-black {
+    background-color: #505050;
+    height: 100%;
+  }
+
+  .lingual-black-block,
+  .lingual-black-block-white,
+  .lingual-black-block-arrow {
+    @include size-width-height(212px, 319px);
+    margin: 30px auto;
+  }
+
+  .lingual-black-block,
+  .lingual-black-block-white {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0 5px;
+  }
+
+  .lingual-black-block-arrow {
+
+    .lingual-arrow-db-right,
+    .lingual-arrow-db-left {
+      @include size-width-height(53px, 46px);
+      @include position(absolute, 40%, null, null, 60%);
+      @include translate(-50%, 50%);
+    }
+
+    .lingual-arrow-db-right {
+      @include background-contain('../img/selerity-new-version/arrow-db-right.png');
+    }
+
+    .lingual-arrow-db-left {
+      @include background-contain('../img/selerity-new-version/arrow-db-left.png');
+    }
+  }
+
+  .lingual-black-block-white {
+    background-color: #fff;
+    color: #505050;
+  }
+
+  .lingual-black-icon {
+    @include size-width-height(90px, 90px);
+    margin: 25px auto;
+  }
+
+  .lingual-black-title {
+    @include font-size-weight-lato(15px, 400);
+    margin: 10px 0;
+    text-transform: capitalize;
+  }
+
+  .ligual-back-description {
+    @include font-size-weight-lato(15px, 300);
+  }
+
+  .lingual-black-icon-domain {
+    @include background-contain('../img/selerity-new-version/domain-icon.png');
+  }
+
+  .lingual-black-icon-personal {
+    @include background-contain('../img/selerity-new-version/personal-icon.png');
+  }
+
+  .lingual-black-icon-domain-specific {
+    @include background-contain('../img/selerity-new-version/domain-specific.png');
+  }
+}

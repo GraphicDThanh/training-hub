@@ -1,0 +1,46 @@
+.hover-tile {
+  @include flex-basis(17em);
+  @include flex-grow(1);
+  border: 1px solid $base-border-color;
+  cursor: pointer;
+  height: $hover-tile-height;
+  margin: 1em;
+  @include media($medium-screen) {
+    width: 40%;
+  }
+
+  &__container {
+    height: $hover-tile-height;
+    overflow: hidden;
+  }
+
+  &__container:hover > .hover-tile__wrapper--hidden {
+    @include transform(translate(0, -100%));
+  }
+
+  &__wrapper {
+    @include transition(all, 0.2s ease-in-out);
+    background: inherit;
+    color: white;
+    height: inherit;
+    overflow: hidden;
+    padding: $base-spacing;
+    &--hidden {
+      @extend %text-center;
+      background: transparentize($blue-lighter, 0.1);
+      .hover-tile__title {
+        @extend %font-normal;
+        @extend %text-capitalize;
+        @include font-size(25, 0.8);
+        margin: 0 0 0.5em 0;
+        height: 80px;
+      }
+
+      .hover-tile__content {
+        @include font-size(20);
+        color: transparentize(#fff, 0.3);
+        line-height: $base-line-height;
+      }
+    }
+  }
+}

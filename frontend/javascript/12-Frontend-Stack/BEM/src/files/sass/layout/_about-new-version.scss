@@ -1,0 +1,361 @@
+$text-color-light-bg: #3d3d3d;
+$text-color-dark-bg: $base-color;
+$bg-dark: #3d3d3d;
+$bg-white: $base-color;
+$bg-about-nav: $blue-darker;
+$content-size: 20px;
+$sub-title-size: 25px;
+$section-title-size: 30px;
+
+.about-selerity {
+  font-weight: $font-weight-lato-light;
+  header {
+    @include position(relative);
+    @include size-width-height(null, 700px);
+  }
+
+  a, p {
+    font-weight: $font-weight-lato-light;
+  }
+
+  .btn-read-more {
+    display: none;
+  }
+
+  .section-title {
+    @include font-size-weight-lato($section-title-size, $font-weight-lato-light);
+    padding-top: 60px;
+  }
+
+  .header-background-image {
+    @include background-cover('../img/selerity-new-version/about-landing.jpg');
+    @include size-width-height(null, 100%);
+  }
+
+  .header-background-color {
+    @include position(absolute);
+    @include size-width-height(100%, 100%);
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .header-content {
+    @include translate(-50%, -50%);
+    @include position(absolute, 50%, null, null, 50%);
+    color: $text-color-dark-bg;
+
+    .header-content-inner {
+      @include size-width-height(515px, null);
+    }
+
+    p {
+      @include font-size-weight-lato($sub-title-size, $font-weight-lato-light);
+      @include size-width-height(765px, null);
+      font-style: italic;
+      margin-bottom: 0;
+    }
+
+    .left-corner,
+    .right-corner {
+      @include size-width-height(70px, 70px);
+    }
+
+    .left-corner {
+      @include position(absolute, -30px, null, null, -30px);
+      border-left: 2px solid $base-color;
+      border-top: 2px solid $base-color;
+    }
+
+    .right-corner {
+      @include position(absolute, null, -30px, -30px, null);
+      border-right: 2px solid $base-color;
+      border-bottom: 2px solid $base-color;
+    }
+  }
+
+  .intro {
+    background-color: $bg-dark;
+    color: $text-color-dark-bg;
+    .container {
+      padding-bottom: 100px;
+    } 
+
+    .part-intro {
+      &:first-child {
+        margin-bottom: 45px;
+      }
+
+      &:last-child .section-title {
+        padding-top: 0;
+      }
+
+      p {
+        font-size: $content-size;
+      }
+
+    }
+  }
+}
+
+.about-nav {
+  @include position(relative);
+  @include size-width-height(100%, 55px);
+  background-color: $bg-about-nav;
+  z-index: 999;
+
+  .container {
+    @include size-width-height(null, 100%);
+  }
+
+  .navigation {
+    padding-top: 10px;
+    padding-left: 10px;
+
+    li {
+      @include size-width-height(19.5%, null);
+      font-size: $content-size;
+      &:first-child a {
+        float: left;
+      }
+      
+      &:not(:nth-child(1)) a {
+        float: right;
+      }
+    }
+
+    a {
+      color: $text-color-dark-bg;
+      font-size: $content-size;
+    }
+  } 
+}
+
+.cover-content-1 {
+  @include position(relative);
+
+  h2 {
+    @include font-size-weight-lato(32px, $font-weight-lato-normal);
+    line-height: 42px;
+  }
+
+  h4 {
+    @include font-size-weight-lato(2em, $font-weight-lato-light);
+    @include position(absolute, 45%, null, null, null);
+    @include size-width-height(40%, null);
+    text-transform: uppercase;
+    line-height: 1.625em;
+    color: $text-color-dark-bg;
+    text-align: center;
+  }
+
+  .executive-team {
+    .section-title {
+      padding-bottom: 90px;
+    }
+
+    .logo-social-1 {
+      @include position(absolute, 205px, null, null, 85px);
+      &.two-logos {
+        left: 70px;
+      }
+    }
+
+    .executive_member {
+      @include position(relative);
+      margin-bottom: 90px;
+      .col-md-9 {
+        @include position(static);
+      }
+    }
+
+    h5 {
+      @include font-size-weight-lato($sub-title-size, $font-weight-lato-normal);
+      margin-top: -5px;
+    }
+
+    h6 {
+      @include font-size-weight-lato($content-size, $font-weight-lato-light);
+      color: #b0b0b0;
+      margin-top: -10px;
+    }
+
+    p {
+      @include font-size-weight-lato($content-size, $font-weight-lato-light);
+      padding-top: 10px;
+    }
+  }
+}
+
+.cover-content-2 {
+  background: #f1eee7;
+  .board-directors {
+    h3 {
+      margin-bottom: 80px;
+    }
+
+    h5 {   
+      @include font-size-weight-lato($sub-title-size, $font-weight-lato-normal); 
+    }
+
+    h6 {
+      @include font-size-weight-lato($content-size, $font-weight-lato-light);
+      color: #b0b0b0;
+      margin-top: -8px;
+    }
+
+    .col-md-9 {
+      border-top: 1px solid #c4c4c4;
+      padding-top: 20px;
+      padding-bottom: 80px;
+    }
+
+    p {
+      font-size: $content-size;
+    }
+  }
+}
+
+.cover-content-3 {
+  .advisors {
+    h3 {
+      margin-bottom: 80px;
+    }
+
+    h5 {
+      @include font-size-weight-lato($sub-title-size, $font-weight-lato-normal);
+    }
+
+    .col-md-9 {
+      border-top: 1px solid #c4c4c4;
+      padding-top: 20px;
+      padding-bottom: 80px;
+    }
+
+    p {
+      font-size: $content-size;
+    }
+  }
+}
+
+.cover-content-4 {
+  background: #f1eee7;
+  .investors {
+    padding-bottom: 65px;
+    p {
+      font-size: $content-size;
+    }
+
+    h3 {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.cover-content-5 {
+  background-color: #505050;
+  color: $text-color-dark-bg;
+  .contact-us {
+    padding-bottom: 55px;
+    .container-box {
+      div.box {
+        a:before {
+          @include font-size-weight-lato(22px, $font-weight-lato-light);
+          @include position(absolute, -12%, null, null, null);
+          background-color: #505050;
+          color: #b0b0b0;
+          padding: 0 20px;
+          z-index: 9;
+        }
+
+        &:nth-child(1) a:before {
+          content: 'General';
+          left: 31%;
+        }
+
+        &:nth-child(2) a:before {
+          content: 'Sales';
+          left: 36%;
+        }
+
+        &:nth-child(3) a:before {
+          content: 'Support';
+          left: 33%;
+        }
+
+        &:nth-child(4) a:before {
+          content: 'Press';
+          left: 37%;
+        }
+
+        a {
+          color: $text-color-dark-bg;
+          font-size: 20px;
+        }
+      }
+
+      .content {
+        @include position(relative);
+        margin: 0 -10px;
+        text-align: center;
+        padding: 70px 0;
+        border: 1px solid #a8a8a8;
+      }
+    }
+
+    .section-title {
+      margin-bottom: 70px;
+    }
+    
+    .office-container {
+      .container-address {
+        @include font-size-weight-lato($content-size, $font-weight-lato-light);
+        margin: 20px 0;
+        line-height: 25px;
+        p {
+          margin-bottom: 0;
+        }
+      }
+
+      .fa-circle {
+        &:first-child {
+          margin-right: 7px;
+        }
+      }
+
+      .office-info {
+        padding-left: 75px;
+      }
+    }
+
+    .logo-social-2 {
+      span {
+        @include border-radius(50%);
+        margin: 5px 0 5px 15px;
+        background: #a1a1a1;
+        padding: 12px 10px 10px 10px;
+        &:first-child {
+          margin-left: 0;
+        }
+
+        i {
+          font-size: 24px;
+          color: #505050;
+        }
+      }
+    }
+
+    h4 {
+      @include font-size-weight-lato(25px, $font-weight-lato-light);
+      margin-top: -5px;
+    }
+
+    h5 {
+      @include font-size-weight-lato(1.3125em, $font-weight-lato-normal);  
+      margin-bottom: 5px;
+    }
+  }
+}
+
+// scroll and fixed after that 
+.f-about-subnav {
+  @include position(fixed !important, 80px, null, null);
+}

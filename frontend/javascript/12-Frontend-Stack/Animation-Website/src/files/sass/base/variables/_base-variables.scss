@@ -1,0 +1,69 @@
+//****Color****//
+
+$black: #000;
+$blue: #477dca;
+$blue-darker: #0d78b9;
+$blue-lighter: #1576b2;
+$blue-link-color: #337ab7;
+$dark-gray: #333;
+$dark-grayer: #3d3d3d;
+$gainsboro: gainsboro;
+$grayer: #b0b0b0;
+$light-gray: #ddd;
+$medium-gray: #999;
+$tufts-blue: #477dca;
+$white: #fff;
+$dusty-gray: #999;
+$froly: #f5866c;
+$cod-gray: #191919;
+$boulder: #797979;
+$mine-shaft: #222;
+$mine-shaft-light: #343434;
+$mine-shaft-lighter: #393939;
+$silver-chalice: #a3a3a3;
+$alto: #e0e0e0;
+$silver: #b8b8b8;
+$dove-gray: #6f6f6f;
+$dove-gray-darker: #676767;
+$flamingo: #f14833;
+$gray: #8d8d8d;
+$gray-light: #929292;
+$scorpion: #5b5b5b;
+
+//****Typography****//
+
+// Lato font stack.
+$lato: "Lato", "Helvetica", "Roboto", "Arial", sans-serif;
+// Font weight
+$font-weight-lighter: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+// Font Sizes
+$base-font-size: 1em;
+
+
+//****Grid****//
+
+// custom neat variables
+$default-feature: max-width !global;
+// with container for each screen
+$x-small-screen-width: 295px;
+$small-screen-width: 420px;
+$medium-small-screen-width: 750px;
+$medium-screen-width: 970px;
+$large-screen-width: 1170px;
+
+
+//****Other****//
+
+$base-border-radius: 3px;
+$base-z-index: 0;
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

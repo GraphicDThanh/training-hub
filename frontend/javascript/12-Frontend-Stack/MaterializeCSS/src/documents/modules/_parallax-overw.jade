@@ -1,0 +1,21 @@
+-var box_list = []
+- box_list.push({icon_name:"grade", title:"Customizable", desc:" penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus porta dolor mauris, aliquam vehicula nibh ele", link_to:""})
+- box_list.push({icon_name:"settings", title:"Responsive", desc:"uisque congue justo pharetra condimentum mollis. Praesent non arcu quis magna volutpat sagittis. Suspendisse nisl nunc, mollis et ", link_to:""})
+- box_list.push({icon_name:"person_pin", title:"Use Friendly", desc:"Proin augue lacus, iaculis sit amet porta a, vulputate nec urna. Nunc felis dui, tincidunt eget lacus vitae, cursus malesuada lacus.", link_to:""})
+- box_list.push({icon_name:"description", title:"Code Quality", desc:"Nam sagittis elit eu elit pellentesque vehicula. Nunc aliquam dui eu commodo pulvinar. Suspendisse cursus semper nulla, a laoreet", link_to:""})
+.overw
+  .parallax-container
+    .parallax
+      img(src="images/parallax-1.jpg")
+  .overw__list.center-align
+    .container
+      .row
+        each box in box_list
+          .col.l3
+            .overw__box
+              .overw__icon-box
+                .overw__icon.material-icons= box.icon_name
+              .overw__title= box.title
+              .overw__line-break
+              .overw__desc= box.desc
+  

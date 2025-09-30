@@ -1,0 +1,32 @@
+
+
+/* Privacy Policy */
+
+.privacy-policy {
+  background:#f1eee7;
+  margin-bottom:5px;
+  padding:60px 90px;
+
+  .modal-body {
+    position: relative;
+    padding: 20px 30px 30px;
+    overflow-y: auto;
+    height: 550px;
+  }
+
+  h5 {
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+  }
+
+  h6 {
+    font-size: 1.125em;
+    line-height: 1.625em;
+    color:#666;
+    font-family: "Lato", sans-serif;
+  }
+  p {
+    margin-top:20px!important;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,73 @@
+$text-color-dark-ground: $white;
+$bg-main-navbar: $blue-darker;
+//-block
+.navbar-fixed-top {
+  @include position(fixed, 0 0 null 0);
+  z-index: 10;
+  @include e('container') {
+    @extend %container;
+  }
+}
+
+//-block
+.header-bar {
+  @extend %row;
+  @include row();
+  @include e('logo') {
+    @extend %pull-left;
+    padding-top: 16px;
+  }
+
+  @include e('navbar') {
+    @extend %pull-right;
+    display: none;
+    @include media(max-width $medium-small-screen) {
+      background-color: rgba(255, 255, 255, 0.7);
+      width: 100%;
+    }
+
+    @include media(min-width $medium-small-screen) {
+      display: block;
+    }
+  }
+
+  @include e('button') {
+    @extend %pull-right;
+    display: none;
+    margin: 2%;
+    @include media(max-width $medium-small-screen) {
+      display: block;
+    }
+
+    &:before {
+      @include font-awesome('\f0c9');
+      color: $white;
+      font-size: 30px;
+    }
+  }
+}
+
+//-block
+.logo {
+  @extend %reset-margin;
+  @include size(203px 48px);
+  @include e('image') {
+    @extend %block;
+    @include background-contain("../images/logo.png", center);
+    @include hide-text();
+    height: 48px;
+  }
+}
+
+//-block
+.nav-item {
+  @include e('link') {
+    @extend %font-light;
+    @include font-size(18);
+    @include link-style(
+      $color: $text-color-dark-ground, 
+      $color-hover: $text-color-dark-ground, 
+      $bg-hover: $bg-main-navbar);
+    padding: 31px 50px;
+  }
+}

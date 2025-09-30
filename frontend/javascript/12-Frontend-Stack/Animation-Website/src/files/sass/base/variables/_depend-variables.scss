@@ -1,0 +1,21 @@
+//****general****//
+
+$base-background-color: $white;
+// Text
+$text-color-base: $dark-grayer;
+$base-border-color: $light-gray;
+$secondary-background-color: tint($base-border-color, 75%);
+// Spacing
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+// Border
+$base-border: 1px solid $base-border-color;
+// Font Colors
+$base-font-color: $dark-grayer;
+$action-color: $blue;
+
+//Forms
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+// Typography
+$base-font-family: $lato;
+$heading-font-family: $base-font-family;

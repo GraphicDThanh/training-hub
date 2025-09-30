@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React</title>
+    <style type="text/css">
+      .example-enter {
+        opacity: 0.01;
+      }
+
+      .example-enter.example-enter-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+      }
+
+      .example-leave {
+        opacity: 1;
+      }
+
+      .example-leave.example-leave-active {
+        opacity: 0.01;
+        transition: opacity 300ms ease-in;
+      }  
+
+      .example-appear {
+        opacity: 0.01;
+      }
+
+      .example-appear.example-appear-active {
+        opacity: 1;
+        transition: opacity .5s ease-in;
+      }
+    </style>
+    <script src="https://fb.me/react-0.14.1.js"></script>
+    <script src="https://fb.me/react-dom-0.14.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="example1"></div>
+    <div id="example2"></div>
+    <div id="example3"></div>
+    <div id="example4"></div>
+    <div id="example5"></div>
+    <div id="example6"></div>
+    <div id="example7"></div>
+    <div id="example8"></div>
+    <div class="example-enter"></div>
+<!--     <div class="example-enter example-enter-active"></div>
+    <div class="example-leave"></div>
+    <div class="example-leave example-leave-active"></div>
+ -->    <script type="text/babel">
+
+      // practice with addons
+      var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
+
+      var Todolist = React.createClass({
+        getInitialState: function() {
+          return {items: ['hello', 'world', 'click', 'me']};
+        },
+        handleAdd: function() {
+          var newItems = this.state.items.concat([prompt('Entersome text')]);
+          this.setState({items: newItems});
+        },
+
+        handleRemove: function() {
+          var items = this.state.items.map(function(item, i) {
+            return (
+              <div key={item} onClick={this.handleRemove.bind(item, i)}>
+              </div>
+            );
+          }.bind(this));
+          return (
+            <div>
+              <button onClick={this.handleAdd}> Add Item </button>
+              <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300} >
+                {items}
+              </ReactCSSTransitionGroup>
+            </div>
+          );
+        },
+        render: function() {
+          return (
+            <ReactCSSTransitionGroup transitionName="example" transitionAppear={true} transitionAppearTimeout={500}>
+            </ReactCSSTransitionGroup>
+          );
+        }
+      });
+
+      <ReactCSSTransitionGroup
+        transitionName={ {
+          enter: 'enter',
+          enterActive: 'enterActive',
+          leave: 'leave',
+          leaveActive: 'leaveActive',
+          appear: 'appear',
+          appearActive: 'appearActive'
+        } }>
+        {item}
+      </ReactCSSTransitionGroup>
+    </script>
+  </body>
+</html>

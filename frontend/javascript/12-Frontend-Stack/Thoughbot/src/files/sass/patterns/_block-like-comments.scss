@@ -1,0 +1,67 @@
+// base/variables/depend-variables
+// $comment-gutter: 1.4em;
+// $comment-image-padding: 0.7em;
+// $comment-color: $base-font-color;
+// $comment-image-vert-alignment: top;
+
+.comment {
+  @include display(flex);
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  border-bottom: 1px solid transparentize($comment-color, 0.9);
+  margin-bottom: $base-spacing;
+  padding-bottom: 1em;
+  width: 100%;
+
+  &__image,
+  &__content {
+    display: table-cell;
+    vertical-align: $comment-image-vert-alignment;
+  }
+
+  &__image {
+    @include flex-basis(14em);
+    @include flex-grow(1);
+    padding-right: $comment-gutter;
+    
+    @include media(max-width $medium-screen) {
+      text-align: center;
+    }
+
+    > &--modifier {
+      background: transparent;
+      width: auto;
+      border-radius: $base-border-radius;
+      display: block;
+      height: auto;
+      max-width: none;
+      padding: $comment-image-padding;
+      @include media(max-width $medium-screen) {
+        display: inline-block;
+      }
+    }
+  }
+
+  &__content {
+    @include flex-basis(30em);
+    @include flex-grow(1);
+    padding-top: 15px;
+    &--name {
+      @extend %font-normal;
+      @include font-size(25, 0.7);
+      margin: 0;
+    }
+
+    &--position {
+      @extend %font-light;
+      @include font-size(20);
+      color: $grayer;
+    }
+
+    &--desc {
+      line-height: 1.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+}
+

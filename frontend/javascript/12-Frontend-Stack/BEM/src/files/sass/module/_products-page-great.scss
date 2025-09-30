@@ -1,0 +1,74 @@
+.products-page-great {
+  text-align: center;
+  height: 660px;
+  color: #fff;
+
+  .products-page-great-blue {
+    background-color: #0d78b9;
+    height: 100%;
+
+  }
+
+  .products-page-great-white {
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .products-page-great-block {
+    padding-top: 25%;
+  }
+
+  .products-page-great-title {
+    @include font-size-weight-lato(30px, 300);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  .products-page-great-title-sources {
+    @include font-size-weight-lato(22px, 300);
+    color: #3d3d3d;
+    margin-bottom: 40px;
+  }
+
+  p {
+    @include font-size-weight-lato(20px, 300);
+    padding: 0 55px;
+
+    a {
+      @include font-size-weight-lato(20px, 300);
+      color: #fff;
+      text-decoration: underline;
+      padding: 0 5px;
+    }
+  }
+
+  .products-page-great-col {
+    padding: 0 5px;
+  }
+
+  .products-page-great-logo-size {
+    max-width: 90px;
+    height: 90px;
+    margin: 0 auto;
+  }
+
+  .products-page-great-ft-logo {
+    @include background-contain('../img/selerity-new-version/ft-logo.png');
+  }
+
+  .products-page-great-reuters-logo {
+    @include background-contain('../img/selerity-new-version/reuters.png');
+  }
+
+  .products-page-great-bi-logo {
+    @include background-contain('../img/selerity-new-version/bi-logo.png');
+  }
+
+  .products-page-great-cnbc-logo {
+    @include background-contain('../img/selerity-new-version/cnbc-logo.png');
+  }
+
+  .products-page-great-selerity-logo {
+    @include background-contain('../img/selerity-new-version/selerity-great-logo.png');
+  }
+}

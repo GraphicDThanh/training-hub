@@ -1,0 +1,95 @@
+.donovan-header {
+  @extend %open-sans;
+  @extend %text-center;
+  @include position(relative);
+  @include background-cover('../images/donovan/slide1_bg.jpg', center);
+  background-attachment: fixed;
+  background-position: 0 0;
+  color: $white;
+  &--effect {
+    @include clearfix;
+    @include position(absolute, 0 0 0 0);
+    background: url('../images/donovan/effect_2.png') repeat top left;
+    z-index: 1;
+  }
+
+  &__title {
+    @extend %open-sans;
+    @extend %text-uppercase;
+    @include font-size($font-size: 90, $line-height: 0.2);
+    font-weight: 800;
+    margin-bottom: 0;
+    text-shadow: 5px 3px 6px rgba(0, 0, 0, 0.26);
+  }
+
+  &__desc {
+    @extend %text-capitalize;
+    @extend %text-italic;
+    @include font-size(32);
+
+  }
+
+  &__slogan {
+    &--text {
+      @extend %text-italic;
+      @extend %inline-block;
+      @include font-size(31);
+      padding: 0 10px;
+    }
+
+    &--line {
+      @extend %inline-block;
+      @include size(96px 1px);
+      background-color: $white;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__btn-down {
+    @extend %block;
+    @extend %pointer;
+    @include background-contain('../images/donovan/button_down.png', center);
+    @include size(50px 57px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    position: relative;
+    z-index: 100;
+    &:hover {
+      @include position(relative, 1px null null null);
+    }
+  }
+
+  &__inset-shadow {
+    @include position(absolute, 0 0 0 0);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.7) inset;
+  }
+}
+
+@include media($screen-320-768) {
+  .donovan-header {
+    background-attachment: initial; 
+    &__slogan {
+      &--text {
+        @include font-size(21);
+      }
+      
+      &--line {
+        margin-bottom: 5px;
+        width: 70px;
+      }
+    }
+
+    &__title {
+      @include font-size(24);
+    }
+
+    &__desc {
+      @include font-size(21);
+    }
+
+    &__btn-down {
+      margin-top: 40px;
+    }
+  }
+}

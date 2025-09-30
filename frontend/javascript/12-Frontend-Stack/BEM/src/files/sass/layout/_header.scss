@@ -1,0 +1,58 @@
+.header-carousel {
+  @include size-width-height(100%, 100%);
+  color: $base-color;
+  text-align: center;
+  position: relative;
+
+  .header-background-color {
+    @include size-width-height(100%, 100%);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .header-background-image {
+    @include background-cover('../img/background-header.jpg');
+    height: 100%;
+  }
+
+  .header-title-block {
+    position: relative;
+    padding-top: 10%;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  .header-title {
+    @include font-size-weight-lato(2.625em, 400);
+    text-transform: capitalize;
+    margin: 0 0 10px 0;
+  }
+
+  .header-subtitle {
+    @include font-size-weight-lato(25px, 300);
+    line-height: 1.325em;
+    color: $base-color;
+    margin: 0;
+    padding: 0 80px;
+  }
+
+  .header-image {
+    @include size-width-height(700px, 394px);
+    margin: 0 auto;
+
+    .header-image-ui {
+      @include background-contain('../img/chatui.jpg');
+      height: 100%;
+    }
+  }
+}
+
+.sliding-panel-block {
+  margin-right: 0;
+}
+
+.show {
+  display: block !important;
+  transition: all 0.2s linear;
+  opacity: 1;
+}
