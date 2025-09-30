@@ -1,0 +1,6 @@
+{
+  "body-json" : $input.json('$'),
+  "context" : {
+    "http-method" : "$context.httpMethod"
+  } 
+}

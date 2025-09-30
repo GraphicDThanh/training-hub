@@ -1,0 +1,1 @@
+export const ROUTER_API_URL = process.env.NEXT_API_URL || "https://c5b03sfrle.execute-api.us-east-1.amazonaws.com/dev";
