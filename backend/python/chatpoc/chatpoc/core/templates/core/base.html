@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>ChatPOC Website</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'core/styles/style.css' %}" type="text/css">
+  </head>
+  <body>
+    {% comment %} <header class="navbar">
+      <h1>
+        {% load static %}
+        <a>
+          <img src="{% static 'commons/images/L14.png' %}" alt="My image" class="logo"/>
+        </a>
+      </h1>
+      {% include 'core/navbar.html' %}
+    </header> {% endcomment %}
+    {% block content %}
+      This content should be replaced already!
+    {% endblock %}
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>

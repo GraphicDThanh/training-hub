@@ -1,0 +1,22 @@
+# cache
+__pycache__
+.pytest_cache/
+
+# documents
+documents/
+best-structure/
+
+*.pyc
+
+*.coverage
+
+htmlcov/
+
+.vscode/
+
+nose2.xml
+
+bin/
+include/
+lib/
+.Python

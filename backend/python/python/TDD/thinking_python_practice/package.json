@@ -1,0 +1,17 @@
+{
+  "name": "thinking_python_practice",
+  "version": "1.0.0",
+  "description": "> Required installed on your machine/env > > python3 > > pip3 > > nose2 > > If not have nose2: pls go `pip3 install nose2`",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "extensionDependencies": [
+    "vscode.python"
+  ]
+}

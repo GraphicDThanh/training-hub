@@ -1,0 +1,20 @@
+{% extends 'bookstore/base.html' %}
+
+{% block content %}
+    <h2>Name: {{ object.name }}</h2>
+    <p>Pages: {{ object.pages }}</p>
+    <p>Price: {{ object.price|floatformat:'0' }}</p>
+    <p>Rating: {{ object.rating }}</p>
+    <div>
+        <label>Authors:</label>
+        <ul>
+            {% for author in object.authors.all %}
+                <li>{{ author.name }} with age {{ author.age }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <p>Publisher: {{ object.publisher }}</p>
+    <p>Published date: {{object.pubdate}}</p>
+    <p>Time print data: {{ now }}</p>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+[run]
+source = ./social_api/
+omit =
+    */migrations/*,
+    */config/*,
+    */tests/*,
+    */__init__.py,
+    */admin.py,
+    */apps.py,
+    */gunicorn_config.py,
+    */manage.py,
+    */constants.py,
+    */exceptions.py,
+    */middleware.py,
+
+[report]
+show_missing = True
+omit =
+    */migrations/*,
+    */config/*,
+    */tests/*,
+    */__init__.py,
+    */admin.py,
+    */apps.py,
+    */gunicorn_config.py,
+    */manage.py,
+    */constants.py,
+    */exceptions.py,
+    */middleware.py,

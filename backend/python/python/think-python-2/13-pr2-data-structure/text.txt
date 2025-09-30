@@ -1,0 +1,12 @@
+Timeline: (03) days
+
+
+Chapter 1: The way of the Program
+Chapter 2: Variables, Expressions, and Statements
+Chapter 3: Functions
+
+
+Chapter 5: Conditionals and recursion
+Chapter 6: Fruitful Functions
+Chapter 7: Iteration
+Chapter 8: String %%% ddd

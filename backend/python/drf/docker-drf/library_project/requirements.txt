@@ -1,0 +1,4 @@
+Django==2.2
+djangorestframework==3.9.2
+django-extensions==2.1.6
+# gunicorn==19.9.0

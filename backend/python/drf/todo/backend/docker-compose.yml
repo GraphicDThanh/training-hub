@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  todo:
+    build:
+      context: ./todo_project
+    command: /runserver.sh
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./todo_project:/code

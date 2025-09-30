@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+#   library:
+#     build:
+#       context: ./library_project
+#     command: /runserver.sh
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - ./library_project:/code
+  blogapi:
+    build:
+      context: ./blogapi
+    command: /runserver.sh
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./blogapi:/code
