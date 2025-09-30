@@ -1,0 +1,34 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "cSpell.words": [
+    "agentevals",
+    "checkpointer",
+    "ecommerce",
+    "evals",
+    "gotrue",
+    "LANGCHAIN",
+    "llms",
+    "openevals",
+    "pbar",
+    "PYTHONBREAKPOINT",
+    "SERPAPI",
+    "SUPABASE"
+  ],
+  "deno.enablePaths": [
+    "supabase/functions"
+  ],
+  "deno.lint": true,
+  "deno.unstable": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./server",
+    "-p",
+    "test_*.py"
+  ],
+  "python.testing.unittestEnabled": true,
+  "python.analysis.extraPaths": ["./server", "./client"],
+}

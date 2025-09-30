@@ -1,0 +1,3 @@
+id,user_id,address_line_1,address_line_2,city,state,postal_code,country,is_default
+3782f24b-452c-4210-9b5d-359f69ae5158,ed94fede-fb00-4df9-ab14-b8c9d436fd80,"123 Main St",,"New York","NY","10001","US",false
+36f3a7aa-bcaf-4d06-85c7-8b50bb3b7adc,ed94fede-fb00-4df9-ab14-b8c9d436fd80,"114 Nguyen Thi Dinh","68 Le Chan","Da Nang","","55000","VN",true

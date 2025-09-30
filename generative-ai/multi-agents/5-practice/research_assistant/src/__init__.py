@@ -1,0 +1,2 @@
+from practice.research_assistant.sub_graphs.generate_analyst import graph as generate_analyst_graph
+from practice.research_assistant.sub_graphs.conduct_interview import graph as conduct_interview_graph

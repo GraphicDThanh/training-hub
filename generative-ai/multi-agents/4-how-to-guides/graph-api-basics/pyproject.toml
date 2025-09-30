@@ -1,0 +1,17 @@
+[project]
+name = "graph-api-basics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.18",
+    "langgraph>=0.2.70",
+]
+
+[dependency-groups]
+jupyter = [
+    "nest-asyncio>=1.6.0",
+    "pyppeteer>=2.0.0",
+]

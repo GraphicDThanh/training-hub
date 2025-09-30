@@ -1,0 +1,1 @@
+id,user_id,shopping_session_id,shipping_address_id,payment_method_id,shipping_option_id,shipping_carrier_id,shipping_cost,total_weight_kg,total_cost,status,payment_status,transaction_id,cancel_reason

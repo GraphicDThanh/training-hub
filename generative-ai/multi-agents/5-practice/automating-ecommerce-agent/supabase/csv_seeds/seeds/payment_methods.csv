@@ -1,0 +1,3 @@
+id,user_id,payment_option_id,is_default
+00ddfbf3-e206-42b1-85c5-9fa26321c42d,ed94fede-fb00-4df9-ab14-b8c9d436fd80,1a7d9e4e-1c57-488e-9b1e-d93c5b5a50fa,true
+36f3a7aa-bcaf-4d06-85c7-8b50bb3b7adc,ed94fede-fb00-4df9-ab14-b8c9d436fd80,c4e53b95-9c38-47da-8e04-cc5573a6e84f,false

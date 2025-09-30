@@ -1,0 +1,33 @@
+from langchain_core.messages import SystemMessage
+from langchain_community.document_loaders import WikipediaLoader
+
+from utils.foundation_models import gpt_4o_mini
+from utils.pydantic_models import SearchQuery
+from ..state import InterviewState
+from ..prompts import search_instructions
+
+
+def search_wikipedia(state: InterviewState):
+    """ Retrieve docs from Wikipedia """
+
+    # Search query
+    structured_llm = gpt_4o_mini.with_structured_output(SearchQuery)
+    search_query = structured_llm.invoke(
+        [SystemMessage(content=search_instructions)] + state["messages"]
+    )
+
+    # Search
+    search_docs = WikipediaLoader(
+        query=search_query.search_query,
+        load_max_docs=2
+    ).load()
+
+    # Format
+    formatted_search_docs = "\n\n---\n\n".join(
+        [
+            f'<Document source="{doc.metadata["source"]}" page="{doc.metadata.get("page", "")}"/>\n{doc.page_content}\n</Document>'
+            for doc in search_docs
+        ]
+    )
+
+    return {"context": [formatted_search_docs]}
