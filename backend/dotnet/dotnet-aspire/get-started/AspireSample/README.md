@@ -1,0 +1,2 @@
+- [Quickstart: Build your first .NET Aspire app](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app)
+  - This use `.NET Aspire Starter Application` template

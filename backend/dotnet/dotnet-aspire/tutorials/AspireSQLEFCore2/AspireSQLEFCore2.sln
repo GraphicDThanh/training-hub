@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSQLEFCore2.BlazorWebApp", "AspireSQLEFCore2.BlazorWebApp\AspireSQLEFCore2.BlazorWebApp.csproj", "{BBE7B7AE-786B-4486-9B00-EFB50CBEF0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSQLEFCore2.AppHost", "AspireSQLEFCore2.AppHost\AspireSQLEFCore2.AppHost.csproj", "{1B75D56D-484C-4ACD-8842-5C87969DB46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSQLEFCore2.ServiceDefaults", "AspireSQLEFCore2.ServiceDefaults\AspireSQLEFCore2.ServiceDefaults.csproj", "{06F7DC11-8C87-4E82-B46C-D3F8D034A1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE7B7AE-786B-4486-9B00-EFB50CBEF0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE7B7AE-786B-4486-9B00-EFB50CBEF0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE7B7AE-786B-4486-9B00-EFB50CBEF0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE7B7AE-786B-4486-9B00-EFB50CBEF0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B75D56D-484C-4ACD-8842-5C87969DB46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B75D56D-484C-4ACD-8842-5C87969DB46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B75D56D-484C-4ACD-8842-5C87969DB46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B75D56D-484C-4ACD-8842-5C87969DB46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F7DC11-8C87-4E82-B46C-D3F8D034A1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F7DC11-8C87-4E82-B46C-D3F8D034A1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F7DC11-8C87-4E82-B46C-D3F8D034A1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F7DC11-8C87-4E82-B46C-D3F8D034A1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

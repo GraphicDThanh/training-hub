@@ -1,0 +1,3 @@
+- [Tutorial: Add .NET Aspire to an existing .NET app](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/add-aspire-existing-app)
+  - from sample app in repo https://github.com/MicrosoftDocs/mslearn-dotnet-cloudnative-devops.git
+  - then add Aspire to it

@@ -1,0 +1,9 @@
+### Subscribe to a newsletter
+POST /subscribe?email=test@test.com HTTP/1.1
+Host: localhost:5014
+Content-Type: application/json
+
+### Unsubscribe from a newsletter
+POST /unsubscribe?email=test@test.com HTTP/1.1
+Host: localhost:5014
+Content-Type: application/json
